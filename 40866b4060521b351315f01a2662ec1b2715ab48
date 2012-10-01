@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn///OY\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-10-01T13:31:13Z",
+      "side": 1,
+      "message": "nem emlékszem, nem simán Mégsét szoktál irni?",
+      "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///OQ\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-10-01T13:31:13Z",
+      "side": 1,
+      "message": "Biztonsági mentés és frissités",
+      "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///OM\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-10-01T13:31:13Z",
+      "side": 1,
+      "message": "csak stabil kiadás",
+      "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///N8\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-10-01T13:31:13Z",
+      "side": 1,
+      "message": "ha már cim, elég a Hiba, igy kicsit redundáns",
+      "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///N0\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-10-01T13:31:13Z",
+      "side": 1,
+      "message": "Ez kicsit össze-vissza van szerintem.",
+      "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///Ns\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-10-01T13:31:13Z",
+      "side": 1,
+      "message": "Hibás ellenörzöösszeg",
+      "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///No\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-10-01T13:31:13Z",
+      "side": 1,
+      "message": "Ez is picit fésületlen szórendünek tünik.",
+      "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///Nk\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-10-01T13:31:13Z",
+      "side": 1,
+      "message": "És ez is... lehet, hogy csak a bor teszi nálam, de a szórend nem tetszik",
+      "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///Nc\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-10-01T13:31:13Z",
+      "side": 1,
+      "message": "tratalmazó :P elirtad",
+      "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
