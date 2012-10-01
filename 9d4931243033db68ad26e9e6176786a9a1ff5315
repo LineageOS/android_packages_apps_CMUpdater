@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn///VI\u003d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2012-10-01T00:32:53Z",
+      "side": 1,
+      "message": "\"knappen Genopfrisk\" instead of \"Genopfrisk-knappen\"",
+      "revId": "9d4931243033db68ad26e9e6176786a9a1ff5315",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///VE\u003d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2012-10-01T00:32:53Z",
+      "side": 1,
+      "message": "Use \".\" after an abbreviation?",
+      "revId": "9d4931243033db68ad26e9e6176786a9a1ff5315",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///VA\u003d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2012-10-01T00:32:53Z",
+      "side": 1,
+      "message": "Use \".\" after an abbreviation?",
+      "revId": "9d4931243033db68ad26e9e6176786a9a1ff5315",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///VQ\u003d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2012-10-01T00:32:53Z",
+      "side": 1,
+      "message": "\"tilstanden recovery\" instead of \"recovery-tilstand\"",
+      "revId": "9d4931243033db68ad26e9e6176786a9a1ff5315",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///VM\u003d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2012-10-01T00:32:53Z",
+      "side": 1,
+      "message": "\"tilstanden recovery\" instead of \"recovery-tilstand\"",
+      "revId": "9d4931243033db68ad26e9e6176786a9a1ff5315",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
