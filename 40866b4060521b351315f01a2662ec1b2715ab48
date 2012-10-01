@@ -104,6 +104,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAYn///NQ\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-01T13:39:51Z",
+      "side": 1,
+      "message": "Hiba: eltér? MD5 ellen?rz?összeg",
+      "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAYn///No\u003d",
         "filename": "res/values-hu/strings.xml",
         "patchSetId": 1
@@ -138,6 +155,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAYn///Ng\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-01T13:39:51Z",
+      "side": 1,
+      "message": "Biztosan törölni szeretné... ez egy kicsit jobban hangzik. Meg nem mondom hirtelen de a többi helyen nem tegez?dik a program?",
+      "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAYn///Nc\u003d",
         "filename": "res/values-hu/strings.xml",
         "patchSetId": 1
@@ -149,6 +183,23 @@
       "writtenOn": "2012-10-01T13:31:13Z",
       "side": 1,
       "message": "tratalmazó :P elirtad",
+      "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///N4\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-01T13:39:51Z",
+      "side": 1,
+      "message": "letöltött",
       "revId": "40866b4060521b351315f01a2662ec1b2715ab48",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
