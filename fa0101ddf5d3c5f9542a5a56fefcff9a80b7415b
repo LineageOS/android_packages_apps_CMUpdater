@@ -16,6 +16,57 @@
       "revId": "fa0101ddf5d3c5f9542a5a56fefcff9a80b7415b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///RM\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-01T10:47:03Z",
+      "side": 1,
+      "message": "Ich denke richtig wäre \"Min.\"",
+      "revId": "fa0101ddf5d3c5f9542a5a56fefcff9a80b7415b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///RI\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-01T10:47:03Z",
+      "side": 1,
+      "message": "\"Sek.\" ?",
+      "revId": "fa0101ddf5d3c5f9542a5a56fefcff9a80b7415b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///RE\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-01T10:47:03Z",
+      "side": 1,
+      "message": "Root-Zugriff\n\nIrgendwie klingt für mich \" ins Recovery booten\" falsch!\nHabe aber im Moment auch keinen guten Vorschlag parat.\nEvtl. \"...um in den Recovery-Modus zu booten\" / \"...um das Recovery-System zu starten\"",
+      "revId": "fa0101ddf5d3c5f9542a5a56fefcff9a80b7415b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
