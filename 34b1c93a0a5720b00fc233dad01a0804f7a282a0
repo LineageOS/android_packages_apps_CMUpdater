@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn//+/Q\u003d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-02T15:31:48Z",
+      "side": 1,
+      "message": "Looks a bit ugly because of the automatic linewrap.\nI think \"Alle versioner\\n(Kun stabile)\" with a forced new line would look better.",
+      "revId": "34b1c93a0a5720b00fc233dad01a0804f7a282a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+/M\u003d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-02T15:31:48Z",
+      "side": 1,
+      "message": "same as above",
+      "revId": "34b1c93a0a5720b00fc233dad01a0804f7a282a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
