@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn///AA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 3597
+      },
+      "writtenOn": "2012-10-02T13:50:44Z",
+      "side": 1,
+      "message": "Meiner Meinung nach klingt: \"Die letzte Prüfung hat keine neuen Updates gefunden.\"  merkwürdig.\nMöglicherweise könnte man schreiben: \"Bei ...\" oder \"Während der letzten Prüfung wurden keine verfügbaren Updates gefunden.\"",
+      "revId": "4b05b88c372815af02224d4628a21aedaef10139",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
