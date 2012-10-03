@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAYn//+t4\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 3177
+      },
+      "writtenOn": "2012-10-03T18:04:55Z",
+      "side": 1,
+      "message": "del sistema sounds better",
+      "parentUuid": "AAAAYn//+ws\u003d",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAYn//+wo\u003d",
         "filename": "res/values-es/strings.xml",
         "patchSetId": 2
@@ -149,6 +167,24 @@
       "writtenOn": "2012-10-03T16:18:26Z",
       "side": 1,
       "message": "Todas (incl. no estables)",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+t0\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 3177
+      },
+      "writtenOn": "2012-10-03T18:04:55Z",
+      "side": 1,
+      "message": "Nightlies aint be \"no estables\", they\u0027re nightlies we must find a better term.",
+      "parentUuid": "AAAAYn//+wU\u003d",
       "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
