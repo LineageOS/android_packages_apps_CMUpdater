@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn//+8E\u003d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2012-10-03T01:06:43Z",
+      "side": 1,
+      "message": "Instead of a forced line break, why not change \"versioner\" to \"vers.\"?\nThe original string contains 26 letters incl. spaces and the danish string 28, with the change to \"vers.\" the string length will be 24 letters incl. spaces and a line break will be avoided. Just a suggestion :)\n\"Kun stabile\" should not start with a capital letter, the reason why the original string starts with a capital letter is because \"Stable\" is the name of the version just like \"Nightlies\". I don\u0027t think that work in danish with a capital \"K\"?",
+      "revId": "c9a7daf1ca33561df598df31d4c426315aaf3093",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+8A\u003d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2012-10-03T01:06:43Z",
+      "side": 1,
+      "message": "See above ;)",
+      "revId": "c9a7daf1ca33561df598df31d4c426315aaf3093",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+78\u003d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2012-10-03T01:06:43Z",
+      "side": 1,
+      "message": "\"Kun\" to \"kun\"",
+      "revId": "c9a7daf1ca33561df598df31d4c426315aaf3093",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
