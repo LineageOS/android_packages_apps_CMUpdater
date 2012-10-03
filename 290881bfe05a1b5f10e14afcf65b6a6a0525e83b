@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn//+5A\u003d",
+        "filename": "src/com/cyanogenmod/updater/tasks/UpdateCheckTask.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-03T06:52:40Z",
+      "side": 1,
+      "message": "This infinite loop still bothers me.  Should we not put some sort of a time-out on it?",
+      "revId": "290881bfe05a1b5f10e14afcf65b6a6a0525e83b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
