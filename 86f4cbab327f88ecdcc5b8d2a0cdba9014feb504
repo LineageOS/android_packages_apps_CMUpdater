@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAYn//+ws\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "Información sistema",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+wo\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "No se encontraron actualizaciones en la última comprobación. Pulse el botón Refrescar, para comprobar si existen nuevas actualizaciones.",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAYn//+7U\u003d",
         "filename": "res/values-es/strings.xml",
         "patchSetId": 2
@@ -19,6 +53,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAYn//+wk\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "Copia respaldo",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAYn//+7Y\u003d",
         "filename": "res/values-es/strings.xml",
         "patchSetId": 2
@@ -30,6 +81,193 @@
       "writtenOn": "2012-10-03T03:48:59Z",
       "side": 1,
       "message": "Copiar la ROM... (sound better i think)",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+wg\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "Crear copia de respaldo de la ROM actual de realizar la actualización.",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+wc\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "En cada arranque",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+wM\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "Todas (solo estables)",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+wU\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "Todas (incl. no estables)",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+wY\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "Nuevas (solo estables)",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+wQ\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "Nuevas (incl. no estables)",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+wA\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "Error. La verificación MD5 no coincide",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+v8\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "La verificación MD5 fue cancelada",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+v4\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "Se va a proceder a actualizar a la versión {0}.\\n\\nSi pulsa sobre el botón Actualizar, el terminal se reiniciará en modo recovery para proceder con la actualización.",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+vo\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "In settings-\u003edevelopment, it was named \"acceso administrativo\"\n\nIntentando obtener acceso administrativo...",
+      "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+vs\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-03T16:18:26Z",
+      "side": 1,
+      "message": "Typo:\n\nTodas las actualizaciones ...",
       "revId": "86f4cbab327f88ecdcc5b8d2a0cdba9014feb504",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
