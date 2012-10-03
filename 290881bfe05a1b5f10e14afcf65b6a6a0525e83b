@@ -16,6 +16,24 @@
       "revId": "290881bfe05a1b5f10e14afcf65b6a6a0525e83b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+1A\u003d",
+        "filename": "src/com/cyanogenmod/updater/tasks/UpdateCheckTask.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2012-10-03T10:37:20Z",
+      "side": 1,
+      "message": "The likelihood of the service not binding by the time that method is called is between low and none whatsoever. The only thing that invokes it is the instantiation of the AsyncTask, and it does it in a sequence (not in parallel) that guarantees onPreExecute() is called before it. onPreExecute() wil set mService through the bindService() call (or return false, which will nullify this entire block via the mBound check).\n\nIn other words... don\u0027t lose sleep over it. As a rule, I dislike empty while(true) cycles since they can throttle the CPU pretty fast, so you can just add a Thread.sleep() in there for comfort\u0027s sake, but I\u0027m pretty sure it\u0027ll rarely, if ever, be reached.",
+      "parentUuid": "AAAAYn//+5A\u003d",
+      "revId": "290881bfe05a1b5f10e14afcf65b6a6a0525e83b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
