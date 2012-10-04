@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn//+co\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-04T02:38:01Z",
+      "side": 1,
+      "message": "On hdpi devices, it\u0027s look good?",
+      "revId": "6be68c981fa4c99f9b8b8474c1e08ea4683e4f7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+ck\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-04T02:38:01Z",
+      "side": 1,
+      "message": "\"incl. no estables\" implies that you want to see all versions. Better than \"nightlies\" for novice users.",
+      "revId": "6be68c981fa4c99f9b8b8474c1e08ea4683e4f7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+cg\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-04T02:38:01Z",
+      "side": 1,
+      "message": "Good catch!",
+      "revId": "6be68c981fa4c99f9b8b8474c1e08ea4683e4f7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
