@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn//+dw\u003d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2012-10-04T01:47:19Z",
+      "side": 1,
+      "message": "\"MD5-checksum\" to \"MD5-kontrolsum\"",
+      "revId": "8d9007108da57f16c0e6b8c093538030bf8a1b45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
