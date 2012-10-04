@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAYn//+LQ\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-04T15:53:31Z",
+      "side": 1,
+      "message": "Yes, I prefer \"no estables\" too.",
+      "parentUuid": "AAAAYn//+No\u003d",
+      "revId": "6be68c981fa4c99f9b8b8474c1e08ea4683e4f7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAYn//+cg\u003d",
         "filename": "res/values-es/strings.xml",
         "patchSetId": 3
