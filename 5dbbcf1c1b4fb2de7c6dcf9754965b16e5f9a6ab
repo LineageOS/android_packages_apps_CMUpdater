@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn//+L4\u003d",
+        "filename": "res/values-tr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2266
+      },
+      "writtenOn": "2012-10-04T15:28:33Z",
+      "side": 1,
+      "message": "There is a minor mistake, it should be \"Son kontrolde güncelleme bulunamadi. Yeni güncellemeleri elle kontrol etmek icin Yenile dugmesini kullanin.\"",
+      "revId": "5dbbcf1c1b4fb2de7c6dcf9754965b16e5f9a6ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
