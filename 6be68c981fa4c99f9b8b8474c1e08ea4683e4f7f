@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAYn//+OM\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-04T14:09:57Z",
+      "side": 1,
+      "message": "Looks good",
+      "parentUuid": "AAAAYn//+co\u003d",
+      "revId": "6be68c981fa4c99f9b8b8474c1e08ea4683e4f7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAYn//+ck\u003d",
         "filename": "res/values-es/strings.xml",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2012-10-04T02:38:01Z",
       "side": 1,
       "message": "\"incl. no estables\" implies that you want to see all versions. Better than \"nightlies\" for novice users.",
+      "revId": "6be68c981fa4c99f9b8b8474c1e08ea4683e4f7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+No\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-04T14:09:57Z",
+      "side": 1,
+      "message": "Jesús David, some terms for this:\n\npara pruebas\nnocturnas\ndiarias\nincrementales\n\nWhat do you think about?\n\nI still prefer \"no estables\". Nightlies may have some unstable code and new features that need to be tested (certainly, much less with gerrit).",
+      "parentUuid": "AAAAYn//+ck\u003d",
       "revId": "6be68c981fa4c99f9b8b8474c1e08ea4683e4f7f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
