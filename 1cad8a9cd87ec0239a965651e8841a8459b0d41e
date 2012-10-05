@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn//97s\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 4663
+      },
+      "writtenOn": "2012-10-05T14:09:43Z",
+      "side": 1,
+      "message": "Wouldn\u0027t it be more thread safe to use AtomicBoolean?",
+      "revId": "1cad8a9cd87ec0239a965651e8841a8459b0d41e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

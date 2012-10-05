@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn//97w\u003d",
+        "filename": "src/com/cyanogenmod/updater/tasks/MD5CheckerTask.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 4663
+      },
+      "writtenOn": "2012-10-05T14:09:43Z",
+      "side": 0,
+      "message": "What about checking the String[] count instead of letting the try catch the exception?",
+      "revId": "e341622a44c4e4cc5e42855d3f3478bb26befdc8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
