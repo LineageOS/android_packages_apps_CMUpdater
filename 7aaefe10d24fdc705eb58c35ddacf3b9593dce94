@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn//+BE\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-10-05T05:03:29Z",
+      "side": 1,
+      "message": "I suggest to wait for the network state change intent in that case. That also avoids the need to manually schedule the check in the boot receiver.\n\nhttps://github.com/maniac103/android_device_motorola_jordan-common/blob/gingerbread/DefyParts/src/com/cyanogenmod/defyparts/LtoReceiver.java and friends might give an impression; I have a service with configurable fetch period, WLAN only setting etc. there.",
+      "revId": "7aaefe10d24fdc705eb58c35ddacf3b9593dce94",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
