@@ -90,6 +90,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAYn//9/o\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 3177
+      },
+      "writtenOn": "2012-10-05T08:33:54Z",
+      "side": 1,
+      "message": "Right, there isn\u0027t a short term for this and sometimes nightlies tend to be unstable.",
+      "parentUuid": "AAAAYn//+No\u003d",
+      "revId": "6be68c981fa4c99f9b8b8474c1e08ea4683e4f7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAYn//+cg\u003d",
         "filename": "res/values-es/strings.xml",
         "patchSetId": 3
