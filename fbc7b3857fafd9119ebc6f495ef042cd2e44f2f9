@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn//+AE\u003d",
+        "filename": "src/com/cyanogenmod/updater/receiver/UpdateCheckReceiver.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-10-05T08:03:54Z",
+      "side": 1,
+      "message": "This pretty much duplicates lines40-51.\n\nWhat about the following (pseudocode):\n\nif (action equals connectivity) {\n    if (!hasConnection) {\n        log and return\n    }\n} else if (action equals boot completed) {\n    unset boot check completed in prefs\n}\n\nif (frequency is at boot) {\n    fetch boot check completed from prefs\n    if (!completed) {\n        schedule\n    } else {\n        nothing to do;\n    }\n} else if (update frequency \u003e 0) {\n    schedule\n}\n\nThat splits action and frequency processing, avoids the duplication and should be shorter.",
+      "revId": "fbc7b3857fafd9119ebc6f495ef042cd2e44f2f9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+AI\u003d",
+        "filename": "src/com/cyanogenmod/updater/receiver/UpdateCheckReceiver.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-10-05T08:03:54Z",
+      "side": 1,
+      "message": "That wrapper seems unnecessary, given that the only use of it is calling getTime() ... might as well use the long straight away.",
+      "revId": "fbc7b3857fafd9119ebc6f495ef042cd2e44f2f9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
