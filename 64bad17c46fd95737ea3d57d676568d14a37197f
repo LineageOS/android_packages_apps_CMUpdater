@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3///6M\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-10-06T17:59:27Z",
+      "side": 1,
+      "message": "if (mTask !\u003d null \u0026\u0026 ...)",
+      "revId": "64bad17c46fd95737ea3d57d676568d14a37197f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
