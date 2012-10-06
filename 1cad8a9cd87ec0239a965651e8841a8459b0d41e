@@ -16,6 +16,24 @@
       "revId": "1cad8a9cd87ec0239a965651e8841a8459b0d41e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///7E\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-10-06T17:41:17Z",
+      "side": 1,
+      "message": "My suggestion was to remove mUpdateTaskRunning altogether and replacing its use in onStart and onDestroy by\n\nif (mTask \u003d\u003d null || mTask.getState() \u003d\u003d AsyncTask.FINISHED) {\n    mTask \u003d new AutoCheckForUpdatesTask();\n    mTask.execute();\n}\n\nand\n\nif (mTask !\u003d null \u0026\u0026 mTask.getState() !\u003d AsyncTask.FINISHED) {\n    mTask.cancel(true);\n}\n\nrespectively. Side comment: There\u0027s no need to set mTask to null in onDestroy.",
+      "parentUuid": "AAAAYn//97s\u003d",
+      "revId": "1cad8a9cd87ec0239a965651e8841a8459b0d41e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
