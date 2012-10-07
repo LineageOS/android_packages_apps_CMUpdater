@@ -16,6 +16,24 @@
       "revId": "d0e9d07ec01a3e979b33f47f568fa2932b00e135",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///nQ\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 3589
+      },
+      "writtenOn": "2012-10-07T18:44:06Z",
+      "side": 1,
+      "message": "David, I just thought that things looked a bit odd without the punctuation at the end (see http://imgur.com/Qf1KD). If you insist on taking it out, then I shall.",
+      "parentUuid": "AAAAY3///po\u003d",
+      "revId": "d0e9d07ec01a3e979b33f47f568fa2932b00e135",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
