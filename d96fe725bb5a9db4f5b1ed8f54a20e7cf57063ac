@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3///is\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-10-07T23:20:11Z",
+      "side": 1,
+      "message": "- Back-up maken",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///io\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-10-07T23:20:11Z",
+      "side": 1,
+      "message": "- Controleren op updates",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///ik\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-10-07T23:20:11Z",
+      "side": 1,
+      "message": "- Tweemaal daags",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///ig\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-10-07T23:20:11Z",
+      "side": 1,
+      "message": "- Updatetypen\n- Soort update\n\nIk zou stable en nighlies niet vertalen. Lijkt me een stuk duidelijker, omdat alles op get.cm ook in het engels is.",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///ic\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-10-07T23:20:11Z",
+      "side": 1,
+      "message": "- Controleren op updates",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///iY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-10-07T23:20:11Z",
+      "side": 1,
+      "message": "- Er is al een andere download bezig",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///iU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-10-07T23:20:11Z",
+      "side": 1,
+      "message": "- Wanneer u op bijwerken tikt",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
