@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3///cw\u003d",
+        "filename": "res/layout/changelog_dialog.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T07:17:50Z",
+      "side": 1,
+      "message": "Can you replace the tabs with spaces ?\n\nJust to stay consistent with android xmls.",
+      "revId": "2ffa890a22664491ef6b46e60092ac0ac161ea95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///cs\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 382,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T07:17:50Z",
+      "side": 1,
+      "message": "No need for this check, we only reach here if it is false :)",
+      "revId": "2ffa890a22664491ef6b46e60092ac0ac161ea95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///cc\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 383,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T07:17:50Z",
+      "side": 1,
+      "message": "Can you break this into a new line ?\n\nWe try to stay within 110 columns.",
+      "revId": "2ffa890a22664491ef6b46e60092ac0ac161ea95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///cg\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 384,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T07:17:50Z",
+      "side": 1,
+      "message": "Use StringBuilder instead perhaps ?\n\nSince this is not multi-threaded, the overhead is not necessary.",
+      "revId": "2ffa890a22664491ef6b46e60092ac0ac161ea95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///cY\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 393,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T07:17:50Z",
+      "side": 1,
+      "message": "Perhaps catch a few exceptions here as well ?\n\nIOException/IllegalStateException for getContent()/readLine()\n\nalso close the stream inside finally, just do :\n\nif (changeLogLineReader !\u003d null) {\n    changeLogLineReader.close();\n}",
+      "revId": "2ffa890a22664491ef6b46e60092ac0ac161ea95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///ck\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 395,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T07:17:50Z",
+      "side": 1,
+      "message": "Can you add brackets here.\n\nif (changeLogResponseEntity !\u003d null) {\n    changeLogResponseEntity.consumeContent();\n}",
+      "revId": "2ffa890a22664491ef6b46e60092ac0ac161ea95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///co\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 399,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T07:17:50Z",
+      "side": 1,
+      "message": "No need to do this either.",
+      "revId": "2ffa890a22664491ef6b46e60092ac0ac161ea95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
