@@ -239,6 +239,24 @@
       "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///UY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-10-08T21:54:04Z",
+      "side": 1,
+      "message": "Ik vind actief dan juist wel beter. Running is niet de geïnstalleerde apps, maar de geïnstalleerde apps die nu draaien.",
+      "parentUuid": "AAAAY3///Uw\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
