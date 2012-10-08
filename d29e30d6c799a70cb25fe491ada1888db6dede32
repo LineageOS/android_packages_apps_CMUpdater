@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3///a8\u003d",
+        "filename": "res/layout/changelog_dialog.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-08T08:31:18Z",
+      "side": 1,
+      "message": "You may want to use the following button attributes to make it fit with the rest of the holo dialogs\n\nstyle\u003d\"?android:attr/buttonBarButtonStyle\"\nandroid:textSize\u003d\"14sp\"\nandroid:minHeight\u003d\"@dimen/qm_dialog_button_bar_height\"",
+      "revId": "d29e30d6c799a70cb25fe491ada1888db6dede32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///bI\u003d",
         "filename": "res/values/strings.xml",
         "patchSetId": 6
