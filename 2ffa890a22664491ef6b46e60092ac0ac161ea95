@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3///cQ\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 377,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T07:19:28Z",
+      "side": 1,
+      "message": "No need for this if check actually and no use for the changeLogException variable anymore either,\n\njust make it :\n\nif (changeLogServerResponse \u003d\u003d HttpStatus.SC_OK) {\n....\n}",
+      "revId": "2ffa890a22664491ef6b46e60092ac0ac161ea95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///cs\u003d",
         "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
         "patchSetId": 3
