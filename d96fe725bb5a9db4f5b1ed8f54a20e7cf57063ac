@@ -53,6 +53,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3///Vk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-10-08T21:22:55Z",
+      "side": 1,
+      "message": "Of gewoon\n\n- Twee keer per dag\n\nTweemaal daags klinkt alsof je medicijnen moet slikken :-p",
+      "parentUuid": "AAAAY3///ik\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///ig\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
@@ -64,6 +82,92 @@
       "writtenOn": "2012-10-07T23:20:11Z",
       "side": 1,
       "message": "- Updatetypen\n- Soort update\n\nIk zou stable en nighlies niet vertalen. Lijkt me een stuk duidelijker, omdat alles op get.cm ook in het engels is.",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///VI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-10-08T21:22:55Z",
+      "side": 1,
+      "message": "Mee eens!",
+      "parentUuid": "AAAAY3///ig\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///VE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-10-08T21:22:55Z",
+      "side": 1,
+      "message": "Alle versies (alleen Stable)",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///VA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-10-08T21:22:55Z",
+      "side": 1,
+      "message": "Alle versies (incl. Nightlies)",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///U8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-10-08T21:22:55Z",
+      "side": 1,
+      "message": "Nieuwe versies (alleen Stable)",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///U4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-10-08T21:22:55Z",
+      "side": 1,
+      "message": "Nieuwe versies (incl. Nightlies)",
       "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -115,6 +219,23 @@
       "writtenOn": "2012-10-07T23:20:11Z",
       "side": 1,
       "message": "- Wanneer u op bijwerken tikt",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///Uw\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-10-08T21:22:55Z",
+      "side": 1,
+      "message": "Running \u003d wat er nu op de telefoon draait. Actief vind ik dan geen goede vertaling\n\n- Geïnstalleerd",
       "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
