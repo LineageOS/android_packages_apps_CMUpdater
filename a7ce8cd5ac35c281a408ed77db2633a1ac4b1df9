@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3///do\u003d",
+        "filename": "res/layout/changelog_dialog.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T06:07:22Z",
+      "side": 1,
+      "message": "Minor nitpick, can you properly indent all the elements ?",
+      "revId": "a7ce8cd5ac35c281a408ed77db2633a1ac4b1df9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///dk\u003d",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T06:07:22Z",
+      "side": 1,
+      "message": "Perhaps use .equals() instead of compareTo() \u003d\u003d 0 ?\nJust a personal preference :)",
+      "revId": "a7ce8cd5ac35c281a408ed77db2633a1ac4b1df9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///dY\u003d",
+        "filename": "src/com/cyanogenmod/updater/customTypes/UpdateInfo.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T06:07:22Z",
+      "side": 1,
+      "message": "Remove this extra space",
+      "revId": "a7ce8cd5ac35c281a408ed77db2633a1ac4b1df9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///dU\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 354,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T06:07:22Z",
+      "side": 1,
+      "message": "Make this into a string resource, plz :)\n\nOr just use the existing \"no_changelog_alert\"",
+      "revId": "a7ce8cd5ac35c281a408ed77db2633a1ac4b1df9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///dg\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T06:07:22Z",
+      "side": 1,
+      "message": "Perhaps just merge these two together ? :\n\nif (changeLogServerResponse !\u003d HttpStatus.SC_OK) {\n        changeLogException \u003d true;\n} else {\n        changeLogResponseEntity \u003d changeLogResponse.getEntity();\n}",
+      "revId": "a7ce8cd5ac35c281a408ed77db2633a1ac4b1df9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///dc\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 402,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-10-08T06:07:22Z",
+      "side": 1,
+      "message": "You can also just move this entire try/catch block inside the else statement of my previous comment.\n\nReason being, that is the only case where it will get executed.",
+      "revId": "a7ce8cd5ac35c281a408ed77db2633a1ac4b1df9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
