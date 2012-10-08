@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3///bM\u003d",
+        "filename": "res/layout/changelog_dialog.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-08T08:21:59Z",
+      "side": 1,
+      "message": "This is not under the apache license, its under GPL, see the other files for the proper text to use",
+      "revId": "d29e30d6c799a70cb25fe491ada1888db6dede32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///bI\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-08T08:21:59Z",
+      "side": 1,
+      "message": "No need to say \u0027changelog\u0027 we have changelog in the title, the button can just say \u0027close\u0027.  See the android design guidelines, they talk about trying to prevent repetitive statements",
+      "revId": "d29e30d6c799a70cb25fe491ada1888db6dede32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///bQ\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 350,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-08T08:21:59Z",
+      "side": 1,
+      "message": "Do we need a try within a try? Can we not just set it to \"\" if we fail?  We dont have individual try catch statements for the other parts of the jason above.",
+      "revId": "d29e30d6c799a70cb25fe491ada1888db6dede32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///bE\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 388,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-08T08:21:59Z",
+      "side": 1,
+      "message": "i usually to there in the format\n} catch (some_exception) {\n    // Do nothing\n} \n\nto indicate that I purposely don\u0027t handle the exception, rather than just empty brackets",
+      "revId": "d29e30d6c799a70cb25fe491ada1888db6dede32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
