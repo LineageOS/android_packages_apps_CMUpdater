@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3///ac\u003d",
+        "filename": "res/layout/changelog_dialog.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-08T09:37:18Z",
+      "side": 1,
+      "message": "Fill_Parent is deprecated! Please use MATCH_PARENT.\nPlease change all occurrances in this file.",
+      "revId": "d29e30d6c799a70cb25fe491ada1888db6dede32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///a8\u003d",
         "filename": "res/layout/changelog_dialog.xml",
         "patchSetId": 6
