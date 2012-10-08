@@ -53,6 +53,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3///a0\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-08T08:50:52Z",
+      "side": 1,
+      "message": "Rather than saying \"Failed to load changelog\" maybe we should say \"No changelog available\", that way, on older versions where the was not changelog generated, the message will not indicate an error condition (which it isn\u0027t)",
+      "revId": "d29e30d6c799a70cb25fe491ada1888db6dede32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///bQ\u003d",
         "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
         "patchSetId": 6
