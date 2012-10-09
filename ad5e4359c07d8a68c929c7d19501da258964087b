@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAY3///E8\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2012-10-09T22:09:02Z",
+      "side": 1,
+      "message": "Hochkommatas sollten als Sonderzeichen \\\"escaped\\\" werden.",
+      "revId": "ad5e4359c07d8a68c929c7d19501da258964087b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///FE\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 3
