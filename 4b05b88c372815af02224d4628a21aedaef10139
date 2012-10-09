@@ -16,6 +16,125 @@
       "revId": "4b05b88c372815af02224d4628a21aedaef10139",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///MA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1683
+      },
+      "writtenOn": "2012-10-09T14:32:33Z",
+      "side": 1,
+      "message": "Vorschlag:\nEs wurden keine Aktualisierungen (alt.: Updates) gefunden. Um manuell auf eine neue Version zu prüfen, drücke \"Aktualisieren\".",
+      "revId": "4b05b88c372815af02224d4628a21aedaef10139",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///L8\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1683
+      },
+      "writtenOn": "2012-10-09T14:32:33Z",
+      "side": 1,
+      "message": "wie ist es mit der String-Länge? Wird hier abgeschnitten? Dann besser 2x anstatt zwei Mal",
+      "revId": "4b05b88c372815af02224d4628a21aedaef10139",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///L4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1683
+      },
+      "writtenOn": "2012-10-09T14:32:33Z",
+      "side": 1,
+      "message": "Update-Arten",
+      "revId": "4b05b88c372815af02224d4628a21aedaef10139",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///L0\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1683
+      },
+      "writtenOn": "2012-10-09T14:32:33Z",
+      "side": 1,
+      "message": "Download abbrechen? Bitte bestätigen.\n\n// Zum Fortfahren kann verwirren.",
+      "revId": "4b05b88c372815af02224d4628a21aedaef10139",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///Lw\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1683
+      },
+      "writtenOn": "2012-10-09T14:32:33Z",
+      "side": 1,
+      "message": "...zur Aktualisierung... (alt.: zum Update)\n\n..., wird das Gerät in den Recovery-Modus (neu)starten um das Update/die Aktualisierung durchzuführen/zu installieren.",
+      "revId": "4b05b88c372815af02224d4628a21aedaef10139",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///Ls\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1683
+      },
+      "writtenOn": "2012-10-09T14:32:33Z",
+      "side": 1,
+      "message": "...um in den Recovery-Modus zu starten.",
+      "revId": "4b05b88c372815af02224d4628a21aedaef10139",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///Lo\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1683
+      },
+      "writtenOn": "2012-10-09T14:32:33Z",
+      "side": 1,
+      "message": "Neustart in den Recovery-Modus...",
+      "revId": "4b05b88c372815af02224d4628a21aedaef10139",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
