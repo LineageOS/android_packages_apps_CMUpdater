@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3///QM\u003d",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-09T02:47:17Z",
+      "side": 1,
+      "message": "I will remove this permission, its no longer needed",
+      "revId": "50409c28b00282caf37374ded285bd3b9fef2099",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
