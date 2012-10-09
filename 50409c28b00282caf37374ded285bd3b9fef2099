@@ -16,6 +16,57 @@
       "revId": "50409c28b00282caf37374ded285bd3b9fef2099",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///QQ\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T02:47:26Z",
+      "side": 1,
+      "message": "Earlier in the sentence \u0027recovery mode\u0027 is being used instead of \u0027Recovery\u0027",
+      "revId": "50409c28b00282caf37374ded285bd3b9fef2099",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///QI\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T02:47:26Z",
+      "side": 1,
+      "message": "Changelog \u003e\u003e changelog (without capital)",
+      "revId": "50409c28b00282caf37374ded285bd3b9fef2099",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///QE\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T02:47:26Z",
+      "side": 1,
+      "message": "Changelog \u003e\u003e changelog (without capital)",
+      "revId": "50409c28b00282caf37374ded285bd3b9fef2099",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
