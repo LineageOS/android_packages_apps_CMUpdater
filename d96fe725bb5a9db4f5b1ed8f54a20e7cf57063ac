@@ -275,6 +275,24 @@
       "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///Tg\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-10-09T01:08:21Z",
+      "side": 1,
+      "message": "\u0027Momenteel:\u0027?",
+      "parentUuid": "AAAAY3///UY\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
