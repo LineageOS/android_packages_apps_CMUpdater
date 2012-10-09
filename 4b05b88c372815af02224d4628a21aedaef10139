@@ -225,6 +225,23 @@
       "revId": "4b05b88c372815af02224d4628a21aedaef10139",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///Js\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1683
+      },
+      "writtenOn": "2012-10-09T16:10:45Z",
+      "side": 1,
+      "message": "grunsätzlich ja, doch irgendwie klingt ins Recovery (vgl. 64,65) seltsam.\n\nHier wäre es dann: \"Neustart/Reboot in Recovery nicht möglich\".",
+      "revId": "4b05b88c372815af02224d4628a21aedaef10139",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
