@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3///FE\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-09T22:07:49Z",
+      "side": 1,
+      "message": "@Markus\nDer String wird nicht abgeschnitten, daher lasse ich es mal so.",
+      "revId": "ad5e4359c07d8a68c929c7d19501da258964087b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
