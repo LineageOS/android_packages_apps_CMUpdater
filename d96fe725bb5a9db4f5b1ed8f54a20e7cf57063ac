@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3///EA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T23:51:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAY3///is\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///io\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2012-10-07T23:20:11Z",
       "side": 1,
       "message": "- Controleren op updates",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///D8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T23:51:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAY3///io\u003d",
       "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -106,6 +142,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3///D4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T23:51:48Z",
+      "side": 1,
+      "message": "- Soort update",
+      "parentUuid": "AAAAY3///ig\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///VE\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
@@ -117,6 +171,24 @@
       "writtenOn": "2012-10-08T21:22:55Z",
       "side": 1,
       "message": "Alle versies (alleen Stable)",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///D0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T23:51:48Z",
+      "side": 1,
+      "message": "Stables? Nightlies wordt ook meervoud.\nVerder dan dat: done",
+      "parentUuid": "AAAAY3///VE\u003d",
       "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -140,6 +212,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3///Dw\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T23:51:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAY3///VA\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///U8\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
@@ -157,6 +247,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3///Ds\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T23:51:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAY3///U8\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///U4\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
@@ -168,6 +276,24 @@
       "writtenOn": "2012-10-08T21:22:55Z",
       "side": 1,
       "message": "Nieuwe versies (incl. Nightlies)",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///Do\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T23:51:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAY3///U4\u003d",
       "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -208,6 +334,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3///Dk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T23:51:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAY3///iY\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///iU\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
@@ -219,6 +363,24 @@
       "writtenOn": "2012-10-07T23:20:11Z",
       "side": 1,
       "message": "- Wanneer u op bijwerken tikt",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///Dg\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T23:51:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAY3///iU\u003d",
       "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -308,6 +470,24 @@
       "side": 1,
       "message": "Klopt,\n- Huidige (versie):",
       "parentUuid": "AAAAY3///Tg\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///Dc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-10-09T23:51:48Z",
+      "side": 1,
+      "message": "(Ik draai geen CM10 meer, laat staan de officiële versies, dus dit zou ik niet weten)\n\nIemand tegen de suggestie van Bart?",
+      "parentUuid": "AAAAY3///Qo\u003d",
       "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
