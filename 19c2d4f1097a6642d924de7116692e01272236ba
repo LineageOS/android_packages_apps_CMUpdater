@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3///CQ\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-10T01:18:50Z",
+      "side": 1,
+      "message": "Typo: \"gelöschet\" Will fix this with the next patch set.",
+      "revId": "19c2d4f1097a6642d924de7116692e01272236ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
