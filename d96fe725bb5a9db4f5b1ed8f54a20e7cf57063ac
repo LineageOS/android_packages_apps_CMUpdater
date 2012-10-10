@@ -195,6 +195,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3//+04\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-10-10T15:52:03Z",
+      "side": 1,
+      "message": "Nee!!\n\nStable enkelvoud (er is maar 1 Stable versie meestal) en Nightlies meervoud (er worden elke nacht een Nightly gemaakt)\nZo is het in het Engels ook.\n\nStables \u003d stallen :)",
+      "parentUuid": "AAAAY3///D0\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///VA\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
@@ -488,6 +506,24 @@
       "side": 1,
       "message": "(Ik draai geen CM10 meer, laat staan de officiële versies, dus dit zou ik niet weten)\n\nIemand tegen de suggestie van Bart?",
       "parentUuid": "AAAAY3///Qo\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+00\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-10-10T15:52:03Z",
+      "side": 1,
+      "message": "\"Huidige\" is goed!",
+      "parentUuid": "AAAAY3///Dc\u003d",
       "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
