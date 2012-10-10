@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3//+2Q\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-10-10T13:21:55Z",
+      "side": 1,
+      "message": "The original string has \"Note:\". I suggest preserve it.\n\n...con la actualización\\n\\nAviso: Si no se dispone...",
+      "revId": "a15b65ceff3d8276bc0424827d8bcc35594aa6e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
