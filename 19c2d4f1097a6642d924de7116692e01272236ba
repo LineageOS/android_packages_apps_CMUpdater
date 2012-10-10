@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAY3//+3o\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1683
+      },
+      "writtenOn": "2012-10-10T10:28:18Z",
+      "side": 1,
+      "message": "Upgrade !\u003d Update.",
+      "revId": "19c2d4f1097a6642d924de7116692e01272236ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///CQ\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 4
