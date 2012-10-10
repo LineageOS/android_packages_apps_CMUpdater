@@ -213,6 +213,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3//+0k\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-10-10T16:00:15Z",
+      "side": 1,
+      "message": "Eens met Eddy",
+      "parentUuid": "AAAAY3//+04\u003d",
+      "revId": "d96fe725bb5a9db4f5b1ed8f54a20e7cf57063ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3///VA\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
