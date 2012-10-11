@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3//+oM\u003d",
+        "filename": "res/values-it/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 3916
+      },
+      "writtenOn": "2012-10-11T18:49:38Z",
+      "side": 1,
+      "message": "I pulsanti nella finestra di dialogo sono \"Si\" e \"No\". Non \"OK\" e \"Annulla\". Ho corretto di conseguenza qui e in altri punti più avanti",
+      "revId": "3a243fb5517f57c146d2b054a1f5f7e909f290d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
