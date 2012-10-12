@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3//+ZQ\u003d",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-12T19:21:16Z",
+      "side": 1,
+      "message": "Are you sure we don\u0027t need the !\u003d null check?",
+      "revId": "0cd6ebfacfe4fa939897a6d1ba2258d1056db654",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
