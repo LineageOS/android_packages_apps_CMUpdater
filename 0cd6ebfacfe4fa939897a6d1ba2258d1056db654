@@ -16,6 +16,24 @@
       "revId": "0cd6ebfacfe4fa939897a6d1ba2258d1056db654",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+Y4\u003d",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 4663
+      },
+      "writtenOn": "2012-10-12T19:43:07Z",
+      "side": 1,
+      "message": "TextUtils.isEmpty() checks for null and zero length string",
+      "parentUuid": "AAAAY3//+ZQ\u003d",
+      "revId": "0cd6ebfacfe4fa939897a6d1ba2258d1056db654",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
