@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3//+jU\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-12T00:01:33Z",
+      "side": 1,
+      "message": "\"Nincs elérhet? változás napló\" vagy \"A változások listája nem elérhet?\" nem tudom melyik lenne a jó, szerintem a \"Nincs elérhet? változás\" mást jelent.",
+      "revId": "8515b141d1feba714d2b6852a636701b01fc5bc7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+jM\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-12T00:01:33Z",
+      "side": 1,
+      "message": "Változás napló vagy változások listája.",
+      "revId": "8515b141d1feba714d2b6852a636701b01fc5bc7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+jQ\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-12T00:01:33Z",
+      "side": 1,
+      "message": "Változás napló vagy változások listája.",
+      "revId": "8515b141d1feba714d2b6852a636701b01fc5bc7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
