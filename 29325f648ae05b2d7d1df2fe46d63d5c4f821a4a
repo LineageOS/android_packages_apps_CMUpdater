@@ -34,6 +34,24 @@
       "revId": "29325f648ae05b2d7d1df2fe46d63d5c4f821a4a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+aA\u003d",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 4663
+      },
+      "writtenOn": "2012-10-12T16:36:13Z",
+      "side": 1,
+      "message": "I missed that.\nString changeLog \u003d (TextUtils.isEmpty(mUpdateInfo.getChanges()) ? mPar...\nJust for the odd event where mUpdateInfo.getChanges()\u003d\"\"",
+      "parentUuid": "AAAAY3//+ag\u003d",
+      "revId": "29325f648ae05b2d7d1df2fe46d63d5c4f821a4a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
