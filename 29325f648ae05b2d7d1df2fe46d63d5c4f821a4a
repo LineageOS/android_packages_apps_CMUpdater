@@ -16,6 +16,24 @@
       "revId": "29325f648ae05b2d7d1df2fe46d63d5c4f821a4a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+ag\u003d",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-12T15:53:00Z",
+      "side": 1,
+      "message": "Wont work since we show the string right after in the toast.",
+      "parentUuid": "AAAAY3//+cs\u003d",
+      "revId": "29325f648ae05b2d7d1df2fe46d63d5c4f821a4a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
