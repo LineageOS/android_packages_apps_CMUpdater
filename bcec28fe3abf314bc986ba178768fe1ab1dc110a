@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3//+H0\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-13T20:15:51Z",
+      "side": 1,
+      "message": "We should use something less generic than download complete.  With a lot of notifications the user has to look at the icon to try and figure out what was downloaded. How about \"Update downloaded\" or \"ROM update downloaded\"",
+      "revId": "bcec28fe3abf314bc986ba178768fe1ab1dc110a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
