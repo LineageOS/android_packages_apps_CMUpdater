@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3//+Ks\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-13T19:06:04Z",
+      "side": 1,
+      "message": "We should work on the strings - they don\u0027t follow the new android  writing style guidelines (see android design guidelines) for example, the summary should now used to show the selected state, not a description of the item itself and repetition should be avoided.\n\nSo an example here would be:\n\u0027Notifications\u0027 as title and \u0027Enabled\u0027 or \u0027Disabled\u0027 as summary.\n\nAlso, use 4 spaces instead of tabs",
+      "revId": "e19a66b2314dccb4862cc682ff86ade2b71f7db6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+Ko\u003d",
+        "filename": "res/xml/main.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-13T19:06:04Z",
+      "side": 1,
+      "message": "Whitespace, tabs\n\nFrom a user experience point of view, the most important thing on the main UI is the available updates section, having several more preferences above will push them down too far (and on HDPI devices possibly below the \u0027fold\u0027 thus, the design calls for this to be a preference screen with just \u0027Notifications\u0027 at the top level and the rest in the new pref screen.",
+      "revId": "e19a66b2314dccb4862cc682ff86ade2b71f7db6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+Kk\u003d",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-13T19:06:04Z",
+      "side": 1,
+      "message": "Tabs and whitespace errors and some of this should be in separate class/preference screen",
+      "revId": "e19a66b2314dccb4862cc682ff86ade2b71f7db6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+Kg\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-10-13T19:06:04Z",
+      "side": 1,
+      "message": "tabs and whitespace problems as well.  Also, this is using outdated code as we are still working on fixing this and the code has not been merged yet.",
+      "revId": "e19a66b2314dccb4862cc682ff86ade2b71f7db6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
