@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAaH//8JA\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-11-02T20:12:04Z",
+      "side": 1,
+      "message": "I added a new string last night as follows\n\u003cstring name\u003d\"display_name\"\u003eUpdates\u003c/string\u003e\n\nYou may want to add it to this as well so it is complete.",
+      "revId": "134a0a49898b54d667e5a5df57728d888d988e52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
