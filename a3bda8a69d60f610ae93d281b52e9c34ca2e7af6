@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAaH//8Yo\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-11-02T01:27:45Z",
+      "side": 1,
+      "message": "Not escaping an apostrophe will break the build!",
+      "revId": "a3bda8a69d60f610ae93d281b52e9c34ca2e7af6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH//8Yk\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-11-02T01:27:45Z",
+      "side": 1,
+      "message": "...same as above",
+      "revId": "a3bda8a69d60f610ae93d281b52e9c34ca2e7af6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
