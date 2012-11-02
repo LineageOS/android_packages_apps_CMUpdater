@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAaH//8JY\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-11-02T19:34:49Z",
+      "side": 1,
+      "message": "I don\u0027t speak French so I could be wrong but should these 4 strings not be translated as well?",
+      "revId": "1b748518a7e35fcc0515df7b8a534168259f5dff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
