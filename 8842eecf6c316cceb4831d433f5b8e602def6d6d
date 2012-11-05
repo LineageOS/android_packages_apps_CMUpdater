@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3///rQ\u003d",
+        "filename": "res/values-it/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 3184
+      },
+      "writtenOn": "2012-11-05T05:56:00Z",
+      "side": 1,
+      "message": "Verificate un pò:\n\"Premere Ok per..\" ma sui pulsanti c\u0027è \"Si\" / \"No\"",
+      "revId": "8842eecf6c316cceb4831d433f5b8e602def6d6d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
