@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//8GE\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-11-16T07:47:14Z",
+      "side": 1,
+      "message": "This should not say CM.  The intent is just to say \"updates\"",
+      "revId": "4f61bd29fcb638080b61fc47096c7a9d6b8fc2b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
