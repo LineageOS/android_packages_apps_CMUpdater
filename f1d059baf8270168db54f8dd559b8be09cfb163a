@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAa3//7rM\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2012-11-18T18:36:42Z",
+      "side": 1,
+      "message": "Je corrige",
+      "parentUuid": "AAAAa3//7rw\u003d",
+      "revId": "f1d059baf8270168db54f8dd559b8be09cfb163a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAa3//7xc\u003d",
         "filename": "res/values-fr/strings.xml",
         "patchSetId": 1
@@ -64,6 +82,24 @@
       "writtenOn": "2012-11-18T16:49:58Z",
       "side": 1,
       "message": "D\u0027après ce que j\u0027ai compris ce sont des espace insécable. C\u0027est à dire qu\u0027il ne peuvent être séparé des deux caractères avant et après. Cela évite d\u0027avoir une phrase qui se termine avec un espace et le signe de ponctuation à la ligne suivante exemple:\n\nAppareil\n:\n\nCeci est du au différent format d\u0027écran et/ou fenètre, qui affiche plus ou moins de caractères sur une ligne.\n\nSi je me trompe, n\u0027hésitez pas à me corriger.",
+      "revId": "f1d059baf8270168db54f8dd559b8be09cfb163a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//7rQ\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2012-11-18T18:36:42Z",
+      "side": 1,
+      "message": "Explication parfaite, rien à ajouter.",
+      "parentUuid": "AAAAa3//7rs\u003d",
       "revId": "f1d059baf8270168db54f8dd559b8be09cfb163a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
