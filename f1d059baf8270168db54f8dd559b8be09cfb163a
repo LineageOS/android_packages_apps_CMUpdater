@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//7xg\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2012-11-18T03:12:37Z",
+      "side": 1,
+      "message": "\"trouvée\" est de trop à mon avis",
+      "revId": "f1d059baf8270168db54f8dd559b8be09cfb163a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//7xc\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2012-11-18T03:12:37Z",
+      "side": 1,
+      "message": "pourquoi ces 00A0 ?",
+      "revId": "f1d059baf8270168db54f8dd559b8be09cfb163a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
