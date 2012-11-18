@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//7pE\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2012-11-18T21:23:05Z",
+      "side": 1,
+      "message": "pour cette partie, tu devrais jeter un oeil à ça : http://review.cyanogenmod.org/#/c/26507/2/res/values-fr/strings.xml\nc\u0027est plus compréhensible et ça s\u0027affiche bien mieux sur les appareils hdpi/xhdpi",
+      "revId": "ec35c49a1b38f582df34ea894fc70051943af0ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
