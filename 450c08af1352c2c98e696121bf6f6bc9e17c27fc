@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//7hk\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2012-11-19T23:21:31Z",
+      "side": 1,
+      "message": "ce n\u0027est qu\u0027une proposition mais pourquoi ne pas supprimer \"versions\" et \"les versions\" dans ces 4 phrases ? ça permettrait d\u0027avoir un rendu \"linéaire\" (je ne trouve pas le mot) permettant d\u0027afficher sur une seule ligne les nouvelles versions à rechercher",
+      "revId": "450c08af1352c2c98e696121bf6f6bc9e17c27fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
