@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//5qk\u003d",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-11-28T03:35:16Z",
+      "side": 1,
+      "message": "Please change the tabs to be spaces.  Android coding guidelines specify 4 spaces per tab.  You can also configure your eclipse editor to not use tabs.",
+      "revId": "529766bf957359f196f1967c368ca8a9ee90a05f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
