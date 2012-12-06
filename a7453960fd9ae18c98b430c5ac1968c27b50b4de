@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//4Hg\u003d",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 5112
+      },
+      "writtenOn": "2012-12-06T00:44:29Z",
+      "side": 1,
+      "message": "\u003cstring name\u003d\"new_update_summary\"\u003e???\u003c/string\u003e",
+      "revId": "a7453960fd9ae18c98b430c5ac1968c27b50b4de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//4Hc\u003d",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 5112
+      },
+      "writtenOn": "2012-12-06T00:44:29Z",
+      "side": 1,
+      "message": "\u003cstring name\u003d\"check_twice_daily\"\u003e??? ????? ?????????\u003c/string\u003e",
+      "revId": "a7453960fd9ae18c98b430c5ac1968c27b50b4de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//4HY\u003d",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 5112
+      },
+      "writtenOn": "2012-12-06T00:44:29Z",
+      "side": 1,
+      "message": "\u003cstring name\u003d\"no_updates_found\"\u003e??? ???????? ???????????\u003c/string\u003e",
+      "revId": "a7453960fd9ae18c98b430c5ac1968c27b50b4de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//4HU\u003d",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 5112
+      },
+      "writtenOn": "2012-12-06T00:44:29Z",
+      "side": 1,
+      "message": "\u003cstring name\u003d\"apply_update_dialog_text\"\u003e????????? ?? ???????????? ?? {0}.\\n\\n?? ???????? ??\n??????? ?????????, ? ??????? ?? ????? ???????????? ?? recovery mode ??? ?? ????????????? ??? ???????\n??.\\n\n\t\t\t77\t        \\nNote: ????????: ???? ? ?????????? ??????? ??? ??????? recovery ?????? ? ????????? ?? ?????\n? ?? ???????????? ???????????.\u003c/string\u003e",
+      "revId": "a7453960fd9ae18c98b430c5ac1968c27b50b4de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//4HQ\u003d",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 5112
+      },
+      "writtenOn": "2012-12-06T00:44:29Z",
+      "side": 1,
+      "message": "\u003cstring name\u003d\"confirm_delete_dialog_message\"\u003e????????? ?? ?????????? ?? ?????? ??? ??????????. ????????;\u003c/string\u003e",
+      "revId": "a7453960fd9ae18c98b430c5ac1968c27b50b4de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//4HM\u003d",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 5112
+      },
+      "writtenOn": "2012-12-06T00:44:29Z",
+      "side": 1,
+      "message": "\u003cstring name\u003d\"confirm_delete_all_dialog_message\"\u003e????????? ?? ?????????? ??? ?? ?????? ??? ???????????. ????????;\u003c/string\u003e",
+      "revId": "a7453960fd9ae18c98b430c5ac1968c27b50b4de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//4HA\u003d",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 5112
+      },
+      "writtenOn": "2012-12-06T00:44:29Z",
+      "side": 1,
+      "message": "\u003cstring name\u003d\"no_changelog_alert\"\u003e??? ??????? ?????????  ?????? ???????\u003c/string\u003e",
+      "revId": "a7453960fd9ae18c98b430c5ac1968c27b50b4de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//4HE\u003d",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 5112
+      },
+      "writtenOn": "2012-12-06T00:44:29Z",
+      "side": 1,
+      "message": "\u003cstring name\u003d\"failed_to_load_changelog\"\u003e??? ????? ?????? ? ??????? ??? ??????? ???????\u003c/string\u003e",
+      "revId": "a7453960fd9ae18c98b430c5ac1968c27b50b4de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//4HI\u003d",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 5112
+      },
+      "writtenOn": "2012-12-06T00:44:29Z",
+      "side": 1,
+      "message": "\u003cstring name\u003d\"changelog_dialog_title\"\u003e?????? ???????\u003c/string\u003e",
+      "revId": "a7453960fd9ae18c98b430c5ac1968c27b50b4de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
