@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbn///I4\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2012-12-28T23:02:07Z",
+      "side": 1,
+      "message": "Tabs still exit.",
+      "revId": "418045886285ab1bb5d482f13310e58ca2a7f85c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
