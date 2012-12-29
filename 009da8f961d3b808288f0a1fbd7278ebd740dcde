@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbn//+78\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-29T18:52:22Z",
+      "side": 1,
+      "message": "This variable seems useless (it\u0027s never read).",
+      "revId": "009da8f961d3b808288f0a1fbd7278ebd740dcde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+70\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-29T18:52:22Z",
+      "side": 1,
+      "message": "Nitpick: We usually use this form:\n\nif (!isCancelled()) {\n\n(IMHO it\u0027s also easier to read that way)",
+      "revId": "009da8f961d3b808288f0a1fbd7278ebd740dcde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+7s\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 481,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-29T18:52:22Z",
+      "side": 1,
+      "message": "That reformatting also seems useless.",
+      "revId": "009da8f961d3b808288f0a1fbd7278ebd740dcde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
