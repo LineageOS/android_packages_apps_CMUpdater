@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//9hQ\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-02-18T22:11:01Z",
+      "side": 1,
+      "message": "Ist hier wirklich der Plural richtig?\r\nWird hier nicht nur eine Version angezeigt?",
+      "revId": "4ba55e85d3893457fd9298174502e8702fc4a3b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
