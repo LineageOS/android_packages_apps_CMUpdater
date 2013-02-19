@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdX//9aY\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-19T02:08:03Z",
+      "side": 1,
+      "message": "OK.",
+      "parentUuid": "AAAAdX//9cE\u003d",
+      "revId": "4ba55e85d3893457fd9298174502e8702fc4a3b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdX//9b0\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -47,6 +65,24 @@
       "writtenOn": "2013-02-19T01:07:34Z",
       "side": 1,
       "message": "Alle stabile Versionen klingt sehr komisch. Das wort \u0027stable\u0027 ist schon ziemlich bekannt, weswegen ich zu \u0027Alle \\\"stable\\\" Versionen\u0027 tendieren würde.",
+      "revId": "4ba55e85d3893457fd9298174502e8702fc4a3b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//9aM\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-19T02:08:03Z",
+      "side": 1,
+      "message": "IMHO klingt das - sorry - bescheuert. Warum klingt ein Anglizismus (noch dazu in Anführungszeichen) besser als da sinngleiche deutsche Wort?\n\nAlternative:\n\u0027Nur stabile Versionen\u0027 und \u0027Nur neue stabile Versionen\u0027?",
+      "parentUuid": "AAAAdX//9b0\u003d",
       "revId": "4ba55e85d3893457fd9298174502e8702fc4a3b6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -70,6 +106,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdX//9Zs\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-19T02:08:03Z",
+      "side": 1,
+      "message": "Ich schau mal, aber sowohl die alte Übersetzung als auch das englische Original verwenden den Plural.",
+      "parentUuid": "AAAAdX//9hQ\u003d",
+      "revId": "4ba55e85d3893457fd9298174502e8702fc4a3b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdX//9b8\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -81,6 +135,24 @@
       "writtenOn": "2013-02-19T01:07:34Z",
       "side": 1,
       "message": "Updates werden gesucht\\u2026",
+      "revId": "4ba55e85d3893457fd9298174502e8702fc4a3b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//9ZU\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-19T02:08:03Z",
+      "side": 1,
+      "message": "Da hab ich auch drüber nachgedacht, der String wird aber auch in Titel verwendet, und da sieht ... IMO komisch aus.",
+      "parentUuid": "AAAAdX//9b8\u003d",
       "revId": "4ba55e85d3893457fd9298174502e8702fc4a3b6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
