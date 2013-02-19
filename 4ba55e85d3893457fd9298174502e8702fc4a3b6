@@ -89,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdX//9Y0\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-02-19T02:14:01Z",
+      "side": 1,
+      "message": "Dein Vorschlag klingt gut.",
+      "parentUuid": "AAAAdX//9aM\u003d",
+      "revId": "4ba55e85d3893457fd9298174502e8702fc4a3b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdX//9hQ\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -153,6 +171,24 @@
       "side": 1,
       "message": "Da hab ich auch drüber nachgedacht, der String wird aber auch in Titel verwendet, und da sieht ... IMO komisch aus.",
       "parentUuid": "AAAAdX//9b8\u003d",
+      "revId": "4ba55e85d3893457fd9298174502e8702fc4a3b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//9Y4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-02-19T02:14:01Z",
+      "side": 1,
+      "message": "Ok, dann können wir es so lassen, wie du es vorgeschlagen hast.",
+      "parentUuid": "AAAAdX//9ZU\u003d",
       "revId": "4ba55e85d3893457fd9298174502e8702fc4a3b6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
