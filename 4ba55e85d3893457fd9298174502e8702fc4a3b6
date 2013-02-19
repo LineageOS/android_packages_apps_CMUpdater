@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAdX//9Qc\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 5550
+      },
+      "writtenOn": "2013-02-19T06:34:31Z",
+      "side": 1,
+      "message": "Bleibt hier der abschließende Punkt am Satzende? Weiter unten hattest Du ja einige Male das Satzzeichen am Ende entfernt.\n\nGibt es eigentlich mittlerweile diesbezüglich sowas wie \"Best Practices\"? Oder verständigen wir uns einfach darauf, generell keine Punkte mehr am Ende zu setzen (was bei kurzen oder unvollständigen Sätzen ohnehin immer etwas komisch ausgesehen hat)?",
+      "revId": "4ba55e85d3893457fd9298174502e8702fc4a3b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdX//9cE\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
