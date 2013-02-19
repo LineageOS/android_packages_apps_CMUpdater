@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//9Hc\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-02-19T17:17:19Z",
+      "side": 1,
+      "message": "Da fehlt ein \".\" ;)",
+      "revId": "5938d11afdd15c025d63ddef3f259f1cec7f1376",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
