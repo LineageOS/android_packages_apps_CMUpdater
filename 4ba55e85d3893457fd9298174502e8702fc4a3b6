@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdX//9Lk\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-19T14:20:00Z",
+      "side": 1,
+      "message": "Bei Toasts und Summaries lassen wir den abschließenden Punkt weg. Dieser Satz hier ist aber keins von beiden, deswegen würde ich hier den Punkt drin lassen.",
+      "parentUuid": "AAAAdX//9Qc\u003d",
+      "revId": "4ba55e85d3893457fd9298174502e8702fc4a3b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdX//9cE\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
