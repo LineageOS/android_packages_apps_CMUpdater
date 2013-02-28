@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//6ag\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-02-28T00:55:40Z",
+      "side": 1,
+      "message": "opgradering",
+      "revId": "c7d2cf3511157bfed43b9e84323bfb3ed13fc741",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//6ak\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-02-28T00:55:40Z",
+      "side": 1,
+      "message": "Soek vir opgraderings",
+      "revId": "c7d2cf3511157bfed43b9e84323bfb3ed13fc741",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//6ac\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-02-28T00:55:40Z",
+      "side": 1,
+      "message": "\\\u0027boot\\\u0027",
+      "revId": "c7d2cf3511157bfed43b9e84323bfb3ed13fc741",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//6aY\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-02-28T00:55:40Z",
+      "side": 1,
+      "message": "Ok",
+      "revId": "c7d2cf3511157bfed43b9e84323bfb3ed13fc741",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//6aE\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-02-28T00:55:40Z",
+      "side": 1,
+      "message": "Die afgelaaide lêer kon nie gevind word nie",
+      "revId": "c7d2cf3511157bfed43b9e84323bfb3ed13fc741",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//6Zo\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-02-28T00:55:40Z",
+      "side": 1,
+      "message": "Die toestel gaan opgegradeer word na {0}\\n\\nAs u die Opgradeer knoppie druk sal die toestel self herlaai om die opgradering te installeer.\t\\n\\nLet wel: Hierdie funksie vereis \\\u0027n versoenbaare \\\u0027recovery\\\u0027 andersins sal die opgradering handmatig geïnstalleer moet word.",
+      "revId": "c7d2cf3511157bfed43b9e84323bfb3ed13fc741",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//6Zk\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-02-28T00:55:40Z",
+      "side": 1,
+      "message": "Ok",
+      "revId": "c7d2cf3511157bfed43b9e84323bfb3ed13fc741",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//6Zg\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-02-28T00:55:40Z",
+      "side": 1,
+      "message": "Ok",
+      "revId": "c7d2cf3511157bfed43b9e84323bfb3ed13fc741",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//6Zc\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-02-28T00:55:40Z",
+      "side": 1,
+      "message": "lêeromslag should be vouer",
+      "revId": "c7d2cf3511157bfed43b9e84323bfb3ed13fc741",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
