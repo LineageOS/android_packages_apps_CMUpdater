@@ -16,6 +16,23 @@
       "revId": "20d837c41f81ff328fee67fdbfb707a56c652791",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//90U\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-10T06:09:37Z",
+      "side": 1,
+      "message": "Je viens de vérifier \"bijournalière\" n’existe pas (même si cela ne me choquai pas), il existe \"biquotidien(ne)\" c\u0027est plus cohérent avec la ligne du dessous http://www.larousse.fr/dictionnaires/francais/biquotidien",
+      "revId": "20d837c41f81ff328fee67fdbfb707a56c652791",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
