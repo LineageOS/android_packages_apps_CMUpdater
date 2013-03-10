@@ -33,6 +33,24 @@
       "revId": "20d837c41f81ff328fee67fdbfb707a56c652791",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//90A\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-03-10T06:31:08Z",
+      "side": 1,
+      "message": "Je me suis fait avoir par ce site alors... (http://fr.wiktionary.org/wiki/bijournalier)\nPar quoi remplacer cette ligne alors, pour faire propre ?",
+      "parentUuid": "AAAAeX//90U\u003d",
+      "revId": "20d837c41f81ff328fee67fdbfb707a56c652791",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
