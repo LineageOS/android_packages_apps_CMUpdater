@@ -69,6 +69,24 @@
       "revId": "20d837c41f81ff328fee67fdbfb707a56c652791",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//9ng\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 5596
+      },
+      "writtenOn": "2013-03-10T20:50:45Z",
+      "side": 1,
+      "message": "Désolé Delphin je suis sur mon téléphone, j\u0027ai enregistré ton prénom pour ne pas avoir d\u0027autres surprises avec le correcteur.",
+      "parentUuid": "AAAAeX//9nw\u003d",
+      "revId": "20d837c41f81ff328fee67fdbfb707a56c652791",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
