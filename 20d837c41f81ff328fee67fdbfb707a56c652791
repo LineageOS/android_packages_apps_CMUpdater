@@ -87,6 +87,24 @@
       "revId": "20d837c41f81ff328fee67fdbfb707a56c652791",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//9nU\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-10T20:53:26Z",
+      "side": 1,
+      "message": "@Eric Pas de souci :) ça fais 30 ans que les gens se trompent, je ne suis pas vexé. Et avec mon 3ème garçons qui arrive fin juin je peux t\u0027assurer que je suis un bien un mec :)",
+      "parentUuid": "AAAAeX//9ng\u003d",
+      "revId": "20d837c41f81ff328fee67fdbfb707a56c652791",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
