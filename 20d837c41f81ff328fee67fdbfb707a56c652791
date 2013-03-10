@@ -105,6 +105,24 @@
       "revId": "20d837c41f81ff328fee67fdbfb707a56c652791",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//9mk\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 5596
+      },
+      "writtenOn": "2013-03-10T21:06:52Z",
+      "side": 1,
+      "message": "@Delphin en tout cas il ne devrait plus y avoir de problème de correcteur automatique. Et mes félicitations :)",
+      "parentUuid": "AAAAeX//9nU\u003d",
+      "revId": "20d837c41f81ff328fee67fdbfb707a56c652791",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
