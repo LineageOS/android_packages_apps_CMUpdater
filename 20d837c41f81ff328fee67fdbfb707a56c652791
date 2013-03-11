@@ -123,6 +123,24 @@
       "revId": "20d837c41f81ff328fee67fdbfb707a56c652791",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//9Oo\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2013-03-11T23:28:53Z",
+      "side": 1,
+      "message": "Moi je laisserais \"deux fois par jour\", c\u0027est clair et compréhensible",
+      "parentUuid": "AAAAeX//9nw\u003d",
+      "revId": "20d837c41f81ff328fee67fdbfb707a56c652791",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
