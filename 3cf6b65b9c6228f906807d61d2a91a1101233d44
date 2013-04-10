@@ -50,6 +50,24 @@
       "revId": "3cf6b65b9c6228f906807d61d2a91a1101233d44",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//8p8\u003d",
+        "filename": "res/values-ja/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2013-04-10T18:50:51Z",
+      "side": 1,
+      "message": "correction, before \u0027{\u0027 and after \u0027}\u0027",
+      "parentUuid": "AAAAen//8qQ\u003d",
+      "revId": "3cf6b65b9c6228f906807d61d2a91a1101233d44",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
