@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//8qI\u003d",
+        "filename": "res/values-ja/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2013-04-10T18:45:02Z",
+      "side": 1,
+      "message": "I don\u0027t think comma needs here, one would just make toast longer.",
+      "revId": "3cf6b65b9c6228f906807d61d2a91a1101233d44",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//8qY\u003d",
+        "filename": "res/values-ja/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2013-04-10T18:45:02Z",
+      "side": 1,
+      "message": "That\u0027s supposed to be displayed the number of updates, not filename. see line 210 on /src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+      "revId": "3cf6b65b9c6228f906807d61d2a91a1101233d44",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//8qQ\u003d",
+        "filename": "res/values-ja/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2013-04-10T18:45:02Z",
+      "side": 1,
+      "message": "would be looks nicer if a space were inserted before {0}",
+      "revId": "3cf6b65b9c6228f906807d61d2a91a1101233d44",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
