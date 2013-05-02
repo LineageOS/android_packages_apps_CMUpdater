@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX///ic\u003d",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 596
+      },
+      "writtenOn": "2013-05-02T10:29:42Z",
+      "side": 1,
+      "message": "Relic of previous change? I don\u0027t see why this should be commented out.",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///iY\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 596
+      },
+      "writtenOn": "2013-05-02T10:29:42Z",
+      "side": 1,
+      "message": "The expanded body could contain the available updates by date?",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
