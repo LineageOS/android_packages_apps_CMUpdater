@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAfX///fU\u003d",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "This must be a string resource.",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///fQ\u003d",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "This must be a string resource as well.",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAfX///ic\u003d",
         "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
         "patchSetId": 1
@@ -19,6 +53,160 @@
     },
     {
       "key": {
+        "uuid": "AAAAfX///fM\u003d",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "I agree, this will actually break updating via the updater UI.",
+      "parentUuid": "AAAAfX///ic\u003d",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///fA\u003d",
+        "filename": "src/com/cyanogenmod/updater/customTypes/FullUpdateInfo.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "This should be done in UpdateCheckService. FullUpdateInfo is just a messenger class.",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///e8\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "Plenty of white space errors in this file. Please also fix the line endings (our code uses unix line endings) and add a license header.",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///ew\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "I don\u0027t see why the update check needs to be started here. Please explain.",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///es\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "This reason parameter should be nuked.",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///eo\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "Please remove the commented code.",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///eg\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "Please use a serious tag value. Common practice is to define a TAG constant which roughly resembles the class name (here: private static final String TAG \u003d \"CMDashClockExtension\";) and use that in the log statements.",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///ec\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "Intent intent \u003d new Intent(this, UpdatesSettings.class);",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///eU\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "How about \".visible(numUpdates !\u003d 0)\"?",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAfX///iY\u003d",
         "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
         "patchSetId": 1
@@ -30,6 +218,41 @@
       "writtenOn": "2013-05-02T10:29:42Z",
       "side": 1,
       "message": "The expanded body could contain the available updates by date?",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///eY\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "Also, all of those user visible strings should be string resources.",
+      "parentUuid": "AAAAfX///iY\u003d",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///eQ\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-02T14:14:53Z",
+      "side": 1,
+      "message": "Please remove this unused import.",
       "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
