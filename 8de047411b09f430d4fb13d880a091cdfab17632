@@ -54,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAfX///Do\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-03T18:58:39Z",
+      "side": 1,
+      "message": "See the \\r characters? Those shouldn\u0027t be there ;-)\nWindows terminates lines with \\r\\n, while Unix only uses \\n. All of our code uses \\n, so your code should do the same. Any sane editor will allow you to convert the line endings.",
+      "parentUuid": "AAAAfX///D4\u003d",
+      "revId": "8de047411b09f430d4fb13d880a091cdfab17632",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAfX///HU\u003d",
         "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
         "patchSetId": 8
