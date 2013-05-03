@@ -71,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAfX///iQ\u003d",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 6199
+      },
+      "writtenOn": "2013-05-03T07:01:56Z",
+      "side": 1,
+      "message": "You are right.  Thanks, this should not be commented out.  My mistake, I was testing something else.",
+      "parentUuid": "AAAAfX///ic\u003d",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAfX///fA\u003d",
         "filename": "src/com/cyanogenmod/updater/customTypes/FullUpdateInfo.java",
         "patchSetId": 1
@@ -235,6 +253,24 @@
       "writtenOn": "2013-05-02T14:14:53Z",
       "side": 1,
       "message": "Also, all of those user visible strings should be string resources.",
+      "parentUuid": "AAAAfX///iY\u003d",
+      "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///iM\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 6199
+      },
+      "writtenOn": "2013-05-03T07:01:56Z",
+      "side": 1,
+      "message": "Good idea!  I don\u0027t exactly know how, though.  It might be overcomplicated for a DashClock extension widget anyway, but I will look into it, and maybe someone else knows how.",
       "parentUuid": "AAAAfX///iY\u003d",
       "revId": "35bf21eb5034418fac3a7ba423bacbc99d391bc2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
