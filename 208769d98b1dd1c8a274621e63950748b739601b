@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX///PA\u003d",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-05-03T03:55:07Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "208769d98b1dd1c8a274621e63950748b739601b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///Og\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-05-03T03:55:07Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "208769d98b1dd1c8a274621e63950748b739601b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///Ow\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-05-03T03:55:07Z",
+      "side": 1,
+      "message": "We dont use upper case for all words in a sentence,  Use correct case",
+      "revId": "208769d98b1dd1c8a274621e63950748b739601b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///Os\u003d",
+        "filename": "src/com/cyanogenmod/updater/customTypes/FullUpdateInfo.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-05-03T03:55:07Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "208769d98b1dd1c8a274621e63950748b739601b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///Oo\u003d",
+        "filename": "src/com/cyanogenmod/updater/customTypes/FullUpdateInfo.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-05-03T03:55:07Z",
+      "side": 1,
+      "message": "tabs",
+      "revId": "208769d98b1dd1c8a274621e63950748b739601b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///Ok\u003d",
+        "filename": "src/com/cyanogenmod/updater/customTypes/FullUpdateInfo.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-05-03T03:55:07Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "208769d98b1dd1c8a274621e63950748b739601b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///OY\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-05-03T03:55:07Z",
+      "side": 1,
+      "message": "dont hardcode string resources",
+      "revId": "208769d98b1dd1c8a274621e63950748b739601b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///Oc\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-05-03T03:55:07Z",
+      "side": 1,
+      "message": "whitespace and tabs throughout this file",
+      "revId": "208769d98b1dd1c8a274621e63950748b739601b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
