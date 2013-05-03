@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX///Hs\u003d",
+        "filename": "src/com/cyanogenmod/updater/customTypes/FullUpdateInfo.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-03T16:35:30Z",
+      "side": 1,
+      "message": "Like I said on PS1, this is still wrong. See additional comments in CMDashClockExtension.java.",
+      "revId": "8de047411b09f430d4fb13d880a091cdfab17632",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///Hk\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-03T16:35:30Z",
+      "side": 1,
+      "message": "- The line endings are still wrong\n- This file still needs a license header.",
+      "revId": "8de047411b09f430d4fb13d880a091cdfab17632",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///HU\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-03T16:35:30Z",
+      "side": 1,
+      "message": "When following the suggestions below, this shared pref listening should be replaced by\n- UpdateCheckService sending out a broadcast intent after calling State.saveState()\n- A BroadcastReceiver that starts CMDashClockExtension\n- triggering the publishUpdate from onStartCommand()",
+      "revId": "8de047411b09f430d4fb13d880a091cdfab17632",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///HY\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-03T16:35:30Z",
+      "side": 1,
+      "message": "Why is starting the update service needed here? It\u0027s supposed to be started by the defined schedule.",
+      "revId": "8de047411b09f430d4fb13d880a091cdfab17632",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///Hg\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-03T16:35:30Z",
+      "side": 1,
+      "message": "Instead of storing the number of updates in the shared prefs, just deserialize it:\n\nint updateCount \u003d 0;\n\ntry {\n    FullUpdateInfo updateInfo \u003d State.loadState(this);\n    if (updateInfo !\u003d null) {\n        //derive updateCount from updateInfo here\n    }\n} catch (IOException e) {\n    updateInfo \u003d null;\n}\n\npublishUpdate(...)",
+      "revId": "8de047411b09f430d4fb13d880a091cdfab17632",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///Hc\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-03T16:35:30Z",
+      "side": 1,
+      "message": "Is there a defined constant for the magic value \u00274\u0027?",
+      "revId": "8de047411b09f430d4fb13d880a091cdfab17632",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
