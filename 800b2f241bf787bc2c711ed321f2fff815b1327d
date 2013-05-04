@@ -16,6 +16,24 @@
       "revId": "800b2f241bf787bc2c711ed321f2fff815b1327d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///AA\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 596
+      },
+      "writtenOn": "2013-05-04T02:55:58Z",
+      "side": 1,
+      "message": "Maybe Intent.FLAG_ACTIVITY_REORDER_TO_FRONT instead.",
+      "parentUuid": "AAAAfX///A8\u003d",
+      "revId": "800b2f241bf787bc2c711ed321f2fff815b1327d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
