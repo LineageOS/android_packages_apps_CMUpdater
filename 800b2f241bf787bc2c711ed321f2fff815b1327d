@@ -34,6 +34,24 @@
       "revId": "800b2f241bf787bc2c711ed321f2fff815b1327d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX//+/4\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 6199
+      },
+      "writtenOn": "2013-05-04T03:13:35Z",
+      "side": 1,
+      "message": "I don\u0027t think reordering is an issue, as there is only one activity.  I don\u0027t think it would hurt, though.",
+      "parentUuid": "AAAAfX///AA\u003d",
+      "revId": "800b2f241bf787bc2c711ed321f2fff815b1327d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
