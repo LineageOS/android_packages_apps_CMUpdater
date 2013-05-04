@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX///A8\u003d",
+        "filename": "src/com/cyanogenmod/updater/service/CMDashClockExtension.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 6199
+      },
+      "writtenOn": "2013-05-04T01:55:53Z",
+      "side": 1,
+      "message": "intent.setFlags(FLAG_ACTIVITY_CLEAR_TASK);\nWould this be good to add?  I think it would clear up any possible conflicts in opening the UpdateSettings.",
+      "revId": "800b2f241bf787bc2c711ed321f2fff815b1327d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
