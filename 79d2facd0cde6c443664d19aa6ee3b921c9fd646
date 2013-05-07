@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfn///2k\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-05-07T15:09:14Z",
+      "side": 1,
+      "message": "actualizaciones disponibles para descargar\n\n(without accent marks)",
+      "revId": "79d2facd0cde6c443664d19aa6ee3b921c9fd646",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
