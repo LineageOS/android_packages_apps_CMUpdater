@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfn///1A\u003d",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2013-05-07T16:26:04Z",
+      "side": 1,
+      "message": "\u003cplurals name\u003d\"not_new_updates_found_body\"\u003e\n    \u003citem quantity\u003d\"one\"\u003e\u003cxliff:g id\u003d\"count\"\u003e%d\u003c/xliff:g\u003e ?????????? ???????? ??? ????????\u003c/item\u003e\n    \u003citem quantity\u003d\"other\"\u003e\u003cxliff:g id\u003d\"count\"\u003e%d\u003c/xliff:g\u003e ??????????(??) ???????? ??? ????????\u003c/item\u003e\n\u003c/plurals\u003e",
+      "revId": "eedfcb37997a27ab9c713db5b12a78b3bcc48ff9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
