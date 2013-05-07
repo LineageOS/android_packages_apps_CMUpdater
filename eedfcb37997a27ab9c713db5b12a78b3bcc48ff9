@@ -16,6 +16,24 @@
       "revId": "eedfcb37997a27ab9c713db5b12a78b3bcc48ff9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfn///0w\u003d",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-07T16:28:31Z",
+      "side": 1,
+      "message": "Can you pastebin them somewhere? Gerrit seemingly doesn\u0027t support UTF-8 :-(\n(And the parentheses shouldn\u0027t be needed anymore in the \u0027other\u0027 case, are they?)",
+      "parentUuid": "AAAAfn///1A\u003d",
+      "revId": "eedfcb37997a27ab9c713db5b12a78b3bcc48ff9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
