@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAfn///Zw\u003d",
+        "filename": "res/values-ja/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 47
+      },
+      "writtenOn": "2013-05-08T10:41:14Z",
+      "side": 1,
+      "message": "Yes, but I can\u0027t decide that it\u0027s unusual or not at the moment. I should consider it after this merging.",
+      "parentUuid": "AAAAfn///aU\u003d",
+      "revId": "cc892151a08bc951874043fdfcbf395f6869b6bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAfn///ag\u003d",
         "filename": "res/values-pt-rBR/strings.xml",
         "patchSetId": 6
