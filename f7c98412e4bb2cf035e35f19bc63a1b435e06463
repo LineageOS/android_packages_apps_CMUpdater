@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAfn//+QI\u003d",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 5896
+      },
+      "writtenOn": "2013-05-10T20:44:15Z",
+      "side": 1,
+      "message": "U menya takoy optsii net, obyazatel\u0027no abbreviaturu ispol\u0027zovat\u0027?\nNa raketniy kompleks pohozhe.",
+      "revId": "f7c98412e4bb2cf035e35f19bc63a1b435e06463",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAfn//+Qs\u003d",
         "filename": "res/values-ru/strings.xml",
         "patchSetId": 1
@@ -13,6 +30,24 @@
       "writtenOn": "2013-05-10T19:36:45Z",
       "side": 1,
       "message": "V takom vide otobrazhautsya obnovleniya v Play Market. Mne kazhetsya, vyglyadit otlichno!",
+      "revId": "f7c98412e4bb2cf035e35f19bc63a1b435e06463",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfn//+QE\u003d",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 5896
+      },
+      "writtenOn": "2013-05-10T20:44:15Z",
+      "side": 1,
+      "message": "Ya chto-to podobnoe hotel predlozhit\u0027 dlya CMFileManager (tipa \"Vybrano papok: 21, faylov: 12\").",
+      "parentUuid": "AAAAfn//+Qs\u003d",
       "revId": "f7c98412e4bb2cf035e35f19bc63a1b435e06463",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
