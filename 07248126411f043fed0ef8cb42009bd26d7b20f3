@@ -34,6 +34,24 @@
       "revId": "07248126411f043fed0ef8cb42009bd26d7b20f3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f.bA4Cw",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-05-11T23:11:20Z",
+      "side": 1,
+      "message": "En revanche, \u0027displays\u0027 -\u003e \u0027affiche\u0027 (pas infinitif)",
+      "parentUuid": "f6bG6Ec",
+      "revId": "07248126411f043fed0ef8cb42009bd26d7b20f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
