@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f6aSaJ0",
+        "filename": "res/values-fr/plurals.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-05-11T21:08:07Z",
+      "side": 1,
+      "message": "disponible\u0027s\u0027 ?",
+      "revId": "38d14a3462d48668bf74a67469e640a07cb78dae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
