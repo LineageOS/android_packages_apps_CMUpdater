@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f.apwHw",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2013-05-11T22:55:24Z",
+      "side": 1,
+      "message": "Le point est obligatoire ?",
+      "revId": "07248126411f043fed0ef8cb42009bd26d7b20f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
