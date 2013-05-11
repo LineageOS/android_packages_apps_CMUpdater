@@ -16,6 +16,24 @@
       "revId": "07248126411f043fed0ef8cb42009bd26d7b20f3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6bG6Ec",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-05-11T23:09:47Z",
+      "side": 1,
+      "message": "Je me suis posé la même question, et il semblerait que oui d\u0027après la syntaxe initiale (https://github.com/CyanogenMod/android_packages_apps_CMUpdater/blob/cm-10.1/res/values/strings.xml)",
+      "parentUuid": "f.apwHw",
+      "revId": "07248126411f043fed0ef8cb42009bd26d7b20f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
