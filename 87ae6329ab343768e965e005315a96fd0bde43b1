@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f.ZyoEg",
+        "filename": "res/values-hu/plurals.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1850
+      },
+      "writtenOn": "2013-05-11T22:25:09Z",
+      "side": 1,
+      "message": "Should be 2012-2013, right?",
+      "revId": "87ae6329ab343768e965e005315a96fd0bde43b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
