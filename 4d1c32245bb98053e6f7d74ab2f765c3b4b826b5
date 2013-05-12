@@ -2,6 +2,74 @@
   "comments": [
     {
       "key": {
+        "uuid": "f8xU48w",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-05-12T16:41:34Z",
+      "side": 1,
+      "message": "those empty line breaks should be removed to keep consistency with other translations (after the cleanup in past days).",
+      "revId": "4d1c32245bb98053e6f7d74ab2f765c3b4b826b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f.xRn9k",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-05-12T16:41:34Z",
+      "side": 1,
+      "message": "^",
+      "revId": "4d1c32245bb98053e6f7d74ab2f765c3b4b826b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fwxe..k",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-05-12T16:41:34Z",
+      "side": 1,
+      "message": "^",
+      "revId": "4d1c32245bb98053e6f7d74ab2f765c3b4b826b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f4xxC3o",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-05-12T16:41:34Z",
+      "side": 1,
+      "message": "^\n+ etc.",
+      "revId": "4d1c32245bb98053e6f7d74ab2f765c3b4b826b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f4yua.Y",
         "filename": "res/values-pl/strings.xml",
         "patchSetId": 2
