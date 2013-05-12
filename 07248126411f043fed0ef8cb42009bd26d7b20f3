@@ -70,6 +70,24 @@
       "revId": "07248126411f043fed0ef8cb42009bd26d7b20f3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f4nNfYk",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-05-12T03:13:51Z",
+      "side": 1,
+      "message": "Bon, ces textes servent pour une extension de CMUpdater \u003d\u003e https://play.google.com/store/apps/details?id\u003dnet.nurik.roman.dashclock du coup c\u0027est bien \"Affiche le nombre...\"",
+      "parentUuid": "f0m0ZfI",
+      "revId": "07248126411f043fed0ef8cb42009bd26d7b20f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
