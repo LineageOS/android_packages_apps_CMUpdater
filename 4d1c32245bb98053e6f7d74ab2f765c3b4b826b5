@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f4yua.Y",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 3784
+      },
+      "writtenOn": "2013-05-12T15:16:42Z",
+      "side": 1,
+      "message": "I think you should add:\n\u003citem quantity\u003d[\"two\" | \"three\" | \"four\"]\u003e\u003cxliff:g id\u003d\"count\"\u003e%d\u003c/xliff:g\u003e aktualizacje\u003c/item\u003e",
+      "revId": "4d1c32245bb98053e6f7d74ab2f765c3b4b826b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
