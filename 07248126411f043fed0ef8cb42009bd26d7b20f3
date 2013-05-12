@@ -52,6 +52,24 @@
       "revId": "07248126411f043fed0ef8cb42009bd26d7b20f3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f0m0ZfI",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-05-12T02:49:42Z",
+      "side": 1,
+      "message": "Habituellement les descriptions sont toujours à l\u0027infinitif, du coup je me demande si ce n\u0027est pas le texte source qui mal tourné. Je préférerai garder à l\u0027infinitif pour la cohérence.\n\nEt virer le point à la fin",
+      "parentUuid": "f.bA4Cw",
+      "revId": "07248126411f043fed0ef8cb42009bd26d7b20f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
