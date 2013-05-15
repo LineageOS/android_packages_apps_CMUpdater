@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "hsKYZm0",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2013-05-15T01:00:10Z",
+      "side": 1,
+      "message": "Viser antal nye tilgængelige opdateringer",
+      "revId": "78091bfff05606b26fb1cc1ddbf7dc150dc2b559",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
