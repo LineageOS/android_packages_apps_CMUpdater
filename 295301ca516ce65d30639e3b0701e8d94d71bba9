@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iD2fO2E",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-22T18:22:42Z",
+      "side": 1,
+      "message": "Requested fix ;)",
+      "revId": "295301ca516ce65d30639e3b0701e8d94d71bba9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
