@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "hqv3dfQ",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 6284
+      },
+      "writtenOn": "2013-05-23T00:08:30Z",
+      "side": 1,
+      "message": "Change-Id: I732804f0deb37fd13a09bbd23abed8e7ca16bd91",
+      "revId": "732804f0deb37fd13a09bbd23abed8e7ca16bd91",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
