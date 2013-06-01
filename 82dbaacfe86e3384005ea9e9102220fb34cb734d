@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iIvnD0A",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 5896
+      },
+      "writtenOn": "2013-06-01T22:48:36Z",
+      "side": 1,
+      "message": "Plagina dlya DashClock net v staging.",
+      "revId": "82dbaacfe86e3384005ea9e9102220fb34cb734d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
