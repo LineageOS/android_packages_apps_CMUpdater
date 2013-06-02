@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iK5q4Rg",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2013-06-02T22:11:22Z",
+      "side": 1,
+      "message": "\"nieuw beschikbare\"?",
+      "revId": "5cefb4485652d1605457cc222c4fd3a7dd73a197",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
