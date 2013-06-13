@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iPm62m0",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-06-13T15:05:47Z",
+      "side": 1,
+      "message": "I would use a capital A here...\n\nIt\u0027s the app\u0027s name",
+      "revId": "12c9d9b82a12dcf5caa31ba9c154d30e6d528ee2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
