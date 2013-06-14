@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iFQxiwo",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-06-14T04:32:55Z",
+      "side": 1,
+      "message": "Vertoon die aantal nuwe opgraderings beskikbaar\n\nno period at the end",
+      "revId": "73ea3b836b6a04a7c86b14c1409b8eba1427a7f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "iDQ2FwQ",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-06-14T04:32:55Z",
+      "side": 1,
+      "message": "opgradering",
+      "revId": "73ea3b836b6a04a7c86b14c1409b8eba1427a7f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "iBQ7E.0",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-06-14T04:32:55Z",
+      "side": 1,
+      "message": "opgraderings",
+      "revId": "73ea3b836b6a04a7c86b14c1409b8eba1427a7f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "iPQ-f9Q",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-06-14T04:32:55Z",
+      "side": 1,
+      "message": "opgradering",
+      "revId": "73ea3b836b6a04a7c86b14c1409b8eba1427a7f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "iNQlm8I",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-06-14T04:32:55Z",
+      "side": 1,
+      "message": "opgraderings",
+      "revId": "73ea3b836b6a04a7c86b14c1409b8eba1427a7f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
