@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "iFmrA4o",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 3269
+      },
+      "writtenOn": "2013-06-14T20:35:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "iHk8h5M",
+      "revId": "9cfd583b7143c964710e1f962c629c1cd3e6d37a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "iJk3W7A",
         "filename": "res/values-af/strings.xml",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2013-06-14T19:51:29Z",
       "side": 1,
       "message": "Vertoon die ...",
+      "revId": "9cfd583b7143c964710e1f962c629c1cd3e6d37a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "iDmwT-Q",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 3269
+      },
+      "writtenOn": "2013-06-14T20:35:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "iJk3W7A",
       "revId": "9cfd583b7143c964710e1f962c629c1cd3e6d37a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
