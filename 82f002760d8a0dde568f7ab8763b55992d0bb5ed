@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iPk8FzE",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-06-14T21:55:21Z",
+      "side": 1,
+      "message": "there is still a strange character on this line, just before opgradering",
+      "revId": "82f002760d8a0dde568f7ab8763b55992d0bb5ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
