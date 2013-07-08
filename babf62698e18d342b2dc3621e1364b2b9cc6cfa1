@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dac4157f_c7a3bc9d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-07-08T19:08:02Z",
+      "side": 1,
+      "message": "better than +, isn\u0027t it?",
+      "revId": "babf62698e18d342b2dc3621e1364b2b9cc6cfa1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
