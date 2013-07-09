@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dac4157f_8a0389b8",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-07-09T17:58:05Z",
+      "side": 1,
+      "message": "Why not just say \"Download finished\"? IMHO, using the work \"Update\" is redundant",
+      "revId": "6da1fb26b6f117d1634c99d57ec809c605ca1d8b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_6a0035ab",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-07-09T17:58:05Z",
+      "side": 1,
+      "message": "Why not just say \"Download failed\"? IMHO, using the work \"Update\" is redundant",
+      "revId": "6da1fb26b6f117d1634c99d57ec809c605ca1d8b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_4a2c514a",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-07-09T17:58:05Z",
+      "side": 1,
+      "message": "\"... A compatible Recovery is required for the installation to work automatically.\"",
+      "revId": "6da1fb26b6f117d1634c99d57ec809c605ca1d8b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
