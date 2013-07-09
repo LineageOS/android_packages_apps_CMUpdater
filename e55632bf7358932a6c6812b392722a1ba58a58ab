@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dac4157f_aa6f6d91",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-07-09T17:39:13Z",
+      "side": 1,
+      "message": "Wuerde \u0027Download abgeschlossen\u0027 an dieser Stelle nicht auch reichen, oder muss wirklich noch mal extra deklariert werden, dass es sich um den Download des Updates handelt?",
+      "revId": "e55632bf7358932a6c6812b392722a1ba58a58ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
