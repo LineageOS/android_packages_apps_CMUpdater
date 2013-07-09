@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "dac4157f_4aa1f1a8",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-07-09T19:01:38Z",
+      "side": 1,
+      "message": "One could argue it yes.  \n\nWhat about \"The update downloaded successfully\" ?   It sounds more personal and \u0027friendly\u0027 like the design guidelines suggest.",
+      "parentUuid": "dac4157f_ea2a052c",
+      "revId": "6da1fb26b6f117d1634c99d57ec809c605ca1d8b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dac4157f_6a0035ab",
         "filename": "res/values/strings.xml",
         "patchSetId": 5
@@ -48,6 +66,24 @@
       "writtenOn": "2013-07-09T17:58:05Z",
       "side": 1,
       "message": "Why not just say \"Download failed\"? IMHO, using the work \"Update\" is redundant",
+      "revId": "6da1fb26b6f117d1634c99d57ec809c605ca1d8b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_2aa6bdc1",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-07-09T19:01:38Z",
+      "side": 1,
+      "message": "maybe \"Downloading the update was unsuccessful\" ? same reasoning as above",
+      "parentUuid": "dac4157f_6a0035ab",
       "revId": "6da1fb26b6f117d1634c99d57ec809c605ca1d8b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -83,6 +119,24 @@
       "side": 1,
       "message": "Why the uppercase \u0027Recovery\u0027?",
       "parentUuid": "dac4157f_4a2c514a",
+      "revId": "6da1fb26b6f117d1634c99d57ec809c605ca1d8b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_6ac5d559",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-07-09T19:01:38Z",
+      "side": 1,
+      "message": "Because it is a \u0027thing\u0027 - we use upper case elsewhere when we refer to it.",
+      "parentUuid": "dac4157f_0a265968",
       "revId": "6da1fb26b6f117d1634c99d57ec809c605ca1d8b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
