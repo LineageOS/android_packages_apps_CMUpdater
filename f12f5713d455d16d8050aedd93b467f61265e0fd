@@ -16,6 +16,41 @@
       "revId": "f12f5713d455d16d8050aedd93b467f61265e0fd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_a16550e2",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-07-12T00:21:28Z",
+      "side": 1,
+      "message": "- De user herstart het apparaat door op Herstarten te tikken, dus ik vind niet dat het apparaat \"zichzelf\" herstart.\n\n- een -\u003e done\n\n- net zoals je Instellingen graag met hoofdletter wil, moet dit ook met een hoofdletter. Of zoals gezegd in de originele commit: Because it is a \u0027thing\u0027 - we use upper case elsewhere when we refer to it.\n\nVerder speelt er ook nog de vraag waarom deze tekst niet gewoon hetzelfde is als in regel 77?? Maar daar heb ik nog geen antwoord op van David van Tonder. (in de originele patch en/of op G+)",
+      "parentUuid": "dac4157f_56c51c59",
+      "revId": "f12f5713d455d16d8050aedd93b467f61265e0fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_c1af24e2",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-07-12T00:21:28Z",
+      "side": 1,
+      "message": "Bijwerken vs Herstarten en installeren\n\nminus \"zichzelf\"\n\nRecovery??",
+      "revId": "f12f5713d455d16d8050aedd93b467f61265e0fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
