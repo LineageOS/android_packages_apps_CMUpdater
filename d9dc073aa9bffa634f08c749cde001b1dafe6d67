@@ -71,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "dac4157f_fce76faa",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-07-12T19:52:09Z",
+      "side": 1,
+      "message": "+1 for \"... para una instalación desatendida\"",
+      "parentUuid": "dac4157f_3c7967fd",
+      "revId": "d9dc073aa9bffa634f08c749cde001b1dafe6d67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dac4157f_76770003",
         "filename": "res/values-es/strings.xml",
         "patchSetId": 1
@@ -153,6 +171,24 @@
       "side": 1,
       "message": "No, I think it isn\u0027t confused. Otherwise if we say \"¿Borrar la actualización instalada?\" could be as revert the update.\n\nAll strings about this hasn\u0027t \"archivo\" into text, so why it have this?",
       "parentUuid": "dac4157f_1cbb43c6",
+      "revId": "d9dc073aa9bffa634f08c749cde001b1dafe6d67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_1cf34375",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-07-12T19:52:09Z",
+      "side": 1,
+      "message": "Ok.",
+      "parentUuid": "dac4157f_dc870bd6",
       "revId": "d9dc073aa9bffa634f08c749cde001b1dafe6d67",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
