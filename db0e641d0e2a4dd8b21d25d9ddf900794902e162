@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dac4157f_290fe2e2",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 4566
+      },
+      "writtenOn": "2013-07-14T01:49:52Z",
+      "side": 1,
+      "message": "Literowka. Powinno byc \"zrestartowane\" zamiast \"zrestartowanie\".",
+      "revId": "db0e641d0e2a4dd8b21d25d9ddf900794902e162",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
