@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3acd31a7_7dcecb84",
+        "filename": "src/com/cyanogenmod/updater/misc/UpdateInfo.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2013-07-25T00:54:51Z",
+      "side": 1,
+      "message": "Better check if mApiLevel \u003e 0, too. get.cm is returning zero if the level is missing for some reason (like really old nightlies in which we can\u0027t even derive it from the filename)",
+      "revId": "39dd9e12d9aabeb018ea3d94f5d987ffe7ba10ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
