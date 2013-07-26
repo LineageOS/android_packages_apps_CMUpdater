@@ -50,6 +50,24 @@
       "revId": "40c8b9c1018cdc3b4653340620bd7563d0f9de51",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3acd31a7_e330fca0",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-07-26T23:31:26Z",
+      "side": 1,
+      "message": "I think it could be shorten:\n\nint updateFrequency \u003d prefs.getInt(Constants.UPDATE_CHECK_PREF, Constants.UPDATE_FREQ_WEEKLY);\nString queryString \u003d automaticCheck ? \"?updateFrequency\u003d\" + updateFrequency : \"\";\nURI updateServerUri \u003d URI.create(getString(R.string.conf_update_server_url_def) + queryString);\n\nOr better if we always sent a updateFrequency, with 0 meaning no automatic check.",
+      "parentUuid": "3acd31a7_c30e20e5",
+      "revId": "40c8b9c1018cdc3b4653340620bd7563d0f9de51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
