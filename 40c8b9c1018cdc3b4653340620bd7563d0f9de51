@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3acd31a7_030538c1",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-07-26T22:20:15Z",
+      "side": 1,
+      "message": "This can be done shorter:\n\nboolean automaticCheck \u003d intent.getBooleanExtra(EXTRA_AUTOMATIC_CHECK, false);",
+      "revId": "40c8b9c1018cdc3b4653340620bd7563d0f9de51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3acd31a7_e3091cdf",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-07-26T22:20:15Z",
+      "side": 1,
+      "message": "Boolean -\u003e boolean; and please wrap line.",
+      "revId": "40c8b9c1018cdc3b4653340620bd7563d0f9de51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3acd31a7_c30e20e5",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-07-26T22:20:15Z",
+      "side": 1,
+      "message": "Please wrap line. Also, the Integer.toString part can be omitted (it\u0027s done automatically).",
+      "revId": "40c8b9c1018cdc3b4653340620bd7563d0f9de51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
