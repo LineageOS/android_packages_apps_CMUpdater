@@ -34,6 +34,24 @@
       "revId": "c118ceb80fe104ef938a31d49c9294b2946004a8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3acd31a7_a3b8c4e6",
+        "filename": "src/com/cyanogenmod/updater/misc/UpdateInfo.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-07-27T00:18:27Z",
+      "side": 1,
+      "message": "The same because it was a getVersion() getter. Well, doesn\u0027t matter.",
+      "parentUuid": "3acd31a7_63e4ec0c",
+      "revId": "c118ceb80fe104ef938a31d49c9294b2946004a8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
