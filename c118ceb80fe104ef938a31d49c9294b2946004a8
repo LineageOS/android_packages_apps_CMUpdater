@@ -16,6 +16,24 @@
       "revId": "c118ceb80fe104ef938a31d49c9294b2946004a8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3acd31a7_63e4ec0c",
+        "filename": "src/com/cyanogenmod/updater/misc/UpdateInfo.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-07-27T00:06:28Z",
+      "side": 1,
+      "message": "Why introduce an unused getter in an internal class?",
+      "parentUuid": "3acd31a7_431a1019",
+      "revId": "c118ceb80fe104ef938a31d49c9294b2946004a8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
