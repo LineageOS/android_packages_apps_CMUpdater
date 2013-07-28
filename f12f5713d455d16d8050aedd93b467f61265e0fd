@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "1aca2d91_93807c48",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-07-28T23:28:52Z",
+      "side": 1,
+      "message": "- Done\n- Done\n- Zie onderstaande",
+      "parentUuid": "dac4157f_a16550e2",
+      "revId": "f12f5713d455d16d8050aedd93b467f61265e0fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dac4157f_c1af24e2",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
@@ -48,6 +66,24 @@
       "writtenOn": "2013-07-12T00:21:28Z",
       "side": 1,
       "message": "Bijwerken vs Herstarten en installeren\n\nminus \"zichzelf\"\n\nRecovery??",
+      "revId": "f12f5713d455d16d8050aedd93b467f61265e0fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aca2d91_b37b787b",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-07-28T23:28:52Z",
+      "side": 1,
+      "message": "Ik zou eerst een patch indienen om de Engelse variant hiervan te veranderen, dan kunnen we hiervoor feedback verzamelen.",
+      "parentUuid": "dac4157f_c1af24e2",
       "revId": "f12f5713d455d16d8050aedd93b467f61265e0fd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
