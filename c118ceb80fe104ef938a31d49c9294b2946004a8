@@ -52,6 +52,24 @@
       "revId": "c118ceb80fe104ef938a31d49c9294b2946004a8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3acd31a7_ae9d4b5b",
+        "filename": "src/com/cyanogenmod/updater/misc/UpdateInfo.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-07-28T01:04:57Z",
+      "side": 1,
+      "message": "I should have removed the getVersion() getter before :) I removed all the other unused ones, I just missed this one.",
+      "parentUuid": "3acd31a7_a3b8c4e6",
+      "revId": "c118ceb80fe104ef938a31d49c9294b2946004a8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
