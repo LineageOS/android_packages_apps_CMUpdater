@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a0c5dc1_d0cb721d",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-09-12T06:39:58Z",
+      "side": 1,
+      "message": "? ??? ???????, ? ?????, ??? ??? ???? ?????? ????? ???????? ??????? «?????????» [??????????].\n\n«????????» ???-???? ?????? ??? ?????????????? ???????.",
+      "revId": "6cb7ed2dd7ff61d3d376095c5edf01d71ac44bb7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a0c5dc1_b0d0feca",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-09-12T06:39:58Z",
+      "side": 1,
+      "message": "????? ? ????? ?????.",
+      "revId": "6cb7ed2dd7ff61d3d376095c5edf01d71ac44bb7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a0c5dc1_90d5faba",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-09-12T06:39:58Z",
+      "side": 1,
+      "message": "? ?????, ????????, ??????????.",
+      "revId": "6cb7ed2dd7ff61d3d376095c5edf01d71ac44bb7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a0c5dc1_70dba6ee",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-09-12T06:39:58Z",
+      "side": 1,
+      "message": "?????????? «\u003cxliff /\u003e» ??????? (??? ????? ? ??????? ??? ?????)",
+      "revId": "6cb7ed2dd7ff61d3d376095c5edf01d71ac44bb7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a0c5dc1_50d8a2ef",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-09-12T06:39:58Z",
+      "side": 1,
+      "message": "«??????????» ??????.",
+      "revId": "6cb7ed2dd7ff61d3d376095c5edf01d71ac44bb7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a0c5dc1_10e22aa0",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-09-12T06:39:58Z",
+      "side": 1,
+      "message": "Plurals!!\n\n? ??????? ???? ??????? «??-???????????», ??? ? Apollo?\n\n????????, «???????? %d ?????????(?/?/?) ???????»",
+      "revId": "6cb7ed2dd7ff61d3d376095c5edf01d71ac44bb7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
