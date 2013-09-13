@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a016987_4f65a5df",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-13T20:37:18Z",
+      "side": 1,
+      "message": "Nuke the last sentence, please. Also experimental -\u003e unsupported.",
+      "revId": "48941fc22986035a7dc40bd79eecad8163d84cfa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a016987_2f6269d9",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-13T20:37:18Z",
+      "side": 1,
+      "message": "Wrap to 100 chars",
+      "revId": "48941fc22986035a7dc40bd79eecad8163d84cfa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a016987_0f5fad0f",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-13T20:37:18Z",
+      "side": 1,
+      "message": "This should be a string resource.",
+      "revId": "48941fc22986035a7dc40bd79eecad8163d84cfa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a016987_afa41908",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-13T20:37:18Z",
+      "side": 1,
+      "message": "updateUpdateTypes(value);\n\nand a new method\n\nprivate void updateUpdateTypes(int type) {\n    mPrefs.edit().putInt(Constants.UPDATE_TYPE_PREF, type).apply();\n    mUpdateType.setSummary(mUpdateType.getEntries()[value]);\n    checkForUpdates();\n}",
+      "revId": "48941fc22986035a7dc40bd79eecad8163d84cfa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a016987_ef9a11c5",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-13T20:37:18Z",
+      "side": 1,
+      "message": "Should also have a \u0027Cancel\u0027 button\u0027",
+      "revId": "48941fc22986035a7dc40bd79eecad8163d84cfa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a016987_cf9f55b3",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-13T20:37:18Z",
+      "side": 1,
+      "message": "return false",
+      "revId": "48941fc22986035a7dc40bd79eecad8163d84cfa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a016987_8fa95de2",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-13T20:37:18Z",
+      "side": 1,
+      "message": "updateUpdateTypes(value);\n\n(and move the return true in here)",
+      "revId": "48941fc22986035a7dc40bd79eecad8163d84cfa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
