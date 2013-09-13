@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7a016987_8ff71df5",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-09-13T22:58:17Z",
+      "side": 1,
+      "message": "\"Do not report bugs for nightlies.\"?",
+      "parentUuid": "7a016987_4f65a5df",
+      "revId": "48941fc22986035a7dc40bd79eecad8163d84cfa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a016987_2f6269d9",
         "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
         "patchSetId": 1
