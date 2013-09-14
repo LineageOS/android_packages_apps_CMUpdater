@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a016987_0f732d4f",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-14T04:03:52Z",
+      "side": 1,
+      "message": "One space too much before \u0027These\u0027.",
+      "revId": "b2048388ef111e818bbc1f6f636220dfeb5037fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a016987_ef8e9126",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-14T04:03:52Z",
+      "side": 1,
+      "message": "I think we usually capitalize only the first word.",
+      "revId": "b2048388ef111e818bbc1f6f636220dfeb5037fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a016987_cf93d54e",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-14T04:03:52Z",
+      "side": 1,
+      "message": "Should indent by 8, not 4.",
+      "revId": "b2048388ef111e818bbc1f6f636220dfeb5037fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a016987_af98996b",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-14T04:03:52Z",
+      "side": 1,
+      "message": "As above.",
+      "revId": "b2048388ef111e818bbc1f6f636220dfeb5037fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
