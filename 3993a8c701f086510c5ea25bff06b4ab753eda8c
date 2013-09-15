@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a016987_bad0d9ca",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 6563
+      },
+      "writtenOn": "2013-09-15T01:16:42Z",
+      "side": 1,
+      "message": "Why not putting \\u0027 again?",
+      "revId": "3993a8c701f086510c5ea25bff06b4ab753eda8c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
