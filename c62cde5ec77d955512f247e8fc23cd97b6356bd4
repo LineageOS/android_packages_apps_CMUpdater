@@ -16,6 +16,24 @@
       "revId": "c62cde5ec77d955512f247e8fc23cd97b6356bd4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5afe65bd_0e4b2fb2",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2013-09-23T04:23:02Z",
+      "side": 1,
+      "message": "Az eredeti szöveg is internet connection.",
+      "parentUuid": "5afe65bd_4bf59981",
+      "revId": "c62cde5ec77d955512f247e8fc23cd97b6356bd4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
