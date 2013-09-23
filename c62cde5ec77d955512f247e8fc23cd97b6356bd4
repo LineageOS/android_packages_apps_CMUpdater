@@ -34,6 +34,24 @@
       "revId": "c62cde5ec77d955512f247e8fc23cd97b6356bd4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5afe65bd_2ee5cba7",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2013-09-23T04:34:31Z",
+      "side": 1,
+      "message": "Tudom már, mi nem tetszett: a szóismétlés.\nNem sikerült frissítéseket keresni. Ellen?rizze internetkapcsolatát, majd próbálja újra.",
+      "parentUuid": "5afe65bd_0e4b2fb2",
+      "revId": "c62cde5ec77d955512f247e8fc23cd97b6356bd4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
