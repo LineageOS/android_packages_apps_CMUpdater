@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3afb71cf_2d2f15a3",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-26T06:43:51Z",
+      "side": 1,
+      "message": "Alternativvorschlag:\n\u0027Sie haben Nightlies in die Auswahl aufgenommen. Bitte beachten Sie, dass diese Versionen ungetestet sind und daher keine Unterstützung geleistet werden kann. Aus diesem Grund sollten Nightlies mit Vorsicht installiert werden.\u0027",
+      "revId": "20bc71a813c86b36ae052c56e8f061c7e74ffb09",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
