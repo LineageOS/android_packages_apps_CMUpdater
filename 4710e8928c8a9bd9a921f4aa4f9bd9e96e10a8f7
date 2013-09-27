@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "da37b569_4169d28a",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 6563
+      },
+      "writtenOn": "2013-09-27T10:04:49Z",
+      "side": 1,
+      "message": "Pourquoi \"nocturnes\" ? Compilations instables, ou compilations \"nightly\" me semblerait plus juste.",
+      "revId": "4710e8928c8a9bd9a921f4aa4f9bd9e96e10a8f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da37b569_81c11a83",
         "filename": "res/values-fr/strings.xml",
         "patchSetId": 2
@@ -67,6 +84,23 @@
       "side": 1,
       "message": "Un titre est censé décrire le contenu de l\u0027alerte. \"Prudence\" ou \"attention\" ressemblent plutôt à des conseils. Je préfère \"Avertissement\".",
       "parentUuid": "da37b569_81c11a83",
+      "revId": "4710e8928c8a9bd9a921f4aa4f9bd9e96e10a8f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_e104a6c7",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 6563
+      },
+      "writtenOn": "2013-09-27T10:04:49Z",
+      "side": 1,
+      "message": "Et apparemment ces 4 commentaires concernent la ligne 44 :)",
       "revId": "4710e8928c8a9bd9a921f4aa4f9bd9e96e10a8f7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
