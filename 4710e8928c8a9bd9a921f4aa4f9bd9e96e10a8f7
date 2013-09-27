@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da37b569_81c11a83",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-09-27T09:50:05Z",
+      "side": 1,
+      "message": "J\u0027aurais tendance à traduire \"caution\" par \"prudence\", ou encore \"attention\". D\u0027autres avis ?",
+      "revId": "4710e8928c8a9bd9a921f4aa4f9bd9e96e10a8f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
