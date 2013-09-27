@@ -16,6 +16,24 @@
       "revId": "4710e8928c8a9bd9a921f4aa4f9bd9e96e10a8f7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_2155aec5",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 6261
+      },
+      "writtenOn": "2013-09-27T09:54:23Z",
+      "side": 1,
+      "message": "pour ma part je préfère précaution\naprès c\u0027est une question de goût :)",
+      "parentUuid": "da37b569_81c11a83",
+      "revId": "4710e8928c8a9bd9a921f4aa4f9bd9e96e10a8f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
