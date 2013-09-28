@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "da37b569_e487d410",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-09-28T10:26:26Z",
+      "side": 1,
+      "message": "Amhà, ça ajoute de l\u0027incohérence. Dans le choix des mises-à-jour possibles, on parle de \"versions nightlies\", et ici de \"version de développement\". Ne faudrait-il pas dans ce cas uniformiser le tout ?",
+      "parentUuid": "da37b569_c4af3093",
+      "revId": "4710e8928c8a9bd9a921f4aa4f9bd9e96e10a8f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da37b569_81c11a83",
         "filename": "res/values-fr/strings.xml",
         "patchSetId": 2
@@ -155,6 +173,24 @@
       "side": 1,
       "message": "+1 pour Avertissement (je m\u0027étais trompé...)\n\nSinon dans l\u0027application lampe torche, la popup quand on coche \"luminosité maximale\" a pour titre \"Attention\"\nVoir cette capture d\u0027écran :\nhttp://img843.imageshack.us/img843/7066/x3i0.png",
       "parentUuid": "da37b569_c15c02f0",
+      "revId": "4710e8928c8a9bd9a921f4aa4f9bd9e96e10a8f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_84928856",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-09-28T10:26:26Z",
+      "side": 1,
+      "message": "Oui. ;)",
+      "parentUuid": "da37b569_e104a6c7",
       "revId": "4710e8928c8a9bd9a921f4aa4f9bd9e96e10a8f7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
