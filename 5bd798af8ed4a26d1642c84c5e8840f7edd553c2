@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a41bdd9_dfe85b19",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-10-04T09:20:54Z",
+      "side": 1,
+      "message": "\"Ces versions ne sont pas supportées et doivent être utilisées avec précaution.\" ?",
+      "revId": "5bd798af8ed4a26d1642c84c5e8840f7edd553c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
