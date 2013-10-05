@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a41bdd9_1f9323fc",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-10-05T02:23:08Z",
+      "side": 1,
+      "message": "Jy het gekies om Daaglikse bywerkings by hierdie lys in te sluit. Hulle word nie ondersteun nie en word op eie risiko gebruik.",
+      "revId": "d3951c23ffbdd2b353962d32af66225fad905caf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a41bdd9_3f9067ec",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-10-05T02:23:08Z",
+      "side": 1,
+      "message": "Die opgradering soektog het misluk. Gaan asseblief die internet konneksie na en probeer weer later.",
+      "revId": "d3951c23ffbdd2b353962d32af66225fad905caf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
