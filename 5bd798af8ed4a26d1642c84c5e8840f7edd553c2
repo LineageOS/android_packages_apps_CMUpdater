@@ -16,6 +16,57 @@
       "revId": "5bd798af8ed4a26d1642c84c5e8840f7edd553c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a41bdd9_5f5e8b46",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2013-10-05T02:48:20Z",
+      "side": 1,
+      "message": "+1\n\nNéanmoins, incompréhension : n\u0027est-ce pas plus clair \"Ces versions ne disposent pas de support technique ...\"",
+      "revId": "5bd798af8ed4a26d1642c84c5e8840f7edd553c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a41bdd9_7f5b4f55",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2013-10-05T02:48:20Z",
+      "side": 1,
+      "message": "Cette fonction \u003d\u003e Cette opération ?",
+      "revId": "5bd798af8ed4a26d1642c84c5e8840f7edd553c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a41bdd9_1f580356",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2013-10-05T02:48:20Z",
+      "side": 1,
+      "message": "idem",
+      "revId": "5bd798af8ed4a26d1642c84c5e8840f7edd553c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
