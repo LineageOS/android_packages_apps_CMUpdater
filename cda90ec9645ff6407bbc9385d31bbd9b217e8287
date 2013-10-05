@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a41bdd9_4273144e",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2013-10-05T21:02:41Z",
+      "side": 1,
+      "message": "La remarque de Matthias sur le \"elles\" me semblait pertinente.\n ?",
+      "revId": "cda90ec9645ff6407bbc9385d31bbd9b217e8287",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
