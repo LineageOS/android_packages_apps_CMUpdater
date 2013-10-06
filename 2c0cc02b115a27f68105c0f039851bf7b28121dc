@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a41bdd9_6568a2bb",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2013-10-06T05:38:26Z",
+      "side": 1,
+      "message": "\"U heeft ervoor gekozen ook nightly updates te laten weergeven. Deze worden niet ondersteund en moeten voorzichtig worden gebruikt.\"?",
+      "revId": "2c0cc02b115a27f68105c0f039851bf7b28121dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
