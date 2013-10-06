@@ -34,6 +34,24 @@
       "revId": "2c0cc02b115a27f68105c0f039851bf7b28121dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a41bdd9_e530320a",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-06T23:02:20Z",
+      "side": 1,
+      "message": "Done\n\nOverigens vertaalt Google de \u0027nightlies\u0027 letterlijk:\n\nhttps://www.google.com/intl/nl/chrome/browser/canary.html\n\n(Onderaan, middelste kolom)\n\nMisschien een idee om dat hier ook te doen?",
+      "parentUuid": "9a41bdd9_e581124f",
+      "revId": "2c0cc02b115a27f68105c0f039851bf7b28121dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
