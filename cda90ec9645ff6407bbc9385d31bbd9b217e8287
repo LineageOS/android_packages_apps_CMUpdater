@@ -16,6 +16,24 @@
       "revId": "cda90ec9645ff6407bbc9385d31bbd9b217e8287",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a41bdd9_02cc2c34",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-10-06T02:31:12Z",
+      "side": 1,
+      "message": "ah j\u0027avais pas vu cette subtilité.",
+      "parentUuid": "9a41bdd9_4273144e",
+      "revId": "cda90ec9645ff6407bbc9385d31bbd9b217e8287",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
