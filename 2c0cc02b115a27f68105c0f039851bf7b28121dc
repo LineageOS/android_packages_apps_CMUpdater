@@ -123,6 +123,41 @@
       "revId": "2c0cc02b115a27f68105c0f039851bf7b28121dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a43c5e1_7dda777a",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-10-07T08:43:01Z",
+      "side": 1,
+      "message": "Ik stoor mij er ook nog steeds aan dat de tekst niet gelijk is aan de tekst in regel 82. zie aanpassingsvoorstel hieronder",
+      "parentUuid": "5a43c5e1_3d8dcf7b",
+      "revId": "2c0cc02b115a27f68105c0f039851bf7b28121dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a43c5e1_fdd44748",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-10-07T08:43:01Z",
+      "side": 1,
+      "message": "- Uw systeem wordt bijgewerkt naar \u003cxliff:g id\u003d\"filename\"\u003e%s\u003c/xliff:g\u003e.\\n\\nWanneer u op \\\u0027Bijwerken\\\u0027 tikt, zal het apparaat herstarten om de update te installeren.\\n\\nLet op: een compatibele recovery is vereist, anders moet de update handmatig worden geïnstalleerd.",
+      "revId": "2c0cc02b115a27f68105c0f039851bf7b28121dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
