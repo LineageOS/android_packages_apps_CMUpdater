@@ -70,6 +70,23 @@
       "revId": "2c0cc02b115a27f68105c0f039851bf7b28121dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a43c5e1_3d8dcf7b",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-10-07T08:30:34Z",
+      "side": 1,
+      "message": "Deze tekst past bij mij niet op mijn scherm, zie screenshot https://www.dropbox.com/s/5l6nj5tbacumr0r/Screenshot_2013-09-28-22-41-34.png\n\nZal dus korter moeten.\n\nVolgens mij is het al genoeg om de dubbele linebreak ertussen uit te halen",
+      "revId": "2c0cc02b115a27f68105c0f039851bf7b28121dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
