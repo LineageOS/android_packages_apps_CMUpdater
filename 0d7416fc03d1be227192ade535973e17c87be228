@@ -2,6 +2,57 @@
   "comments": [
     {
       "key": {
+        "uuid": "3a50d1a3_e624afb0",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 552,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T19:15:00Z",
+      "side": 1,
+      "message": "This UpdateInfo constructor could deduce the target incremental field from the file name.",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_863a8bcc",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 558,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T19:15:00Z",
+      "side": 1,
+      "message": "...and here could be checked whether update.getIncremental() matches any of the already downloaded incrementals, merging it if required...",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_a63787e2",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 621,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T19:15:00Z",
+      "side": 1,
+      "message": "...making this stuff superfluous.",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_c3596590",
         "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
         "patchSetId": 3
@@ -36,6 +87,23 @@
     },
     {
       "key": {
+        "uuid": "3a50d1a3_06ff5b02",
+        "filename": "src/com/cyanogenmod/updater/misc/UpdateInfo.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T19:15:00Z",
+      "side": 1,
+      "message": "What is the exact format of this? Looking at the output for mako, I don\u0027t see any \u0027incremental\u0027 field.",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_63e2d1a1",
         "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
         "patchSetId": 3
@@ -64,6 +132,24 @@
       "writtenOn": "2013-10-18T09:07:39Z",
       "side": 1,
       "message": "Camel caps instead of underscores please.",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_c608932b",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T19:15:00Z",
+      "side": 1,
+      "message": "Oh, I see now this is due to GSON. Another reason to switch to JSONObject ;)",
+      "parentUuid": "3a50d1a3_03c74d13",
       "revId": "0d7416fc03d1be227192ade535973e17c87be228",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -121,6 +207,57 @@
     },
     {
       "key": {
+        "uuid": "3a50d1a3_06267bba",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T19:15:00Z",
+      "side": 1,
+      "message": "Why not copy it off the original UpdateInfo?",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_461d6365",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T19:15:00Z",
+      "side": 1,
+      "message": "I think this should be done in UpdatesSettings, with a progress dialog that says \u0027Checking for incremental update\u0027 or the like.\n\nI also think it\u0027s not worth introducing another HTTP library here for a single call. IMHO, this should be done using the Apache HTTPClient, wrapped into an AsyncTask so it can be canceled properly if the user cancels the dialog.",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_262b7784",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T19:15:00Z",
+      "side": 1,
+      "message": "Indent by 8",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_23ccc934",
         "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
         "patchSetId": 3
@@ -132,6 +269,23 @@
       "writtenOn": "2013-10-18T09:07:39Z",
       "side": 1,
       "message": "I think you don\u0027t need this check.",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_2604d713",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T19:15:00Z",
+      "side": 1,
+      "message": "Is this field guaranteed to exist? If not, there should be an obj.has() check around it.",
       "revId": "0d7416fc03d1be227192ade535973e17c87be228",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
