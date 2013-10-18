@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a50d1a3_c3596590",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 622,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T09:07:39Z",
+      "side": 1,
+      "message": "I wonder whether this check shouldnt be in UpdateInfo.java as an .isIncremental() method or something like that.\n\nIn general, I\u0027d like to see as much of the filename massaging etc. happen in UpdateInfo and make the activity really only display stuff.",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_e35ee175",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 628,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T09:07:39Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_63e2d1a1",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T09:07:39Z",
+      "side": 1,
+      "message": "Something in my somehow dislikes using different JSON parsers in different parts of the same code base...\n\nI mean, the request is simple enough, can\u0027t we just use the org.json parser for it?",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_03c74d13",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T09:07:39Z",
+      "side": 1,
+      "message": "Camel caps instead of underscores please.",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_e3d581b9",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T09:07:39Z",
+      "side": 1,
+      "message": "Indent by 8",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_83db5ded",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T09:07:39Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_c3d085cc",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T09:07:39Z",
+      "side": 1,
+      "message": "Indent by 8",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_23ccc934",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-18T09:07:39Z",
+      "side": 1,
+      "message": "I think you don\u0027t need this check.",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
