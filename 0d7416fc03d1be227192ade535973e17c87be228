@@ -104,6 +104,24 @@
     },
     {
       "key": {
+        "uuid": "3a50d1a3_66c5ff59",
+        "filename": "src/com/cyanogenmod/updater/misc/UpdateInfo.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T06:04:17Z",
+      "side": 1,
+      "message": "You must be on an old build, it looks something like \"79d3f33eec\".",
+      "parentUuid": "3a50d1a3_06ff5b02",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_63e2d1a1",
         "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
         "patchSetId": 3
@@ -286,6 +304,24 @@
       "writtenOn": "2013-10-18T19:15:00Z",
       "side": 1,
       "message": "Is this field guaranteed to exist? If not, there should be an obj.has() check around it.",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_46c80375",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T06:04:17Z",
+      "side": 1,
+      "message": "Yes, it will (like all of the other fields) always exist.",
+      "parentUuid": "3a50d1a3_2604d713",
       "revId": "0d7416fc03d1be227192ade535973e17c87be228",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
