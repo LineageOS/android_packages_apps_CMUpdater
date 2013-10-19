@@ -53,6 +53,24 @@
     },
     {
       "key": {
+        "uuid": "3a50d1a3_2694d735",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 621,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T07:15:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a50d1a3_a63787e2",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_c3596590",
         "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
         "patchSetId": 3
@@ -70,6 +88,24 @@
     },
     {
       "key": {
+        "uuid": "3a50d1a3_c698936d",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 622,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T07:15:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a50d1a3_c3596590",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_e35ee175",
         "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
         "patchSetId": 3
@@ -81,6 +117,24 @@
       "writtenOn": "2013-10-18T09:07:39Z",
       "side": 1,
       "message": "100 chars",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_068f5b24",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 628,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T07:15:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a50d1a3_e35ee175",
       "revId": "0d7416fc03d1be227192ade535973e17c87be228",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -139,6 +193,24 @@
     },
     {
       "key": {
+        "uuid": "3a50d1a3_e69d8f5a",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T07:15:58Z",
+      "side": 1,
+      "message": "Because I am lazy and using Ion, which uses GSON, not org.json.",
+      "parentUuid": "3a50d1a3_63e2d1a1",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_03c74d13",
         "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
         "patchSetId": 3
@@ -174,6 +246,24 @@
     },
     {
       "key": {
+        "uuid": "3a50d1a3_86a36b9e",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T07:15:58Z",
+      "side": 1,
+      "message": "correct, see previous comment (using Ion).  I can strip Ion out, since we\u0027re not using it anywhere else, or use Ion everywhere.",
+      "parentUuid": "3a50d1a3_c608932b",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_e3d581b9",
         "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
         "patchSetId": 3
@@ -185,6 +275,24 @@
       "writtenOn": "2013-10-18T09:07:39Z",
       "side": 1,
       "message": "Indent by 8",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_a6a0e791",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T07:15:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a50d1a3_e3d581b9",
       "revId": "0d7416fc03d1be227192ade535973e17c87be228",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -208,6 +316,24 @@
     },
     {
       "key": {
+        "uuid": "3a50d1a3_46ad6387",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T07:15:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a50d1a3_83db5ded",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_c3d085cc",
         "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
         "patchSetId": 3
@@ -219,6 +345,24 @@
       "writtenOn": "2013-10-18T09:07:39Z",
       "side": 1,
       "message": "Indent by 8",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_66aadf72",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T07:15:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a50d1a3_c3d085cc",
       "revId": "0d7416fc03d1be227192ade535973e17c87be228",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -242,6 +386,24 @@
     },
     {
       "key": {
+        "uuid": "3a50d1a3_06b67bdc",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T07:15:58Z",
+      "side": 1,
+      "message": "Derp, good idea.",
+      "parentUuid": "3a50d1a3_06267bba",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_461d6365",
         "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
         "patchSetId": 3
@@ -253,6 +415,24 @@
       "writtenOn": "2013-10-18T19:15:00Z",
       "side": 1,
       "message": "I think this should be done in UpdatesSettings, with a progress dialog that says \u0027Checking for incremental update\u0027 or the like.\n\nI also think it\u0027s not worth introducing another HTTP library here for a single call. IMHO, this should be done using the Apache HTTPClient, wrapped into an AsyncTask so it can be canceled properly if the user cancels the dialog.",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_c6af337c",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T07:15:58Z",
+      "side": 1,
+      "message": "Agree about Ion, I needed to get this done and Ion is dead simple, so I went with it.  If I have time, I\u0027ll remove it and replace with HTTPClient.\n\nThe call is quick, I\u0027m not entirely sure we need to go through the whole process of showing a notification saying we are checking for incremental updates, as most of the time the call is going to finish before the user even has a chance to read the notification.\n\nCompromise on just setting the progress bar to indeterminate while this call is running?",
+      "parentUuid": "3a50d1a3_461d6365",
       "revId": "0d7416fc03d1be227192ade535973e17c87be228",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -276,6 +456,24 @@
     },
     {
       "key": {
+        "uuid": "3a50d1a3_e6b4afd2",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T07:15:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a50d1a3_262b7784",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_23ccc934",
         "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
         "patchSetId": 3
@@ -287,6 +485,24 @@
       "writtenOn": "2013-10-18T09:07:39Z",
       "side": 1,
       "message": "I think you don\u0027t need this check.",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_86ca8b4e",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2013-10-19T07:15:58Z",
+      "side": 1,
+      "message": "You are right, we check again for null in UpdatesSettings.",
+      "parentUuid": "3a50d1a3_23ccc934",
       "revId": "0d7416fc03d1be227192ade535973e17c87be228",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
