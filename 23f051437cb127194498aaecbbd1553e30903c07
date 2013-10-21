@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a50d1a3_723135ec",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 3386
+      },
+      "writtenOn": "2013-10-21T22:34:33Z",
+      "side": 1,
+      "message": "I\u0027d like \"understøttet\" instead of \"supporteret\". Agree?",
+      "revId": "23f051437cb127194498aaecbbd1553e30903c07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_523439dd",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 3386
+      },
+      "writtenOn": "2013-10-21T22:34:33Z",
+      "side": 1,
+      "message": "If you instead write \"Kunne ikke søge efter opdateringer\" or \"Søgning efter opdateringer mislykkedes\", it would be more in line with the other translation I made earlier (fx look at checking_for_updates)",
+      "revId": "23f051437cb127194498aaecbbd1553e30903c07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
