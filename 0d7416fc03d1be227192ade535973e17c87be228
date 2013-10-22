@@ -439,6 +439,24 @@
     },
     {
       "key": {
+        "uuid": "3a50d1a3_cd342e4c",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-22T20:17:16Z",
+      "side": 1,
+      "message": "I think that\u0027d probably be ok.",
+      "parentUuid": "3a50d1a3_c6af337c",
+      "revId": "0d7416fc03d1be227192ade535973e17c87be228",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_262b7784",
         "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
         "patchSetId": 3
