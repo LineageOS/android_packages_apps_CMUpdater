@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da20952f_c282b3c8",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-18T07:08:17Z",
+      "side": 1,
+      "message": "\"yra nepagr?sti\" -\u003e \"neišbandyti\"",
+      "revId": "a9ebb6109c19087291dd55a18d90fc7427de1722",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da20952f_227e0fe5",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-18T07:08:17Z",
+      "side": 1,
+      "message": "?keliama/Atsiun?iama",
+      "revId": "a9ebb6109c19087291dd55a18d90fc7427de1722",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da20952f_826d9b34",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-18T07:08:17Z",
+      "side": 1,
+      "message": "jei yra nauji atnaujinimai, tai turi b?ti ir seni atnaujinimai :)\n\"Rodyti atnaujinim? skai?i?\". Nes gi \"atnaujini\" esam? versij? naujesne, vadinasi negali b?ti senas atnaujinimas, tada jau b?t? sendinimas.",
+      "revId": "a9ebb6109c19087291dd55a18d90fc7427de1722",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
