@@ -1,0 +1,548 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a29b11f_5a545553",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "B?tent šiuo atveju itin netinkamas vertimas, nes: \n    \u003cstring name\u003d\"dialog_update\"\u003eAtnaujinti\u003c/string\u003e",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_7a511162",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "kam tas tuš?iažodžiavimas (papildomos raid?s), kai esm?/reikšm? ta pati?",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_1a4eddc1",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "vis gi neteisingai pataisei. failai jau yra \"atsi?sti\". vadinasi \"Trinti atsi?stus\" kaip tik yra tinkamesnis vertimas, nei tavo si?lomas.",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_3a4b99b2",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "kaip ?sivaizduoji užv?rimo proces?? mes rodos j? skirtingai ?sivaizduojame.\nMano supratimu, tai yra b?tent tai:\nhttp://www.zodynas.lt/terminu-zodynas/u/uzverti",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_dac62516",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "kuo pasiekiami? ranka? koja? dar kuo?",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_ba5ec974",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "\"Kad patikrinti d?l atnaujinim?\" tikrai, tikrai, tikrai gerai?\n\"Nor?dami patikrinti ar yra atnaujinimai\"",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_facbe11c",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "kam bereikalingo raid?s? jos nieko informatyviau neparodo, o užima viet? ir laik? reikaling? šiai informacijai sužinoti/perskaityti.",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_9ad0adcb",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "dabartinio -\u003e esamo/naudojamo.",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_7ad831f0",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "Absoliu?iai nesutinku su pakeitimais. Gavosi dar blogiau nei buvo, nors ir buvo neidealiai.",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_bad569ba",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "iš kur k? paleidi? ?jingimo",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_1ae57da7",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "man rodos skyrybos tr?ksta",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_daedc58f",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "pabaigoj šauktuko netr?ksta?",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_faf2016f",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "o vat seni atnaujinimai rasti?\n\"Atnaujinim? nerasta\"",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_baec8990",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "Patikrinti atnaujinim?? Apie md5sum kalba eina?\no jei tiesiog \"Atnaujinim? rasti nepavyko\"?",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_5a021540",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "Nu kur tu k? pasieki? kam tas bereikalingas tuš?iažodžiavimas ir dar visai ne ? tem??",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_7affd134",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "\"Seni atnaujinimai\"\nKam taisyt tai kas teisinga?",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_3af9594e",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "kas ?ia per naujadaras?",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_da94e5e9",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "tas pats.",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_fa99a120",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "\"Atsiuntimas vykdomas\"",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_baa3294f",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "\"Nepavyksta atsisi?sti atnaujinimo\"",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_5a89b5c9",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "plytas perkraut iš vienos kr?vos ? kit??\nžinau, žinau, n?ra normalaus trumpo vertimo. bet tas \"Perkrauti\" jau taip ak? r?žia...",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_7a86f1ba",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "\"buvo\" išmesk",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_1a933dfc",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "ar gal md5 kontrolin? suma nesutampa?",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_3a9079ec",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "Pritaikyti? Prie žali? ar rožini? užuolaid??\n\"?diegti atnaujinim?\"",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_dabb8574",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "tokiu atveju ?terpk esamos versijos rodym? prieš \"versij?\", nes kitaip nes?moningas sakinys gaunasi.\nNesigauna? Nekeisk. Arba bent \"esam? versij? ?\".",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_fac0c1e2",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "\"Kad persikrauti\" - kiek klasi? baigei? jau tikrai abejoju, kad lankei lietuvi? mokykl?...\n\"veiksen?\"? kas ?ia per? gal apsistokime ties \"režim?\".",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_9ab50d80",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "\"veiksen?\"... grrr... o ir visas sakinys kažkaip neaiškiai skamba.",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_baba496d",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "\"atnaujinimo failus\" -\u003e \"atnaujinimo paketus\"",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_5ab0d58b",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "tas pats",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_3aa71951",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "ir keitimo tikslas koks? kad daugiau neinformatyvaus teksto atsirado?",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_da62a516",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "nesutinku su vertimu, nebent ? \"Esama\", nu blogiausiu atveju \"Naudojama\".",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_fa676123",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-22T09:22:22Z",
+      "side": 1,
+      "message": "maksimoje grietin?s indel? pasiekt gali (jei ne per aukštai), o šiuo atveju pasiekti negali, tik atsisi?sti.",
+      "revId": "12a58821327b551493ffe9af62c15cc820f8c87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
