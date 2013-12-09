@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da85f559_d1dcc41a",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-12-09T05:21:49Z",
+      "side": 1,
+      "message": "Maybe \"Nocne aktualizacje aktywowane. [...]\" ?",
+      "revId": "6396f70da7881f00a52932b6cba1707e33ea1314",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da85f559_f1e1c8d1",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-12-09T05:21:49Z",
+      "side": 1,
+      "message": "maybe remove the \"swoje\" word ?",
+      "revId": "6396f70da7881f00a52932b6cba1707e33ea1314",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
