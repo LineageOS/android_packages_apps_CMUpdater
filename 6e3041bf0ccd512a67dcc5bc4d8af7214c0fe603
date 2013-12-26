@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a68dd71_56419a38",
+        "filename": "res/values-lt/plurals.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-12-26T02:02:10Z",
+      "side": 1,
+      "message": "Please save with Linux/UNIX file endings.",
+      "revId": "6e3041bf0ccd512a67dcc5bc4d8af7214c0fe603",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
