@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_9dce4e59",
+        "filename": "res/values-cs/plurals.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-11T10:10:37Z",
+      "side": 1,
+      "message": "Please duplicate the quantities \u0027one\u0027 and \u0027few\u0027. Otherwise Transifex will refuse to accept these translations.",
+      "revId": "e4d156eced634455b61fa461a996186303693707",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_5dd8d61d",
+        "filename": "res/values-cs/plurals.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-11T10:10:37Z",
+      "side": 1,
+      "message": "^^",
+      "revId": "e4d156eced634455b61fa461a996186303693707",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
