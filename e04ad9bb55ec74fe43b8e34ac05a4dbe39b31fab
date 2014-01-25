@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a54edaf_23e2aaa0",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-25T13:21:33Z",
+      "side": 1,
+      "message": "Please change the ... to \\u2026",
+      "revId": "e04ad9bb55ec74fe43b8e34ac05a4dbe39b31fab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
