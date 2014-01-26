@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a54edaf_a9af5993",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 8639
+      },
+      "writtenOn": "2014-01-26T17:05:10Z",
+      "side": 1,
+      "message": "\u003cstring name\u003d\"no_available_updates_intro\"\u003eA última verificação não encontrou actualizações dispo\nníveis. Para verificar manualmente, utilize o botão \\\u0027Verificar\\\u0027.\u003c/string\u003e",
+      "revId": "044fa89b1703c099b19c845f75c70a92b4dfb8bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a54edaf_4995853e",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 8639
+      },
+      "writtenOn": "2014-01-26T17:05:10Z",
+      "side": 1,
+      "message": "Tipos de atualização",
+      "revId": "044fa89b1703c099b19c845f75c70a92b4dfb8bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a54edaf_6992c159",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 8639
+      },
+      "writtenOn": "2014-01-26T17:05:10Z",
+      "side": 1,
+      "message": "(incl. Nightlies)",
+      "revId": "044fa89b1703c099b19c845f75c70a92b4dfb8bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a54edaf_099f8d60",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 8639
+      },
+      "writtenOn": "2014-01-26T17:05:10Z",
+      "side": 1,
+      "message": "(incl. Nightlies)",
+      "revId": "044fa89b1703c099b19c845f75c70a92b4dfb8bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a54edaf_c9873511",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 8639
+      },
+      "writtenOn": "2014-01-26T17:05:10Z",
+      "side": 1,
+      "message": "Download?",
+      "revId": "044fa89b1703c099b19c845f75c70a92b4dfb8bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a54edaf_e98c7137",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 8639
+      },
+      "writtenOn": "2014-01-26T17:05:10Z",
+      "side": 1,
+      "message": "Cancelar (interromper sugere fazer pausa)",
+      "revId": "044fa89b1703c099b19c845f75c70a92b4dfb8bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a54edaf_89813dfe",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 8639
+      },
+      "writtenOn": "2014-01-26T17:05:10Z",
+      "side": 1,
+      "message": "Deseja cancelar(...)",
+      "revId": "044fa89b1703c099b19c845f75c70a92b4dfb8bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a54edaf_a9867911",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 8639
+      },
+      "writtenOn": "2014-01-26T17:05:10Z",
+      "side": 1,
+      "message": "Cancelado",
+      "revId": "044fa89b1703c099b19c845f75c70a92b4dfb8bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a54edaf_0976ad3e",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 8639
+      },
+      "writtenOn": "2014-01-26T17:05:10Z",
+      "side": 1,
+      "message": "obter acesso !!root!!",
+      "revId": "044fa89b1703c099b19c845f75c70a92b4dfb8bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a54edaf_2973694f",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 8639
+      },
+      "writtenOn": "2014-01-26T17:05:10Z",
+      "side": 1,
+      "message": "changelog não é a lista de melhorias mas sim de alterações ou mudanças, não é necessariamente uma melhoria",
+      "revId": "044fa89b1703c099b19c845f75c70a92b4dfb8bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
