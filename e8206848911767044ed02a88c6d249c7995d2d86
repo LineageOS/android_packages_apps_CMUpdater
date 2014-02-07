@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fade3982_1d9e6456",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 5498
+      },
+      "writtenOn": "2014-02-07T04:13:43Z",
+      "side": 1,
+      "message": "Eu alterava isto para \"A procurar atualizações\".",
+      "revId": "e8206848911767044ed02a88c6d249c7995d2d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fade3982_7da3309f",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 5498
+      },
+      "writtenOn": "2014-02-07T04:13:43Z",
+      "side": 1,
+      "message": "Se quiseres fugir do \"Descarregar\" tens o \"Transferir\".",
+      "revId": "e8206848911767044ed02a88c6d249c7995d2d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fade3982_5da0ec90",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 5498
+      },
+      "writtenOn": "2014-02-07T04:13:43Z",
+      "side": 1,
+      "message": "A mesma coisa que referi no branch cm-10.2",
+      "revId": "e8206848911767044ed02a88c6d249c7995d2d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fade3982_9daa746f",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 5498
+      },
+      "writtenOn": "2014-02-07T04:13:43Z",
+      "side": 1,
+      "message": "Tal como no \"Descarregar\" podes mudar isto para \"Ocorreu um erro na transferência do ficheiro de atualização\"",
+      "revId": "e8206848911767044ed02a88c6d249c7995d2d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fade3982_fdb580d0",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 5498
+      },
+      "writtenOn": "2014-02-07T04:13:43Z",
+      "side": 1,
+      "message": "A mesma coisa que no branch cm-10.2",
+      "revId": "e8206848911767044ed02a88c6d249c7995d2d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fade3982_ddba3cc0",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 5498
+      },
+      "writtenOn": "2014-02-07T04:13:43Z",
+      "side": 1,
+      "message": "Toque ou carregue?",
+      "revId": "e8206848911767044ed02a88c6d249c7995d2d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fade3982_3db088dd",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 5498
+      },
+      "writtenOn": "2014-02-07T04:13:43Z",
+      "side": 1,
+      "message": "Se carregar ou se tocar?",
+      "revId": "e8206848911767044ed02a88c6d249c7995d2d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fade3982_1db5c4cc",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 5498
+      },
+      "writtenOn": "2014-02-07T04:13:43Z",
+      "side": 1,
+      "message": "Acesso a quê?",
+      "revId": "e8206848911767044ed02a88c6d249c7995d2d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fade3982_7dca1051",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 5498
+      },
+      "writtenOn": "2014-02-07T04:13:43Z",
+      "side": 1,
+      "message": "\"Foram apagados todos os ficheiros\"",
+      "revId": "e8206848911767044ed02a88c6d249c7995d2d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
