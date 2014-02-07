@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "fade3982_1d8824e7",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2014-02-07T05:31:00Z",
+      "side": 1,
+      "message": "\"de CM\", ou só \"CM\". Nenhuma tradução removeu o branding.",
+      "revId": "e8206848911767044ed02a88c6d249c7995d2d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fade3982_3d8368ce",
+        "filename": "res/values-pt-rPT/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2014-02-07T05:31:00Z",
+      "side": 1,
+      "message": "Todas as outras referências são a \"actualização\", a utilização de AO aqui é inconsistente com o resto.",
+      "revId": "e8206848911767044ed02a88c6d249c7995d2d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fade3982_1d9e6456",
         "filename": "res/values-pt-rPT/strings.xml",
         "patchSetId": 5
