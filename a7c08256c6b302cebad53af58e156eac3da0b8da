@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fade3982_37ba59e2",
+        "filename": "res/values-ca/cm_translations.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-02-13T18:16:42Z",
+      "side": 1,
+      "message": "Revert this string back to its original form \"apply_update_dialog_text\"",
+      "revId": "a7c08256c6b302cebad53af58e156eac3da0b8da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
