@@ -19,6 +19,40 @@
     },
     {
       "key": {
+        "uuid": "ba0121b8_5ee2a5a0",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2014-06-12T19:50:12Z",
+      "side": 1,
+      "message": "^ delete",
+      "revId": "0cc7ec0e682572ad4e42da6f958bd36d9137281f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_7ee5e9a6",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2014-06-12T19:50:12Z",
+      "side": 1,
+      "message": "If user has type\u003d3 stored right now, they\u0027ll hit an out-of-bounds crash below. Insert a check here (or above) to see if stored type is in the update_type_values array.",
+      "revId": "0cc7ec0e682572ad4e42da6f958bd36d9137281f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba0121b8_1e794d30",
         "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
         "patchSetId": 2
