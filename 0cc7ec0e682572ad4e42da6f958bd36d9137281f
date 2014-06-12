@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_3e7c1120",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-06-12T11:57:05Z",
+      "side": 1,
+      "message": "Is this no longer going to be an option?",
+      "revId": "0cc7ec0e682572ad4e42da6f958bd36d9137281f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_1e794d30",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-06-12T11:57:05Z",
+      "side": 1,
+      "message": "Seems like we might as well change all the code references from STABLE to release?",
+      "revId": "0cc7ec0e682572ad4e42da6f958bd36d9137281f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
