@@ -53,6 +53,24 @@
     },
     {
       "key": {
+        "uuid": "ba0121b8_9e671d25",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-06-12T23:32:17Z",
+      "side": 1,
+      "message": "agreed, will be troublesome really really bad",
+      "parentUuid": "ba0121b8_7ee5e9a6",
+      "revId": "0cc7ec0e682572ad4e42da6f958bd36d9137281f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba0121b8_1e794d30",
         "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
         "patchSetId": 2
