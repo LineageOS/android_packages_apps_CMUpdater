@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_003c3192",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-06-27T21:58:59Z",
+      "side": 1,
+      "message": "Doing join() here merely avoids the network-on-main-thread exception, but doesn\u0027t actually stop the UI thread from being blocked.\n\nIs the join() really needed? I\u0027d probably fire off an AsyncTask, passing in the executor as parameter and setting mHttpExecutor to null.",
+      "revId": "39975f824849d074526131e1cb6647a335d387d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
