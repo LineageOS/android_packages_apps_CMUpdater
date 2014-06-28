@@ -16,6 +16,24 @@
       "revId": "39975f824849d074526131e1cb6647a335d387d1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_40b589cb",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2014-06-28T04:36:19Z",
+      "side": 1,
+      "message": "Given that the old code just call abort inside this method and nobody claims about ANR or crashes in this method, i don\u0027t think that holding the UI is a matter a here. Is just a question of milliseconds to abort the download. It just need to be done in a separete thread.\nCreating a AsyncTask just for a task of milliseconds, which will need a lock to ensure that the service don\u0027t be killed is a lot of code for me just for a simple task. My actual patch have wait just for the abort and not more than 5000 (the ANR timeout).\n\nDanny, anyway, if you still want to see an AyncTask i have no problem to change it.",
+      "parentUuid": "ba0121b8_003c3192",
+      "revId": "39975f824849d074526131e1cb6647a335d387d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
