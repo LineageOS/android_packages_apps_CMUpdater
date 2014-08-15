@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_fc3aa1e6",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadNotifier.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-15T19:04:22Z",
+      "side": 1,
+      "message": "Please add the copyright header.",
+      "revId": "d0182a68e1004a25ca1ebf8b34ebb398ee73c828",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_dc3fe5d4",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadNotifier.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-15T19:04:22Z",
+      "side": 1,
+      "message": "Indent by 8 (here and below)",
+      "revId": "d0182a68e1004a25ca1ebf8b34ebb398ee73c828",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_3c2539c2",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadNotifier.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-15T19:04:22Z",
+      "side": 1,
+      "message": "Using this style would probably be a bit easier on the eyes:\n\nNotification.Builder builder \u003d createBaseContentBuilder(context, updateIntent)\n        .setSmallIcon(R.drawable.cm_updater)\n        .setContentTitle(context.getString(R.string.not_download_success)\n        .setContentText(updateUiName)\n        .setTicker(context.getString(R.string.not_download_success));",
+      "revId": "d0182a68e1004a25ca1ebf8b34ebb398ee73c828",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_7c2fb1a1",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-15T19:04:22Z",
+      "side": 1,
+      "message": "Pass in DownloadManager instead of Context here, as you\u0027ve fetched it already anyway?",
+      "revId": "d0182a68e1004a25ca1ebf8b34ebb398ee73c828",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_5c2c75ab",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-15T19:04:22Z",
+      "side": 1,
+      "message": "try {\n    if (c.moveToFirst()) {\n        return c.getString(...);\n    }\n} finally {\n    c.close();\n}\nreturn null;\n\n\nSame below.",
+      "revId": "d0182a68e1004a25ca1ebf8b34ebb398ee73c828",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
