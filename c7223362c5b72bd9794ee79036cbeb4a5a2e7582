@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_9c1c4d79",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-15T19:06:29Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "c7223362c5b72bd9794ee79036cbeb4a5a2e7582",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_fc11015f",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-15T19:06:29Z",
+      "side": 1,
+      "message": "No. \"throws NullPointerException\" is just plain ugly. Please replace that by proper null checks.",
+      "revId": "c7223362c5b72bd9794ee79036cbeb4a5a2e7582",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
