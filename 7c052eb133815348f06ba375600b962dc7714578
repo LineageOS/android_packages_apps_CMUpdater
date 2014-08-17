@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_8ae51baa",
+        "filename": "src/com/cyanogenmod/updater/utils/HttpRequestExecutor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2014-08-17T01:13:15Z",
+      "side": 1,
+      "message": "IMO, it\u0027s better to use an internal var here like mAborting and set mAbort \u003d true in the thread after abort.\n\nI know you don\u0027t like, but IHMO we should block the abort operation with a join, but this is an internal class of the upsater so is safe if callers makes also safe calls. The abort operation is just a few milliseconds in the 99% percent of the cases. Up to you.",
+      "revId": "7c052eb133815348f06ba375600b962dc7714578",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
