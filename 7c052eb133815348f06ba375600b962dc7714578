@@ -16,6 +16,24 @@
       "revId": "7c052eb133815348f06ba375600b962dc7714578",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_6569d08b",
+        "filename": "src/com/cyanogenmod/updater/utils/HttpRequestExecutor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-18T00:25:34Z",
+      "side": 1,
+      "message": "But what\u0027s the gain from that? Callers of isAborted() just want to know whether the update check was cancelled; they don\u0027t care about the actual state of the HTTP request, so mAborted having the meaning of \"abort was requested\" should work for them.",
+      "parentUuid": "7a1b2928_8ae51baa",
+      "revId": "7c052eb133815348f06ba375600b962dc7714578",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
