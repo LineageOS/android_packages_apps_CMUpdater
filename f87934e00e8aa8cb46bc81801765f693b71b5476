@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_ebb811e8",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2014-08-19T11:22:06Z",
+      "side": 1,
+      "message": "new line for .build()?",
+      "revId": "f87934e00e8aa8cb46bc81801765f693b71b5476",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
