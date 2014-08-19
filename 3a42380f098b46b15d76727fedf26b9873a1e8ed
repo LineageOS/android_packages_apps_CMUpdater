@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_8bc87d76",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadReceiver.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2014-08-19T11:28:17Z",
+      "side": 1,
+      "message": ":(",
+      "revId": "3a42380f098b46b15d76727fedf26b9873a1e8ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_6bc5215a",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2014-08-19T11:28:17Z",
+      "side": 1,
+      "message": "need a new line here.",
+      "revId": "3a42380f098b46b15d76727fedf26b9873a1e8ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
