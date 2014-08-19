@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_2b5b2956",
+        "filename": "src/com/cyanogenmod/updater/misc/UpdateInfo.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:34:41Z",
+      "side": 1,
+      "message": "Why make those public when there are getters?",
+      "revId": "9551df1f0b521e22dc3c1a6d7a3ef5a70321ca14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_8b587d58",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadService.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:34:41Z",
+      "side": 1,
+      "message": ".build() should be on a new line.",
+      "revId": "9551df1f0b521e22dc3c1a6d7a3ef5a70321ca14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_6b55211c",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 370,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:34:41Z",
+      "side": 1,
+      "message": ".build() should be on a new line.",
+      "revId": "9551df1f0b521e22dc3c1a6d7a3ef5a70321ca14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
