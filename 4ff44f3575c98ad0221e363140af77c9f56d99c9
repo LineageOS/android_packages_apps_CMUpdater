@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_ab673924",
+        "filename": "src/com/cyanogenmod/updater/UpdateApplication.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:31:36Z",
+      "side": 1,
+      "message": "sRequestQueue\n\nOr (IMHO preferred) don\u0027t make the variable and the getter static and access it through getApplicationContext()",
+      "revId": "4ff44f3575c98ad0221e363140af77c9f56d99c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_0b6d8d04",
+        "filename": "src/com/cyanogenmod/updater/requests/ChangeLogRequest.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:31:36Z",
+      "side": 1,
+      "message": "Can kill the this. here.",
+      "revId": "4ff44f3575c98ad0221e363140af77c9f56d99c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_eb7131e2",
+        "filename": "src/com/cyanogenmod/updater/requests/UpdatesJsonObjectRequest.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:31:36Z",
+      "side": 1,
+      "message": "Can kill the this. here.",
+      "revId": "4ff44f3575c98ad0221e363140af77c9f56d99c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_cb49d590",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:31:36Z",
+      "side": 1,
+      "message": "Indention is off here. I suggest to put the listener in a local variable:\n\nfinal Response.Listener\u003cJSONObject\u003e successListener \u003d new Response.Listener\u003cJSONObject\u003e() {\n    [...]\n};\n[...same for error...]\n\nrequest \u003d new UpdatesJsonObject(requestUri.toASCIIString(),\n        Utils.getUserAgentString(this), buildRequestBody(sourceIncremental, ui),\n        successListener, errorListener);",
+      "revId": "4ff44f3575c98ad0221e363140af77c9f56d99c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_ab4e1994",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:31:36Z",
+      "side": 1,
+      "message": "Isn\u0027t this added by UpdatesJsonObject itself?",
+      "revId": "4ff44f3575c98ad0221e363140af77c9f56d99c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_0b446d72",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:31:36Z",
+      "side": 1,
+      "message": "Can move to UpdatesJsonObject (or maybe is even added by the base class)?",
+      "revId": "4ff44f3575c98ad0221e363140af77c9f56d99c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_eb48118a",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 394,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:31:36Z",
+      "side": 1,
+      "message": "Indention looks weird here, see comment in DownloadService.java.",
+      "revId": "4ff44f3575c98ad0221e363140af77c9f56d99c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
