@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_2b2209ba",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:38:14Z",
+      "side": 1,
+      "message": "getBaseContext() -\u003e this",
+      "revId": "bc0e6ebfc3ba9d4dab441b38a78c9f4ffe55dc3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_0b3bcdec",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:38:14Z",
+      "side": 1,
+      "message": "Same as below, this should fit on one line.",
+      "revId": "bc0e6ebfc3ba9d4dab441b38a78c9f4ffe55dc3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_ab3579f8",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:38:14Z",
+      "side": 1,
+      "message": "This fits on one line, doesn\u0027t it?",
+      "revId": "bc0e6ebfc3ba9d4dab441b38a78c9f4ffe55dc3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_eb3f71d4",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:38:14Z",
+      "side": 1,
+      "message": "getBaseContext() -\u003e this",
+      "revId": "bc0e6ebfc3ba9d4dab441b38a78c9f4ffe55dc3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_4b25c5c0",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-19T18:38:14Z",
+      "side": 1,
+      "message": "getBaseContext() -\u003e this",
+      "revId": "bc0e6ebfc3ba9d4dab441b38a78c9f4ffe55dc3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
