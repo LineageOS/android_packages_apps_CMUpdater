@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_8073374d",
+        "filename": "src/com/cyanogenmod/updater/misc/FetchChangeLogTask.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-20T20:06:15Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "8cb2db29d83e955cc8a8fac93828e3aa1b3cc8fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
