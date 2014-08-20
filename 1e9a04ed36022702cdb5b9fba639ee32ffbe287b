@@ -16,6 +16,24 @@
       "revId": "1e9a04ed36022702cdb5b9fba639ee32ffbe287b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_dd035c75",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2014-08-20T07:36:40Z",
+      "side": 1,
+      "message": "Is the check necessary? We don\u0027t fetch the changelog unless we received a good response from the server for a specific UpdateInfo. Any ACTION_CANCEL_CHECK sent to the service would cancel all the queued requests, including pending changelog files. I have a new patchset which addresses an NPE regarding the cancelAll, but I don\u0027t completely understand why we shouldn\u0027t fetch a changelog for an UpdateInfo we already received information about.\n\nAn alternative means of stopping the queuing of the requests is to just call stop on the RequestQueue itself whenever ACTION_CANCEL_CHECK occurs, but I\u0027m not sure if I like that.",
+      "parentUuid": "7a1b2928_1d7cb471",
+      "revId": "1e9a04ed36022702cdb5b9fba639ee32ffbe287b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
