@@ -52,6 +52,24 @@
       "revId": "1e9a04ed36022702cdb5b9fba639ee32ffbe287b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_bd64a049",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2014-08-20T08:16:20Z",
+      "side": 1,
+      "message": "Maybe then the best course of action is to only fetch the changelog when you explicitly click on an UpdatePreference, it resolves the need for checking if a update check was cancelled from a separate thread, and it addresses those concerned about their data plan being completely thrashed by our massive changelogs.",
+      "parentUuid": "7a1b2928_9d20c4f9",
+      "revId": "1e9a04ed36022702cdb5b9fba639ee32ffbe287b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
