@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_1d7cb471",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-08-20T00:38:00Z",
+      "side": 1,
+      "message": "This needs to be skipped if the check was cancelled (like it was in line 343-345 before).",
+      "revId": "1e9a04ed36022702cdb5b9fba639ee32ffbe287b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
