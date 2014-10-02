@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_59d55cb7",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2014-10-02T15:35:32Z",
+      "side": 1,
+      "message": "if app hasn\u0027t been opened, then UpdateCheckService can still get updateType \u003d\u003d 2 here for background update checks. need to follow this up with a check to make sure updateType is one of the only two available values.",
+      "revId": "1a395ef72468cee52ae3170bc3d41743a21c3aa2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_b9dc70e5",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2014-10-02T15:35:32Z",
+      "side": 1,
+      "message": "maybe same comment as above, but i think by the time onResponse is called, that shouldn\u0027t be an issue. right?",
+      "revId": "1a395ef72468cee52ae3170bc3d41743a21c3aa2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
