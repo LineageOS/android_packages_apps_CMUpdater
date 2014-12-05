@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_93f8817e",
+        "filename": "res/layout/preference_updates.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-12-05T08:57:29Z",
+      "side": 1,
+      "message": "If I remove this, the available updates preference gets the right padding. However the update frequency preference still has extra 8dp of padding that I couldn\u0027t figure out how to remove",
+      "revId": "3c32fdee28d9943d082058d55aa790bc62801582",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
