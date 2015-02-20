@@ -16,6 +16,24 @@
       "revId": "d20b0c642b5db65b461abfefb079cfb35976c9be",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_44b0fff4",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2015-02-20T13:50:55Z",
+      "side": 1,
+      "message": "If I don\u0027t add the system uid then I need to add another policy line for platform_app to access recovery_cache_file....not sure which is best to do?",
+      "parentUuid": "bacf61ea_4eb5c0cb",
+      "revId": "d20b0c642b5db65b461abfefb079cfb35976c9be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
