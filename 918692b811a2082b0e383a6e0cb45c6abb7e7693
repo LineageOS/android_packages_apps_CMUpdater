@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a89bdaa_d79072ef",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2015-05-15T09:29:59Z",
+      "side": 1,
+      "message": "We don\u0027t \"Click\" in Android......\nShould use \"Tap\"",
+      "revId": "918692b811a2082b0e383a6e0cb45c6abb7e7693",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
