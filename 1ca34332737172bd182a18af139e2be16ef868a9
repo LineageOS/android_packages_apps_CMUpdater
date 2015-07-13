@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_a0e03e98",
+        "filename": "src/com/cyanogenmod/updater/receiver/DownloadNotifier.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2015-07-13T20:28:52Z",
+      "side": 1,
+      "message": "100 char",
+      "revId": "1ca34332737172bd182a18af139e2be16ef868a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
