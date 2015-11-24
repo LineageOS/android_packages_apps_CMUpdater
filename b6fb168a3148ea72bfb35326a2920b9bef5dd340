@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff82abbf_e23d062d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-11-24T06:34:08Z",
+      "side": 1,
+      "message": "Wonder if we should note here that the user should re-request or anything.",
+      "revId": "b6fb168a3148ea72bfb35326a2920b9bef5dd340",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
