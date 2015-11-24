@@ -16,6 +16,24 @@
       "revId": "b6fb168a3148ea72bfb35326a2920b9bef5dd340",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_22820eca",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 10953
+      },
+      "writtenOn": "2015-11-24T06:39:22Z",
+      "side": 1,
+      "message": "Maybe something like \"The permission to write to external storage was not granted. If you want to proceed with the download, please try again and grant the permission.\" ?",
+      "parentUuid": "ff82abbf_e23d062d",
+      "revId": "b6fb168a3148ea72bfb35326a2920b9bef5dd340",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
