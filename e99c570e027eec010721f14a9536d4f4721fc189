@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_994a2825",
+        "filename": "src/com/cyanogenmod/updater/utils/Utils.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-01-31T03:28:03Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "e99c570e027eec010721f14a9536d4f4721fc189",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_b947e41d",
+        "filename": "src/com/cyanogenmod/updater/utils/Utils.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-01-31T03:28:03Z",
+      "side": 1,
+      "message": "Didn\u0027t know this even had an API, nice!",
+      "revId": "e99c570e027eec010721f14a9536d4f4721fc189",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
