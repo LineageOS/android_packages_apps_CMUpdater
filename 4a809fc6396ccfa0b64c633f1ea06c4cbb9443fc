@@ -16,6 +16,24 @@
       "revId": "4a809fc6396ccfa0b64c633f1ea06c4cbb9443fc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_7199836c",
+        "filename": "src/com/cyanogenmod/updater/utils/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 14364
+      },
+      "writtenOn": "2016-02-06T10:55:34Z",
+      "side": 1,
+      "message": "Never mind it\u0027s handled inside android.os.RecoverySystem.installPackage",
+      "parentUuid": "1fcbff3d_b137ebb0",
+      "revId": "4a809fc6396ccfa0b64c633f1ea06c4cbb9443fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
