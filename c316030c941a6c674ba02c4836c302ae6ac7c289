@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_16739c82",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-04-21T20:26:24Z",
+      "side": 1,
+      "message": "not necessary to comment on why you added these, the patch\u0027s commit message should suffice",
+      "range": {
+        "startLine": 98,
+        "startChar": 4,
+        "endLine": 98,
+        "endChar": 66
+      },
+      "revId": "c316030c941a6c674ba02c4836c302ae6ac7c289",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
