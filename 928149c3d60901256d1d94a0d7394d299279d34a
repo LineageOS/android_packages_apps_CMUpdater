@@ -1,0 +1,78 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_1612bc59",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-21T18:32:53Z",
+      "side": 1,
+      "message": "Indentation in comments should be the same as the strings.",
+      "revId": "928149c3d60901256d1d94a0d7394d299279d34a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_760d3036",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-21T18:32:53Z",
+      "side": 1,
+      "message": "Cancel",
+      "range": {
+        "startLine": 102,
+        "startChar": 31,
+        "endLine": 102,
+        "endChar": 38
+      },
+      "revId": "928149c3d60901256d1d94a0d7394d299279d34a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_56083427",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-21T18:32:53Z",
+      "side": 1,
+      "message": "No need for these comments",
+      "revId": "928149c3d60901256d1d94a0d7394d299279d34a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_b603a80d",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-21T18:32:53Z",
+      "side": 1,
+      "message": "Wrap to 100 chars per line here and below",
+      "revId": "928149c3d60901256d1d94a0d7394d299279d34a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
