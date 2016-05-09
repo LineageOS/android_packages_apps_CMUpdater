@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_f677a939",
+        "filename": "src/com/cyanogenmod/updater/utils/Utils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-05-09T23:18:46Z",
+      "side": 1,
+      "message": "length",
+      "range": {
+        "startLine": 125,
+        "startChar": 97,
+        "endLine": 125,
+        "endChar": 101
+      },
+      "revId": "5d6e5e57ae9da1e4aba039eb0f5a1f5646281258",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
