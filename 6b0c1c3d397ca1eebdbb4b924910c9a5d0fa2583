@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_c6741c6b",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-05-18T23:22:37Z",
+      "side": 1,
+      "message": "Is getString required here? I see it\u0027s not used in other strings below.",
+      "range": {
+        "startLine": 249,
+        "startChar": 53,
+        "endLine": 249,
+        "endChar": 62
+      },
+      "revId": "6b0c1c3d397ca1eebdbb4b924910c9a5d0fa2583",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
