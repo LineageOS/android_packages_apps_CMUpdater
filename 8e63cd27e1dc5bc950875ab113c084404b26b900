@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_a2c43960",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 787,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-06-09T19:18:10Z",
+      "side": 1,
+      "message": "is it worth propagating the permission that wasn\u0027t granted to the user?",
+      "range": {
+        "startLine": 783,
+        "startChar": 0,
+        "endLine": 787,
+        "endChar": 36
+      },
+      "revId": "8e63cd27e1dc5bc950875ab113c084404b26b900",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
