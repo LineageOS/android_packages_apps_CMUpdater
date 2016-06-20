@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_10c3003a",
+        "filename": "res/values-it/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2016-06-20T18:43:42Z",
+      "side": 1,
+      "message": "delete",
+      "range": {
+        "startLine": 50,
+        "startChar": 121,
+        "endLine": 50,
+        "endChar": 151
+      },
+      "revId": "1da35f86b161d5738dbc16bc374e5ec392095ac3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
