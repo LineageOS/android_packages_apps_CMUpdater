@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_60cc1d6a",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2016-09-24T12:15:23Z",
+      "side": 1,
+      "message": "¯\\_(?)_/¯",
+      "revId": "fe9348bc6d1ac847f745379c75c57b5fc3d1db2e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
