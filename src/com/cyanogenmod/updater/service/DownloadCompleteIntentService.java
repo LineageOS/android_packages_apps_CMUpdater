@@ -94,7 +94,7 @@ public class DownloadCompleteIntentService extends IntentService {
                 if (destFile.exists()) {
                     destFile.delete();
                 }
-                displayErrorResult(updateIntent, R.string.md5_verification_failed);
+                displayErrorResult(updateIntent, R.string.verification_failed);
                 return;
             }
 
