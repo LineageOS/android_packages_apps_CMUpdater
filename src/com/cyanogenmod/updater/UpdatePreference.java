@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2012 The CyanogenMod Project
+ * Copyright (C) 2017 The LineageOS Project
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -93,8 +94,8 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
         super.onBindView(view);
 
         // Store the views from the layout
-        mUpdatesButton = (ImageView)view.findViewById(R.id.updates_button);
-        mUpdatesButton.setOnClickListener(mButtonClickListener);
+        //mUpdatesButton = (ImageView)view.findViewById(R.id.updates_button);
+        view.setOnClickListener(mButtonClickListener);
 
         mTitleText = (TextView)view.findViewById(android.R.id.title);
         mSummaryText = (TextView)view.findViewById(android.R.id.summary);

@@ -29,6 +29,7 @@ import com.android.volley.VolleyLog;
 
 import com.cyanogenmod.updater.R;
 import com.cyanogenmod.updater.UpdateApplication;
+import com.cyanogenmod.updater.UpdatesActivity;
 import com.cyanogenmod.updater.requests.UpdatesJsonObjectRequest;
 import com.cyanogenmod.updater.UpdatesSettings;
 import com.cyanogenmod.updater.misc.Constants;
@@ -126,7 +127,7 @@ public class UpdateCheckService extends IntentService
         if (realUpdateCount != 0 && !app.isMainActivityActive()) {
             // There are updates available
             // The notification should launch the main app
-            Intent i = new Intent(this, UpdatesSettings.class);
+            Intent i = new Intent(this, UpdatesActivity.class);
             i.putExtra(UpdatesSettings.EXTRA_UPDATE_LIST_UPDATED, true);
             PendingIntent contentIntent = PendingIntent.getActivity(this, 0, i,
                     PendingIntent.FLAG_ONE_SHOT);
@@ -236,27 +237,21 @@ public class UpdateCheckService extends IntentService
     }
 
     private JSONObject buildUpdateRequest(int updateType) throws JSONException {
-        JSONArray channels = new JSONArray();
-
+        JSONObject params = new JSONObject();
+        params.put("device", Utils.getDeviceType());
+        //params.put("romversion", Utils.getInstalledVersion());
+        params.put("utc_timestamp", Utils.getInstalledBuildDate());
         switch(updateType) {
             case Constants.UPDATE_TYPE_SNAPSHOT:
-                channels.put("snapshot");
+                params.put("romtype", "snapshot");
                 break;
             case Constants.UPDATE_TYPE_NIGHTLY:
             default:
-                channels.put("nightly");
+                params.put("romtype", "nightly");
                 break;
         }
-        JSONObject params = new JSONObject();
-        params.put("device", TESTING_DOWNLOAD ? "cmtestdevice" : Utils.getDeviceType());
-        params.put("channels", channels);
-        params.put("source_incremental", Utils.getIncremental());
 
-        JSONObject request = new JSONObject();
-        request.put("method", "get_all_builds");
-        request.put("params", params);
-
-        return request;
+        return params;
     }
 
     private LinkedList<UpdateInfo> parseJSON(String jsonString, int updateType) {
