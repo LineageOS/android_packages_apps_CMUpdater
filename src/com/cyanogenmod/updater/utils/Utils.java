@@ -137,9 +137,4 @@ public class Utils {
 
         return updateType;
     }
-
-    public static boolean hasLeanback(Context context) {
-        PackageManager packageManager = context.getPackageManager();
-        return packageManager.hasSystemFeature(PackageManager.FEATURE_LEANBACK);
-    }
 }
