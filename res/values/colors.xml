@@ -16,4 +16,13 @@
     <color name="refresh_icon_color">@android:color/white</color>
     <color name="notification_icon_color">@android:color/white</color>
     <color name="action_icons_color">@color/theme_accent</color>
+
+    <color name="black">#333333</color>
+    <color name="white">#f5f5f5</color>
+    <color name="weekly">@color/theme_accent</color>
+    <color name="snapshot">@color/theme_accent</color>
+    <color name="card_background">@color/white</color>
+    <color name="title_color">#de000000</color>
+    <color name="secondary_color">#8a000000</color>
+
 </resources>
