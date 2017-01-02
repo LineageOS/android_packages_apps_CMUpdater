@@ -29,6 +29,7 @@ import com.android.volley.VolleyLog;
 
 import com.cyanogenmod.updater.R;
 import com.cyanogenmod.updater.UpdateApplication;
+import com.cyanogenmod.updater.UpdatesActivity;
 import com.cyanogenmod.updater.requests.UpdatesJsonObjectRequest;
 import com.cyanogenmod.updater.UpdatesSettings;
 import com.cyanogenmod.updater.misc.Constants;
@@ -126,7 +127,7 @@ public class UpdateCheckService extends IntentService
         if (realUpdateCount != 0 && !app.isMainActivityActive()) {
             // There are updates available
             // The notification should launch the main app
-            Intent i = new Intent(this, UpdatesSettings.class);
+            Intent i = new Intent(this, UpdatesActivity.class);
             i.putExtra(UpdatesSettings.EXTRA_UPDATE_LIST_UPDATED, true);
             PendingIntent contentIntent = PendingIntent.getActivity(this, 0, i,
                     PendingIntent.FLAG_ONE_SHOT);
