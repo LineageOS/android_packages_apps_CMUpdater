@@ -90,4 +90,9 @@
     <string name="no_changelog_alert">No changelog available</string>
     <string name="changelog_dialog_title">Changelog</string>
     <string name="loading_changelog">Loading\u2026</string>
+
+    <string name="date_formatting">MMMM dd, yyyy</string>
+    <string name="update_api" translatable="false">LineageOS %1$s • Android %2$s</string>
+    <string name="header_lineage" translatable="false">LineageOS %1$s</string>
+
 </resources>
