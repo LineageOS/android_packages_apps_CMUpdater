@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
+ * Copyright (C) 2017 The LineageOS Project
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -37,6 +38,7 @@ public class DownloadReceiver extends BroadcastReceiver{
     public static final String ACTION_DOWNLOAD_STARTED = "com.cyanogenmod.cmupdater.action.DOWNLOAD_STARTED";
 
     static final String ACTION_INSTALL_UPDATE = "com.cyanogenmod.cmupdater.action.INSTALL_UPDATE";
+    static final String ACTION_INSTALL_REBOOT = "com.cyanogenmod.cmupdater.action.INSTALL_REBOOT";
     static final String EXTRA_FILENAME = "filename";
 
     @Override
@@ -61,6 +63,8 @@ public class DownloadReceiver extends BroadcastReceiver{
                             Toast.LENGTH_SHORT).show();
                 Utils.cancelNotification(context);
             }
+        } else if (ACTION_INSTALL_REBOOT.equals(action)) {
+            Utils.triggerReboot(context);
         }
     }
 
