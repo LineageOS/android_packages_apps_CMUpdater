@@ -86,4 +86,11 @@
     <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
     <string name="download_button">Download</string>
     <string name="install_button">Install</string>
+
+    <!-- A/B OTA -->
+    <string name="processing_zip_file">Processing update package</string>
+    <string name="processing_zip_complete">Processing update package complete</string>
+    <string name="processing_zip_failed">Uh oh, something went wrong...processing update package failed</string>
+    <string name="installing_package">Installing update package in the background</string>
+    <string name="installing_package_progress">Progress: 69%</string>
 </resources>
