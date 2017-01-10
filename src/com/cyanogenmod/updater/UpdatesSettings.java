@@ -46,18 +46,23 @@ import com.cyanogenmod.updater.misc.Constants;
 import com.cyanogenmod.updater.misc.State;
 import com.cyanogenmod.updater.misc.UpdateInfo;
 import com.cyanogenmod.updater.receiver.DownloadReceiver;
+import com.cyanogenmod.updater.service.ABOTAService;
 import com.cyanogenmod.updater.service.UpdateCheckService;
+import com.cyanogenmod.updater.service.ZipExtractionService;
 import com.cyanogenmod.updater.utils.UpdateFilter;
 import com.cyanogenmod.updater.utils.Utils;
 
 import org.cyanogenmod.internal.util.ScreenType;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 public class UpdatesSettings extends PreferenceFragment implements
         OnPreferenceChangeListener, UpdatePreference.OnReadyListener, UpdatePreference.OnActionListener {
@@ -118,6 +123,71 @@ public class UpdatesSettings extends PreferenceFragment implements
                     }
                 }
                 updateLayout();
+            } else if (ZipExtractionService.ACTION_EXTRACT_FINISHED.equals(action)) {
+                if (mProgressDialog != null) {
+                    mProgressDialog.dismiss();
+                    mProgressDialog = null;
+                }
+
+                String filename = intent.getStringExtra(ZipExtractionService.EXTRA_ZIP_NAME);
+                filename = filename.substring(filename.lastIndexOf('/') + 1);
+                String dialogBody = getString(R.string.apply_ab_update_dialog_text, filename);
+
+                new AlertDialog.Builder(getActivity())
+                        .setTitle(R.string.apply_ab_update_dialog_title)
+                        .setMessage(dialogBody)
+                        .setPositiveButton(R.string.dialog_update, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent intent = new Intent(mContext, ABOTAService.class);
+                                mContext.startService(intent);
+                            }
+                        })
+                        .setNegativeButton(R.string.dialog_cancel, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                // Do nothing and allow the dialog to be dismissed
+                            }
+                        })
+                        .setOnDismissListener(new DialogInterface.OnDismissListener() {
+                            @Override
+                            public void onDismiss(DialogInterface dialog) {
+                                // Do nothing and allow the dialog to be dismissed
+                            }
+                        })
+                        .show();
+            } else if (ZipExtractionService.ACTION_EXTRACT_ERRORED.equals(action)) {
+                if (mProgressDialog != null) {
+                    mProgressDialog.dismiss();
+                    mProgressDialog = null;
+                }
+
+                showSnack(mContext.getString(R.string.processing_zip_failed));
+            } else if (ABOTAService.ACTION_UPDATE_INSTALL_FINISHED.equals(action)) {
+                new AlertDialog.Builder(getActivity())
+                        .setTitle(R.string.ab_update_finished_title)
+                        .setMessage(R.string.ab_update_finished_message)
+                        .setPositiveButton(R.string.dialog_reboot, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Utils.triggerReboot(mContext);
+                            }
+                        })
+                        .setNegativeButton(R.string.dialog_cancel, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                // Do nothing and allow the dialog to be dismissed
+                            }
+                        })
+                        .setOnDismissListener(new DialogInterface.OnDismissListener() {
+                            @Override
+                            public void onDismiss(DialogInterface dialog) {
+                                // Do nothing and allow the dialog to be dismissed
+                            }
+                        })
+                        .show();
+            } else if (ABOTAService.ACTION_UPDATE_INSTALL_FAILED.equals(action)) {
+                // show dialog that shit went bad
             }
         }
     };
@@ -214,6 +284,10 @@ public class UpdatesSettings extends PreferenceFragment implements
 
         IntentFilter filter = new IntentFilter(UpdateCheckService.ACTION_CHECK_FINISHED);
         filter.addAction(DownloadReceiver.ACTION_DOWNLOAD_STARTED);
+        filter.addAction(ZipExtractionService.ACTION_EXTRACT_FINISHED);
+        filter.addAction(ZipExtractionService.ACTION_EXTRACT_ERRORED);
+        filter.addAction(ABOTAService.ACTION_UPDATE_INSTALL_FINISHED);
+        filter.addAction(ABOTAService.ACTION_UPDATE_INSTALL_FAILED);
         mContext.registerReceiver(mReceiver, filter);
 
         checkForDownloadCompleted(getActivity().getIntent());
@@ -646,7 +720,7 @@ public class UpdatesSettings extends PreferenceFragment implements
         boolean success;
         //mUpdateFolder: Foldername with fullpath of SDCARD
         if (mUpdateFolder.exists() && mUpdateFolder.isDirectory()) {
-            deleteDir(mUpdateFolder);
+            Utils.deleteDir(mUpdateFolder);
             mUpdateFolder.mkdir();
             success = true;
             showSnack(mContext.getString(R.string.delete_updates_success_message));
@@ -659,22 +733,58 @@ public class UpdatesSettings extends PreferenceFragment implements
         return success;
     }
 
-    private static boolean deleteDir(File dir) {
-        if (dir.isDirectory()) {
-            String[] children = dir.list();
-            for (String aChildren : children) {
-                boolean success = deleteDir(new File(dir, aChildren));
-                if (!success) {
-                    return false;
-                }
-            }
-        }
-        // The directory is now empty so delete it
-        return dir.delete();
+    private void extractZip(String filename) {
+        mProgressDialog = new ProgressDialog(mContext);
+        mProgressDialog.setTitle(R.string.processing_zip_file);
+        mProgressDialog.setMessage(getString(R.string.processing_zip_file));
+        mProgressDialog.setIndeterminate(true);
+
+        Intent intent = new Intent(mContext, ZipExtractionService.class);
+        intent.putExtra(ZipExtractionService.EXTRA_ZIP_NAME, filename);
+        mContext.startService(intent);
+
+        mProgressDialog.show();
     }
 
     @Override
     public void onStartUpdate(UpdatePreference pref) {
+        if (isABUpdate(pref)) {
+            startABUpdate(pref);
+        } else {
+            startRecoveryUpdate(pref);
+        }
+    }
+
+    private boolean isABUpdate(UpdatePreference pref) {
+        final String filename = Utils.makeUpdateFolder(mContext).getPath() + "/" +
+                                pref.getUpdateInfo().getFileName();
+        boolean ret = false;
+
+        try {
+            ZipInputStream zin = new ZipInputStream(new FileInputStream(filename));
+            ZipEntry entry;
+
+            while ((entry = zin.getNextEntry()) != null) {
+              if (entry.getName().equals("payload.bin")) {
+                  ret = true;
+                  break;
+              }
+            }
+            zin.close();
+
+        } catch (IOException e) {
+            Log.e(TAG, "Failed to examine zip", e);
+        }
+
+        return ret;
+    }
+
+    private void startABUpdate(UpdatePreference pref) {
+        final UpdateInfo updateInfo = pref.getUpdateInfo();
+        extractZip(Utils.makeUpdateFolder(mContext).getPath() + "/" + updateInfo.getFileName());
+    }
+
+    private void startRecoveryUpdate(UpdatePreference pref) {
         final UpdateInfo updateInfo = pref.getUpdateInfo();
 
         // Prevent the dialog from being triggered more than once
