@@ -32,14 +32,22 @@ import android.util.Log;
 import com.cyanogenmod.updater.R;
 import com.cyanogenmod.updater.misc.Constants;
 import com.cyanogenmod.updater.service.UpdateCheckService;
+import com.cyanogenmod.updater.UpdatePreference;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Calendar;
+import java.util.List;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 public class Utils {
+    private static String TAG = "UpdaterUtils";
+
     private Utils() {
         // this class is not supposed to be instantiated
     }
@@ -152,6 +160,11 @@ public class Utils {
         android.os.RecoverySystem.installPackage(context, new File(updatePackagePath));
     }
 
+    public static void triggerReboot(Context context) {
+        PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
+        pm.reboot(null);
+    }
+
     public static int getUpdateType() {
         int updateType = Constants.UPDATE_TYPE_NIGHTLY;
         try {
@@ -169,5 +182,63 @@ public class Utils {
         }
 
         return updateType;
+    }
+
+    public static boolean deleteDir(File dir) {
+        if (dir.isDirectory()) {
+            String[] children = dir.list();
+            for (String aChildren : children) {
+                boolean success = deleteDir(new File(dir, aChildren));
+                if (!success) {
+                    return false;
+                }
+            }
+        }
+        // The directory is now empty so delete it
+        return dir.delete();
+    }
+
+    public static boolean isABUpdate(Context context, UpdatePreference pref) {
+        final String filename = Utils.makeUpdateFolder(context).getPath() + "/" +
+                                pref.getUpdateInfo().getFileName();
+
+        List nonABFiles = Arrays.asList("file_contexts.bin",
+                                        "install/bin/backuptool.functions",
+                                        "install/bin/backuptool.sh",
+                                        "install/bin/otasigcheck.sh",
+                                        "system.patch.dat",
+                                        "system/build.prop",
+                                        "META-INF/org/lineageos/releasekey",
+                                        "META-INF/com/google/android/updater-script",
+                                        "META-INF/com/google/android/update-binary",
+                                        "system.new.dat",
+                                        "boot.img",
+                                        "system.transfer.list");
+
+        List ABOTAFiles = Arrays.asList("payload_properties.txt",
+                                        "care_map.txt",
+                                        "payload.bin");
+        boolean ret = false;
+
+        try {
+            ZipInputStream zin = new ZipInputStream(new FileInputStream(filename));
+            ZipEntry entry;
+
+            while ((entry = zin.getNextEntry()) != null) {
+                String file = entry.getName();
+                if (nonABFiles.contains(file)) {
+                    break;
+                } else if (ABOTAFiles.contains(file)) {
+                    ret = true;
+                    break;
+                }
+            }
+            zin.close();
+
+        } catch (IOException e) {
+            Log.e(TAG, "Failed to examine zip", e);
+        }
+
+        return ret;
     }
 }
