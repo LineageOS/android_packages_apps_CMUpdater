@@ -42,6 +42,7 @@
             </intent-filter>
         </activity>
 
+        <service android:name=".service.ZipExtractionService" />
         <service android:name=".service.UpdateCheckService" />
         <service android:name=".service.DownloadService" />
         <service android:name=".service.DownloadCompleteIntentService" />

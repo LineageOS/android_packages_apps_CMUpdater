@@ -26,6 +26,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Parcelable;
+import android.os.UpdateEngine;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
@@ -47,17 +48,25 @@ import com.cyanogenmod.updater.misc.State;
 import com.cyanogenmod.updater.misc.UpdateInfo;
 import com.cyanogenmod.updater.receiver.DownloadReceiver;
 import com.cyanogenmod.updater.service.UpdateCheckService;
+import com.cyanogenmod.updater.service.ZipExtractionService;
 import com.cyanogenmod.updater.utils.UpdateFilter;
 import com.cyanogenmod.updater.utils.Utils;
 
 import org.cyanogenmod.internal.util.ScreenType;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 public class UpdatesSettings extends PreferenceFragment implements
         OnPreferenceChangeListener, UpdatePreference.OnReadyListener, UpdatePreference.OnActionListener {
@@ -118,6 +127,22 @@ public class UpdatesSettings extends PreferenceFragment implements
                     }
                 }
                 updateLayout();
+            } else if (ZipExtractionService.ACTION_EXTRACT_FINISHED.equals(action)) {
+                if (mProgressDialog != null) {
+                    mProgressDialog.dismiss();
+                    mProgressDialog = null;
+                }
+
+                showSnack(mContext.getString(R.string.processing_zip_complete));
+                // move on to installing it...
+                applyABUpdate();
+            } else if (ZipExtractionService.ACTION_EXTRACT_ERRORED.equals(action)) {
+                if (mProgressDialog != null) {
+                    mProgressDialog.dismiss();
+                    mProgressDialog = null;
+                }
+
+                showSnack(mContext.getString(R.string.processing_zip_failed));
             }
         }
     };
@@ -214,6 +239,8 @@ public class UpdatesSettings extends PreferenceFragment implements
 
         IntentFilter filter = new IntentFilter(UpdateCheckService.ACTION_CHECK_FINISHED);
         filter.addAction(DownloadReceiver.ACTION_DOWNLOAD_STARTED);
+        filter.addAction(ZipExtractionService.ACTION_EXTRACT_FINISHED);
+        filter.addAction(ZipExtractionService.ACTION_EXTRACT_ERRORED);
         mContext.registerReceiver(mReceiver, filter);
 
         checkForDownloadCompleted(getActivity().getIntent());
@@ -646,7 +673,7 @@ public class UpdatesSettings extends PreferenceFragment implements
         boolean success;
         //mUpdateFolder: Foldername with fullpath of SDCARD
         if (mUpdateFolder.exists() && mUpdateFolder.isDirectory()) {
-            deleteDir(mUpdateFolder);
+            Utils.deleteDir(mUpdateFolder);
             mUpdateFolder.mkdir();
             success = true;
             showSnack(mContext.getString(R.string.delete_updates_success_message));
@@ -659,22 +686,81 @@ public class UpdatesSettings extends PreferenceFragment implements
         return success;
     }
 
-    private static boolean deleteDir(File dir) {
-        if (dir.isDirectory()) {
-            String[] children = dir.list();
-            for (String aChildren : children) {
-                boolean success = deleteDir(new File(dir, aChildren));
-                if (!success) {
-                    return false;
-                }
-            }
-        }
-        // The directory is now empty so delete it
-        return dir.delete();
+    private void extractZip(String filename) {
+        mProgressDialog = new ProgressDialog(mContext);
+        mProgressDialog.setTitle(R.string.processing_zip_file);
+        mProgressDialog.setMessage(getString(R.string.processing_zip_file));
+        mProgressDialog.setIndeterminate(true);
+
+        Intent intent = new Intent(mContext, ZipExtractionService.class);
+        intent.putExtra(ZipExtractionService.EXTRA_ZIP_NAME, filename);
+        mContext.startService(intent);
+
+        mProgressDialog.show();
     }
 
     @Override
     public void onStartUpdate(UpdatePreference pref) {
+        if (isABUpdate(pref)) {
+            startABUpdate(pref);
+        } else {
+            startRecoveryUpdate(pref);
+        }
+    }
+
+    private boolean isABUpdate(UpdatePreference pref) {
+        final String filename = Utils.makeUpdateFolder(mContext).getPath() + "/" +
+                                pref.getUpdateInfo().getFileName();
+        boolean ret = false;
+
+        try {
+            ZipInputStream zin = new ZipInputStream(new FileInputStream(filename));
+            ZipEntry entry;
+
+            while ((entry = zin.getNextEntry()) != null) {
+              if (entry.getName().equals("payload.bin")) {
+                  ret = true;
+                  break;
+              }
+            }
+            zin.close();
+
+        } catch (IOException e) {
+            Log.e(TAG, "Failed to examine zip", e);
+        }
+
+        return ret;
+    }
+
+    private void startABUpdate(UpdatePreference pref) {
+        final UpdateInfo updateInfo = pref.getUpdateInfo();
+        extractZip(Utils.makeUpdateFolder(mContext).getPath() + "/" + updateInfo.getFileName());
+    }
+
+    private void applyABUpdate() {
+        String extractionSite = Utils.makeUpdateFolder(mContext).getPath() + "/unzipped/";
+
+        try {
+            Scanner sc = new Scanner(new File(extractionSite + "payload_properties.txt"));
+            List<String> lines = new ArrayList<String>();
+            while (sc.hasNextLine()) {
+                lines.add(sc.nextLine());
+            }
+
+            String[] header = lines.toArray(new String[0]);
+            long offset = 0;
+            long size = 0;
+
+// Add a persistant notification that the update is happening in the background
+            UpdateEngine mUpdateEngine = new UpdateEngine();
+            mUpdateEngine.applyPayload("file://" + extractionSite + "payload.bin", offset, size, header);
+// Need to check in to the callback stuff, i imagine a pop up when its finished: "Ok, reboot now?"
+        } catch (FileNotFoundException e) {
+            Log.e(TAG, "Failed to read extracted zip", e);
+        }
+    }
+
+    private void startRecoveryUpdate(UpdatePreference pref) {
         final UpdateInfo updateInfo = pref.getUpdateInfo();
 
         // Prevent the dialog from being triggered more than once
