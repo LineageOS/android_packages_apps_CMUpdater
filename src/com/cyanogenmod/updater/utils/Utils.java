@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2013 The CyanogenMod Project
+ * Copyright (C) 2017 The LineageOS Project
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -31,15 +32,26 @@ import android.util.Log;
 
 import com.cyanogenmod.updater.R;
 import com.cyanogenmod.updater.misc.Constants;
+import com.cyanogenmod.updater.service.ABOTAService;
 import com.cyanogenmod.updater.service.UpdateCheckService;
+import com.cyanogenmod.updater.UpdatePreference;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Calendar;
+import java.util.List;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 public class Utils {
+    private static String TAG = "UpdaterUtils";
+
     private Utils() {
         // this class is not supposed to be instantiated
     }
@@ -144,12 +156,23 @@ public class Utils {
         }
     }
 
+    public static void triggerUpdateAB(Context context, String updateFileName) {
+        Intent otaIntent = new Intent(context, ABOTAService.class);
+        otaIntent.putExtra(ABOTAService.EXTRA_ZIP_NAME, updateFileName);
+        context.startService(otaIntent);
+    }
+
     public static void triggerUpdate(Context context, String updateFileName) throws IOException {
         // Create the path for the update package
         String updatePackagePath = makeUpdateFolder(context).getPath() + "/" + updateFileName;
 
         // Reboot into recovery and trigger the update
         android.os.RecoverySystem.installPackage(context, new File(updatePackagePath));
+    }
+
+    public static void triggerReboot(Context context) {
+        PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
+        pm.reboot(null);
     }
 
     public static int getUpdateType() {
@@ -177,5 +200,75 @@ public class Utils {
                 break;
         }
         return updateType;
+    }
+
+    public static boolean deleteDir(File dir) {
+        if (dir.isDirectory()) {
+            String[] children = dir.list();
+            for (String aChildren : children) {
+                boolean success = deleteDir(new File(dir, aChildren));
+                if (!success) {
+                    return false;
+                }
+            }
+        }
+        // The directory is now empty so delete it
+        return dir.delete();
+    }
+
+    public static boolean isABUpdate(Context context, String filename) {
+        String zipPath = Utils.makeUpdateFolder(context).getPath() + "/" + filename;
+        List nonABFiles = Arrays.asList("file_contexts.bin",
+                                        "install/bin/backuptool.functions",
+                                        "install/bin/backuptool.sh",
+                                        "install/bin/otasigcheck.sh",
+                                        "system.patch.dat",
+                                        "system/build.prop",
+                                        "META-INF/org/lineageos/releasekey",
+                                        "META-INF/com/google/android/updater-script",
+                                        "META-INF/com/google/android/update-binary",
+                                        "system.new.dat",
+                                        "boot.img",
+                                        "system.transfer.list");
+
+        List ABOTAFiles = Arrays.asList("payload_properties.txt",
+                                        "care_map.txt",
+                                        "payload.bin");
+        boolean ret = false;
+
+        try {
+            ZipInputStream zin = new ZipInputStream(new FileInputStream(zipPath));
+            ZipEntry entry;
+
+            while ((entry = zin.getNextEntry()) != null) {
+                String file = entry.getName();
+                if (nonABFiles.contains(file)) {
+                    break;
+                } else if (ABOTAFiles.contains(file)) {
+                    ret = true;
+                    break;
+                }
+            }
+            zin.close();
+
+        } catch (IOException e) {
+            Log.e(TAG, "Failed to examine zip", e);
+        }
+
+        return ret;
+    }
+
+    public static void copy(String src, String dst) throws IOException {
+        InputStream in = new FileInputStream(new File(src));
+        OutputStream out = new FileOutputStream(new File(dst));
+
+        // Transfer bytes from in to out
+        byte[] buf = new byte[1024];
+        int len;
+        while ((len = in.read(buf)) > 0) {
+            out.write(buf, 0, len);
+        }
+        in.close();
+        out.close();
     }
 }
