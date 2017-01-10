@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2013 The CyanogenMod Project
+ * Copyright (C) 2017 The LineageOS Project
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -20,6 +21,7 @@ import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
+import android.os.PowerManager;
 import android.os.SystemProperties;
 import android.preference.PreferenceManager;
 import android.util.Log;
@@ -27,17 +29,27 @@ import android.util.Log;
 import com.cyanogenmod.updater.R;
 import com.cyanogenmod.updater.misc.Constants;
 import com.cyanogenmod.updater.misc.UpdateInfo;
+import com.cyanogenmod.updater.service.ABOTAService;
 import com.cyanogenmod.updater.service.UpdateCheckService;
+import com.cyanogenmod.updater.UpdatePreference;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.util.Arrays;
 import java.text.DateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 public class Utils {
 
@@ -187,6 +199,12 @@ public class Utils {
         }
     }
 
+    public static void triggerUpdateAB(Context context, String updateFileName) {
+        Intent otaIntent = new Intent(context, ABOTAService.class);
+        otaIntent.putExtra(ABOTAService.EXTRA_ZIP_NAME, updateFileName);
+        context.startService(otaIntent);
+    }
+
     public static void triggerUpdate(Context context, String updateFileName) throws IOException {
         // Create the path for the update package
         String updatePackagePath = makeUpdateFolder(context).getPath() + "/" + updateFileName;
@@ -199,6 +217,11 @@ public class Utils {
         return getInstalledBuildType();
     }
 
+    public static void triggerReboot(Context context) {
+        PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
+        pm.reboot(null);
+    }
+
     public static Locale getCurrentLocale(Context context) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             return context.getResources().getConfiguration().getLocales()
@@ -208,4 +231,73 @@ public class Utils {
         }
     }
 
+    public static boolean deleteDir(File dir) {
+        if (dir.isDirectory()) {
+            String[] children = dir.list();
+            for (String aChildren : children) {
+                boolean success = deleteDir(new File(dir, aChildren));
+                if (!success) {
+                    return false;
+                }
+            }
+        }
+        // The directory is now empty so delete it
+        return dir.delete();
+    }
+
+    public static boolean isABUpdate(Context context, String filename) {
+        String zipPath = Utils.makeUpdateFolder(context).getPath() + "/" + filename;
+        List nonABFiles = Arrays.asList("file_contexts.bin",
+                                        "install/bin/backuptool.functions",
+                                        "install/bin/backuptool.sh",
+                                        "install/bin/otasigcheck.sh",
+                                        "system.patch.dat",
+                                        "system/build.prop",
+                                        "META-INF/org/lineageos/releasekey",
+                                        "META-INF/com/google/android/updater-script",
+                                        "META-INF/com/google/android/update-binary",
+                                        "system.new.dat",
+                                        "boot.img",
+                                        "system.transfer.list");
+
+        List ABOTAFiles = Arrays.asList("payload_properties.txt",
+                                        "care_map.txt",
+                                        "payload.bin");
+        boolean ret = false;
+
+        try {
+            ZipInputStream zin = new ZipInputStream(new FileInputStream(zipPath));
+            ZipEntry entry;
+
+            while ((entry = zin.getNextEntry()) != null) {
+                String file = entry.getName();
+                if (nonABFiles.contains(file)) {
+                    break;
+                } else if (ABOTAFiles.contains(file)) {
+                    ret = true;
+                    break;
+                }
+            }
+            zin.close();
+
+        } catch (IOException e) {
+            Log.e(TAG, "Failed to examine zip", e);
+        }
+
+        return ret;
+    }
+
+    public static void copy(String src, String dst) throws IOException {
+        InputStream in = new FileInputStream(new File(src));
+        OutputStream out = new FileOutputStream(new File(dst));
+
+        // Transfer bytes from in to out
+        byte[] buf = new byte[1024];
+        int len;
+        while ((len = in.read(buf)) > 0) {
+            out.write(buf, 0, len);
+        }
+        in.close();
+        out.close();
+    }
 }
