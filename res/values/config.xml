@@ -10,4 +10,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Updater Config Strings -->
     <string name="conf_update_server_url_def" translatable="false">https://download.lineageos.org/api</string>
+
+    <!-- Whether or not the device uses A/B OTA updates -->
+    <bool name="config_use_ab_ota_update">false</bool>
+
 </resources>

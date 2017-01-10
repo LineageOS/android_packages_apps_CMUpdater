@@ -26,6 +26,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Parcelable;
+import android.os.UpdateEngine;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
@@ -52,12 +53,21 @@ import com.cyanogenmod.updater.utils.Utils;
 
 import org.cyanogenmod.internal.util.ScreenType;
 
+import java.io.BufferedOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 public class UpdatesSettings extends PreferenceFragment implements
         OnPreferenceChangeListener, UpdatePreference.OnReadyListener, UpdatePreference.OnActionListener {
@@ -673,8 +683,90 @@ public class UpdatesSettings extends PreferenceFragment implements
         return dir.delete();
     }
 
+    private static void extractZip(String filename, String outputdir) {
+        try {
+            ZipInputStream zin = new ZipInputStream(new FileInputStream(filename));
+            ZipEntry entry;
+            File d;
+
+            d = new File(outputdir);
+            if (d.exists()) {
+                deleteDir(d);
+            }
+
+            d.mkdirs();
+
+            while ((entry = zin.getNextEntry()) != null) {
+                String name = entry.getName();
+
+                if (entry.isDirectory()) {
+                    d = new File(outputdir, name);
+                    if (!d.exists()) {
+                        d.mkdirs();
+                    }
+
+                    continue;
+                }
+
+                int s = name.lastIndexOf(File.separatorChar);
+                String dir = s == -1 ? null : name.substring(0, s);
+                if (dir != null) {
+                    d = new File(outputdir, dir);
+                    if (!d.exists()) {
+                        d.mkdirs();
+                    }
+                }
+
+                byte[] buffer = new byte[4096];
+                BufferedOutputStream out = new BufferedOutputStream(new FileOutputStream(new File(outputdir, name)));
+                int count = -1;
+                while ((count = zin.read(buffer)) != -1) {
+                    out.write(buffer, 0, count);
+                }
+                out.close();
+            }
+
+            zin.close();
+        } catch (IOException e) {
+            Log.e(TAG, "Failed to extract zip", e);
+        }
+    }
+
     @Override
     public void onStartUpdate(UpdatePreference pref) {
+        if (mContext.getResources().getBoolean(R.bool.config_use_ab_ota_update)) {
+            startABUpdate(pref);
+        } else {
+            startRecoveryUpdate(pref);
+        }
+    }
+
+    private void startABUpdate(UpdatePreference pref) {
+        final UpdateInfo updateInfo = pref.getUpdateInfo();
+
+        UpdateEngine mUpdateEngine = new UpdateEngine();
+        String extractionSite = Utils.makeUpdateFolder(mContext).getPath() + "/unzipped/";
+
+        extractZip(Utils.makeUpdateFolder(mContext).getPath() + "/" + updateInfo.getFileName(), extractionSite);
+
+        long offset = 0;
+        long size = 0;
+
+        try {
+            Scanner sc = new Scanner(new File(extractionSite + "payload_properties.txt"));
+            List<String> lines = new ArrayList<String>();
+            while (sc.hasNextLine()) {
+                lines.add(sc.nextLine());
+            }
+
+            String[] header = lines.toArray(new String[0]);
+            mUpdateEngine.applyPayload("file://" + extractionSite + "payload.bin", offset, size, header);
+        } catch (FileNotFoundException e) {
+            Log.e(TAG, "Failed to read extracted zip", e);
+        }
+    }
+
+    private void startRecoveryUpdate(UpdatePreference pref) {
         final UpdateInfo updateInfo = pref.getUpdateInfo();
 
         // Prevent the dialog from being triggered more than once
