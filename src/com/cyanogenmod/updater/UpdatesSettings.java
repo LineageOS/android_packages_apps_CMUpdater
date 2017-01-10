@@ -45,8 +45,11 @@ import android.widget.TextView;
 import com.cyanogenmod.updater.misc.Constants;
 import com.cyanogenmod.updater.misc.State;
 import com.cyanogenmod.updater.misc.UpdateInfo;
+import com.cyanogenmod.updater.receiver.ABOTANotifier;
 import com.cyanogenmod.updater.receiver.DownloadReceiver;
+import com.cyanogenmod.updater.service.ABOTAService;
 import com.cyanogenmod.updater.service.UpdateCheckService;
+import com.cyanogenmod.updater.service.ZipExtractionService;
 import com.cyanogenmod.updater.utils.UpdateFilter;
 import com.cyanogenmod.updater.utils.Utils;
 
@@ -118,6 +121,55 @@ public class UpdatesSettings extends PreferenceFragment implements
                     }
                 }
                 updateLayout();
+            } else if (ZipExtractionService.ACTION_EXTRACT_ERRORED.equals(action)) {
+                if (mProgressDialog != null) {
+                    mProgressDialog.dismiss();
+                    mProgressDialog = null;
+                }
+
+                mStartUpdateVisible = false;
+                ABOTAService.setABUpdateRunning(false);
+                showSnack(mContext.getString(R.string.processing_zip_failed));
+            } else if (ABOTAService.ACTION_UPDATE_INSTALL_FINISHED.equals(action)) {
+                String filename = intent.getStringExtra(ABOTAService.EXTRA_ZIP_NAME);
+                UpdatePreference pref = (UpdatePreference) mUpdatesList.findPreference(filename);
+                if (pref != null) {
+                    pref.setStyle(UpdatePreference.STYLE_INSTALLED);
+                }
+
+                new AlertDialog.Builder(getActivity())
+                        .setTitle(R.string.ab_update_finished_title)
+                        .setMessage(R.string.ab_update_finished_message)
+                        .setPositiveButton(R.string.dialog_reboot, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Utils.triggerReboot(mContext);
+                            }
+                        })
+                        .setNegativeButton(R.string.dialog_cancel, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                // Do nothing and allow the dialog to be dismissed
+                            }
+                        })
+                        .setOnDismissListener(new DialogInterface.OnDismissListener() {
+                            @Override
+                            public void onDismiss(DialogInterface dialog) {
+                                // Do nothing and allow the dialog to be dismissed
+                            }
+                        })
+                        .show();
+            } else if (ABOTAService.ACTION_UPDATE_INSTALL_ERRORED.equals(action)) {
+                if (mProgressDialog != null) {
+                    mProgressDialog.dismiss();
+                    mProgressDialog = null;
+                }
+
+                mStartUpdateVisible = false;
+                ABOTAService.setABUpdateRunning(false);
+                int errorCode = intent.getIntExtra(ABOTAService.EXTRA_ERROR_CODE, -1);
+                ABOTANotifier.notifyOngoingABOTA(context, -1, errorCode);
+                showSnack(String.format(mContext.getString(R.string.installing_zip_failed, errorCode)));
             }
         }
     };
@@ -214,6 +266,9 @@ public class UpdatesSettings extends PreferenceFragment implements
 
         IntentFilter filter = new IntentFilter(UpdateCheckService.ACTION_CHECK_FINISHED);
         filter.addAction(DownloadReceiver.ACTION_DOWNLOAD_STARTED);
+        filter.addAction(ZipExtractionService.ACTION_EXTRACT_ERRORED);
+        filter.addAction(ABOTAService.ACTION_UPDATE_INSTALL_FINISHED);
+        filter.addAction(ABOTAService.ACTION_UPDATE_INSTALL_ERRORED);
         mContext.registerReceiver(mReceiver, filter);
 
         checkForDownloadCompleted(getActivity().getIntent());
@@ -250,6 +305,11 @@ public class UpdatesSettings extends PreferenceFragment implements
 
         if (mDownloading) {
             showSnack(mContext.getString(R.string.download_already_running));
+            return;
+        }
+
+        if (ABOTAService.isABUpdateRunning()) {
+            showSnack(mContext.getString(R.string.ab_update_running));
             return;
         }
 
@@ -412,7 +472,7 @@ public class UpdatesSettings extends PreferenceFragment implements
     }
 
     void checkForUpdates() {
-        if (mProgressDialog != null) {
+        if (mProgressDialog != null || ABOTAService.isABUpdateRunning()) {
             return;
         }
 
@@ -646,7 +706,7 @@ public class UpdatesSettings extends PreferenceFragment implements
         boolean success;
         //mUpdateFolder: Foldername with fullpath of SDCARD
         if (mUpdateFolder.exists() && mUpdateFolder.isDirectory()) {
-            deleteDir(mUpdateFolder);
+            Utils.deleteDir(mUpdateFolder);
             mUpdateFolder.mkdir();
             success = true;
             showSnack(mContext.getString(R.string.delete_updates_success_message));
@@ -659,30 +719,62 @@ public class UpdatesSettings extends PreferenceFragment implements
         return success;
     }
 
-    private static boolean deleteDir(File dir) {
-        if (dir.isDirectory()) {
-            String[] children = dir.list();
-            for (String aChildren : children) {
-                boolean success = deleteDir(new File(dir, aChildren));
-                if (!success) {
-                    return false;
-                }
-            }
-        }
-        // The directory is now empty so delete it
-        return dir.delete();
-    }
-
     @Override
     public void onStartUpdate(UpdatePreference pref) {
-        final UpdateInfo updateInfo = pref.getUpdateInfo();
-
-        // Prevent the dialog from being triggered more than once
+        // Prevent the update from being triggered more than once
         if (mStartUpdateVisible) {
             return;
         }
 
+        if (ABOTAService.isABUpdateRunning()) {
+            showSnack(mContext.getString(R.string.ab_update_running));
+            return;
+        }
+
         mStartUpdateVisible = true;
+
+        if (Utils.isABUpdate(mContext, pref.getUpdateInfo().getFileName())) {
+            startABUpdate(pref);
+        } else {
+            startRecoveryUpdate(pref);
+        }
+    }
+
+    private void startABUpdate(UpdatePreference pref) {
+        final UpdateInfo updateInfo = pref.getUpdateInfo();
+
+        ABOTAService.setABUpdateRunning(true);
+
+        // Get the message body right
+        String dialogBody = getString(R.string.apply_update_dialog_text_ab, updateInfo.getName());
+
+        new AlertDialog.Builder(getActivity())
+                .setTitle(R.string.apply_ab_update_dialog_title)
+                .setMessage(dialogBody)
+                .setPositiveButton(R.string.dialog_update, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        pref.setStyle(UpdatePreference.STYLE_INSTALLING);
+                        Utils.triggerUpdateAB(mContext, updateInfo.getFileName());
+                    }
+                })
+                .setNegativeButton(R.string.dialog_cancel, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        // Do nothing and allow the dialog to be dismissed
+                    }
+                })
+                .setOnDismissListener(new DialogInterface.OnDismissListener() {
+                    @Override
+                    public void onDismiss(DialogInterface dialog) {
+                        mStartUpdateVisible = false;
+                    }
+                })
+                .show();
+    }
+
+    private void startRecoveryUpdate(UpdatePreference pref) {
+        final UpdateInfo updateInfo = pref.getUpdateInfo();
 
         // Get the message body right
         String dialogBody = getString(R.string.apply_update_dialog_text, updateInfo.getName());
