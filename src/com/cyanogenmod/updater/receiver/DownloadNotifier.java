@@ -17,6 +17,7 @@ import android.support.v4.app.NotificationCompat;
 
 import com.cyanogenmod.updater.R;
 import com.cyanogenmod.updater.misc.UpdateInfo;
+import com.cyanogenmod.updater.utils.Utils;
 
 import java.io.File;
 
@@ -29,10 +30,14 @@ public class DownloadNotifier {
     public static void notifyDownloadComplete(Context context,
             Intent updateIntent, File updateFile) {
         String updateUiName = UpdateInfo.extractUiName(updateFile.getName());
+        boolean isABUpdate = Utils.isABUpdate(context, updateFile.getName());
+
+        int styleBigText = isABUpdate ? R.string.not_download_install_notice_ab : R.string.not_download_install_notice;
+        int actionButtonText = isABUpdate ? R.string.not_action_install : R.string.not_action_install_update;
 
         NotificationCompat.BigTextStyle style = new NotificationCompat.BigTextStyle()
                 .setBigContentTitle(context.getString(R.string.not_download_success))
-                .bigText(context.getString(R.string.not_download_install_notice, updateUiName));
+                .bigText(context.getString(styleBigText, updateUiName));
 
         NotificationCompat.Builder builder = createBaseContentBuilder(context, updateIntent)
                 .setSmallIcon(R.drawable.ic_system_update)
@@ -41,8 +46,8 @@ public class DownloadNotifier {
                 .setTicker(context.getString(R.string.not_download_success))
                 .setStyle(style)
                 .addAction(R.drawable.ic_tab_install,
-                        context.getString(R.string.not_action_install_update),
-                        createInstallPendingIntent(context, updateFile));
+                        context.getString(actionButtonText),
+                        createInstallPendingIntent(context, updateFile, isABUpdate));
 
         ((NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE))
                 .notify(R.string.not_download_success, builder.build());
@@ -72,11 +77,12 @@ public class DownloadNotifier {
                 .setAutoCancel(true);
     }
 
-
-    private static PendingIntent createInstallPendingIntent(Context context, File updateFile) {
+    private static PendingIntent createInstallPendingIntent(Context context, File updateFile,
+             boolean isABUpdate) {
         Intent installIntent = new Intent(context, DownloadReceiver.class);
         installIntent.setAction(DownloadReceiver.ACTION_INSTALL_UPDATE);
         installIntent.putExtra(DownloadReceiver.EXTRA_FILENAME, updateFile.getName());
+        installIntent.putExtra(DownloadReceiver.EXTRA_IS_AB_UPDATE, isABUpdate);
 
         return PendingIntent.getBroadcast(context, 0,
                 installIntent, PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_UPDATE_CURRENT);
