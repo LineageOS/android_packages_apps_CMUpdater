@@ -152,6 +152,11 @@ public class Utils {
         android.os.RecoverySystem.installPackage(context, new File(updatePackagePath));
     }
 
+    public static void triggerReboot(Context context) {
+        PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
+        pm.reboot(null);
+    }
+
     public static int getUpdateType() {
         int updateType = Constants.UPDATE_TYPE_NIGHTLY;
         try {
@@ -169,5 +174,19 @@ public class Utils {
         }
 
         return updateType;
+    }
+
+    public static boolean deleteDir(File dir) {
+        if (dir.isDirectory()) {
+            String[] children = dir.list();
+            for (String aChildren : children) {
+                boolean success = deleteDir(new File(dir, aChildren));
+                if (!success) {
+                    return false;
+                }
+            }
+        }
+        // The directory is now empty so delete it
+        return dir.delete();
     }
 }
