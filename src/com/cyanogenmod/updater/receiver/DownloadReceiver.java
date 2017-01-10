@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
+ * Copyright (C) 2017 The LineageOS Project
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -37,7 +38,9 @@ public class DownloadReceiver extends BroadcastReceiver{
     public static final String ACTION_DOWNLOAD_STARTED = "com.cyanogenmod.cmupdater.action.DOWNLOAD_STARTED";
 
     static final String ACTION_INSTALL_UPDATE = "com.cyanogenmod.cmupdater.action.INSTALL_UPDATE";
+    static final String ACTION_INSTALL_REBOOT = "com.cyanogenmod.cmupdater.action.INSTALL_REBOOT";
     static final String EXTRA_FILENAME = "filename";
+    static final String EXTRA_IS_AB_UPDATE = "is_ab_update";
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -53,14 +56,22 @@ public class DownloadReceiver extends BroadcastReceiver{
             StatusBarManager sb = (StatusBarManager) context.getSystemService(Context.STATUS_BAR_SERVICE);
             sb.collapsePanels();
             String fileName = intent.getStringExtra(EXTRA_FILENAME);
-            try {
-                Utils.triggerUpdate(context, fileName);
-            } catch (IOException e) {
-                Log.e(TAG, "Unable to reboot into recovery mode", e);
-                Toast.makeText(context, R.string.apply_unable_to_reboot_toast,
-                            Toast.LENGTH_SHORT).show();
+            boolean isABUpdate = intent.getBooleanExtra(EXTRA_IS_AB_UPDATE, false);
+            if (isABUpdate) {
                 Utils.cancelNotification(context);
+                Utils.triggerUpdateAB(context, fileName);
+            } else {
+                try {
+                    Utils.triggerUpdate(context, fileName);
+                } catch (IOException e) {
+                    Log.e(TAG, "Unable to reboot into recovery mode", e);
+                    Toast.makeText(context, R.string.apply_unable_to_reboot_toast,
+                                Toast.LENGTH_SHORT).show();
+                    Utils.cancelNotification(context);
+                }
             }
+        } else if (ACTION_INSTALL_REBOOT.equals(action)) {
+            Utils.triggerReboot(context);
         }
     }
 
