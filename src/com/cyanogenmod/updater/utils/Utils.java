@@ -106,10 +106,6 @@ public class Utils {
                 mDate.substring(mPosition + 1, mDate.length());
     }
 
-    public static String getIncremental() {
-        return SystemProperties.get("ro.build.version.incremental");
-    }
-
     public static String getUserAgentString(Context context) {
         try {
             PackageManager pm = context.getPackageManager();
