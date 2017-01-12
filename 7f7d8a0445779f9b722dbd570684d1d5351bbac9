@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_f16cc838",
+        "filename": "src/com/cyanogenmod/updater/receiver/NotificationClickReceiver.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-12T13:31:02Z",
+      "side": 0,
+      "message": "whitespace change",
+      "range": {
+        "startLine": 24,
+        "startChar": 84,
+        "endLine": 24,
+        "endChar": 85
+      },
+      "revId": "7f7d8a0445779f9b722dbd570684d1d5351bbac9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
