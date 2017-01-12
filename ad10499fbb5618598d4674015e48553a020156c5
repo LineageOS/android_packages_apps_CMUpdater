@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "fa3479d7_54e5a0a6",
+        "filename": "res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-01-12T02:23:27Z",
+      "side": 1,
+      "message": "you can set this in the prop: cm.updater.uri",
+      "range": {
+        "startLine": 12,
+        "startChar": 67,
+        "endLine": 12,
+        "endChar": 94
+      },
+      "revId": "ad10499fbb5618598d4674015e48553a020156c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa3479d7_94542855",
         "filename": "src/com/cyanogenmod/updater/UpdatesActivity.java",
         "patchSetId": 6
