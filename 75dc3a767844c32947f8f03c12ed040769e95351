@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba3e81b7_6dd59242",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 755,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-01-18T02:25:35Z",
+      "side": 1,
+      "message": "this takes a LOOONG time on non-AB OTAs",
+      "range": {
+        "startLine": 755,
+        "startChar": 20,
+        "endLine": 755,
+        "endChar": 30
+      },
+      "revId": "75dc3a767844c32947f8f03c12ed040769e95351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
