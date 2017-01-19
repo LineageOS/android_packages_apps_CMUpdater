@@ -81,6 +81,7 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
                     mOnActionListener.onStopCompletingDownload(UpdatePreference.this);
                     break;
                 case STYLE_DOWNLOADED:
+                case STYLE_INSTALLED:
                     mOnActionListener.onStartUpdate(UpdatePreference.this);
                     break;
                 case STYLE_DOWNLOADING:
@@ -271,9 +272,10 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
             case STYLE_INSTALLED:
                 mStopDownloadButton.setVisibility(View.GONE);
                 mProgressBar.setVisibility(View.GONE);
-                mButton.setVisibility(View.GONE);
+                mButton.setVisibility(View.VISIBLE);
                 mTitleText.setText(String.format("%1$s %2$s",
                         mBuildType, mContext.getString(R.string.type_installed)));
+                mButton.setText(mContext.getString(R.string.install_button));
                 break;
 
             case STYLE_COMPLETING:
