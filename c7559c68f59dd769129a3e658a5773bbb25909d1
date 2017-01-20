@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_554ffc92",
+        "filename": "src/com/cyanogenmod/updater/service/UpdateCheckService.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 5008
+      },
+      "writtenOn": "2017-01-20T18:03:16Z",
+      "side": 1,
+      "message": "Missing break;: will fall through to UNOFFICIAL for all builds.",
+      "revId": "c7559c68f59dd769129a3e658a5773bbb25909d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
