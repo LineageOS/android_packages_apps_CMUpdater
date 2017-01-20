@@ -153,18 +153,21 @@ public class Utils {
     }
 
     public static int getUpdateType() {
-        int updateType = Constants.UPDATE_TYPE_NIGHTLY;
+        int updateType = Constants.UPDATE_TYPE_UNOFFICIAL;
         try {
             String cmReleaseType = SystemProperties.get(
                     Constants.PROPERTY_CM_RELEASETYPE);
 
-            // Treat anything that is not SNAPSHOT as NIGHTLY
-            if (!cmReleaseType.isEmpty()) {
-                if (TextUtils.equals(cmReleaseType,
-                        Constants.CM_RELEASETYPE_SNAPSHOT)) {
-                    updateType = Constants.UPDATE_TYPE_SNAPSHOT;
-                }
-            }
+            switch(cmReleaseType) {
+                case Constants.CM_RELEASETYPE_NIGHTLY:
+                    return Constants.UPDATE_TYPE_NIGHTLY;
+                case Constants.CM_RELEASETYPE_SNAPSHOT:
+                    return Constants.UPDATE_TYPE_SNAPSHOT;
+                case Constants.CM_RELEASETYPE_EXPERIMENTAL:
+                    return Constants.UPDATE_TYPE_EXPERIMENTAL;
+                case Constants.CM_RELEASETYPE_UNOFFICIAL:
+                default:
+                    return Constants.UPDATE_TYPE_UNOFFICIAL;
         } catch (RuntimeException ignored) {
         }
 
