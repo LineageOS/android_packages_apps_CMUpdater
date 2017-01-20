@@ -50,6 +50,40 @@
       "revId": "ed1e8349c25e9a4224da77acc124f29244b6674d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_f253a66a",
+        "filename": "src/com/cyanogenmod/updater/utils/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-01-20T07:07:57Z",
+      "side": 1,
+      "message": "This line along with the rest of the cases should use Constants.CM_RELEASETYPE_\u003cinsert_type_here\u003e",
+      "revId": "ed1e8349c25e9a4224da77acc124f29244b6674d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_d250a260",
+        "filename": "src/com/cyanogenmod/updater/utils/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-01-20T07:07:57Z",
+      "side": 1,
+      "message": "The return statements should use Constants.UPDATE_TYPE_\u003cinsert_type_here\u003e",
+      "revId": "ed1e8349c25e9a4224da77acc124f29244b6674d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
