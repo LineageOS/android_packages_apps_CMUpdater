@@ -210,8 +210,12 @@ public class UpdateCheckService extends IntentService
             case Constants.UPDATE_TYPE_SNAPSHOT:
                 return "snapshot";
             case Constants.UPDATE_TYPE_NIGHTLY:
+                return "nightly"
+            case Constants.UPDATE_TYPE_EXPERIMENTAL:
+                 return "experimental"
+            case Constats.UPDATE_TYPE_UNOFFICIAL:
             default:
-                return "nightly";
+                return "unofficial";
         }
     }
 
