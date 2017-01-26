@@ -70,17 +70,17 @@
   <string name="confirm_delete_dialog_title_tv">点击以移除所有已下载到内部存储的更新</string>
   <string name="confirm_delete_dialog_message">您确定要删除此更新文件？</string>
   <string name="confirm_delete_all_dialog_message">您确定要删除所有已下载的更新文件？</string>
-  <string name="delete_single_update_success_message">更新 <xliff:g id="filename">%s</xliff:g> 已被删除</string>
+  <string name="delete_single_update_success_message">更新 <xliff:g id="filename">%s</xliff:g> 已删除</string>
   <string name="delete_updates_failure_message">删除更新时发生错误</string>
   <string name="delete_updates_noFolder_message">未找到更新文件夹</string>
   <string name="delete_updates_success_message">所有已下载的更新文件已被删除</string>
   <!-- System info strings -->
-  <string name="sysinfo_device">设备:</string>
-  <string name="sysinfo_running">目前运行:</string>
+  <string name="sysinfo_device">设备：</string>
+  <string name="sysinfo_running">目前运行：</string>
   <string name="sysinfo_update_channel">更新通道：</string>
-  <string name="sysinfo_last_check">最后一次检查时间:</string>
+  <string name="sysinfo_last_check">上次检查：</string>
   <!-- changelog strings -->
-  <string name="no_changelog_alert">无可用的更改记录</string>
-  <string name="changelog_dialog_title">更改记录</string>
+  <string name="no_changelog_alert">无变更记录可用</string>
+  <string name="changelog_dialog_title">变更记录</string>
   <string name="loading_changelog">正在加载\u2026</string>
 </resources>
