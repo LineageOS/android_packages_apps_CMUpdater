@@ -80,13 +80,26 @@ public class DownloadCompleteIntentService extends IntentService {
 
             try {
                 FileOutputStream outStream = new FileOutputStream(destFile);
-
                 ParcelFileDescriptor file = mDm.openDownloadedFile(id);
                 FileInputStream inStream = new FileInputStream(file.getFileDescriptor());
-
                 FileChannel inChannel = inStream.getChannel();
                 FileChannel outChannel = outStream.getChannel();
-                inChannel.transferTo(0, inChannel.size(), outChannel);
+                try {
+                    inChannel.transferTo(0, inChannel.size(), outChannel);
+                } finally {
+                    if (inChannel != null) {
+                        inChannel.close();
+                    }
+                    if (outChannel != null) {
+                        outChannel.close();
+                    }
+                    if (inStream != null) {
+                        inStream.close();
+                    }
+                    if (outStream != null) {
+                        outStream.close();
+                    }
+                }
             } catch (IOException e) {
                 displayErrorResult(updateIntent, R.string.unable_to_download_file);
                 return;
@@ -138,7 +151,9 @@ public class DownloadCompleteIntentService extends IntentService {
         Cursor c = mDm.query(query);
         try {
             if (c.moveToFirst()) {
-                return c.getInt(c.getColumnIndex(DownloadManager.COLUMN_STATUS));
+                if (c.getCount() > 0) {
+                    return c.getInt(c.getColumnIndex(DownloadManager.COLUMN_STATUS));
+                }
             }
         } finally {
             c.close();
