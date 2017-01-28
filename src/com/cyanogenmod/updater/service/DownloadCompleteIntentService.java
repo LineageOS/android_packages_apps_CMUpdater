@@ -32,6 +32,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.channels.FileChannel;
+import java.security.GeneralSecurityException;
 
 public class DownloadCompleteIntentService extends IntentService {
     private DownloadManager mDm;
@@ -78,15 +79,15 @@ public class DownloadCompleteIntentService extends IntentService {
 
             mPrefs.edit().putString(Constants.DOWNLOAD_NAME, "").commit();
 
-            try {
-                FileOutputStream outStream = new FileOutputStream(destFile);
-
+            try (
                 ParcelFileDescriptor file = mDm.openDownloadedFile(id);
                 FileInputStream inStream = new FileInputStream(file.getFileDescriptor());
-
                 FileChannel inChannel = inStream.getChannel();
+                FileOutputStream outStream = new FileOutputStream(destFile);
                 FileChannel outChannel = outStream.getChannel();
+            ) {
                 inChannel.transferTo(0, inChannel.size(), outChannel);
+                outChannel.force(false);
             } catch (IOException e) {
                 displayErrorResult(updateIntent, R.string.unable_to_download_file);
                 return;
@@ -97,7 +98,7 @@ public class DownloadCompleteIntentService extends IntentService {
             // Check the signature of the downloaded file
             try {
                 android.os.RecoverySystem.verifyPackage(destFile, null, null);
-            } catch (Exception e) {
+            } catch (IOException | GeneralSecurityException e) {
                 if (destFile.exists()) {
                     destFile.delete();
                 }
