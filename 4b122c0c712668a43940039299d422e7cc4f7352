@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_4f774ed5",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-01-28T22:52:20Z",
+      "side": 0,
+      "message": "How can running this here corrupt the download? If that\u0027s truly what\u0027s happening, it should be corrupting when you run it later too, thereby verifying it and subsequently corrupting it.",
+      "range": {
+        "startLine": 94,
+        "startChar": 16,
+        "endLine": 94,
+        "endChar": 31
+      },
+      "revId": "4b122c0c712668a43940039299d422e7cc4f7352",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
