@@ -22,6 +22,30 @@
       "revId": "4b122c0c712668a43940039299d422e7cc4f7352",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_4f5e2e47",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 12604
+      },
+      "writtenOn": "2017-01-28T23:19:44Z",
+      "side": 0,
+      "message": "It seems that the output stream is still writing to destFile when mDm.remove is called and it interrupts the write somehow.  Before the new download manager commit was made, the previous code also did not call mDm.remove right before verifyPackage.\n\nIt is not the verifyPackage that is corrupting the file.  The problem is that the output stream does not finish writing to destFile.",
+      "parentUuid": "9a437d4f_4f774ed5",
+      "range": {
+        "startLine": 94,
+        "startChar": 16,
+        "endLine": 94,
+        "endChar": 31
+      },
+      "revId": "4b122c0c712668a43940039299d422e7cc4f7352",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
