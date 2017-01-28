@@ -88,10 +88,9 @@ public class DownloadCompleteIntentService extends IntentService {
                 FileChannel outChannel = outStream.getChannel();
                 inChannel.transferTo(0, inChannel.size(), outChannel);
             } catch (IOException e) {
+                mDm.remove(id);
                 displayErrorResult(updateIntent, R.string.unable_to_download_file);
                 return;
-            } finally {
-                mDm.remove(id);
             }
 
             // Check the signature of the downloaded file
@@ -101,6 +100,7 @@ public class DownloadCompleteIntentService extends IntentService {
                 if (destFile.exists()) {
                     destFile.delete();
                 }
+                mDm.remove(id);
                 displayErrorResult(updateIntent, R.string.verification_failed);
                 return;
             }
@@ -109,6 +109,7 @@ public class DownloadCompleteIntentService extends IntentService {
             updateIntent.putExtra(UpdatesSettings.EXTRA_FINISHED_DOWNLOAD_ID, id);
             updateIntent.putExtra(UpdatesSettings.EXTRA_FINISHED_DOWNLOAD_PATH,
                     destPath);
+            mDm.remove(id);
             displaySuccessResult(updateIntent, destFile);
         } else if (status == DownloadManager.STATUS_FAILED) {
             // The download failed, reset
