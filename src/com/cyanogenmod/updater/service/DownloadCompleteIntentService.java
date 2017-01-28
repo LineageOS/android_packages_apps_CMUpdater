@@ -79,14 +79,28 @@ public class DownloadCompleteIntentService extends IntentService {
             mPrefs.edit().putString(Constants.DOWNLOAD_NAME, "").commit();
 
             try {
-                FileOutputStream outStream = new FileOutputStream(destFile);
-
                 ParcelFileDescriptor file = mDm.openDownloadedFile(id);
                 FileInputStream inStream = new FileInputStream(file.getFileDescriptor());
-
                 FileChannel inChannel = inStream.getChannel();
+                FileOutputStream outStream = new FileOutputStream(destFile);
                 FileChannel outChannel = outStream.getChannel();
-                inChannel.transferTo(0, inChannel.size(), outChannel);
+                try {
+                    inChannel.transferTo(0, inChannel.size(), outChannel);
+                    outStream.flush();
+                } finally {
+                    if (outChannel != null) {
+                        outChannel.close();
+                    }
+                    if (outStream != null) {
+                        outStream.close();
+                    }
+                    if (inChannel != null) {
+                        inChannel.close();
+                    }
+                    if (inStream != null) {
+                        inStream.close();
+                    }
+                }
             } catch (IOException e) {
                 displayErrorResult(updateIntent, R.string.unable_to_download_file);
                 return;
