@@ -52,6 +52,24 @@
       "revId": "9780234c2a0c4c49f4750be0d4e8e5b9f9a679cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_b4aa8ad2",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 12604
+      },
+      "writtenOn": "2017-01-29T21:39:26Z",
+      "side": 1,
+      "message": "I tried closing both file channels and the streams, but it did not solve the problem.  So far, the only solution is to relocate mdm.remove(id).\n\n--- a/src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java\n+++ b/src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java\n@@ -87,6 +87,14 @@ public class DownloadCompleteIntentService extends IntentService {\n                 FileChannel inChannel \u003d inStream.getChannel();\n                 FileChannel outChannel \u003d outStream.getChannel();\n                 inChannel.transferTo(0, inChannel.size(), outChannel);\n+\n+                if (inChannel !\u003d null)\n+                        inChannel.close();\n+                if (outChannel !\u003d null)\n+                        outChannel.close();\n+\n+                inStream.close();\n+                outStream.close();\n             } catch (IOException e) {\n                 displayErrorResult(updateIntent, R.string.unable_to_download_file);\n                 return;",
+      "parentUuid": "9a437d4f_ae5d9beb",
+      "revId": "9780234c2a0c4c49f4750be0d4e8e5b9f9a679cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
