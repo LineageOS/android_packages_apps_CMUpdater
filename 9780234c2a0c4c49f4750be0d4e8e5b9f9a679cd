@@ -70,6 +70,24 @@
       "revId": "9780234c2a0c4c49f4750be0d4e8e5b9f9a679cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_1406f6ce",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 12604
+      },
+      "writtenOn": "2017-01-29T23:39:41Z",
+      "side": 1,
+      "message": "It appears that this code already uses a try-with-resources syntax. The try-with-resources statement already ensures that each resource is closed at the end of the statement.",
+      "parentUuid": "9a437d4f_b4aa8ad2",
+      "revId": "9780234c2a0c4c49f4750be0d4e8e5b9f9a679cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
