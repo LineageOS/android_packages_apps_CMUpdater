@@ -16,6 +16,24 @@
       "revId": "9780234c2a0c4c49f4750be0d4e8e5b9f9a679cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_d15ac082",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 12604
+      },
+      "writtenOn": "2017-01-29T19:09:21Z",
+      "side": 1,
+      "message": "I think we should only close the Streams and not the FileChannels because research suggests closing the FileChannel also closes the Stream",
+      "parentUuid": "9a437d4f_ae5d9beb",
+      "revId": "9780234c2a0c4c49f4750be0d4e8e5b9f9a679cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
