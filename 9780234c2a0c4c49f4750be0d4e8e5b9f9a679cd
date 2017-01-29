@@ -34,6 +34,24 @@
       "revId": "9780234c2a0c4c49f4750be0d4e8e5b9f9a679cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_d19f6002",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 12604
+      },
+      "writtenOn": "2017-01-29T19:31:43Z",
+      "side": 1,
+      "message": "Actually, documentation suggests to check if Channel is null and close it, then close the stream. I am testing a new solution now. Thanks for your suggestion.",
+      "parentUuid": "9a437d4f_d15ac082",
+      "revId": "9780234c2a0c4c49f4750be0d4e8e5b9f9a679cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
