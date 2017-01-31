@@ -88,6 +88,24 @@
       "revId": "9780234c2a0c4c49f4750be0d4e8e5b9f9a679cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_c83b2aea",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 12604
+      },
+      "writtenOn": "2017-01-31T22:14:50Z",
+      "side": 1,
+      "message": "Closing the file channels in the finally block did the trick.  It did not work if I closed the file channels in the same try block as the trasferTo call.  I think this is the best solution so far.",
+      "parentUuid": "9a437d4f_ae5d9beb",
+      "revId": "9780234c2a0c4c49f4750be0d4e8e5b9f9a679cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
