@@ -46,6 +46,23 @@
       "revId": "4b122c0c712668a43940039299d422e7cc4f7352",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_1e73a84e",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-01T11:41:17Z",
+      "side": 0,
+      "message": "According to the docs, DownloadManager.openDownloadedFile() is the only method in the original code that can throw an IOException, namely a FileNotFoundException.\n\nIf so, maybe something like this is simpler. I think the null checks aren\u0027t needed for this as well:\n\n ParcelFileDescriptor file \u003d null;\n try {\n     ParcelFileDescriptor file \u003d mDm.openDownloadedFile(id);\n } catch (FileNotFoundException e) {\n     displayErrorResult(updateIntent, R.string.unable_to_download_file);\n     mDm.remove(id);\n     return;\n }\n\n FileInputStream inStream \u003d new FileInputStream(file.getFileDescriptor());\n FileChannel inChannel \u003d inStream.getChannel();\n FileOutputStream outStream \u003d new FileOutputStream(destFile);\n FileChannel outChannel \u003d outStream.getChannel();\n inChannel.transferTo(0, inChannel.size(), outChannel);\n\n try {\n     inChannel.close();\n     outChannel.close();\n     inStream.close();\n     outStream.close();\n } catch (IOException e) {\n     // Ignore\n }\n\n mDm.remove(id);",
+      "revId": "4b122c0c712668a43940039299d422e7cc4f7352",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
