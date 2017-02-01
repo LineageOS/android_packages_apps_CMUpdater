@@ -16,6 +16,24 @@
       "revId": "7ec103ad652b022b97dcb683cbc6e2434feeb386",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_7e54f453",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 12604
+      },
+      "writtenOn": "2017-02-01T12:27:03Z",
+      "side": 1,
+      "message": "If they were null, I think an IOException would be thrown.",
+      "parentUuid": "9a437d4f_83d185fd",
+      "revId": "7ec103ad652b022b97dcb683cbc6e2434feeb386",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
