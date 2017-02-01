@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_83d185fd",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2017-02-01T04:10:05Z",
+      "side": 1,
+      "message": "You should null check all of those 4. They Some of them might be null if one of the earlier calls threw an exception.",
+      "revId": "7ec103ad652b022b97dcb683cbc6e2434feeb386",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
