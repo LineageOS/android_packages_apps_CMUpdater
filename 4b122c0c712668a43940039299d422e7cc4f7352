@@ -99,6 +99,24 @@
       "revId": "4b122c0c712668a43940039299d422e7cc4f7352",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_bd926155",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 12604
+      },
+      "writtenOn": "2017-02-01T23:04:02Z",
+      "side": 0,
+      "message": "I figured out the issue with the fatal exception.  I needed to flash the rom over again.  Although, I\u0027m not sure if I optimized the code in this example.",
+      "parentUuid": "9a437d4f_5d3815a0",
+      "revId": "4b122c0c712668a43940039299d422e7cc4f7352",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
