@@ -82,5 +82,5 @@
   <!-- changelog strings -->
   <string name="no_changelog_alert">更新履歴はありません</string>
   <string name="changelog_dialog_title">更新履歴</string>
-  <string name="loading_changelog">読み込み中\u2026</string>
+  <string name="loading_changelog">読み込み中...</string>
 </resources>

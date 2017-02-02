@@ -10,14 +10,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="app_name">CM Updater</string>
+  <string name="app_name">Actualizador de CM</string>
   <string name="display_name">Actualizaciones</string>
   <string name="unknown">Desconocido</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Actualizar</string>
-  <string name="menu_delete_all">Eliminar descargas</string>
+  <string name="menu_delete_all">Borrar descargas</string>
   <string name="menu_system_info">Información del sistema</string>
-  <string name="menu_system_info_tv">Información del sistema: haz clic para actualizar la lista</string>
+  <string name="menu_system_info_tv">Información del sistema: Pulsa para actualizar la lista</string>
   <string name="dialog_ok">Aceptar</string>
   <string name="dialog_cancel">Cancelar</string>
   <string name="dialog_update">Actualizar</string>
@@ -25,7 +25,7 @@
   <!-- Settings strings -->
   <string name="available_updates_title">Actualizaciones disponibles</string>
   <string name="no_available_updates_intro">La última comprobación no encontró actualizaciones disponibles. Para buscar nuevas actualizaciones, utiliza el botón Actualizar.</string>
-  <string name="no_available_updates_intro_tv">La última comprobación no encontró ninguna actualización disponible. Para comprobar manualmente nuevas actualizaciones, haz clic en \'Información del sistema\'.</string>
+  <string name="no_available_updates_intro_tv">La última comprobación no encontró ninguna actualización disponible. Para comprobar manualmente nuevas actualizaciones, pulsa en \'Información del sistema\'.</string>
   <string name="new_update_summary">Nuevo</string>
   <string name="downloaded_update_summary">Descargada</string>
   <string name="installed_update_summary">Instalados</string>
@@ -47,6 +47,7 @@
   <string name="data_connection_required">Se necesita una conexión de datos.</string>
   <!-- Permission check -->
   <string name="permission_not_granted_dialog_title">Permiso no concedido</string>
+  <string name="permission_not_granted_dialog_message">No se concedió permiso para escribir en el almacenamiento externo.</string>
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">Cancelar descarga</string>
   <string name="confirm_download_cancelation_dialog_message">¿Cancelar la descarga actual?</string>
@@ -65,14 +66,14 @@
   <string name="apply_update_dialog_text">Estás por actualizar a <xliff:g id="filename">%s</xliff:g>.\n\nSi presionas Actualizar, se reiniciará el dispositivo en modo recuperación para instalar la actualización.\n\nNota: esta función requiere una recuperación compatible o las actualizaciones deberán instalarse manualmente.</string>
   <string name="apply_unable_to_reboot_toast">No se pudo reiniciar en modo recuperación</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Eliminar archivo</string>
-  <string name="confirm_delete_dialog_title_tv">Haz clic para eliminar todas las actualizaciones descargadas en el almacenamiento interno</string>
-  <string name="confirm_delete_dialog_message">¿Eliminar el archivo de actualización seleccionado?</string>
-  <string name="confirm_delete_all_dialog_message">¿Eliminar todos los archivos de actualizaciones descargados?</string>
-  <string name="delete_single_update_success_message">Actualización <xliff:g id="filename">%s</xliff:g> eliminada</string>
-  <string name="delete_updates_failure_message">Ocurrió un error al eliminar el archivo de actualización</string>
+  <string name="confirm_delete_dialog_title">Borrar archivo</string>
+  <string name="confirm_delete_dialog_title_tv">Pulsa para borrar todas las actualizaciones descargadas en el almacenamiento interno</string>
+  <string name="confirm_delete_dialog_message">¿Borrar el archivo de actualización seleccionado?</string>
+  <string name="confirm_delete_all_dialog_message">¿Borrar todos los archivos de actualizaciones descargados?</string>
+  <string name="delete_single_update_success_message">Actualización <xliff:g id="filename">%s</xliff:g> borrada</string>
+  <string name="delete_updates_failure_message">Ocurrió un error al borrar el archivo de actualización</string>
   <string name="delete_updates_noFolder_message">No se encontró la carpeta de actualizaciones</string>
-  <string name="delete_updates_success_message">Se eliminaron todas las actualizaciones descargadas</string>
+  <string name="delete_updates_success_message">Se borraron todas las actualizaciones descargadas</string>
   <!-- System info strings -->
   <string name="sysinfo_device">Dispositivo:</string>
   <string name="sysinfo_running">Ejecutando:</string>
