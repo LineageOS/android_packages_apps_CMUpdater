@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_a04ebabf",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 12
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2017-02-02T06:03:30Z",
+      "side": 1,
+      "message": "Nitpick: Please use {} here and above.",
+      "revId": "4d7a3f3ad0132405e9b0fade3cca0a129320827e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
