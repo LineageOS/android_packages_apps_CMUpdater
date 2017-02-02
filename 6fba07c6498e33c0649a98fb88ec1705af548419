@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_117dd66e",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 13
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 12604
+      },
+      "writtenOn": "2017-02-02T19:45:26Z",
+      "side": 0,
+      "message": "We check for status \u003d\u003d SUCESS, but I think we should also check for download completion.  Something like this here:\n\n    String action \u003d intent.getAction();\n    if (action.equals(DownloadManager.ACTION_DOWNLOAD_COMPLETE)) {",
+      "range": {
+        "startLine": 63,
+        "startChar": 8,
+        "endLine": 63,
+        "endChar": 45
+      },
+      "revId": "6fba07c6498e33c0649a98fb88ec1705af548419",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_3188da70",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 13
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 12604
+      },
+      "writtenOn": "2017-02-02T19:45:26Z",
+      "side": 0,
+      "message": "I think this should be something like:\n\n           if (c.moveToFirst()) {\n                if (c.getCount() \u003e 0) {\n                    return c.getInt(c.getColumnIndex(DownloadManager.COLUMN_STATUS));\n                }\n            }",
+      "range": {
+        "startLine": 141,
+        "startChar": 16,
+        "endLine": 141,
+        "endChar": 81
+      },
+      "revId": "6fba07c6498e33c0649a98fb88ec1705af548419",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
