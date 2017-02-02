@@ -34,6 +34,24 @@
       "revId": "7ec103ad652b022b97dcb683cbc6e2434feeb386",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_60c8d222",
+        "filename": "src/com/cyanogenmod/updater/service/DownloadCompleteIntentService.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2017-02-02T06:06:28Z",
+      "side": 1,
+      "message": "Actually it\u0027s the other way around: a thrown IOException would cause the other variables to stay null. That\u0027s not the point though: even if an IOException is thrown, your finally block will still be executed, and calling close() on a null handle will cause a NullPointerException to be thrown inside there.",
+      "parentUuid": "9a437d4f_7e54f453",
+      "revId": "7ec103ad652b022b97dcb683cbc6e2434feeb386",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
