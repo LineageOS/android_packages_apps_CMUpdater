@@ -47,6 +47,7 @@
   <string name="data_connection_required">Se requiere una conexión de datos.</string>
   <!-- Permission check -->
   <string name="permission_not_granted_dialog_title">Permiso no concedido</string>
+  <string name="permission_not_granted_dialog_message">No se concedió permiso para escribir en el almacenamiento externo.</string>
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">Cancelar descarga</string>
   <string name="confirm_download_cancelation_dialog_message">¿Cancelar la descarga actual?</string>
