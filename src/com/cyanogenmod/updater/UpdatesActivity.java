@@ -12,6 +12,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -52,6 +54,25 @@ public class UpdatesActivity extends AppCompatActivity {
         mToolbar.setTitle("");
         mToolbar.setNavigationIcon(R.drawable.ic_logo);
         setSupportActionBar(mToolbar);
+
+        final CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout)
+                findViewById(R.id.collapsing_toolbar);
+        AppBarLayout appBar = (AppBarLayout) findViewById(R.id.app_bar);
+        appBar.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            boolean isShown = false;
+
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                int scrollRange = appBarLayout.getTotalScrollRange();
+                if (scrollRange + verticalOffset == 0) {
+                    collapsingToolbar.setTitle(getString(R.string.app_name));
+                    isShown = true;
+                } else if(isShown) {
+                    collapsingToolbar.setTitle(" ");
+                    isShown = false;
+                }
+            }
+        });
     }
 
     @Override
