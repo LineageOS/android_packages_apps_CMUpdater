@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_315812fa",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-03-12T08:12:54Z",
+      "side": 1,
+      "message": "Wrap to 100 chars",
+      "revId": "1039e8b52359be58bb1aa456823c5ac425a81bd7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
