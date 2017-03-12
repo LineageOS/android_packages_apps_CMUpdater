@@ -277,6 +277,8 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
                 mProgressBar.setVisibility(View.VISIBLE);
                 mTitleText.setText(String.format("%1$s %2$s",
                         mBuildName[3], mContext.getString(R.string.type_downloading)));
+                mStopDownloadButton.setContentDescription(mContext.
+                        getString(R.string.stop_download_button));
                 break;
 
             case STYLE_INSTALLED:
