@@ -99,7 +99,7 @@ public class DownloadService extends IntentService
         }
     }
 
-    private long enqueueDownload(String downloadUrl, String localFilePath) {
+    private long enqueueDownload(String downloadUrl) {
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(downloadUrl));
         String userAgent = Utils.getUserAgentString(this);
         if (userAgent != null) {
@@ -119,12 +119,7 @@ public class DownloadService extends IntentService
     private void downloadFullZip() {
         Log.v(TAG, "Downloading full zip");
 
-        // Build the name of the file to download, adding .partial at the end.  It will get
-        // stripped off when the download completes
-        String fullFilePath = "file://" + getUpdateDirectory().getAbsolutePath() +
-                "/" + mInfo.getFileName() + ".partial";
-
-        long downloadId = enqueueDownload(mInfo.getDownloadUrl(), fullFilePath);
+        long downloadId = enqueueDownload(mInfo.getDownloadUrl());
 
         // Store in shared preferences
         mPrefs.edit()
@@ -136,10 +131,6 @@ public class DownloadService extends IntentService
         Intent intent = new Intent(DownloadReceiver.ACTION_DOWNLOAD_STARTED);
         intent.putExtra(DownloadManager.EXTRA_DOWNLOAD_ID, downloadId);
         sendBroadcast(intent);
-    }
-
-    private File getUpdateDirectory() {
-        return Utils.makeUpdateFolder(getApplicationContext());
     }
 
     @Override
