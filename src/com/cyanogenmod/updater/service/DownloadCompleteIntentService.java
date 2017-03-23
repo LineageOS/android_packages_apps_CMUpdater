@@ -69,6 +69,7 @@ public class DownloadCompleteIntentService extends IntentService {
 
             if (partialFileFullPath == null) {
                 displayErrorResult(updateIntent, R.string.unable_to_download_file);
+                return;
             }
 
             String destName = new File(partialFileFullPath).getName().replace(".partial", "");
