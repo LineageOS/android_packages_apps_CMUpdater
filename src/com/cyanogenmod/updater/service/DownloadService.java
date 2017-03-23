@@ -124,6 +124,7 @@ public class DownloadService extends IntentService
         // Store in shared preferences
         mPrefs.edit()
                 .putLong(Constants.DOWNLOAD_ID, downloadId)
+                .putLong(Constants.DOWNLOAD_ID, mInfo.getFileName())
                 .apply();
 
         Utils.cancelNotification(this);
