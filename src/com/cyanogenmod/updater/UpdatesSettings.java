@@ -299,8 +299,7 @@ public class UpdatesSettings extends PreferenceFragment implements
                     resetDownloadState();
                     break;
                 case DownloadManager.STATUS_SUCCESSFUL:
-                    progressBar.setIndeterminate(true);
-                    mDownloading = false;
+                    mDownloadingPreference.setStyle(UpdatePreference.STYLE_COMPLETING);
                     break;
             }
 
@@ -516,15 +515,22 @@ public class UpdatesSettings extends PreferenceFragment implements
         // Convert the installed version name to the associated filename
         String installedZip = "lineage-" + Utils.getInstalledVersion() + ".zip";
 
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
+        final String completing = sharedPrefs.getString(Constants.DOWNLOAD_COMPLETING, null);
+
         // Add the updates
         for (UpdateInfo ui : updates) {
             // Determine the preference style and create the preference
+            boolean isCompleting = ui.getFileName().equals(completing);
             boolean isDownloading = ui.getFileName().equals(mFileName);
             int style;
 
             if (isDownloading) {
                 // In progress download
                 style = UpdatePreference.STYLE_DOWNLOADING;
+            } else if (isCompleting) {
+                style = UpdatePreference.STYLE_COMPLETING;
+                mDownloading = true;
             } else if (ui.getFileName().replace("-signed", "").equals(installedZip)) {
                 // This is the currently installed version
                 style = UpdatePreference.STYLE_INSTALLED;

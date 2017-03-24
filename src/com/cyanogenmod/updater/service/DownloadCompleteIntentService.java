@@ -13,8 +13,10 @@ import android.app.DownloadManager;
 import android.app.IntentService;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.ParcelFileDescriptor;
+import android.preference.PreferenceManager;
 import android.util.Log;
 
 import com.cyanogenmod.updater.R;
@@ -83,6 +85,7 @@ public class DownloadCompleteIntentService extends IntentService {
                 return;
             } finally {
                 mDm.remove(id);
+                removeCompletingDownload();
             }
 
             // Check the signature of the downloaded file
@@ -95,6 +98,8 @@ public class DownloadCompleteIntentService extends IntentService {
                 }
                 displayErrorResult(updateIntent, R.string.verification_failed);
                 return;
+            } finally {
+                removeCompletingDownload();
             }
 
             // We passed. Bring the main app to the foreground and trigger download completed
@@ -107,7 +112,14 @@ public class DownloadCompleteIntentService extends IntentService {
             // The download failed, reset
             mDm.remove(id);
             displayErrorResult(updateIntent, R.string.unable_to_download_file);
+            removeCompletingDownload();
         }
+    }
+
+    private void removeCompletingDownload() {
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(
+                getApplicationContext());
+        sharedPreferences.edit().remove(Constants.DOWNLOAD_COMPLETING).apply();
     }
 
     private int fetchDownloadStatus(long id) {
