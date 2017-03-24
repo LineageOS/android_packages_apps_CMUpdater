@@ -82,6 +82,10 @@ public class DownloadReceiver extends BroadcastReceiver{
         intent.putExtra(Constants.DOWNLOAD_NAME, fileName);
         context.startService(intent);
 
+        prefs.edit()
+                .putString(Constants.DOWNLOAD_COMPLETING, fileName)
+                .apply();
+
         // Clear the shared prefs
         prefs.edit()
                 .remove(Constants.DOWNLOAD_ID)
