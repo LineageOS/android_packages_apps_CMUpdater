@@ -40,6 +40,7 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
 
     public interface OnActionListener {
         void onStartDownload(UpdatePreference pref);
+        void onStopCompletingDownload(UpdatePreference pref);
         void onStopDownload(UpdatePreference pref);
         void onStartUpdate(UpdatePreference pref);
         void onDeleteUpdate(UpdatePreference pref);
@@ -73,6 +74,9 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
             }
 
             switch (mStyle) {
+                case STYLE_COMPLETING:
+                    mOnActionListener.onStopCompletingDownload(UpdatePreference.this);
+                    break;
                 case STYLE_DOWNLOADED:
                     mOnActionListener.onStartUpdate(UpdatePreference.this);
                     break;
@@ -280,7 +284,7 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
                 break;
 
             case STYLE_COMPLETING:
-                mStopDownloadButton.setVisibility(View.GONE);
+                mStopDownloadButton.setVisibility(View.VISIBLE);
                 mProgressBar.setVisibility(View.VISIBLE);
                 mProgressBar.setIndeterminate(true);
                 mButton.setVisibility(View.GONE);
