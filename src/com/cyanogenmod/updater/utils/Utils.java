@@ -179,11 +179,11 @@ public class Utils {
     }
 
     public static Locale getCurrentLocale(Context context) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M) {
+            return context.getResources().getConfiguration().locale;
+        } else {
             return context.getResources().getConfiguration().getLocales()
                     .getFirstMatch(context.getResources().getAssets().getLocales());
-        } else {
-            return context.getResources().getConfiguration().locale;
         }
     }
 
