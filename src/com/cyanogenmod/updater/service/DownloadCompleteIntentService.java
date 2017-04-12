@@ -15,6 +15,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.ParcelFileDescriptor;
+import android.os.PowerManager;
 import android.util.Log;
 
 import com.cyanogenmod.updater.R;
@@ -54,9 +55,18 @@ public class DownloadCompleteIntentService extends IntentService {
             return;
         }
 
+        PowerManager powerManager = (PowerManager) getSystemService(POWER_SERVICE);
+        PowerManager.WakeLock wakeLock =
+                powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "Updater");
         long id = intent.getLongExtra(Constants.DOWNLOAD_ID, -1);
         final String destName = intent.getStringExtra(Constants.DOWNLOAD_NAME);
 
+        wakeLock.acquire();
+        completeDownload(id, destName);
+        wakeLock.release();
+    }
+
+    private void completeDownload(long id, String destName) {
         Intent updateIntent = new Intent(this, UpdatesActivity.class);
         updateIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK |
                 Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
