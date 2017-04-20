@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Die huidige aflaai gaan gekanselleer work, Ok om voort te gaan?</string>
   <string name="download_cancelled">Aflaai is gekanselleer</string>
   <string name="download_already_running">\'n Aflaai is reeds aan die gang</string>
+  <string name="unable_to_stop_download">Kan nie aflaai stop nie</string>
   <string name="unable_to_download_file">Kon nie die lêer aflaai nie</string>
   <string name="download_not_found">Die afgelaaide lêer kon nie gevind word nie</string>
   <string name="not_download_success">Opdatering suksesvol afgelaai</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• Geïnstalleer</string>
   <string name="type_downloaded">• Afgelaai</string>
   <string name="type_downloading">Laai tans af</string>
+  <string name="type_completing">• Maak tans klaar</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Laai af</string>
   <string name="install_button">Installeer</string>

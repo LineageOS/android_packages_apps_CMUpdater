@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Ви можете продовжити завантаження пізніше, запустивши оновлення ще раз</string>
   <string name="download_cancelled">Завантаження скасоване</string>
   <string name="download_already_running">Завантаження вже відбувається</string>
+  <string name="unable_to_stop_download">Неможливо зупинити завантаження</string>
   <string name="unable_to_download_file">Не вдалось завантажити файл оновлення</string>
   <string name="download_not_found">Оновлення не знайдено</string>
   <string name="not_download_success">Оновлення завантажено</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• Встановлено</string>
   <string name="type_downloaded">• Завантажено</string>
   <string name="type_downloading">• Завантаження</string>
+  <string name="type_completing">Завершення</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Завантажити</string>
   <string name="install_button">Встановити</string>

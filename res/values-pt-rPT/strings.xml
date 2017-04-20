@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Deseja cancelar a transferência atual?</string>
   <string name="download_cancelled">Transferência cancelada</string>
   <string name="download_already_running">Já existe uma transferência em curso</string>
+  <string name="unable_to_stop_download">Não é possível parar a transferência</string>
   <string name="unable_to_download_file">Não foi possível transferir o ficheiro de atualização</string>
   <string name="download_not_found">Transferência não disponível</string>
   <string name="not_download_success">O ficheiro de atualização foi transferido com sucesso</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• Instalada</string>
   <string name="type_downloaded">• Transferida</string>
   <string name="type_downloading">• A transferir</string>
+  <string name="type_completing">• A completar</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Transferir</string>
   <string name="install_button">Instalar</string>

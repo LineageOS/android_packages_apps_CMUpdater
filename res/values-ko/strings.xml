@@ -33,7 +33,7 @@
   <!-- Update checking -->
   <string name="checking_for_updates">업데이트를 확인 중입니다</string>
   <string name="no_updates_found">새로운 업데이트 없음</string>
-  <string name="update_check_failed">업데이트 확인에 실패했습니다. 장치가 인터넷에 연결되어있는지 확인한 뒤 다시 시도해주십시오.</string>
+  <string name="update_check_failed">업데이트 확인에 실패했습니다. 인터넷 연결을 확인한 뒤 다시 시도해 주세요.</string>
   <string name="not_new_updates_found_ticker">새 업데이트를 사용할 수 있음</string>
   <string name="not_new_updates_found_title">새 업데이트</string>
   <string name="not_action_download">다운로드</string>
@@ -43,13 +43,14 @@
   <string name="confirm_download_cancelation_dialog_message">현재 다운로드를 취소하시겠습니까?</string>
   <string name="download_cancelled">다운로드 취소됨</string>
   <string name="download_already_running">다운로드가 이미 실행 중입니다</string>
+  <string name="unable_to_stop_download">다운로드를 중지할 수 없습니다</string>
   <string name="unable_to_download_file">업데이트 파일을 다운로드할 수 없습니다</string>
   <string name="download_not_found">다운로드를 찾을 수 없습니다</string>
   <string name="not_download_success">업데이트가 성공적으로 다운로드 되었습니다</string>
   <string name="not_download_failure">업데이트 다운로드에 실패하였습니다</string>
   <string name="not_action_install_update">다시 시작 후 설치</string>
   <string name="not_download_install_notice">업데이트 <xliff:g id="filename">%s</xliff:g>(이)가 성공적으로 다운로드 되었습니다. \'다시 시작 후 설치\'를 탭하면 업데이트 설치를 위해 장치가 재시작됩니다.\n\n주의: 설치 과정이 자동으로 진행되기 위해서는 호환되는 복구 모드가 필요합니다.</string>
-  <string name="verification_failed">검증에 실패했습니다. 손상되거나 안전하지 않은 다운로드입니다</string>
+  <string name="verification_failed">검증에 실패했습니다. 손상되거나 안전하지 않은 다운로드입니다.</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">업데이트 적용</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g>(으)로 업그레이드합니다. \n\n업데이트를 탭하면 업데이트 설치를 위해 장치가 복구 모드로 재시작됩니다.\n\n주의: 이 기능은 호환되는 복구 모드가 필요하며, 그렇지 않을 경우 업데이트를 수동으로 설치해야합니다.</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• 설치됨</string>
   <string name="type_downloaded">• 다운로드 완료</string>
   <string name="type_downloading">• 다운로드 중</string>
+  <string name="type_completing">• 완료 중</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">다운로드</string>
   <string name="install_button">설치</string>

@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">¿Encaboxar la descarga actual?</string>
   <string name="download_cancelled">Encaboxóse la descarga</string>
   <string name="download_already_running">Yá hai una descarga n\'execución</string>
+  <string name="unable_to_stop_download">Nun pue parase la descarga</string>
   <string name="unable_to_download_file">Nun pue baxase\'l ficheru d\'anovamientu</string>
   <string name="download_not_found">Nun s\'alcontró la descarga</string>
   <string name="not_download_success">L\'anovamientu baxóse con ésitu</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• Instaláu</string>
   <string name="type_downloaded">• Baxáu</string>
   <string name="type_downloading">• Baxando</string>
+  <string name="type_completing">• Completando</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Baxar</string>
   <string name="install_button">Instalar</string>

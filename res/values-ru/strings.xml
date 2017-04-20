@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Отменить текущую загрузку?</string>
   <string name="download_cancelled">Загрузка отменена</string>
   <string name="download_already_running">Загрузка уже выполняется</string>
+  <string name="unable_to_stop_download">Не удалось отменить скачивание</string>
   <string name="unable_to_download_file">Не удалось скачать файл обновления</string>
   <string name="download_not_found">Обновление не найдено</string>
   <string name="not_download_success">Обновление системы скачано</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• установленная версия</string>
   <string name="type_downloaded">• готово к установке</string>
   <string name="type_downloading">• выполняется скачивание</string>
+  <string name="type_completing">• завершение установки</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Загрузить</string>
   <string name="install_button">Установить</string>

@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">このダウンロードをキャンセルしますか？</string>
   <string name="download_cancelled">ダウンロードをキャンセルしました</string>
   <string name="download_already_running">ダウンロードは既に実行中です</string>
+  <string name="unable_to_stop_download">ダウンロードを停止できません</string>
   <string name="unable_to_download_file">アップデートファイルをダウンロードできませんでした</string>
   <string name="download_not_found">ダウンロードが見つかりませんでした</string>
   <string name="not_download_success">アップデートのダウンロードが完了しました</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• インストール済み</string>
   <string name="type_downloaded">• ダウンロード済み</string>
   <string name="type_downloading">• ダウンロード中</string>
+  <string name="type_completing">• 完了処理中</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">ダウンロード</string>
   <string name="install_button">インストール</string>

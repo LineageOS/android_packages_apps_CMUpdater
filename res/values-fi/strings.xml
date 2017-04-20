@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Peruuta nykyinen lataus?</string>
   <string name="download_cancelled">Lataus peruttu</string>
   <string name="download_already_running">Lataus on jo käynnissä</string>
+  <string name="unable_to_stop_download">Ei voida keskeyttää latausta</string>
   <string name="unable_to_download_file">Päivityslistan lataaminen ei onnistu</string>
   <string name="download_not_found">Latausta ei löydy</string>
   <string name="not_download_success">Päivitys ladattu onnistuneesti</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• Asennettu</string>
   <string name="type_downloaded">• Ladattu</string>
   <string name="type_downloading">• Ladataan</string>
+  <string name="type_completing">• Valmistellaan</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Lataa</string>
   <string name="install_button">Asenna</string>

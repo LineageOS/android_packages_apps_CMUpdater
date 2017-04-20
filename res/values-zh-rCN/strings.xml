@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">取消当前的下载？</string>
   <string name="download_cancelled">下载已取消</string>
   <string name="download_already_running">已有一个正在运行的下载</string>
+  <string name="unable_to_stop_download">无法停止下载</string>
   <string name="unable_to_download_file">无法下载更新文件</string>
   <string name="download_not_found">未找到下载</string>
   <string name="not_download_success">更新已成功下载</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• 已安装</string>
   <string name="type_downloaded">• 已下载</string>
   <string name="type_downloading">• 正在下载</string>
+  <string name="type_completing">• 即将完成</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">下载</string>
   <string name="install_button">安装</string>

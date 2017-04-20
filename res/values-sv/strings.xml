@@ -64,6 +64,7 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <!-- Build item -->
+  <string name="type_installed">• Installerad</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Ladda ned</string>
   <string name="install_button">Installera</string>

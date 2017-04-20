@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Prekliči trenutni prenos?</string>
   <string name="download_cancelled">Prenos preklican</string>
   <string name="download_already_running">Prenos se že izvaja</string>
+  <string name="unable_to_stop_download">Prenosa ni mogoče ustaviti</string>
   <string name="unable_to_download_file">Ni bilo mogoče prenesti posodobitvene datoteke</string>
   <string name="download_not_found">Prenos ni najden</string>
   <string name="not_download_success">Posodobitev uspešno prenesena</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• Nameščeno</string>
   <string name="type_downloaded">• Preneseno</string>
   <string name="type_downloading">• Prenašanje</string>
+  <string name="type_completing">• Zaključevanje</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Prenesi</string>
   <string name="install_button">Namesti</string>

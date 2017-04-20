@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Да бъде ли отказано текущото изтегляне?</string>
   <string name="download_cancelled">Изтеглянето е отказано</string>
   <string name="download_already_running">Изтеглянето се изпълнява</string>
+  <string name="unable_to_stop_download">Не може да спрете изтеглянето</string>
   <string name="unable_to_download_file">Актуализацията не може да бъде свалена</string>
   <string name="download_not_found">Изтеглянето не е намерено</string>
   <string name="not_download_success">Актуализацията е изтеглена успешно</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• Инсталирани</string>
   <string name="type_downloaded">• Изтеглени</string>
   <string name="type_downloading">• Изтегляне</string>
+  <string name="type_completing">• Завършване</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Изтегляне</string>
   <string name="install_button">Инсталиране</string>

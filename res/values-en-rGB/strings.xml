@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Cancel the current download?</string>
   <string name="download_cancelled">Download cancelled</string>
   <string name="download_already_running">A download is already running</string>
+  <string name="unable_to_stop_download">Unable to stop download</string>
   <string name="unable_to_download_file">Unable to download the update file</string>
   <string name="download_not_found">Download not found</string>
   <string name="not_download_success">Update downloaded successfully</string>
@@ -71,6 +72,8 @@
   <string name="type_installed">• Installed</string>
   <string name="type_downloaded">• Downloaded</string>
   <string name="type_downloading">• Downloading</string>
+  <string name="type_completing">• Completing</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Download</string>
+  <string name="install_button">Install</string>
 </resources>

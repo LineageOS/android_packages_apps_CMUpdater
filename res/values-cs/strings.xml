@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Opravdu chcete zrušit aktuální stahování?</string>
   <string name="download_cancelled">Stahování zrušeno</string>
   <string name="download_already_running">Stahování již běží</string>
+  <string name="unable_to_stop_download">Stahování nelze zastavit</string>
   <string name="unable_to_download_file">Nelze stáhnout aktualizační soubor</string>
   <string name="download_not_found">Soubor pro stažení nenalezen</string>
   <string name="not_download_success">Aktualizace úspěšně stáhnuta</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• Nainstalované</string>
   <string name="type_downloaded">• Stáhnuté</string>
   <string name="type_downloading">• Stahování</string>
+  <string name="type_completing">• Dokončování</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Stáhnout</string>
   <string name="install_button">Instalovat</string>

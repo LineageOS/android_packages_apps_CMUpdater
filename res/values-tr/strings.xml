@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Devam eden indirme iptal edilsin mi?</string>
   <string name="download_cancelled">İndirme iptal edildi</string>
   <string name="download_already_running">Bir indirme zaten devam ediyor</string>
+  <string name="unable_to_stop_download">İndirme durdurulamadı</string>
   <string name="unable_to_download_file">Güncelleme dosyası indirilemiyor</string>
   <string name="download_not_found">İndirme bulunamadı</string>
   <string name="not_download_success">Güncelleme başarıyla indirildi</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• Yüklendi</string>
   <string name="type_downloaded">• İndirildi</string>
   <string name="type_downloading">• İndiriliyor</string>
+  <string name="type_completing">• Tamamlanıyor</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">İndir</string>
   <string name="install_button">Yükle</string>

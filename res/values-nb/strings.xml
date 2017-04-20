@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Du er i ferd med å avbryte pågående nedlasting, er du sikker?</string>
   <string name="download_cancelled">Nedlasting avbrutt</string>
   <string name="download_already_running">En nedlasting pågår allerede</string>
+  <string name="unable_to_stop_download">Kunne ikke stoppe nedlasting</string>
   <string name="unable_to_download_file">Kunne ikke laste ned oppdateringsfil</string>
   <string name="download_not_found">Nedlasting ikke funnet</string>
   <string name="not_download_success">Nedlasting av oppdatering var vellykket</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• Installert</string>
   <string name="type_downloaded">• Lastet ned</string>
   <string name="type_downloading">• Lastes ned</string>
+  <string name="type_completing">• Fullfører</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Last ned</string>
   <string name="install_button">Installer</string>

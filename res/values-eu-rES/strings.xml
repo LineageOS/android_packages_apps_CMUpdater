@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Utzi uneko deskarga?</string>
   <string name="download_cancelled">Deskarga utzi da</string>
   <string name="download_already_running">Deskarga bat jada abian dago jada</string>
+  <string name="unable_to_stop_download">Ezin da deskarga gelditu</string>
   <string name="unable_to_download_file">Ezin izan da eguneraketa fitxategia deskargatu</string>
   <string name="download_not_found">Deskarga ez da aurkitu</string>
   <string name="not_download_success">Eguneraketa ondo deskargatu da</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• Instalatuta</string>
   <string name="type_downloaded">• Deskargatuta</string>
   <string name="type_downloading">• Deskargatzen</string>
+  <string name="type_completing">• Osatzen</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Deskarga</string>
   <string name="install_button">Instalatu</string>

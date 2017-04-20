@@ -71,6 +71,7 @@
   <string name="type_installed">• Инсталиран</string>
   <string name="type_downloaded">• Преузето</string>
   <string name="type_downloading">• Преузимање</string>
+  <string name="type_completing">• Довршавање</string>
   <string name="summary">%1$s\nLineageOS %2$s • Андроид %3$s</string>
   <string name="download_button">Преузимање</string>
   <string name="install_button">Инсталирај</string>

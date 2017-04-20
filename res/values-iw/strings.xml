@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">לבטל את ההורדה הנוכחית?</string>
   <string name="download_cancelled">ההורדה בוטלה</string>
   <string name="download_already_running">ההורדה כבר מתבצעת</string>
+  <string name="unable_to_stop_download">אין אפשרות לעצור את ההורדה</string>
   <string name="unable_to_download_file">הורדת קובץ העדכון נכשלה</string>
   <string name="download_not_found">ההורדה לא נמצאה</string>
   <string name="not_download_success">העדכון הורד בהצלחה</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• מותקנות</string>
   <string name="type_downloaded">• הורדו</string>
   <string name="type_downloading">• מוריד</string>
+  <string name="type_completing">• מסיים</string>
   <string name="summary">%1$s\nLineageOS %2$s • אנדרואיד %3$s</string>
   <string name="download_button">הורדה</string>
   <string name="install_button">התקן</string>

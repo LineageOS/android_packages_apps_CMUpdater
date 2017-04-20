@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Weet u zeker dat u de download wilt annuleren?</string>
   <string name="download_cancelled">Download geannuleeerd</string>
   <string name="download_already_running">Er is al een andere download bezig</string>
+  <string name="unable_to_stop_download">Kan download niet stoppen</string>
   <string name="unable_to_download_file">Kan updatebestand niet downloaden</string>
   <string name="download_not_found">Download niet gevonden</string>
   <string name="not_download_success">Update succesvol gedownload</string>
@@ -71,6 +72,7 @@
   <string name="type_installed">• Geïnstalleerd</string>
   <string name="type_downloaded">• Gedownload</string>
   <string name="type_downloading">• Downloaden</string>
+  <string name="type_completing">• Afronden</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Downloaden</string>
   <string name="install_button">Installeren</string>

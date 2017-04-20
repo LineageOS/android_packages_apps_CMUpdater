@@ -36,13 +36,14 @@
   <string name="update_check_failed">Error en la búsqueda de actualizaciones. Comprueba la conexión a Internet e intenta de nuevo más tarde.</string>
   <string name="not_new_updates_found_ticker">Hay nuevas actualizaciones disponibles</string>
   <string name="not_new_updates_found_title">Nuevas actualizaciones</string>
-  <string name="not_action_download">Descargas</string>
+  <string name="not_action_download">Descargar</string>
   <string name="data_connection_required">Se necesita una conexión de datos.</string>
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">Cancelar descarga</string>
   <string name="confirm_download_cancelation_dialog_message">¿Cancelar la descarga actual?</string>
   <string name="download_cancelled">Descarga cancelada</string>
   <string name="download_already_running">Hay una descarga en curso</string>
+  <string name="unable_to_stop_download">No se pudo detener la descarga</string>
   <string name="unable_to_download_file">No se pudo descargar el archivo de actualización</string>
   <string name="download_not_found">Descarga no encontrada</string>
   <string name="not_download_success">Actualización descargada exitosamente</string>
@@ -71,7 +72,8 @@
   <string name="type_installed">• Instalada</string>
   <string name="type_downloaded">• Descargada</string>
   <string name="type_downloading">• Descargando</string>
+  <string name="type_completing">• Finalizando</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Descargas</string>
+  <string name="download_button">Descargar</string>
   <string name="install_button">Instalar</string>
 </resources>
