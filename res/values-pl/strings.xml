@@ -72,6 +72,5 @@ Uwaga: Ta funkcja wymaga kompatybilnego recovery. W przeciwnym wypadku aktualiza
   <!-- Build item -->
   <string name="type_downloading">• Pobieranie</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Pobierz</string>
   <string name="install_button">Instaluj</string>
 </resources>

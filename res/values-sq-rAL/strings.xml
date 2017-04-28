@@ -71,6 +71,5 @@
   <string name="type_downloading">• Duke u shkarkuar</string>
   <string name="type_completing">• Duke përfunduar</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Shkarko</string>
   <string name="install_button">Instalo</string>
 </resources>

@@ -72,6 +72,5 @@
   <string name="type_downloaded">• Preuzeto</string>
   <string name="type_downloading">• Preuzima se</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Preuzmi</string>
   <string name="install_button">Instaliraj</string>
 </resources>

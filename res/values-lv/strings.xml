@@ -63,5 +63,4 @@
   <string name="delete_updates_success_message">Visi lejuplādētie atjaunojumi izdzēsti</string>
   <!-- Header -->
   <!-- Build item -->
-  <string name="download_button">Lejuplādēt</string>
 </resources>

@@ -74,6 +74,5 @@
   <string name="type_downloading">• Đang tải về</string>
   <string name="type_completing">• Hoàn thành</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Tải về</string>
   <string name="install_button">Cài đặt</string>
 </resources>

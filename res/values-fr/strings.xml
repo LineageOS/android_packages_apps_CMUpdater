@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Annuler le téléchargement en cours\u00A0?</string>
   <string name="download_cancelled">Téléchargement annulé</string>
   <string name="download_already_running">Un téléchargement est déjà en cours</string>
+  <string name="unable_to_stop_download">Impossible d’arrêter le téléchargement</string>
   <string name="unable_to_download_file">Impossible de télécharger le fichier de mise à jour</string>
   <string name="download_not_found">Téléchargement introuvable</string>
   <string name="not_download_success">Téléchargement de la mise à jour réussi</string>
@@ -72,6 +73,5 @@
   <string name="type_downloaded">• Téléchargé</string>
   <string name="type_downloading">• Téléchargement en cours</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Télécharger</string>
   <string name="install_button">Installer</string>
 </resources>

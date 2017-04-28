@@ -74,6 +74,5 @@
   <string name="type_downloading">• Lastes ned</string>
   <string name="type_completing">• Fullfører</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Last ned</string>
   <string name="install_button">Installer</string>
 </resources>

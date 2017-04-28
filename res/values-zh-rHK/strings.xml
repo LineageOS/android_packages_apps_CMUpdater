@@ -62,5 +62,4 @@
   <string name="delete_updates_success_message">已刪除所有已下載的更新</string>
   <!-- Header -->
   <!-- Build item -->
-  <string name="download_button">下載</string>
 </resources>

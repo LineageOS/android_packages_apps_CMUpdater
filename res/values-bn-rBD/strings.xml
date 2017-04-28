@@ -62,5 +62,4 @@
   <string name="delete_updates_success_message">সব ডাউনলোড করা আধুনিকীকরণ মুছে ফেলা হয়েছে</string>
   <!-- Header -->
   <!-- Build item -->
-  <string name="download_button">ডাউনলোড</string>
 </resources>

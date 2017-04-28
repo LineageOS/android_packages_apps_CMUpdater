@@ -62,5 +62,4 @@
   <string name="delete_updates_success_message">Kõik allalaetud uuendused on kustutatud</string>
   <!-- Header -->
   <!-- Build item -->
-  <string name="download_button">Lae alla</string>
 </resources>

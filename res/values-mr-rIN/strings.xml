@@ -62,5 +62,4 @@
   <string name="delete_updates_success_message">सर्व डाउनलोड केलेली अपडेटस हटवली गेली</string>
   <!-- Header -->
   <!-- Build item -->
-  <string name="download_button">डाउनलोड करा</string>
 </resources>

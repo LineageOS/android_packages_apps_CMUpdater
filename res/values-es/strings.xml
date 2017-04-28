@@ -74,6 +74,5 @@
   <string name="type_downloading">• Descargando</string>
   <string name="type_completing">Finalizando</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Descargar</string>
   <string name="install_button">Instalar</string>
 </resources>

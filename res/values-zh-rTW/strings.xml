@@ -75,5 +75,5 @@
   <string name="type_completing">• 完成中</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">下載</string>
-  <string name="install_button">安装</string>
+  <string name="install_button">安裝</string>
 </resources>

@@ -74,6 +74,5 @@
   <string name="type_downloading">• A transferir</string>
   <string name="type_completing">• A completar</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Transferir</string>
   <string name="install_button">Instalar</string>
 </resources>

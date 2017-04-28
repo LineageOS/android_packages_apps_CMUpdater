@@ -62,5 +62,4 @@
   <string name="delete_updates_success_message">সকলো ডাউনলোড কৰা আপডেট বিলোপ কৰা হ\'ল</string>
   <!-- Header -->
   <!-- Build item -->
-  <string name="download_button">ডাউনলোড</string>
 </resources>

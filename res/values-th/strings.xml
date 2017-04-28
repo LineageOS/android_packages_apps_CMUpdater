@@ -62,5 +62,4 @@
   <string name="delete_updates_success_message">การอัปเดตที่ดาวน์โหลดทั้งหมดถูกลบแล้ว</string>
   <!-- Header -->
   <!-- Build item -->
-  <string name="download_button">ดาวน์โหลด</string>
 </resources>

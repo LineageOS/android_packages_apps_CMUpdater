@@ -62,5 +62,4 @@
   <string name="delete_updates_success_message">Endirilən bütün yeniləmələr silindi</string>
   <!-- Header -->
   <!-- Build item -->
-  <string name="download_button">Endir</string>
 </resources>

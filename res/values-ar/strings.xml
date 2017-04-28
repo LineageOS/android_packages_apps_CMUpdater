@@ -62,5 +62,4 @@
   <string name="delete_updates_success_message">حذف كل التحديثات التي تم تنزيلها</string>
   <!-- Header -->
   <!-- Build item -->
-  <string name="download_button">تنزيل</string>
 </resources>
