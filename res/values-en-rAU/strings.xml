@@ -56,6 +56,7 @@
   <string name="apply_unable_to_reboot_toast">Unable to reboot into recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Delete file</string>
+  <string name="confirm_delete_dialog_title_tv">Click to remove all downloaded updates from internal storage</string>
   <string name="confirm_delete_dialog_message">Delete the selected update file?</string>
   <string name="confirm_delete_all_dialog_message">Delete all downloaded update files?</string>
   <string name="delete_single_update_success_message">Update <xliff:g id="filename">%s</xliff:g> deleted</string>
@@ -67,12 +68,10 @@
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Last checked</string>
   <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
-  <string name="date_formatting">dd MMMM, yyyy</string>
   <!-- Build item -->
   <string name="type_installed">• Installed</string>
   <string name="type_downloaded">• Downloaded</string>
   <string name="type_downloading">• Downloading</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Download</string>
   <string name="install_button">Install</string>
 </resources>

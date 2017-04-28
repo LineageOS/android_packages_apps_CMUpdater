@@ -68,12 +68,12 @@
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">上次檢查的時間</string>
   <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
-  <string name="date_formatting">yyyy.MMMM.dd</string>
+  <string name="date_formatting">yyyy 年 MM 月 dd 日</string>
   <!-- Build item -->
   <string name="type_installed">• 已安裝</string>
   <string name="type_downloaded">• 已下載</string>
   <string name="type_downloading">• 下載中</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">下載</string>
-  <string name="install_button">安装</string>
+  <string name="install_button">安裝</string>
 </resources>
