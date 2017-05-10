@@ -43,7 +43,6 @@ import android.widget.TextView;
 import com.cyanogenmod.updater.misc.Constants;
 import com.cyanogenmod.updater.misc.State;
 import com.cyanogenmod.updater.misc.UpdateInfo;
-import com.cyanogenmod.updater.receiver.ABOTANotifier;
 import com.cyanogenmod.updater.receiver.DownloadReceiver;
 import com.cyanogenmod.updater.service.ABOTAService;
 import com.cyanogenmod.updater.service.UpdateCheckService;
@@ -150,7 +149,7 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
                 mStartUpdateVisible = false;
                 ABOTAService.setABUpdateRunning(false);
                 int errorCode = intent.getIntExtra(ABOTAService.EXTRA_ERROR_CODE, -1);
-                ABOTANotifier.notifyOngoingABOTA(context, -1, errorCode);
+                ABOTAService.notifyOngoingABOTA(context, -1, errorCode);
                 showSnack(String.format(mContext.getString(R.string.installing_zip_failed, errorCode)));
             }
         }
