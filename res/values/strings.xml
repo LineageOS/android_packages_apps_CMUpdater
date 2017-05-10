@@ -95,6 +95,7 @@
     <string name="reboot_button">Reboot</string>
 
     <!-- A/B OTA -->
+    <string name="preparing_package">Preparing package for installation</string>
     <string name="installing_package">Installing update package</string>
     <string name="installing_package_finished">Update installed. Please reboot.</string>
     <string name="finalizing_package">Finalizing package installation</string>

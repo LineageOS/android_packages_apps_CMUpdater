@@ -38,7 +38,7 @@ public class DownloadReceiver extends BroadcastReceiver{
     public static final String ACTION_DOWNLOAD_STARTED = "com.cyanogenmod.cmupdater.action.DOWNLOAD_STARTED";
 
     static final String ACTION_INSTALL_UPDATE = "com.cyanogenmod.cmupdater.action.INSTALL_UPDATE";
-    static final String ACTION_INSTALL_REBOOT = "com.cyanogenmod.cmupdater.action.INSTALL_REBOOT";
+    public static final String ACTION_INSTALL_REBOOT = "com.cyanogenmod.cmupdater.action.INSTALL_REBOOT";
     static final String EXTRA_FILENAME = "filename";
     static final String EXTRA_IS_AB_UPDATE = "is_ab_update";
 
