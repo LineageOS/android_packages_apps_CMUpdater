@@ -54,7 +54,6 @@
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Aplicar anovamientu</string>
   <string name="apply_update_dialog_text">Tas a piques d\'anovar a <xliff:g id="filename">%s</xliff:g>.\n\nSi primes ANOVAR, el preséu reaniciaráse solu al recovery pa instalar l\'anovamientu.\n\nNota: Esta carauterística rique un recovery compatible o los anovamientos precisarán instalase a mano.</string>
-  <string name="apply_unable_to_reboot_toast">Nun pue reaniciase nel mou recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Desaniciar ficheru</string>
   <string name="confirm_delete_dialog_title_tv">Primi pa desaniciar tolos anovamientos baxaos nel almacenamientu internu</string>

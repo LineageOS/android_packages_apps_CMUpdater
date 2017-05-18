@@ -23,7 +23,7 @@
   <string name="dialog_close">Cerrar</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Actualizaciones disponibles</string>
-  <string name="no_available_updates_intro">No hay nuevas actualizaciones disponibles. Para comprobar manualmente, pulse el botón Actualizar.</string>
+  <string name="no_available_updates_intro">Sin nuevas actualizaciones disponibles. Para comprobar manualmente, pulsa el botón Actualizar.</string>
   <string name="update_check_title">Buscar actualizaciones</string>
   <string name="check_manual">Manual</string>
   <string name="check_daily">Diariamente</string>
@@ -74,5 +74,6 @@
   <string name="type_downloading">• Descargando</string>
   <string name="type_completing">• Finalizando</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+  <string name="download_button">Descargar</string>
   <string name="install_button">Instalar</string>
 </resources>

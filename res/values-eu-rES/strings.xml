@@ -74,5 +74,6 @@
   <string name="type_downloading">• Deskargatzen</string>
   <string name="type_completing">• Osatzen</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+  <string name="download_button">Deskargatu</string>
   <string name="install_button">Instalatu</string>
 </resources>

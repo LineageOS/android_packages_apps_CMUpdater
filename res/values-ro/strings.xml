@@ -74,5 +74,6 @@
   <string name="type_downloading">• Descărcare</string>
   <string name="type_completing">• Completare</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+  <string name="download_button">Descărcați</string>
   <string name="install_button">Instalați</string>
 </resources>
