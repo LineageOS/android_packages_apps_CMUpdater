@@ -106,7 +106,11 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
 
         // We only show updates of type Utils.getUpdateType(), so just use that here
         mBuildType = Utils.buildTypeToString(Utils.getUpdateType()).toLowerCase();
-        mBuildVersionName = Utils.getInstalledVersionName();
+        mBuildVersionName = mUpdateInfo.getVersion();
+        // Extract version from filename if missing from mUpdateInfo
+        if (mBuildVersionName == null) {
+            mBuildVersionName = Utils.getVersionFromFileName(mUpdateInfo.getFileName());
+        }
         mBuildDateString = Utils.getDateLocalizedFromFileName(mContext, mUpdateInfo.getFileName());
 
         // Store the views from the layout
