@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_747191df",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-05-20T12:04:29Z",
+      "side": 1,
+      "message": "Did you try to see what happens to old builds available in the updater? I suspect https://review.lineageos.org/#/c/167404/, but for the version.\n\nWe ignore the JSON of whatever is older than the current build. Even if we didn\u0027t, users can have builds that are no longer online.\n\nAlthough not ideal, parsing the filename works since it has a well defined structure. Maybe we should store the build info locally not to rely entirely on the server.",
+      "range": {
+        "startLine": 109,
+        "startChar": 28,
+        "endLine": 109,
+        "endChar": 53
+      },
+      "revId": "e6c6c1bb2b50efe66ea3ba06a0d47d28fc817904",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
