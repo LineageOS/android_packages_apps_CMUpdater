@@ -110,14 +110,15 @@ public class Utils {
     }
 
     public static String getAndroidVersion(String versionName) {
-        switch (versionName) {
-            case "13.0":
-                return "6.0";
-            case "14.1":
-                return "7.1";
-            default:
-                return "???";
+        if (versionName != null) {
+            switch (versionName) {
+                case "13.0":
+                    return "6.0";
+                case "14.1":
+                    return "7.1";
+            }
         }
+        return "???";
     }
 
     public static String getUserAgentString(Context context) {
