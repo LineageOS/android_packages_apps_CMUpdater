@@ -39,6 +39,7 @@ public class UpdateInfo implements Parcelable, Serializable {
     private long mBuildDate;
     private String mDownloadUrl;
     private String mChangelogUrl;
+    private String mVersion;
 
     private Boolean mIsNewerThanInstalled;
 
@@ -110,6 +111,13 @@ public class UpdateInfo implements Parcelable, Serializable {
         return mChangelogUrl;
     }
 
+    /**
+     * Get version
+     */
+    public String getVersion() {
+        return mVersion;
+    }
+
     public boolean isNewerThanInstalled() {
         if (mIsNewerThanInstalled != null) {
             return mIsNewerThanInstalled;
@@ -124,6 +132,18 @@ public class UpdateInfo implements Parcelable, Serializable {
         }
 
         return mIsNewerThanInstalled;
+    }
+
+    public boolean isSameVersion(String version) {
+        if (version == null) {
+            return false;
+        }
+
+        if (version.equals(mVersion)) {
+            return true;
+        }
+
+        return false;
     }
 
     public static String extractUiName(String fileName) {
@@ -177,6 +197,7 @@ public class UpdateInfo implements Parcelable, Serializable {
         out.writeInt(mApiLevel);
         out.writeLong(mBuildDate);
         out.writeString(mDownloadUrl);
+        out.writeString(mVersion);
     }
 
     private void readFromParcel(Parcel in) {
@@ -186,6 +207,7 @@ public class UpdateInfo implements Parcelable, Serializable {
         mApiLevel = in.readInt();
         mBuildDate = in.readLong();
         mDownloadUrl = in.readString();
+        mVersion = in.readString();
     }
 
     public static class Builder {
@@ -196,6 +218,7 @@ public class UpdateInfo implements Parcelable, Serializable {
         private long mBuildDate;
         private String mDownloadUrl;
         private String mChangelogUrl;
+        private String mVersion;
 
         public Builder setName(String uiName) {
             mUiName = uiName;
@@ -249,6 +272,11 @@ public class UpdateInfo implements Parcelable, Serializable {
             return this;
         }
 
+        public Builder setVersion(String version) {
+            mVersion = version;
+            return this;
+        }
+
         public UpdateInfo build() {
             UpdateInfo info = new UpdateInfo();
             info.mUiName = mUiName;
@@ -258,6 +286,7 @@ public class UpdateInfo implements Parcelable, Serializable {
             info.mBuildDate = mBuildDate;
             info.mDownloadUrl = mDownloadUrl;
             info.mChangelogUrl = mChangelogUrl;
+            info.mVersion = mVersion;
             return info;
         }
 

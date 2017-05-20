@@ -281,6 +281,7 @@ public class UpdateCheckService extends IntentService
                 .setApiLevel(Build.VERSION.SDK_INT) // TODO: remove this entirely
                 .setBuildDate(obj.getLong("datetime"))
                 .setType(obj.getString("romtype"))
+                .setVersion(obj.getString("version"))
                 .build();
 
         if (!ui.isNewerThanInstalled()) {
