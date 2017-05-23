@@ -26,6 +26,7 @@ import android.util.Log;
 
 import com.cyanogenmod.updater.R;
 import com.cyanogenmod.updater.misc.Constants;
+import com.cyanogenmod.updater.misc.UpdateInfo;
 import com.cyanogenmod.updater.service.UpdateCheckService;
 
 import java.io.File;
@@ -77,6 +78,16 @@ public class Utils {
 
     public static String getInstalledBuildType() {
         return SystemProperties.get("ro.cm.releasetype", Constants.CM_RELEASETYPE_UNOFFICIAL);
+    }
+
+    public static UpdateInfo getInstalledUpdateInfo() {
+        return new UpdateInfo.Builder()
+            .setFileName("lineage-" + getInstalledVersion() + ".zip")
+            .setVersion(getInstalledVersionName())
+            .setApiLevel(getInstalledApiLevel())
+            .setBuildDate(getInstalledBuildDate())
+            .setType(getInstalledBuildType())
+            .build();
     }
 
     public static String getDateLocalized(Context context, long unixTimestamp) {

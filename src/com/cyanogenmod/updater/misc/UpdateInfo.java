@@ -183,6 +183,21 @@ public class UpdateInfo implements Parcelable, Serializable {
         return false;
     }
 
+    public boolean isCompatible(UpdateInfo update) {
+        if (this.equals(update)) {
+            return true;
+        }
+        if (!isSameVersion(update.getVersion())) {
+            return false;
+        }
+        if (!isNewerThanInstalled()) {
+            return false;
+        }
+        // XXXX Add other checks here
+
+        return true;
+    }
+
     public static String extractUiName(String fileName) {
         String deviceType = Utils.getDeviceType();
         String uiName = fileName.replaceAll("\\.zip$", "");

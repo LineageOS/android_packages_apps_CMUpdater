@@ -694,8 +694,16 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
 
         mStartUpdateVisible = true;
 
+        // Build dummy UpdateInfo for currently installed ROM
+        UpdateInfo current = Utils.getInstalledUpdateInfo();
+
         // Get the message body right
-        String dialogBody = getString(R.string.apply_update_dialog_text, updateInfo.getName());
+        String dialogBody;
+        if (current.isCompatible(updateInfo) {
+            dialogBody = getString(R.string.apply_update_dialog_text, updateInfo.getName());
+        } else {
+            dialogBody = getString(R.string.apply_upgrade_dialog_text, updateInfo.getName());
+        }
 
         // Display the dialog
         new AlertDialog.Builder(getActivity())
