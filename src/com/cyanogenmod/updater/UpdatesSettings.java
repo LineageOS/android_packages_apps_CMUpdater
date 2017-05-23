@@ -31,6 +31,7 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v7.preference.PreferenceManager;
+import android.text.method.LinkMovementMethod;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
@@ -542,6 +543,8 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
             return;
         }
 
+        UpdateInfo current = Utils.getInstalledUpdateInfo();
+
         // Clear the list
         mUpdatesList.removeAll();
 
@@ -554,7 +557,9 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
             boolean isDownloading = ui.getFileName().equals(mFileName);
             int style;
 
-            if (isDownloading) {
+            if (!current.isCompatible(ui)) {
+                style = UpdatePreference.STYLE_BLOCKED;
+            } else if (isDownloading) {
                 // In progress download
                 style = UpdatePreference.STYLE_DOWNLOADING;
             } else if (isDownloadCompleting(ui.getFileName())) {
@@ -740,5 +745,17 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
             mPrefs.edit().remove("pref_update_types").apply();
             Log.d(TAG, "Removed stale preference 'pref_update_types'");
         }
+    }
+
+    @Override
+    public void onDisplayInfo(UpdatePreference pref) {
+        TextView message = new TextView(mContext);
+        message.setText(R.string.blocked_update_dialog_message);
+        message.setMovementMethod(LinkMovementMethod.getInstance());
+        new AlertDialog.Builder(getActivity())
+                .setTitle(R.string.blocked_update_dialog_title)
+                .setPositiveButton(android.R.string.ok, null)
+                .setView(message)
+                .show();
     }
 }
