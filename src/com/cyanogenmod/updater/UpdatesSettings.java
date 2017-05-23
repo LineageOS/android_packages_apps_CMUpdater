@@ -540,6 +540,8 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
             return;
         }
 
+        UpdateInfo current = Utils.getInstalledUpdateInfo();
+
         // Clear the list
         mUpdatesList.removeAll();
 
@@ -552,7 +554,9 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
             boolean isDownloading = ui.getFileName().equals(mFileName);
             int style;
 
-            if (isDownloading) {
+            if (!current.isCompatible(ui)) {
+                style = UpdatePreference.STYLE_BLOCKED;
+            } else if (isDownloading) {
                 // In progress download
                 style = UpdatePreference.STYLE_DOWNLOADING;
             } else if (isDownloadCompleting(ui.getFileName())) {
@@ -730,5 +734,19 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
 
     private void showSnack(String mMessage) {
         ((UpdatesActivity) getActivity()).showSnack(mMessage);
+    }
+
+    @Override
+    public void onDisplayInfo(UpdatePreference pref) {
+        new AlertDialog.Builder(getActivity())
+                .setTitle(R.string.blocked_update_dialog_title)
+                .setMessage(R.string.blocked_update_dialog_message)
+                .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        // Do nothing and allow the dialog to be dismissed
+                    }
+                })
+                .show();
     }
 }
