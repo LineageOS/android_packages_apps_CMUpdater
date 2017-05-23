@@ -38,6 +38,7 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
     public static final int STYLE_DOWNLOADED = 3;
     public static final int STYLE_INSTALLED = 4;
     public static final int STYLE_COMPLETING = 5;
+    public static final int STYLE_BLOCKED = 6;
 
     public interface OnActionListener {
         void onStartDownload(UpdatePreference pref);
@@ -89,6 +90,8 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
                 case STYLE_NEW:
                     mOnActionListener.onStartDownload(UpdatePreference.this);
                     break;
+                case STYLE_BLOCKED:
+                    break;
             }
         }
     };
@@ -138,6 +141,7 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
         switch (mStyle) {
             case STYLE_DOWNLOADED:
             case STYLE_INSTALLED:
+            case STYLE_BLOCKED:
                 confirmDelete();
                 break;
 
@@ -282,6 +286,14 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
                 mButton.setVisibility(View.GONE);
                 mTitleText.setText(String.format("%1$s %2$s",
                         mBuildType, mContext.getString(R.string.type_completing)));
+                break;
+
+            case STYLE_BLOCKED:
+                mStopDownloadButton.setVisibility(View.GONE);
+                mProgressBar.setVisibility(View.GONE);
+                mButton.setVisibility(View.GONE);
+                mTitleText.setText(String.format("%1$s %2$s",
+                        mBuildType, mContext.getString(R.string.type_blocked)));
                 break;
 
             case STYLE_NEW:

@@ -540,6 +540,8 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
             return;
         }
 
+        UpdateInfo current = Utils.getInstalledUpdateInfo();
+
         // Clear the list
         mUpdatesList.removeAll();
 
@@ -552,7 +554,9 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
             boolean isDownloading = ui.getFileName().equals(mFileName);
             int style;
 
-            if (isDownloading) {
+            if (!current.isCompatible(ui)) {
+                style = UpdatePreference.STYLE_BLOCKED;
+            } else if (isDownloading) {
                 // In progress download
                 style = UpdatePreference.STYLE_DOWNLOADING;
             } else if (isDownloadCompleting(ui.getFileName())) {
