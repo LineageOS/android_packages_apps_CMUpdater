@@ -121,15 +121,6 @@ public class Utils {
         return "???";
     }
 
-    public static String getVersionFromFileName(String fileName) {
-        String[] subStrings = fileName.split("-");
-        if (subStrings.length < 2 || subStrings[1].length() < 4) {
-            Log.e(TAG, "The given filename is not valid: " + fileName);
-            return "????";
-        }
-        return subStrings[1];
-    }
-
     public static String getUserAgentString(Context context) {
         try {
             PackageManager pm = context.getPackageManager();

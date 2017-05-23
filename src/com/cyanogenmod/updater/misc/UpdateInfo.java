@@ -134,10 +134,30 @@ public class UpdateInfo implements Parcelable, Serializable {
         return mIsNewerThanInstalled;
     }
 
+    public boolean isSameVersion(String version) {
+        if (version == null) {
+            return false;
+        }
+
+        if (version.equals(mVersion)) {
+            return true;
+        }
+
+        return false;
+    }
+
     public static String extractUiName(String fileName) {
         String deviceType = Utils.getDeviceType();
         String uiName = fileName.replaceAll("\\.zip$", "");
         return uiName.replaceAll("-" + deviceType + "-?", "");
+    }
+
+    public static String extractVersion(String fileName) {
+        String[] subStrings = fileName.split("-");
+        if (subStrings.length < 2 || subStrings[1].length() < 4) {
+            return "????";
+        }
+        return subStrings[1];
     }
 
     @Override
@@ -286,6 +306,7 @@ public class UpdateInfo implements Parcelable, Serializable {
             } else {
                 mUiName = null;
             }
+            mVersion = extractVersion(fileName);
         }
     }
 }
