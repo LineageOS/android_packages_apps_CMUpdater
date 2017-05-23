@@ -694,7 +694,12 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
         mStartUpdateVisible = true;
 
         // Get the message body right
-        String dialogBody = getString(R.string.apply_update_dialog_text, updateInfo.getName());
+        String dialogBody;
+        if (updateInfo.isSameVersion(Utils.getInstalledVersionName())) {
+            dialogBody = getString(R.string.apply_update_dialog_text, updateInfo.getName());
+        } else {
+            dialogBody = getString(R.string.apply_upgrade_dialog_text, updateInfo.getName());
+        }
 
         // Display the dialog
         new AlertDialog.Builder(getActivity())
