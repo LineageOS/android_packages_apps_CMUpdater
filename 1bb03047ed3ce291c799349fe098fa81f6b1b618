@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa82b9bf_6beeb18d",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-05-24T16:14:15Z",
+      "side": 1,
+      "message": "Since you are adding the date to UpdateInfo, you could replace this with:\n\n    Utils.getDateLocalized(mContext, mUpdateInfo.getDate())\n\n(and completely remove getDateLocalizedFromFileName()). I don\u0027t know if you want to create a separate patch for that.",
+      "range": {
+        "startLine": 110,
+        "startChar": 27,
+        "endLine": 110,
+        "endChar": 99
+      },
+      "revId": "1bb03047ed3ce291c799349fe098fa81f6b1b618",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
