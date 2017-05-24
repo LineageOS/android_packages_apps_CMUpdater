@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa82b9bf_08484b2c",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-05-24T05:09:02Z",
+      "side": 1,
+      "message": "Recovery -\u003e recovery\nrestart itself in recovery mode -\u003e reboot into recovery mode",
+      "revId": "080585aee59295351d93a355e339e64df4719109",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
