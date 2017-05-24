@@ -43,4 +43,5 @@ public class Constants {
     public static final String CM_RELEASETYPE_NIGHTLY = "NIGHTLY";
     public static final String CM_RELEASETYPE_EXPERIMENTAL = "EXPERIMENTAL";
     public static final String CM_RELEASETYPE_UNOFFICIAL = "UNOFFICIAL";
+    public static final String CM_RELEASETYPE_UNKNOWN = "UNKNOWN";
 }

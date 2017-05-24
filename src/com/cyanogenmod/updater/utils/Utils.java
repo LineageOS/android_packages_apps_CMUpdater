@@ -76,7 +76,7 @@ public class Utils {
     }
 
     public static String getInstalledBuildType() {
-        return SystemProperties.get("ro.cm.releasetype", Constants.CM_RELEASETYPE_UNOFFICIAL);
+        return SystemProperties.get("ro.cm.releasetype", Constants.CM_RELEASETYPE_UNOFFICIAL).toLowerCase();
     }
 
     public static String getDateLocalized(Context context, long unixTimestamp) {
@@ -128,6 +128,15 @@ public class Utils {
             return "????";
         }
         return subStrings[1];
+    }
+
+    public static String getTypeFromFileName(String fileName) {
+        String[] subStrings = fileName.split("-");
+        if (subStrings.length < 4 || subStrings[3].length() < 7) {
+           Log.e(TAG, "The given filename is not valid: " + fileName);
+            return "???????";
+        }
+        return subStrings[3].toLowerCase();
     }
 
     public static String getUserAgentString(Context context) {
