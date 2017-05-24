@@ -200,23 +200,7 @@ public class UpdateCheckService extends IntentService
     }
 
     private String getRomType() {
-        String type;
-        switch (Utils.getUpdateType()) {
-            case Constants.UPDATE_TYPE_SNAPSHOT:
-                type = Constants.CM_RELEASETYPE_SNAPSHOT;
-                break;
-            case Constants.UPDATE_TYPE_NIGHTLY:
-                type = Constants.CM_RELEASETYPE_NIGHTLY;
-                break;
-            case Constants.UPDATE_TYPE_EXPERIMENTAL:
-                type = Constants.CM_RELEASETYPE_EXPERIMENTAL;
-                break;
-            case Constants.UPDATE_TYPE_UNOFFICIAL:
-            default:
-                type = Constants.CM_RELEASETYPE_UNOFFICIAL;
-                break;
-        }
-        return type.toLowerCase();
+        return Utils.getInstalledBuildType();
     }
 
     private URI getServerURI() {
@@ -226,7 +210,9 @@ public class UpdateCheckService extends IntentService
         }
 
         String incrementalVersion = SystemProperties.get("ro.build.version.incremental");
-        updateUri += "/v1/" + Utils.getDeviceType() + "/" + getRomType() + "/" + incrementalVersion;
+        // The update server API requires lower case in URIs
+        updateUri += "/v1/" + Utils.getDeviceType() + "/" +
+                getRomType().toLowerCase() + "/" + incrementalVersion;
 
         return URI.create(updateUri);
     }

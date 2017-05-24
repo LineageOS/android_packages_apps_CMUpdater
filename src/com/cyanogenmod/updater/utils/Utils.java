@@ -76,7 +76,8 @@ public class Utils {
     }
 
     public static String getInstalledBuildType() {
-        return SystemProperties.get("ro.cm.releasetype", Constants.CM_RELEASETYPE_UNOFFICIAL);
+        return SystemProperties.get(Constants.PROPERTY_CM_RELEASETYPE,
+                Constants.CM_RELEASETYPE_UNOFFICIAL);
     }
 
     public static String getDateLocalized(Context context, long unixTimestamp) {
@@ -130,6 +131,15 @@ public class Utils {
         return subStrings[1];
     }
 
+    public static String getTypeFromFileName(String fileName) {
+        String[] subStrings = fileName.split("-");
+        if (subStrings.length < 4 || subStrings[3].length() < 7) {
+           Log.e(TAG, "The given filename is not valid: " + fileName);
+            return "???????";
+        }
+        return subStrings[3];
+    }
+
     public static String getUserAgentString(Context context) {
         try {
             PackageManager pm = context.getPackageManager();
@@ -177,30 +187,7 @@ public class Utils {
     }
 
     public static int getUpdateType() {
-        String releaseType;
-        try {
-            releaseType = SystemProperties.get(Constants.PROPERTY_CM_RELEASETYPE);
-        } catch (IllegalArgumentException e) {
-            releaseType = Constants.CM_RELEASETYPE_UNOFFICIAL;
-        }
-
-        int updateType;
-        switch (releaseType) {
-            case Constants.CM_RELEASETYPE_SNAPSHOT:
-                updateType = Constants.UPDATE_TYPE_SNAPSHOT;
-                break;
-            case Constants.CM_RELEASETYPE_NIGHTLY:
-                updateType = Constants.UPDATE_TYPE_NIGHTLY;
-                break;
-            case Constants.CM_RELEASETYPE_EXPERIMENTAL:
-                updateType = Constants.UPDATE_TYPE_EXPERIMENTAL;
-                break;
-            case Constants.CM_RELEASETYPE_UNOFFICIAL:
-            default:
-                updateType = Constants.UPDATE_TYPE_UNOFFICIAL;
-                break;
-        }
-        return updateType;
+        return buildStringToType(getInstalledBuildType());
     }
 
     public static String buildTypeToString(int type) {
@@ -209,10 +196,21 @@ public class Utils {
                 return Constants.CM_RELEASETYPE_SNAPSHOT;
             case Constants.UPDATE_TYPE_NIGHTLY:
                 return Constants.CM_RELEASETYPE_NIGHTLY;
-            case Constants.UPDATE_TYPE_EXPERIMENTAL:
-                return Constants.CM_RELEASETYPE_EXPERIMENTAL;
+            case Constants.UPDATE_TYPE_UNOFFICIAL:
             default:
                 return Constants.CM_RELEASETYPE_UNOFFICIAL;
+        }
+    }
+
+    public static int buildStringToType(String build) {
+        switch (build) {
+            case Constants.CM_RELEASETYPE_SNAPSHOT:
+                return Constants.UPDATE_TYPE_SNAPSHOT;
+            case Constants.CM_RELEASETYPE_NIGHTLY:
+                return Constants.UPDATE_TYPE_NIGHTLY;
+            case Constants.CM_RELEASETYPE_UNOFFICIAL:
+            default:
+                return Constants.UPDATE_TYPE_UNOFFICIAL;
         }
     }
 
