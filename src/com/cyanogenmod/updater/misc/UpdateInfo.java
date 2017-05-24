@@ -15,6 +15,7 @@ import android.os.Parcelable;
 import android.text.TextUtils;
 
 import com.cyanogenmod.updater.utils.Utils;
+import com.cyanogenmod.updater.misc.Constants;
 
 import java.io.File;
 import java.io.Serializable;
@@ -27,10 +28,9 @@ public class UpdateInfo implements Parcelable, Serializable {
 
     public enum Type {
         UNKNOWN,
-        STABLE,
-        RC,
         SNAPSHOT,
-        NIGHTLY
+        NIGHTLY,
+        UNOFFICIAL
     };
     private String mUiName;
     private String mFileName;
@@ -88,6 +88,23 @@ public class UpdateInfo implements Parcelable, Serializable {
      */
     public Type getType() {
         return mType;
+    }
+
+    /**
+     * Convert build type to String
+     */
+    public String getTypeString() {
+        switch (mType) {
+            case SNAPSHOT:
+                return Constants.CM_RELEASETYPE_SNAPSHOT;
+            case NIGHTLY:
+                return Constants.CM_RELEASETYPE_NIGHTLY;
+            case UNOFFICIAL:
+                return Constants.CM_RELEASETYPE_UNOFFICIAL;
+            case UNKNOWN:
+            default:
+                return Constants.CM_RELEASETYPE_UNKNOWN;
+        }
     }
 
     /**
@@ -232,14 +249,12 @@ public class UpdateInfo implements Parcelable, Serializable {
 
         public Builder setType(String typeString) {
             Type type;
-            if (TextUtils.equals(typeString, "stable")) {
-                type = UpdateInfo.Type.STABLE;
-            } else if (TextUtils.equals(typeString, "RC")) {
-                type = UpdateInfo.Type.RC;
-            } else if (TextUtils.equals(typeString, "snapshot")) {
+            if (TextUtils.equals(typeString, "snapshot")) {
                 type = UpdateInfo.Type.SNAPSHOT;
             } else if (TextUtils.equals(typeString, "nightly")) {
                 type = UpdateInfo.Type.NIGHTLY;
+            } else if (TextUtils.equals(typeString, "UNOFFICIAL")) {
+                type = UpdateInfo.Type.UNOFFICIAL;
             } else {
                 type = UpdateInfo.Type.UNKNOWN;
             }

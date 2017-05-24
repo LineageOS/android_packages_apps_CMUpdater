@@ -130,6 +130,15 @@ public class Utils {
         return subStrings[1];
     }
 
+    public static String getTypeFromFileName(String fileName) {
+        String[] subStrings = fileName.split("-");
+        if (subStrings.length < 4 || subStrings[3].length() < 2) {
+           Log.e(TAG, "The given filename is not valid: " + fileName);
+            return "???????";
+        }
+        return subStrings[3].toLowerCase();
+    }
+
     public static String getUserAgentString(Context context) {
         try {
             PackageManager pm = context.getPackageManager();
