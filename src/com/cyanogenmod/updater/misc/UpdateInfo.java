@@ -15,6 +15,7 @@ import android.os.Parcelable;
 import android.text.TextUtils;
 
 import com.cyanogenmod.updater.utils.Utils;
+import com.cyanogenmod.updater.misc.Constants;
 
 import java.io.File;
 import java.io.Serializable;
@@ -26,11 +27,13 @@ public class UpdateInfo implements Parcelable, Serializable {
     public static final String CHANGELOG_EXTENSION = ".changelog.html";
 
     public enum Type {
-        UNKNOWN,
+        SNAPSHOT,
+        NIGHTLY,
+        EXPERIMENTAL,
+        UNOFFICIAL,
         STABLE,
         RC,
-        SNAPSHOT,
-        NIGHTLY
+        UNKNOWN
     };
     private String mUiName;
     private String mFileName;
@@ -88,6 +91,29 @@ public class UpdateInfo implements Parcelable, Serializable {
      */
     public Type getType() {
         return mType;
+    }
+
+    /**
+     * Convert build type to String
+     */
+    public String getTypeString() {
+        switch (mType) {
+            case STABLE:
+                return Constants.CM_RELEASETYPE_STABLE;
+            case RC:
+                return Constants.CM_RELEASETYPE_RC;
+            case SNAPSHOT:
+                return Constants.CM_RELEASETYPE_SNAPSHOT;
+            case NIGHTLY:
+                return Constants.CM_RELEASETYPE_NIGHTLY;
+            case EXPERIMENTAL:
+                return Constants.CM_RELEASETYPE_EXPERIMENTAL;
+            case UNOFFICIAL:
+                return Constants.CM_RELEASETYPE_UNOFFICIAL;
+            case UNKNOWN:
+            default:
+                return Constants.CM_RELEASETYPE_UNKNOWN;
+        }
     }
 
     /**
