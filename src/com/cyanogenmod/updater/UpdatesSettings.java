@@ -31,6 +31,7 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v7.preference.PreferenceManager;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -135,10 +136,10 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
         }
 
         // Force a refresh if UPDATE_TYPE_PREF does not match release type
-        int updateType = Utils.getUpdateType();
-        int updateTypePref = mPrefs.getInt(Constants.UPDATE_TYPE_PREF,
-                Constants.UPDATE_TYPE_SNAPSHOT);
-        if (updateTypePref != updateType) {
+        String updateType = Utils.getUpdateType();
+        String updateTypePref = mPrefs.getString(Constants.UPDATE_TYPE_PREF,
+                Constants.CM_UPDATE_TYPE_DEFAULT);
+        if (!TextUtils.equals(updateTypePref, updateType)) {
             updateUpdatesType(updateType);
         }
     }
@@ -367,8 +368,8 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
                 .show();
     }
 
-    private void updateUpdatesType(int type) {
-        mPrefs.edit().putInt(Constants.UPDATE_TYPE_PREF, type).apply();
+    private void updateUpdatesType(String type) {
+        mPrefs.edit().putString(Constants.UPDATE_TYPE_PREF, type).apply();
         checkForUpdates();
     }
 
@@ -478,6 +479,7 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
                     .setFileName(fileName)
                     .setVersion(Utils.getVersionFromFileName(fileName))
                     .setBuildDate(Utils.getTimestampFromFileName(fileName))
+                    .setType(Utils.getTypeFromFileName(fileName))
                     .build());
         }
         for (UpdateInfo update : availableUpdates) {
