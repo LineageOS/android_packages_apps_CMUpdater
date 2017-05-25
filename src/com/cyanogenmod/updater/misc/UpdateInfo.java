@@ -19,6 +19,8 @@ import com.cyanogenmod.updater.misc.Constants;
 
 import java.io.File;
 import java.io.Serializable;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -37,7 +39,7 @@ public class UpdateInfo implements Parcelable, Serializable {
     };
     private String mUiName;
     private String mFileName;
-    private Type mType;
+    private Type mType = Type.UNKNOWN;
     private int mApiLevel;
     private long mBuildDate;
     private String mDownloadUrl;
@@ -84,6 +86,19 @@ public class UpdateInfo implements Parcelable, Serializable {
      */
     public void setFileName(String fileName) {
         mFileName = fileName;
+        UpdateInfo parsed = parseFileName(mFileName);
+        if (mUiName == null) {
+            mUiName = parsed.mUiName;
+        }
+        if (mVersion == null) {
+            mVersion = parsed.mVersion;
+        }
+        if (mBuildDate == 0) {
+            mBuildDate = parsed.mBuildDate;
+        }
+        if (mType == Type.UNKNOWN) {
+            mType = parsed.mType;
+        }
     }
 
     /**
@@ -94,7 +109,7 @@ public class UpdateInfo implements Parcelable, Serializable {
     }
 
     /**
-     * Convert build type to String
+     * Convert build type to string
      */
     public String getTypeString() {
         switch (mType) {
@@ -117,7 +132,7 @@ public class UpdateInfo implements Parcelable, Serializable {
     }
 
     /**
-     * Get build date
+     * Get build timestamp
      */
     public long getDate() {
         return mBuildDate;
@@ -161,11 +176,7 @@ public class UpdateInfo implements Parcelable, Serializable {
     }
 
     public boolean isSameVersion(String version) {
-        if (version == null) {
-            return false;
-        }
-
-        if (version.equals(mVersion)) {
+        if (TextUtils.equals(version, mVersion)) {
             return true;
         }
 
@@ -252,24 +263,13 @@ public class UpdateInfo implements Parcelable, Serializable {
         }
 
         public Builder setFileName(String fileName) {
-            initializeName(fileName);
+            mFileName = fileName;
+            mUiName = initializeName(fileName);
             return this;
         }
 
         public Builder setType(String typeString) {
-            Type type;
-            if (TextUtils.equals(typeString, "stable")) {
-                type = UpdateInfo.Type.STABLE;
-            } else if (TextUtils.equals(typeString, "RC")) {
-                type = UpdateInfo.Type.RC;
-            } else if (TextUtils.equals(typeString, "snapshot")) {
-                type = UpdateInfo.Type.SNAPSHOT;
-            } else if (TextUtils.equals(typeString, "nightly")) {
-                type = UpdateInfo.Type.NIGHTLY;
-            } else {
-                type = UpdateInfo.Type.UNKNOWN;
-            }
-            mType = type;
+            mType = stringToType(typeString);
             return this;
         }
 
@@ -305,25 +305,89 @@ public class UpdateInfo implements Parcelable, Serializable {
 
         public UpdateInfo build() {
             UpdateInfo info = new UpdateInfo();
+            UpdateInfo parsed = parseFileName(mFileName);
+
+            if (mVersion == null) {
+                info.mVersion = parsed.mVersion;
+            } else {
+                info.mVersion = mVersion;
+            }
+
+            if (mBuildDate == 0) {
+                info.mBuildDate = parsed.mBuildDate;
+            } else {
+                info.mBuildDate = mBuildDate;
+            }
+
+            if (mType == Type.UNKNOWN) {
+                info.mType = parsed.mType;
+            } else {
+                info.mType = mType;
+            }
+
             info.mUiName = mUiName;
             info.mFileName = mFileName;
-            info.mType = mType;
             info.mApiLevel = mApiLevel;
-            info.mBuildDate = mBuildDate;
             info.mDownloadUrl = mDownloadUrl;
             info.mChangelogUrl = mChangelogUrl;
-            info.mVersion = mVersion;
+            return info;
+        }
+    }
+
+    private static String initializeName(String fileName) {
+        if (!TextUtils.isEmpty(fileName)) {
+             return extractUiName(fileName);
+        } else {
+             return null;
+        }
+    }
+
+    private static Type stringToType(String typeString) {
+        if (TextUtils.equals(typeString, "stable")) {
+            return Type.STABLE;
+        } else if (TextUtils.equals(typeString, "RC")) {
+            return Type.RC;
+        } else if (TextUtils.equals(typeString, "snapshot")) {
+            return Type.SNAPSHOT;
+        } else if (TextUtils.equals(typeString, "nightly")) {
+            return Type.NIGHTLY;
+        } else {
+            return Type.UNKNOWN;
+        }
+    }
+
+    // Parse filename and return a new UpdateInfo object
+    public static UpdateInfo parseFileName(String fileName) {
+        UpdateInfo info = new UpdateInfo();
+        info.mType = Type.UNKNOWN;
+        info.mVersion = "????";
+        if (fileName == null) {
+            // We're done, nothing to parse
             return info;
         }
 
+        info.mFileName = fileName;
+        info.mUiName = initializeName(fileName);
 
-        private void initializeName(String fileName) {
-            mFileName = fileName;
-            if (!TextUtils.isEmpty(fileName)) {
-                mUiName = extractUiName(fileName);
-            } else {
-                mUiName = null;
+        String[] subStrings = fileName.split("-");
+
+        if (subStrings.length >= 2 && subStrings[1] != null) {
+            info.mVersion = subStrings[1];
+        }
+
+        if (subStrings.length >= 3 && subStrings[2] != null) {
+            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd");
+            try {
+                info.mBuildDate = dateFormat.parse(subStrings[2]).getTime();
+            } catch (ParseException e) {
+                info.mBuildDate = 0;
             }
         }
+
+        if (subStrings.length >= 4 && subStrings[3] != null) {
+            info.mType = stringToType(subStrings[3]);
+        }
+
+        return info;
     }
 }
