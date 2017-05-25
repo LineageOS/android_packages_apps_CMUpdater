@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa82b9bf_d7c43e61",
+        "filename": "src/com/cyanogenmod/updater/misc/UpdateInfo.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 5008
+      },
+      "writtenOn": "2017-05-25T23:20:33Z",
+      "side": 1,
+      "message": "Type.STABLE?",
+      "range": {
+        "startLine": 101,
+        "startChar": 17,
+        "endLine": 101,
+        "endChar": 23
+      },
+      "revId": "c325df1f139395acf1eeb37ad739423d48ea9772",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
