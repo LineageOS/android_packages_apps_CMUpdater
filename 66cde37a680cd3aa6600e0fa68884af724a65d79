@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_41871210",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-06-01T11:20:35Z",
+      "side": 1,
+      "message": "I don\u0027t think you need to explicitly import this",
+      "revId": "66cde37a680cd3aa6600e0fa68884af724a65d79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_21820e01",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 559,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-06-01T11:20:35Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "66cde37a680cd3aa6600e0fa68884af724a65d79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
