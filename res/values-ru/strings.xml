@@ -35,7 +35,7 @@
   <string name="no_updates_found">Нет доступных обновлений</string>
   <string name="update_check_failed">Не удалось выполнить поиск обновлений. Проверьте подключение к Интернету и повторите попытку.</string>
   <string name="not_new_updates_found_ticker">Доступно обновление системы</string>
-  <string name="not_new_updates_found_title">Обновления CyanogenMod</string>
+  <string name="not_new_updates_found_title">Доступны обновления системы</string>
   <string name="not_action_download">Загрузить</string>
   <string name="data_connection_required">Необходимо подключение к Интернету</string>
   <!-- Downloads -->
@@ -48,12 +48,12 @@
   <string name="download_not_found">Обновление не найдено</string>
   <string name="not_download_success">Обновление системы скачано</string>
   <string name="not_download_failure">Ошибка загрузки обновления</string>
-  <string name="not_action_install_update">Перезагрузить и установить</string>
-  <string name="not_download_install_notice">Обновление «<xliff:g id="filename">%s</xliff:g>» загружено. Нажмите «Перезагрузить и установить», чтобы перезагрузить устройство и выполнить установку.\n\nПримечание: для автоматической установки необходим совместимый режим восстановления.</string>
+  <string name="not_action_install_update">Перезапустить и установить</string>
+  <string name="not_download_install_notice">Обновление «<xliff:g id="filename">%s</xliff:g>» загружено. Нажмите «Перезапустить и установить», чтобы выполнить перезапуск устройства и установить новую версию.\n\nПримечание: для автоматической установки необходим совместимый режим восстановления.</string>
   <string name="verification_failed">Не удалось выполнить проверку подлинности. Скачанный файл повреждён или подменён в процессе загрузки.</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Применение обновления</string>
-  <string name="apply_update_dialog_text">Будет выполнено обновление до версии «<xliff:g id="filename">%s</xliff:g>».\n\nПри нажатии кнопки «Обновить» устройство перезагрузится и перейдет в режим восстановления для установки этого обновления. \n\nПримечание: для этой функции необходим совместимый режим восстановления. При возникновении ошибки потребуется установить обновление вручную.</string>
+  <string name="apply_update_dialog_text">Будет выполнено обновление до версии «<xliff:g id="filename">%s</xliff:g>».\n\nПри нажатии кнопки «Обновить» устройство перезапустится и перейдет в режим восстановления для установки новой версии. \n\nПримечание: для этой функции необходим совместимый режим восстановления. При возникновении ошибки потребуется установить обновление вручную.</string>
   <string name="apply_unable_to_reboot_toast">Невозможно перезагрузиться в режим восстановления</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Удалить файл</string>
@@ -66,14 +66,14 @@
   <string name="delete_updates_success_message">Все загруженные обновления удалены</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
-  <string name="header_summary">Версия от %1$s\n%2$s • Android %3$s\n%4$s</string>
+  <string name="header_summary">Сборка от %1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Последняя проверка</string>
   <!-- Build item -->
   <string name="type_installed">• установленная версия</string>
   <string name="type_downloaded">• готово к установке</string>
   <string name="type_downloading">• выполняется скачивание</string>
   <string name="type_completing">• завершение установки</string>
-  <string name="summary">Версия от %1$s\nLineageOS %2$s • Android %3$s</string>
+  <string name="summary">Сборка от %1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Скачать</string>
   <string name="install_button">Установить</string>
 </resources>
