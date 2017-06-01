@@ -52,6 +52,7 @@ import org.cyanogenmod.internal.util.ScreenType;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.Math;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -68,6 +69,8 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
     public static final String EXTRA_FINISHED_DOWNLOAD_PATH = "download_path";
 
     private static final String UPDATES_CATEGORY = "updates_category";
+    // All build timestamps +/- the fuzz value are considered identical
+    private static final long BUILD_TIME_FUZZ = 6 * 3600;
 
     private SharedPreferences mPrefs;
     private ListPreference mUpdateCheck;
@@ -553,7 +556,8 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
                 style = UpdatePreference.STYLE_COMPLETING;
                 mDownloading = true;
                 mFileName = ui.getFileName();
-            } else if (ui.getFileName().replace("-signed", "").equals(installedZip)) {
+            } else if ( Math.abs(Utils.getInstalledBuildDate() - ui.getDate())
+                                                         < BUILD_TIME_FUZZ ) {
                 // This is the currently installed version
                 style = UpdatePreference.STYLE_INSTALLED;
             } else if (ui.getDownloadUrl() != null) {
