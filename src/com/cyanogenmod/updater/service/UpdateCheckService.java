@@ -199,10 +199,6 @@ public class UpdateCheckService extends IntentService
         sendBroadcast(finishedIntent);
     }
 
-    private String getRomType() {
-        return Utils.getInstalledBuildType();
-    }
-
     private URI getServerURI() {
         String updateUri = SystemProperties.get("cm.updater.uri");
         if (TextUtils.isEmpty(updateUri)) {
@@ -210,9 +206,8 @@ public class UpdateCheckService extends IntentService
         }
 
         String incrementalVersion = SystemProperties.get("ro.build.version.incremental");
-        // The update server API requires lower case in URIs
         updateUri += "/v1/" + Utils.getDeviceType() + "/" +
-                getRomType().toLowerCase() + "/" + incrementalVersion;
+                Utils.getInstalledBuildType() + "/" + incrementalVersion;
 
         return URI.create(updateUri);
     }
