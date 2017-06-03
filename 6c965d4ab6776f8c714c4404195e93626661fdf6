@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_702bfeeb",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-06-03T05:36:23Z",
+      "side": 1,
+      "message": "It probably won\u0027t make a difference here, but there\u0027s Utils.getCurrentLocale(mContext) to get the user locale.",
+      "range": {
+        "startLine": 108,
+        "startChar": 55,
+        "endLine": 108,
+        "endChar": 66
+      },
+      "revId": "6c965d4ab6776f8c714c4404195e93626661fdf6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
