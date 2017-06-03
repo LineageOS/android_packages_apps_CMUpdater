@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_30357646",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 748,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-06-03T05:49:25Z",
+      "side": 1,
+      "message": "You can replace this with \u0027null\u0027.",
+      "range": {
+        "startLine": 744,
+        "startChar": 56,
+        "endLine": 748,
+        "endChar": 21
+      },
+      "revId": "6f2fe65981a357453d3ca734194e9881831aefc3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
