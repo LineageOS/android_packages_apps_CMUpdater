@@ -22,6 +22,23 @@
       "revId": "6c965d4ab6776f8c714c4404195e93626661fdf6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_10515262",
+        "filename": "src/com/cyanogenmod/updater/utils/Utils.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 6351
+      },
+      "writtenOn": "2017-06-03T08:15:32Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "6c965d4ab6776f8c714c4404195e93626661fdf6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
