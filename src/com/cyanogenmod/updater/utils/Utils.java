@@ -35,6 +35,8 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 
 public class Utils {
 
@@ -76,7 +78,8 @@ public class Utils {
     }
 
     public static String getInstalledBuildType() {
-        return SystemProperties.get("ro.cm.releasetype", Constants.CM_RELEASETYPE_UNOFFICIAL);
+        return SystemProperties.get(Constants.PROPERTY_CM_RELEASETYPE,
+                Constants.CM_RELEASE_TYPE_DEFAULT);
     }
 
     public static String getDateLocalized(Context context, long unixTimestamp) {
@@ -96,14 +99,10 @@ public class Utils {
             Log.e(TAG, "The given filename is not valid: " + fileName);
             return 0;
         }
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd");
         try {
-            int year = Integer.parseInt(subStrings[2].substring(0, 4));
-            int month = Integer.parseInt(subStrings[2].substring(4, 6)) - 1;
-            int day = Integer.parseInt(subStrings[2].substring(6, 8));
-            Calendar cal = Calendar.getInstance();
-            cal.set(year, month, day);
-            return cal.getTimeInMillis() / 1000;
-        } catch (NumberFormatException e) {
+            return (dateFormat.parse(subStrings[2]).getTime() / 1000);
+        } catch (ParseException e) {
             Log.e(TAG, "The given filename is not valid: " + fileName);
             return 0;
         }
@@ -176,44 +175,8 @@ public class Utils {
         android.os.RecoverySystem.installPackage(context, new File(updatePackagePath));
     }
 
-    public static int getUpdateType() {
-        String releaseType;
-        try {
-            releaseType = SystemProperties.get(Constants.PROPERTY_CM_RELEASETYPE);
-        } catch (IllegalArgumentException e) {
-            releaseType = Constants.CM_RELEASETYPE_UNOFFICIAL;
-        }
-
-        int updateType;
-        switch (releaseType) {
-            case Constants.CM_RELEASETYPE_SNAPSHOT:
-                updateType = Constants.UPDATE_TYPE_SNAPSHOT;
-                break;
-            case Constants.CM_RELEASETYPE_NIGHTLY:
-                updateType = Constants.UPDATE_TYPE_NIGHTLY;
-                break;
-            case Constants.CM_RELEASETYPE_EXPERIMENTAL:
-                updateType = Constants.UPDATE_TYPE_EXPERIMENTAL;
-                break;
-            case Constants.CM_RELEASETYPE_UNOFFICIAL:
-            default:
-                updateType = Constants.UPDATE_TYPE_UNOFFICIAL;
-                break;
-        }
-        return updateType;
-    }
-
-    public static String buildTypeToString(int type) {
-        switch (type) {
-            case Constants.UPDATE_TYPE_SNAPSHOT:
-                return Constants.CM_RELEASETYPE_SNAPSHOT;
-            case Constants.UPDATE_TYPE_NIGHTLY:
-                return Constants.CM_RELEASETYPE_NIGHTLY;
-            case Constants.UPDATE_TYPE_EXPERIMENTAL:
-                return Constants.CM_RELEASETYPE_EXPERIMENTAL;
-            default:
-                return Constants.CM_RELEASETYPE_UNOFFICIAL;
-        }
+    public static String getUpdateType() {
+        return getInstalledBuildType();
     }
 
     public static Locale getCurrentLocale(Context context) {
