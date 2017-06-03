@@ -30,6 +30,7 @@ import com.cyanogenmod.updater.misc.UpdateInfo;
 import com.cyanogenmod.updater.utils.Utils;
 
 import java.io.File;
+import java.util.Locale;
 
 public class UpdatePreference extends Preference implements OnClickListener, OnLongClickListener {
     public static final int STYLE_NEW = 1;
@@ -104,8 +105,7 @@ public class UpdatePreference extends Preference implements OnClickListener, OnL
     public void onBindViewHolder(PreferenceViewHolder view) {
         super.onBindViewHolder(view);
 
-        // We only show updates of type Utils.getUpdateType(), so just use that here
-        mBuildType = Utils.buildTypeToString(Utils.getUpdateType()).toLowerCase();
+        mBuildType = mUpdateInfo.getType().toUpperCase(Locale.ROOT);
         mBuildVersionName = mUpdateInfo.getVersion();
         mBuildDateString = Utils.getDateLocalized(mContext, mUpdateInfo.getDate());
 
