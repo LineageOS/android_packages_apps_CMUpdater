@@ -25,6 +25,29 @@
     },
     {
       "key": {
+        "uuid": "da87b5cf_1022b2b9",
+        "filename": "src/com/cyanogenmod/updater/UpdatePreference.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2017-06-03T11:43:26Z",
+      "side": 1,
+      "message": "I chose Locale.ROOT to match the capitalization of the build type in the system properties. The app currently displays the installed build type in caps while the updates are all lower case, and this change is intended to make the displayed strings identical. An alternative would be to force all displayed build types to lower case.",
+      "range": {
+        "startLine": 108,
+        "startChar": 43,
+        "endLine": 108,
+        "endChar": 68
+      },
+      "revId": "6c965d4ab6776f8c714c4404195e93626661fdf6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da87b5cf_10515262",
         "filename": "src/com/cyanogenmod/updater/utils/Utils.java",
         "patchSetId": 9
