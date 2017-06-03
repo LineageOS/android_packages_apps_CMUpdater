@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da87b5cf_30125663",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2017-06-03T11:51:27Z",
+      "side": 1,
+      "message": "As part of removing the int representation for build types, I had to change the name of the stored preference. Although this has the side-effect of \u0027resetting\u0027 the preferred build type, since we are only publishing one build type it won\u0027t have any visible effect.",
+      "parentUuid": "da87b5cf_305a5684",
+      "revId": "d855e0a52e9a616a883165f7fd7d6549b6580edf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da87b5cf_505fda72",
         "filename": "src/com/cyanogenmod/updater/misc/Constants.java",
         "patchSetId": 4
