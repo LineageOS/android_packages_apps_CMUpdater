@@ -62,7 +62,7 @@ public class Utils {
     }
 
     public static String getInstalledVersion() {
-        return SystemProperties.get("ro.cm.version");
+        return SystemProperties.get("ro.cm.version").toLowerCase();
     }
 
     public static String getInstalledVersionName() {
@@ -79,7 +79,7 @@ public class Utils {
 
     public static String getInstalledBuildType() {
         return SystemProperties.get(Constants.PROPERTY_CM_RELEASETYPE,
-                Constants.CM_RELEASE_TYPE_DEFAULT);
+                Constants.CM_RELEASE_TYPE_DEFAULT).toLowerCase();
     }
 
     public static String getDateLocalized(Context context, long unixTimestamp) {
@@ -127,6 +127,15 @@ public class Utils {
             return "????";
         }
         return subStrings[1];
+    }
+
+    public static String getTypeFromFileName(String fileName) {
+        String[] subStrings = fileName.split("-");
+        if (subStrings.length < 4 || subStrings[3].length() < 7) {
+           Log.e(TAG, "The given filename is not valid: " + fileName);
+           return "???????";
+        }
+        return subStrings[3];
     }
 
     public static String getUserAgentString(Context context) {
