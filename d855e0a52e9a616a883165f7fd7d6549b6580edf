@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_305a5684",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 6351
+      },
+      "writtenOn": "2017-06-03T08:14:13Z",
+      "side": 1,
+      "message": "Does this have backward compatibility issue with existed stored preferences?",
+      "revId": "d855e0a52e9a616a883165f7fd7d6549b6580edf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_505fda72",
+        "filename": "src/com/cyanogenmod/updater/misc/Constants.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 6351
+      },
+      "writtenOn": "2017-06-03T08:14:13Z",
+      "side": 1,
+      "message": "Isn\u0027t this going to just ignore any previously saved preference for UPDATE_TYPE_PREF?  Which I guess means that there is no compatibility problem but it loses the old value.  Is that intentional to reset it?",
+      "revId": "d855e0a52e9a616a883165f7fd7d6549b6580edf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
