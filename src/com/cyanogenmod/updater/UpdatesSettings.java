@@ -479,6 +479,7 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
                     .setFileName(fileName)
                     .setVersion(Utils.getVersionFromFileName(fileName))
                     .setBuildDate(Utils.getTimestampFromFileName(fileName))
+                    .setType(Utils.getTypeFromFileName(fileName))
                     .build());
         }
         for (UpdateInfo update : availableUpdates) {
