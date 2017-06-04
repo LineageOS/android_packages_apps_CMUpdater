@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Devam eden indirme iptal edilsin mi?</string>
   <string name="download_cancelled">İndirme iptal edildi</string>
   <string name="download_already_running">Bir indirme zaten devam ediyor</string>
+  <string name="unable_to_stop_download">İndirme durdurulamadı</string>
   <string name="unable_to_download_file">Güncelleme dosyası indirilemiyor</string>
   <string name="download_not_found">İndirme bulunamadı</string>
   <string name="not_download_success">Güncelleme başarıyla indirildi</string>
@@ -67,11 +68,12 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Son Kontrol</string>
-  <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
   <!-- Build item -->
   <string name="type_installed">• Yüklendi</string>
   <string name="type_downloaded">• İndirildi</string>
   <string name="type_downloading">• İndiriliyor</string>
+  <string name="type_completing">• Tamamlanıyor</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+  <string name="download_button">İndir</string>
   <string name="install_button">Yükle</string>
 </resources>

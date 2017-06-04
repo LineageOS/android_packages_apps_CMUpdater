@@ -23,7 +23,7 @@
   <string name="dialog_close">Cerrar</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Actualizaciones disponibles</string>
-  <string name="no_available_updates_intro">No hay nuevas actualizaciones disponibles. Para comprobar manualmente, pulse el botón Actualizar.</string>
+  <string name="no_available_updates_intro">Sin nuevas actualizaciones disponibles. Para comprobar manualmente, pulsa el botón Actualizar.</string>
   <string name="update_check_title">Buscar actualizaciones</string>
   <string name="check_manual">Manual</string>
   <string name="check_daily">Diariamente</string>
@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">¿Cancelar la descarga actual?</string>
   <string name="download_cancelled">Descarga cancelada</string>
   <string name="download_already_running">Hay una descarga en curso</string>
+  <string name="unable_to_stop_download">No se pudo detener la descarga</string>
   <string name="unable_to_download_file">No se pudo descargar el archivo de actualización</string>
   <string name="download_not_found">Descarga no encontrada</string>
   <string name="not_download_success">Actualización descargada exitosamente</string>
@@ -67,11 +68,12 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Última comprobación</string>
-  <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
   <!-- Build item -->
   <string name="type_installed">• Instalada</string>
   <string name="type_downloaded">• Descargada</string>
   <string name="type_downloading">• Descargando</string>
+  <string name="type_completing">• Finalizando</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+  <string name="download_button">Descargar</string>
   <string name="install_button">Instalar</string>
 </resources>

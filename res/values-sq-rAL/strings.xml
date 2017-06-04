@@ -42,6 +42,7 @@
   <string name="confirm_download_cancelation_dialog_message">Dëshiron ta anullosh këtë shkarkim?</string>
   <string name="download_cancelled">Shkarkimi u anullua</string>
   <string name="download_already_running">Shkarkimi është duke u kryer</string>
+  <string name="unable_to_stop_download">Shkarkimi nuk mund të ndalohej</string>
   <string name="unable_to_download_file">Skedari i përditësimit nuk mund të shkarkohej</string>
   <string name="download_not_found">Shkarkimi nuk u gjet</string>
   <string name="not_download_success">Përditësimi u shkarkua me sukses</string>
@@ -64,11 +65,11 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Kontrolli i fundit</string>
-  <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
   <!-- Build item -->
   <string name="type_installed">• E instaluar</string>
   <string name="type_downloaded">• E shkarkuar</string>
   <string name="type_downloading">• Duke u shkarkuar</string>
+  <string name="type_completing">• Duke përfunduar</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="install_button">Instalo</string>
 </resources>

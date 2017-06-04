@@ -23,7 +23,7 @@
   <string name="dialog_close">닫기</string>
   <!-- Settings strings -->
   <string name="available_updates_title">사용 가능한 업데이트</string>
-  <string name="no_available_updates_intro">새로운 업데이트가 없습니다. 수동으로 새 업데이트를 확인하려면 새로 고침 버튼을 누르세요.</string>
+  <string name="no_available_updates_intro">새로운 업데이트가 없습니다. 수동으로 새 업데이트를 확인하려면 새로고침 버튼을 누르세요.</string>
   <string name="update_check_title">업데이트 확인</string>
   <string name="check_manual">수동</string>
   <string name="check_daily">매일</string>
@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">현재 다운로드를 취소하시겠습니까?</string>
   <string name="download_cancelled">다운로드 취소됨</string>
   <string name="download_already_running">다운로드가 이미 실행 중입니다</string>
+  <string name="unable_to_stop_download">다운로드를 중지할 수 없습니다</string>
   <string name="unable_to_download_file">업데이트 파일을 다운로드할 수 없습니다</string>
   <string name="download_not_found">다운로드를 찾을 수 없습니다</string>
   <string name="not_download_success">업데이트가 성공적으로 다운로드 되었습니다</string>
@@ -67,12 +68,11 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">마지막 확인</string>
-  <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
-  <string name="date_formatting">yyyy MMMM dd</string>
   <!-- Build item -->
   <string name="type_installed">• 설치됨</string>
   <string name="type_downloaded">• 다운로드 완료</string>
   <string name="type_downloading">• 다운로드 중</string>
+  <string name="type_completing">• 완료 중</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">다운로드</string>
   <string name="install_button">설치</string>

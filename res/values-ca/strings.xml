@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Vols cancel·lar la baixada actual?</string>
   <string name="download_cancelled">S\'ha cancel·lat la baixada</string>
   <string name="download_already_running">Hi ha una baixada en curs</string>
+  <string name="unable_to_stop_download">No s\'ha pogut parar la baixada</string>
   <string name="unable_to_download_file">No s\'ha pogut baixar l\'arxiu d\'actualització</string>
   <string name="download_not_found">No s\'ha trobat la baixada</string>
   <string name="not_download_success">L\'actualització s\'ha baixat amb èxit</string>
@@ -67,12 +68,11 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Darrera comprovació</string>
-  <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
-  <string name="date_formatting">dd MMMM, yyyy</string>
   <!-- Build item -->
   <string name="type_installed">• Instal·lat</string>
   <string name="type_downloaded">• Baixat</string>
   <string name="type_downloading">• S\'està baixant</string>
+  <string name="type_completing">• S\'està completant</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Baixa</string>
   <string name="install_button">Instal·la</string>

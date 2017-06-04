@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Anular a descarga actual?</string>
   <string name="download_cancelled">Anulouse a descarga</string>
   <string name="download_already_running">Hai una descarga xa en marcha</string>
+  <string name="unable_to_stop_download">Non é posíbel deter a descarga</string>
   <string name="unable_to_download_file">Non foi posíbel descargar o ficheiro de actualización</string>
   <string name="download_not_found">Non se atopou a descarga</string>
   <string name="not_download_success">Actualización descargada correctamente</string>
@@ -67,12 +68,11 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Última comprobación</string>
-  <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
-  <string name="date_formatting">MMMM dd, yyyy</string>
   <!-- Build item -->
   <string name="type_installed">• Installado</string>
   <string name="type_downloaded">• Baixado</string>
   <string name="type_downloading">• Descargando</string>
+  <string name="type_completing">• Completando</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Descargar</string>
   <string name="install_button">Instalado</string>

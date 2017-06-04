@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Zrušiť aktuálne preberanie?</string>
   <string name="download_cancelled">Preberanie bolo zrušené</string>
   <string name="download_already_running">Preberanie je už spustené</string>
+  <string name="unable_to_stop_download">Nemožno sa zastaviť sťahovanie</string>
   <string name="unable_to_download_file">Nemožno prevziať súbor aktualizácie</string>
   <string name="download_not_found">Prevzatie sa nenašlo</string>
   <string name="not_download_success">Aktualizácia bola úspešne prevzatá</string>
@@ -67,12 +68,11 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Posledná kontrola</string>
-  <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
-  <string name="date_formatting">dd.MMMM yyyy</string>
   <!-- Build item -->
   <string name="type_installed">• Nainštalované</string>
   <string name="type_downloaded">• Stiahnuté</string>
   <string name="type_downloading">• Sťahovanie</string>
+  <string name="type_completing">• Dokončovanie</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Stiahnuť</string>
   <string name="install_button">Nainštalovať</string>

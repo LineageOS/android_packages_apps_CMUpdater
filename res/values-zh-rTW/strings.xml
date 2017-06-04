@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">取消目前的下載？</string>
   <string name="download_cancelled">下載已取消</string>
   <string name="download_already_running">已有一個正在執行的下載</string>
+  <string name="unable_to_stop_download">無法停止下載</string>
   <string name="unable_to_download_file">無法下載更新檔案</string>
   <string name="download_not_found">找不到下載項目</string>
   <string name="not_download_success">下載更新成功</string>
@@ -67,12 +68,11 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">上次檢查的時間</string>
-  <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
-  <string name="date_formatting">yyyy 年 MM 月 dd 日</string>
   <!-- Build item -->
   <string name="type_installed">• 已安裝</string>
   <string name="type_downloaded">• 已下載</string>
   <string name="type_downloading">• 下載中</string>
+  <string name="type_completing">• 完成中</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">下載</string>
   <string name="install_button">安裝</string>

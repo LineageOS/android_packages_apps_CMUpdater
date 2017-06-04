@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Utzi uneko deskarga?</string>
   <string name="download_cancelled">Deskarga utzi da</string>
   <string name="download_already_running">Deskarga bat jada abian dago jada</string>
+  <string name="unable_to_stop_download">Ezin da deskarga gelditu</string>
   <string name="unable_to_download_file">Ezin izan da eguneraketa fitxategia deskargatu</string>
   <string name="download_not_found">Deskarga ez da aurkitu</string>
   <string name="not_download_success">Eguneraketa ondo deskargatu da</string>
@@ -67,11 +68,12 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Azken egiaztaketa</string>
-  <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
   <!-- Build item -->
   <string name="type_installed">• Instalatuta</string>
   <string name="type_downloaded">• Deskargatuta</string>
   <string name="type_downloading">• Deskargatzen</string>
+  <string name="type_completing">• Osatzen</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+  <string name="download_button">Deskargatu</string>
   <string name="install_button">Instalatu</string>
 </resources>

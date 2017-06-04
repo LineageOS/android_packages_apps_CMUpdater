@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">このダウンロードをキャンセルしますか？</string>
   <string name="download_cancelled">ダウンロードをキャンセルしました</string>
   <string name="download_already_running">ダウンロードは既に実行中です</string>
+  <string name="unable_to_stop_download">ダウンロードを停止できません</string>
   <string name="unable_to_download_file">アップデートファイルをダウンロードできませんでした</string>
   <string name="download_not_found">ダウンロードが見つかりませんでした</string>
   <string name="not_download_success">アップデートのダウンロードが完了しました</string>
@@ -67,12 +68,11 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">前回の確認</string>
-  <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
-  <string name="date_formatting">yyyy年MM月dd日</string>
   <!-- Build item -->
   <string name="type_installed">• インストール済み</string>
   <string name="type_downloaded">• ダウンロード済み</string>
   <string name="type_downloading">• ダウンロード中</string>
+  <string name="type_completing">• 完了処理中</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">ダウンロード</string>
   <string name="install_button">インストール</string>

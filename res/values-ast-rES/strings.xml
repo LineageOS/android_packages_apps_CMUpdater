@@ -41,6 +41,7 @@
   <string name="confirm_download_cancelation_dialog_title">Encaboxar descarga</string>
   <string name="confirm_download_cancelation_dialog_message">¿Encaboxar la descarga actual?</string>
   <string name="download_already_running">Yá hai una descarga en cursu</string>
+  <string name="unable_to_stop_download">Nun pue parase la descarga</string>
   <string name="unable_to_download_file">Nun pue baxase\'l ficheru d\'anovamientu</string>
   <string name="download_not_found">Nun s\'alcontró la descarga</string>
   <string name="not_action_install_update">Reaniciar ya instalar</string>
@@ -60,11 +61,12 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Comprobación cabera\'l</string>
-  <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
   <!-- Build item -->
   <string name="type_installed">• Instaláu</string>
   <string name="type_downloaded">• Baxáu</string>
   <string name="type_downloading">• Baxando</string>
+  <string name="type_completing">• Completando</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+  <string name="download_button">Baxar</string>
   <string name="install_button">Instalar</string>
 </resources>

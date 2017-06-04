@@ -43,6 +43,7 @@
   <string name="confirm_download_cancelation_dialog_message">Batalkan unduhan saat ini?</string>
   <string name="download_cancelled">Unduhan dibatalkan</string>
   <string name="download_already_running">Unduhan sedang berjalan</string>
+  <string name="unable_to_stop_download">Tidak dapat menghentikan unduhan</string>
   <string name="unable_to_download_file">Tidak dapat mengunduh berkas pembaruan</string>
   <string name="download_not_found">Unduhan tidak ditemukan</string>
   <string name="not_download_success">Pembaruan berhasil diunduh</string>
@@ -67,11 +68,12 @@
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Terakhir diperiksa</string>
-  <!-- Just reorder the chars, do not add / remove them (or the app will crash). MMMM = Month, dd = day, yyyy = year. Example: MMMM dd, yyyy -> January 01, 1970 -->
   <!-- Build item -->
   <string name="type_installed">• Terpasang</string>
   <string name="type_downloaded">• Terunduh</string>
   <string name="type_downloading">• Mengunduh</string>
+  <string name="type_completing">• Menyelesaikan</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+  <string name="download_button">Unduh</string>
   <string name="install_button">Pasang</string>
 </resources>
