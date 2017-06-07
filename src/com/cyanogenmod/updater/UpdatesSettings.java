@@ -568,7 +568,9 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
                 style = UpdatePreference.STYLE_COMPLETING;
                 mDownloading = true;
                 mFileName = ui.getFileName();
-            } else if (ui.getFileName().replace("-signed", "").equals(installedZip)) {
+            } else if (ui.getFileName().replace("-signed", "")
+                    .replaceAll("([^-])signed", "$1-" + Utils.getDeviceType())
+                    .equals(installedZip)) {
                 // This is the currently installed version
                 style = UpdatePreference.STYLE_INSTALLED;
             } else if (ui.getDownloadUrl() != null) {
