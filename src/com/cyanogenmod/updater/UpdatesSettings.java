@@ -31,10 +31,10 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v7.preference.PreferenceManager;
+import android.text.Html;
 import android.text.method.LinkMovementMethod;
-import android.text.SpannableString;
+import android.text.Spanned;
 import android.text.TextUtils;
-import android.text.util.Linkify;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -751,15 +751,15 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
 
     @Override
     public void onDisplayInfo(UpdatePreference pref) {
-        SpannableString message = new SpannableString(
-                getString(R.string.blocked_update_dialog_message));
-        Linkify.addLinks(message, Linkify.WEB_URLS);
-        ((TextView)(new AlertDialog.Builder(getActivity())
+        Spanned message = Html.fromHtml(String.format(
+                getString(R.string.blocked_update_dialog_message),
+                getString(R.string.blocked_update_info_url)));
+        AlertDialog dialog = new AlertDialog.Builder(getActivity())
                 .setTitle(R.string.blocked_update_dialog_title)
                 .setPositiveButton(android.R.string.ok, null)
                 .setMessage(message)
-                .show())
-                .findViewById(android.R.id.message))
-                .setMovementMethod(LinkMovementMethod.getInstance());
+                .show();
+        TextView content = (TextView)dialog.findViewById(android.R.id.message);
+        content.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }
