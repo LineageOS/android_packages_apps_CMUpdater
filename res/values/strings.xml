@@ -74,7 +74,8 @@
 
     <!-- Info about blocked updates -->
     <string name="blocked_update_dialog_title">Update blocked</string>
-    <string name="blocked_update_dialog_message">This update cannot be installed using the updater app.  Please read http://wiki.lineageos.org/upgrading.html for more information.</string>
+    <string name="blocked_update_dialog_message">This update cannot be installed using the updater app.  Please read the <a href="%1$s">LineageOS wiki</a> for more information.</string>
+    <string translatable="false" name="blocked_update_info_url">http://wiki.lineageos.org/upgrading.html</string>
 
     <!-- Header -->
     <string name="header_os">LineageOS\n%1$s</string>

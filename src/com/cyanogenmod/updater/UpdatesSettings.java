@@ -752,14 +752,15 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
     @Override
     public void onDisplayInfo(UpdatePreference pref) {
         SpannableString message = new SpannableString(
-                getString(R.string.blocked_update_dialog_message));
+                String.format(getString(R.string.blocked_update_dialog_message),
+                        getString(R.string.blocked_update_info_url)));
         Linkify.addLinks(message, Linkify.WEB_URLS);
-        ((TextView)(new AlertDialog.Builder(getActivity())
+        AlertDialog dialog = new AlertDialog.Builder(getActivity())
                 .setTitle(R.string.blocked_update_dialog_title)
                 .setPositiveButton(android.R.string.ok, null)
                 .setMessage(message)
-                .show())
-                .findViewById(android.R.id.message))
-                .setMovementMethod(LinkMovementMethod.getInstance());
+                .show();
+        TextView content = (TextView)dialog.findViewById(android.R.id.message);
+        content.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }
