@@ -751,8 +751,8 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
 
     @Override
     public void onDisplayInfo(UpdatePreference pref) {
-        Spanned message = Html.fromHtml(String.format(
-                getString(R.string.blocked_update_dialog_message),
+        Spanned message = Html.fromHtml(
+                getString(R.string.blocked_update_dialog_message,
                 getString(R.string.blocked_update_info_url)));
         AlertDialog dialog = new AlertDialog.Builder(getActivity())
                 .setTitle(R.string.blocked_update_dialog_title)
