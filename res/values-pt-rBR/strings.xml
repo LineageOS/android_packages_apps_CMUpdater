@@ -64,6 +64,7 @@
   <string name="delete_updates_failure_message">Houve um erro ao excluir o arquivo de atualização</string>
   <string name="delete_updates_noFolder_message">Pasta de atualização não encontrada</string>
   <string name="delete_updates_success_message">Todas as atualizações baixadas foram excluídas</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

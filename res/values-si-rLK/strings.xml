@@ -59,6 +59,7 @@
   <string name="delete_updates_failure_message">යාවත්කාලීන ගොනුව මකාදැමීමේදී දෝෂයක් ඇතිවුනි</string>
   <string name="delete_updates_noFolder_message">යාවත්කාලීන ෆෝල්ඩරය සොයාගත නොහැක</string>
   <string name="delete_updates_success_message">සියලු භාගතකල යාවත්කාලීනයන් මකා දැමුණි</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

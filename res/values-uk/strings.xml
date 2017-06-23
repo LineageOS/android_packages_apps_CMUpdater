@@ -64,6 +64,7 @@
   <string name="delete_updates_failure_message">Сталась помилка при видаленні файлу оновлення</string>
   <string name="delete_updates_noFolder_message">Папка з оновленнями не знайдена</string>
   <string name="delete_updates_success_message">Всі завантажені оновлення видалено</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

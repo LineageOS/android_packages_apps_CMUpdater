@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">มีข้อผิดพลาดขณะลบไฟล์อัปเดต</string>
   <string name="delete_updates_noFolder_message">ไม่พบโฟลเดอร์อัปเดต</string>
   <string name="delete_updates_success_message">การอัปเดตที่ดาวน์โหลดทั้งหมดถูกลบแล้ว</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

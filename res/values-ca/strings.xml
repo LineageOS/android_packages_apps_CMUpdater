@@ -64,6 +64,7 @@
   <string name="delete_updates_failure_message">Hi ha hagut un error esborrant l\'arxiu d\'actualització</string>
   <string name="delete_updates_noFolder_message">No s\'ha trobat la carpeta de l\'actualització</string>
   <string name="delete_updates_success_message">Totes les actualitzacions baixades s\'han esborrat</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

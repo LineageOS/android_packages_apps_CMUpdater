@@ -64,6 +64,9 @@
   <string name="delete_updates_failure_message">删除更新时发生错误</string>
   <string name="delete_updates_noFolder_message">未找到更新文件夹</string>
   <string name="delete_updates_success_message">所有已下载的更新文件已被删除</string>
+  <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">更新已被阻止</string>
+  <string name="blocked_update_dialog_message">此更新无法使用更新器进行安装。 请阅读 <![CDATA[<a href="%1$s">]]>; LineageOS wiki<![CDATA[</a>]]>; 了解更多信息。</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -73,7 +76,9 @@
   <string name="type_downloaded">• 已下载</string>
   <string name="type_downloading">• 正在下载</string>
   <string name="type_completing">• 即将完成</string>
+  <string name="type_blocked">• 已被阻止</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">下载</string>
   <string name="install_button">安装</string>
+  <string name="info_button">信息</string>
 </resources>

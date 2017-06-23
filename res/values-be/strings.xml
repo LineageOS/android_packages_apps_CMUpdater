@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">Адбылася памылка пры выдаленні файла абновы</string>
   <string name="delete_updates_noFolder_message">Тэчка з абнаўленнямі не знойдзеная</string>
   <string name="delete_updates_success_message">Усе спампаваныя абнаўленні выдалены</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

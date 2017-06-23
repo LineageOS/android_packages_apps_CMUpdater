@@ -64,6 +64,7 @@
   <string name="delete_updates_failure_message">アップデートファイルの削除中にエラーが発生しました</string>
   <string name="delete_updates_noFolder_message">アップデートフォルダが見つかりませんでした</string>
   <string name="delete_updates_success_message">ダウンロードしたすべてのアップデートファイルを削除しました</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

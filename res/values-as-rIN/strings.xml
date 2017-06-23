@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">আপডেট ফাইল বিলোপ কৰোতে এটা ত্ৰুটি ঘটিল</string>
   <string name="delete_updates_noFolder_message">আপডেট ফ\'ল্ডাৰ পোৱা নাই</string>
   <string name="delete_updates_success_message">সকলো ডাউনলোড কৰা আপডেট বিলোপ কৰা হ\'ল</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">Beim Läsche vum Aktualiséierungsfichier gouf et e Feeler</string>
   <string name="delete_updates_noFolder_message">Aktualiséierungsdossier net fonnt</string>
   <string name="delete_updates_success_message">All déi erofgelueden Aktualiséierunge goufe geläscht</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

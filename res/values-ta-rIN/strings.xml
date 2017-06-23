@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">புதுப்பித்தல் கோப்பை நீக்குவதில் ஒரு பிழை ஏற்பட்டது</string>
   <string name="delete_updates_noFolder_message">புதுப்பித்தல் கோப்புறை கிடைக்கவில்லை</string>
   <string name="delete_updates_success_message">அனைத்து பதிவிறக்கப்பட்ட புதுப்பித்தல்களும் நீக்கப்பட்டன.</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

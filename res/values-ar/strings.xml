@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">حدث خطأ أثناء حذف ملف التحديث</string>
   <string name="delete_updates_noFolder_message">تعذر العثور على مجلد التحديث</string>
   <string name="delete_updates_success_message">حذف كل التحديثات التي تم تنزيلها</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

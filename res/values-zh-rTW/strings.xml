@@ -23,7 +23,7 @@
   <string name="dialog_close">關閉</string>
   <!-- Settings strings -->
   <string name="available_updates_title">可用更新</string>
-  <string name="no_available_updates_intro">未找到新的更新。若要手動檢查新的更新，請使用 [重新整理] 按鍵。</string>
+  <string name="no_available_updates_intro">未找到新的更新。若要手動檢查新的更新，請使用「重新整理」按鍵。</string>
   <string name="update_check_title">檢查更新</string>
   <string name="check_manual">手動</string>
   <string name="check_daily">每天</string>
@@ -64,6 +64,7 @@
   <string name="delete_updates_failure_message">刪除更新檔案時出現錯誤</string>
   <string name="delete_updates_noFolder_message">找不到更新資料夾</string>
   <string name="delete_updates_success_message">已刪除所有下載的更新</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">Nepavyko ištrinti atnaujinimo</string>
   <string name="delete_updates_noFolder_message">Atnaujinimo aplankas nerastas</string>
   <string name="delete_updates_success_message">Visi atsisiųsti atnaujinimai ištrinti</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

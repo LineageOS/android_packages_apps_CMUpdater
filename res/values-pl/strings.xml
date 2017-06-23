@@ -68,6 +68,7 @@ Uwaga: Ta funkcja wymaga kompatybilnego recovery. W przeciwnym wypadku aktualiza
   <string name="delete_updates_failure_message">Wystąpił błąd podczas usuwania plików aktualizacji</string>
   <string name="delete_updates_noFolder_message">Folder aktualizacji nie został odnaleziony</string>
   <string name="delete_updates_success_message">Usunięto wszystkie pobrane aktualizacje</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

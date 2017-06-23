@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">خطا در حذف فایل بروزرسانی</string>
   <string name="delete_updates_noFolder_message">پوشه بروزرسانی پیدا نشد</string>
   <string name="delete_updates_success_message">تمام بروزرسانی‌های دانلودشده حذف شد</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

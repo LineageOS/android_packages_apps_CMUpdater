@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">Viga uuenduse faili kustutamisel</string>
   <string name="delete_updates_noFolder_message">Uuenduste kausta ei leitud</string>
   <string name="delete_updates_success_message">Kõik allalaetud uuendused on kustutatud</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

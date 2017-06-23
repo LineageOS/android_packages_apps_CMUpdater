@@ -59,6 +59,7 @@
   <string name="delete_updates_failure_message">هەڵەیەک ڕوویدا لەکاتی سڕینەوەی فایلی نوێکردنەوەدا</string>
   <string name="delete_updates_noFolder_message">فۆڵدەری نوێکردنەوە نەدۆزرایەوە</string>
   <string name="delete_updates_success_message">هەموو نوێکردنەوە داگیراوەکان سڕانەوە</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

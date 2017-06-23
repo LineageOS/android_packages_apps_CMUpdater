@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">ನವೀಕರಣೆ ಕಡತವನ್ನು ಅಳಿಸಲು ಒಂದು ದೋಷವಿದೆ</string>
   <string name="delete_updates_noFolder_message">ನವೀಕರಣೆ ಫೋಲ್ಡರ್ ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
   <string name="delete_updates_success_message">ಎಲ್ಲಾ ಡೌನ್‍ಲೋಡ್ ಮಾಡಿದ ನವೀಕರಣೆಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

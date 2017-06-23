@@ -64,6 +64,7 @@
   <string name="delete_updates_failure_message">Υπήρξε ένα σφάλμα κατά τη διαγραφή της ενημέρωσης</string>
   <string name="delete_updates_noFolder_message">Ο φάκελος ενημερώσεων δεν βρέθηκε</string>
   <string name="delete_updates_success_message">Όλες οι ενημερώσεις διαγράφηκαν</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
