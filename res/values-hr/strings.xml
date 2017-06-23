@@ -63,6 +63,7 @@
   <string name="delete_updates_failure_message">Došlo je do greške pri brisanju datoteke za ažuriranje.</string>
   <string name="delete_updates_noFolder_message">Mapa s ažuriranjima nije pronađena.</string>
   <string name="delete_updates_success_message">Sva su preuzeta ažuriranja izbrisana.</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

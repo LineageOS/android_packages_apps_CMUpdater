@@ -64,6 +64,7 @@
   <string name="delete_updates_failure_message">업데이트 파일을 삭제하는 도중에 오류가 발생하였습니다</string>
   <string name="delete_updates_noFolder_message">업데이트 폴더를 찾을 수 없습니다</string>
   <string name="delete_updates_success_message">다운로드된 업데이트를 모두 삭제하였습니다</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

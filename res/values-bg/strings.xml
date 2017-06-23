@@ -64,6 +64,7 @@
   <string name="delete_updates_failure_message">Възникна грешка при изтриването</string>
   <string name="delete_updates_noFolder_message">Папката с актуализациите не е намерена</string>
   <string name="delete_updates_success_message">Всичко свалени актиализации са изтрити</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

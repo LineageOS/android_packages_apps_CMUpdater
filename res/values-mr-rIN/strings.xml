@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">अपडेट फाइल हटवण्यात एक त्रुटी आली</string>
   <string name="delete_updates_noFolder_message">अपडेट फोल्डर सापडले नाही</string>
   <string name="delete_updates_success_message">सर्व डाउनलोड केलेली अपडेटस हटवली गेली</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

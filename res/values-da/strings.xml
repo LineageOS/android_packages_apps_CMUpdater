@@ -64,6 +64,7 @@
   <string name="delete_updates_failure_message">Der opstod en fejl ved sletning af opdateringsfilen</string>
   <string name="delete_updates_noFolder_message">Opdateringsmappen findes ikke</string>
   <string name="delete_updates_success_message">Alle downloadede opdateringer slettet</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

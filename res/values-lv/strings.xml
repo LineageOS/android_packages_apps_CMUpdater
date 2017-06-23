@@ -61,6 +61,7 @@
   <string name="delete_updates_failure_message">Dzēšot atjaunojuma failu, notika kļūme</string>
   <string name="delete_updates_noFolder_message">Atjaunojumu mape netika atrasta</string>
   <string name="delete_updates_success_message">Visi lejuplādētie atjaunojumi izdzēsti</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

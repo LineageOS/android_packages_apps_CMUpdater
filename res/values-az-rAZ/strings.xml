@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">Yeniləmə faylını silərkən xəta baş verdi</string>
   <string name="delete_updates_noFolder_message">Yeniləmə qovluğu tapılmadı</string>
   <string name="delete_updates_success_message">Endirilən bütün yeniləmələr silindi</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

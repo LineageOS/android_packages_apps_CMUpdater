@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">يېڭىلاش ھۆججىتىنى ئۆچۈرۈۋاتقاندا خاتالىق كۆرۈلدى</string>
   <string name="delete_updates_noFolder_message">يېڭىلاش قىسقۇچى تېپىلمىدى</string>
   <string name="delete_updates_success_message">ھەممە يېڭىلاشلار ئۆچۈرۈلدى</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

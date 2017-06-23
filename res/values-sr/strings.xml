@@ -11,68 +11,33 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="app_name">Ажурирње</string>
-  <string name="display_name">Ажурирања</string>
-  <string name="unknown">Непознато</string>
+  <string name="app_name">Ажурирање система</string>
   <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">Освежи</string>
-  <string name="menu_delete_all">Избриши преузимања</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Откажи</string>
-  <string name="dialog_update">Ажурирај</string>
-  <string name="dialog_close">Затвори</string>
   <!-- Settings strings -->
-  <string name="available_updates_title">Доступна ажурирања</string>
-  <string name="no_available_updates_intro">Нема нових ажурирања. Да ручно провериш нова ажурирања користи дугме освежи.</string>
-  <string name="update_check_title">Провери за ажурирања</string>
-  <string name="check_manual">Ручно</string>
-  <string name="check_daily">Дневно</string>
-  <string name="check_weekly">Недељно</string>
-  <string name="check_bi_weekly">Двонедељно</string>
-  <string name="check_monthly">Месечно</string>
+  <string name="no_available_updates_intro">Нема доступних ажурирања. Додирните дугме „Потражи“ да бисте проверили ручно.</string>
   <!-- Update checking -->
-  <string name="checking_for_updates">Провера за ажурирања</string>
-  <string name="no_updates_found">Нису пронађена нова ажурирања</string>
-  <string name="update_check_failed">Провера за ажурирања није успела. Провери своју интернет везу и покушај поново касније.</string>
-  <string name="not_new_updates_found_ticker">Нова ажурирања су доступна</string>
-  <string name="not_new_updates_found_title">Нова ажурирања</string>
-  <string name="not_action_download">Преузимање</string>
-  <string name="data_connection_required">Неопходна је веза за пренос података.</string>
   <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Откажи преузимање</string>
-  <string name="confirm_download_cancelation_dialog_message">Откажи тренутно преузимање?</string>
-  <string name="download_cancelled">Преузимање je отказано</string>
-  <string name="download_already_running">Преузимање је већ покренуто</string>
-  <string name="unable_to_download_file">Не може да се преузме фајл за ажурирање</string>
-  <string name="download_not_found">Преузимање није пронађено</string>
-  <string name="not_download_success">Ажурирање је успешно преузето</string>
-  <string name="not_download_failure">Ажурирање није успешно преузето</string>
-  <string name="not_action_install_update">Рестартуј и инсталирај</string>
-  <string name="not_download_install_notice">Ажурирање <xliff:g id="filename">%s</xliff:g> је успешно преузето. Када додирнеш \'Рестартуј и инсталирај\', уређај ће се поново покренути да инсталира ажурирање.\n\nНапомена: Компатибилни \'Опоравак\' је потребан за аутоматску инсталацију.</string>
-  <string name="verification_failed">Верификација неуспешна. Оштећено или небезбедно преузимање</string>
+  <string name="unable_to_stop_download">Не могу да зауставим преузимање.</string>
+  <string name="verification_failed">Грешка при провери ваљаности. Преузета датотека је оштећена или није безбедна.</string>
   <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">Примени ажурирање</string>
-  <string name="apply_update_dialog_text">Надоградња на <xliff:g id="filename">%s</xliff:g>.\n\nАко притиснеш Ажурирај, уређај ће се поново покренути у \'Опоравак\' да инсталира ажурирање.\n\nНапомена: Ова функција захтева компатибилни \'Опоравак\' или ћеш морати ажурирање да инсталираш ручно.</string>
-  <string name="apply_unable_to_reboot_toast">Немогуће да се рестартује у опоравак</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Избриши фајл</string>
-  <string name="confirm_delete_dialog_title_tv">Додирни да уклониш сва скинута ажурирања из унутрашњег складишта</string>
-  <string name="confirm_delete_dialog_message">Избриши изабрани фајл за ажурирање?</string>
-  <string name="confirm_delete_all_dialog_message">Избриши све преузете фајлове ажурирања?</string>
-  <string name="delete_single_update_success_message">Ажурирање <xliff:g id="filename">%s</xliff:g> је избрисано</string>
-  <string name="delete_updates_failure_message">Дошло је до грешке приликом брисања фајла за ажурирање</string>
-  <string name="delete_updates_noFolder_message">Фасцикла Ажурирање није пронађена</string>
-  <string name="delete_updates_success_message">Сва преузета ажурирања су избрисана</string>
+  <string name="confirm_delete_dialog_message">Избрисати изабрану датотеку ажурирања?</string>
+  <string name="confirm_delete_all_dialog_message">Избрисати све преузете датотеке ажурирања?</string>
+  <string name="delete_single_update_success_message">Ажурирање „<xliff:g id="filename">%s</xliff:g>“ је избрисано.</string>
+  <string name="delete_updates_failure_message">Дошло је до грешке при брисању датотеке ажурирања.</string>
+  <string name="delete_updates_noFolder_message">Фасцикла са ажурирањима није пронађена.</string>
+  <string name="delete_updates_success_message">Сва преузета ажурирања су избрисана.</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
-  <string name="header_summary">%1$s\n%2$s • Андроид %3$s\n%4$s</string>
-  <string name="sysinfo_last_check">Последње проверено</string>
+  <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+  <string name="sysinfo_last_check">Последња провера:</string>
   <!-- Build item -->
-  <string name="type_installed">• Инсталиран</string>
-  <string name="type_downloaded">• Преузето</string>
-  <string name="type_downloading">• Преузимање</string>
-  <string name="type_completing">• Довршавање</string>
-  <string name="summary">%1$s\nLineageOS %2$s • Андроид %3$s</string>
+  <string name="type_installed">• инсталирано</string>
+  <string name="type_downloaded">• преузето</string>
+  <string name="type_downloading">• преузимање</string>
+  <string name="type_completing">• довршавање</string>
+  <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Преузми</string>
   <string name="install_button">Инсталирај</string>
 </resources>

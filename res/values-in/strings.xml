@@ -64,6 +64,7 @@
   <string name="delete_updates_failure_message">Ada kesalahan pada penghapusan berkas pembaruan</string>
   <string name="delete_updates_noFolder_message">Folder pembaruan tidak ditemukan</string>
   <string name="delete_updates_success_message">Semua pembaruan yang diunduh dihapus</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

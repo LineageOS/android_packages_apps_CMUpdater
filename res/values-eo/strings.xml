@@ -20,6 +20,7 @@
   <!-- Apply update strings -->
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Forigi dosieron</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>

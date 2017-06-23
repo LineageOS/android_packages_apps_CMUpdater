@@ -60,6 +60,7 @@
   <string name="delete_updates_failure_message">અપડેટ ફાઇલ રદ કરવામાં ભૂલ થઈ</string>
   <string name="delete_updates_noFolder_message">અપડેટ ફોલ્ડર મળ્યું નહીં</string>
   <string name="delete_updates_success_message">તમામ ડાઉનલોડ કરેલ અપડેટ ભૂંસાઇ જશે</string>
+  <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
 </resources>
