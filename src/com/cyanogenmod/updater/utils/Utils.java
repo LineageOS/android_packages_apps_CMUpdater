@@ -146,7 +146,7 @@ public class Utils {
            Log.e(TAG, "The given filename is not valid: " + fileName);
            return "???????";
         }
-        return subStrings[3];
+        return subStrings[3].toLowerCase();
     }
 
     public static String getUserAgentString(Context context) {
