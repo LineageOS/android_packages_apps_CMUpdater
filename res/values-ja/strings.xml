@@ -21,6 +21,7 @@
   <string name="dialog_cancel">キャンセル</string>
   <string name="dialog_update">アップデート</string>
   <string name="dialog_close">閉じる</string>
+  <string name="dialog_reboot">再起動</string>
   <!-- Settings strings -->
   <string name="available_updates_title">利用可能なアップデート</string>
   <string name="no_available_updates_intro">新しい更新はありません。新しい更新を手動で確認するには、更新ボタンを押してください。</string>
@@ -43,17 +44,23 @@
   <string name="confirm_download_cancelation_dialog_message">このダウンロードをキャンセルしますか？</string>
   <string name="download_cancelled">ダウンロードをキャンセルしました</string>
   <string name="download_already_running">ダウンロードは既に実行中です</string>
+  <string name="ab_update_running">更新は既に実行中です</string>
   <string name="unable_to_stop_download">ダウンロードを停止できません</string>
   <string name="unable_to_download_file">アップデートファイルをダウンロードできませんでした</string>
   <string name="download_not_found">ダウンロードが見つかりませんでした</string>
   <string name="not_download_success">アップデートのダウンロードが完了しました</string>
   <string name="not_download_failure">アップデートをダウンロードできませんでした</string>
   <string name="not_action_install_update">再起動してインストール</string>
+  <string name="not_action_install_reboot">再起動</string>
+  <string name="not_action_install">インストール</string>
   <string name="not_download_install_notice">アップデート<xliff:g id="filename">%s</xliff:g>のダウンロードが完了しました。｢再起動してインストール｣をタップすると、アップデートをインストールするために端末は再起動します。\n\n注意: インストールを自動で行うには、互換性のあるリカバリーが必要です。</string>
+  <string name="not_download_install_notice_ab"><xliff:g id="filename">%s</xliff:g> のダウンロードが完了しました。「インストール」をタップするとバックグラウンドでインストールを開始します。\n\nインストールが完了すると、再起動が要求されます。</string>
   <string name="verification_failed">検証に失敗しました。破損しているか安全でないダウンロードです</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">アップデートを適用</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g>にアップグレードしようとしています。\n\nアップデートを押すと、アップデートをインストールするために端末はリカバリーモードで再起動します。\n\n注意: この機能は互換性のあるリカバリーが必要ですので、互換性がなければ手動でインストールする必要があります。</string>
+  <string name="apply_update_dialog_text_ab"><xliff:g id="filename">%s</xliff:g> にアップデートする準備が出来ました。\n\n「アップデート」をタップするとバックグラウンドでインストールを開始します。\n\nインストールが完了すると、再起動が要求されます。</string>
+  <string name="apply_update_dialog_text_background_ab">アップデートはバックグラウンドでインストール中です。インストールが完了したらお知らせします。</string>
   <string name="apply_unable_to_reboot_toast">リカバリーモードで再起動できませんでした</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">ファイルを削除</string>
@@ -65,16 +72,34 @@
   <string name="delete_updates_noFolder_message">アップデートフォルダが見つかりませんでした</string>
   <string name="delete_updates_success_message">ダウンロードしたすべてのアップデートファイルを削除しました</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">更新をブロックしました</string>
+  <string name="blocked_update_dialog_message">このアップデートはアプリ経由ではインストールできません。 詳しくは <![CDATA[<a href="%1$s">]]>;LineageOS wiki<![CDATA[</a>]]>; をご覧ください。</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">前回の確認</string>
   <!-- Build item -->
   <string name="type_installed">• インストール済み</string>
+  <string name="type_installing">• インストール中</string>
   <string name="type_downloaded">• ダウンロード済み</string>
   <string name="type_downloading">• ダウンロード中</string>
   <string name="type_completing">• 完了処理中</string>
+  <string name="type_blocked">• ブロック</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">ダウンロード</string>
   <string name="install_button">インストール</string>
+  <string name="info_button">情報</string>
+  <string name="reboot_button">再起動</string>
+  <!-- A/B OTA -->
+  <string name="preparing_package">インストール用パッケージを準備中</string>
+  <string name="installing_package">アップデートパッケージをインストール中</string>
+  <string name="installing_package_finished">アップデートをインストールしました。再起動してください。</string>
+  <string name="finalizing_package">パッケージのインストールを完了中</string>
+  <string name="preparing_ota_first_boot">初回起動を準備中</string>
+  <string name="apply_ab_update_dialog_title">アップデートを適用</string>
+  <string name="ab_update_finished_title">アップデートが完了しました</string>
+  <string name="ab_update_finished_message">アップデートが完了しました。都合の良いときに再起動してください。</string>
+  <string name="installing_zip_failed">アップデートに失敗しました。エラーコード: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">アップデートに失敗しました。エラーコード: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">エラー</string>
 </resources>

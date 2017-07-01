@@ -21,6 +21,7 @@
   <string name="dialog_cancel">取消</string>
   <string name="dialog_update">更新</string>
   <string name="dialog_close">关闭</string>
+  <string name="dialog_reboot">重启</string>
   <!-- Settings strings -->
   <string name="available_updates_title">可用更新</string>
   <string name="no_available_updates_intro">未找到更新。要手动检查更新，请使用刷新按钮。</string>
@@ -43,17 +44,23 @@
   <string name="confirm_download_cancelation_dialog_message">取消当前的下载？</string>
   <string name="download_cancelled">下载已取消</string>
   <string name="download_already_running">已有一个正在运行的下载</string>
+  <string name="ab_update_running">更新已经在运行</string>
   <string name="unable_to_stop_download">无法停止下载</string>
   <string name="unable_to_download_file">无法下载更新文件</string>
   <string name="download_not_found">未找到下载</string>
   <string name="not_download_success">更新已成功下载</string>
   <string name="not_download_failure">下载更新失败</string>
   <string name="not_action_install_update">重启并安装</string>
+  <string name="not_action_install_reboot">重启</string>
+  <string name="not_action_install">安装</string>
   <string name="not_download_install_notice">更新 <xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序。</string>
+  <string name="not_download_install_notice_ab">更新 <xliff:g id="filename">%s</xliff:g> 已经成功下载。 当您点击“安装”后，设备将在后台进行安装。\n\n当安装完毕后，将会提示您重新启动。</string>
   <string name="verification_failed">验证失败。下载的文件损坏或不安全。</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">应用更新</string>
   <string name="apply_update_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您选择更新，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序，否则您将需要手动安装更新。</string>
+  <string name="apply_update_dialog_text_ab">您将要升级到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您按下“更新”，设备将会在后台进行安装。\n\n当安装完毕后，将会提示您重新启动。</string>
+  <string name="apply_update_dialog_text_background_ab">更新正在后台进行安装。当安装结束后，您将会收到通知。</string>
   <string name="apply_unable_to_reboot_toast">无法重启到恢复模式</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">删除文件</string>
@@ -73,6 +80,7 @@
   <string name="sysinfo_last_check">上次检查</string>
   <!-- Build item -->
   <string name="type_installed">• 已安装</string>
+  <string name="type_installing">• 正在安装</string>
   <string name="type_downloaded">• 已下载</string>
   <string name="type_downloading">• 正在下载</string>
   <string name="type_completing">• 即将完成</string>
@@ -81,4 +89,17 @@
   <string name="download_button">下载</string>
   <string name="install_button">安装</string>
   <string name="info_button">信息</string>
+  <string name="reboot_button">重启</string>
+  <!-- A/B OTA -->
+  <string name="preparing_package">正在为安装准备安装包</string>
+  <string name="installing_package">正在安装更新包</string>
+  <string name="installing_package_finished">更新已安装，请重启。</string>
+  <string name="finalizing_package">正在完成包安装</string>
+  <string name="preparing_ota_first_boot">正在为第一次启动进行准备</string>
+  <string name="apply_ab_update_dialog_title">应用更新</string>
+  <string name="ab_update_finished_title">更新已成功安装</string>
+  <string name="ab_update_finished_message">更新已经安装成功。当您方便的时候请重新启动您的设备。</string>
+  <string name="installing_zip_failed">更新失败。错误代码：<xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">在更新中失败。错误代码：<xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">错误</string>
 </resources>

@@ -63,4 +63,6 @@
   <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">套用更新</string>
 </resources>

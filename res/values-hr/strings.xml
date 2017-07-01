@@ -74,4 +74,6 @@
   <string name="type_downloading">• Preuzima se</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="install_button">Instaliraj</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Primijeni ažuriranje</string>
 </resources>

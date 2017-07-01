@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Không tìm thấy thư mục cập nhật</string>
   <string name="delete_updates_success_message">Đã xóa tất cả các tập tin cập nhật đã tải xuống</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Cập nhật bị chặn</string>
+  <string name="blocked_update_dialog_message">Bản cập nhật này không thể được cài đặt bằng ứng dụng cập nhật. Vui lòng đọc <![CDATA[<a href="%1$s">]]>; LineageOS wiki<![CDATA[</a>]]>; để biết thêm thông tin.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">•Đã tải về</string>
   <string name="type_downloading">• Đang tải về</string>
   <string name="type_completing">• Hoàn thành</string>
+  <string name="type_blocked">• Đã chặn</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Tải về</string>
   <string name="install_button">Cài đặt</string>
+  <string name="info_button">Thông tin</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Áp dụng cập nhật</string>
 </resources>

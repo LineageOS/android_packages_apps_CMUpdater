@@ -77,4 +77,6 @@
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Download</string>
   <string name="install_button">Installér</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Anvend opdatering</string>
 </resources>

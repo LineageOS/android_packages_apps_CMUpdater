@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Cartella degli aggiornamenti non trovata</string>
   <string name="delete_updates_success_message">Tutti gli aggiornamenti eliminati</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Aggiornamento bloccato</string>
+  <string name="blocked_update_dialog_message">Questo aggiornamento non può essere installato usando l\'app.  Consulta la <![CDATA[<a href="%1$s">]]>;wiki di LineageOS<![CDATA[</a>]]>; per ulteriori informazioni.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">• Scaricato</string>
   <string name="type_downloading">• Scaricando</string>
   <string name="type_completing">• Completamento</string>
+  <string name="type_blocked">• Bloccato</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Scarica</string>
   <string name="install_button">Installa</string>
+  <string name="info_button">Info</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Applica aggiornamento</string>
 </resources>

@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Güncelleme klasörü bulunamadı</string>
   <string name="delete_updates_success_message">İndirilen tüm güncellemeler silindi</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Güncelleme engellendi</string>
+  <string name="blocked_update_dialog_message">Bu güncelleme, güncelleme uygulaması kullanılarak kurulamaz. Daha fazla bilgi için lütfen <![CDATA[<a href="%1$s">]]>; LineageOS wiki\'yi<![CDATA[</a>]]>; okuyun.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">• İndirildi</string>
   <string name="type_downloading">• İndiriliyor</string>
   <string name="type_completing">• Tamamlanıyor</string>
+  <string name="type_blocked">• Engellendi</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">İndir</string>
   <string name="install_button">Yükle</string>
+  <string name="info_button">Bilgi</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Güncellemeyi uygula</string>
 </resources>

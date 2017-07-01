@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Папката с актуализациите не е намерена</string>
   <string name="delete_updates_success_message">Всичко свалени актиализации са изтрити</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Актуализация на блокиран</string>
+  <string name="blocked_update_dialog_message">Тази актуализация не може да бъде инсталиран използвайки приложението за актуализации.  Моля, прочетете  <![CDATA[<a href="%1$s">]]>; LineageOS wiki<![CDATA[</a>]]>;  за повече информация.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">• Изтеглени</string>
   <string name="type_downloading">• Изтегляне</string>
   <string name="type_completing">• Завършване</string>
+  <string name="type_blocked">• Блокиран</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Изтегляне</string>
   <string name="install_button">Инсталиране</string>
+  <string name="info_button">Информация</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Приложи актуализацията</string>
 </resources>

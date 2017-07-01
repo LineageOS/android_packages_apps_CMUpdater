@@ -76,4 +76,6 @@
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Baxar</string>
   <string name="install_button">Instalar</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Aplicar anovamientu</string>
 </resources>

@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">No s\'ha trobat la carpeta de l\'actualització</string>
   <string name="delete_updates_success_message">Totes les actualitzacions baixades s\'han esborrat</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Actualització bloquejada</string>
+  <string name="blocked_update_dialog_message">Aquesta actualització no es pot instal·lar utilitzant l\'actualitzador d\'aplicacions. Si us plau llegeix la <![CDATA[<a href="%1$s">]]>; Wiki de LineageOS<![CDATA[</a>]]>; per a més informació.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">• Baixat</string>
   <string name="type_downloading">• S\'està baixant</string>
   <string name="type_completing">• S\'està completant</string>
+  <string name="type_blocked">• Bloquejat</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Baixa</string>
   <string name="install_button">Instal·la</string>
+  <string name="info_button">Info</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Aplica actualització</string>
 </resources>

@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Каталог с обновлениями не найден</string>
   <string name="delete_updates_success_message">Все загруженные обновления удалены</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Обновление заблокировано</string>
+  <string name="blocked_update_dialog_message">Эту сборку нельзя установить с помощью встроенной системы обновления. Для получения дополнительной информации ознакомьтесь с <![CDATA[<a href="%1$s">]]>;вики LineageOS<![CDATA[</a>]]>;.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">Сборка от %1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">• готово к установке</string>
   <string name="type_downloading">• выполняется скачивание</string>
   <string name="type_completing">• завершение установки</string>
+  <string name="type_blocked">• Заблокировано</string>
   <string name="summary">Сборка от %1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Скачать</string>
   <string name="install_button">Установить</string>
+  <string name="info_button">Информация</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Применение обновления</string>
 </resources>

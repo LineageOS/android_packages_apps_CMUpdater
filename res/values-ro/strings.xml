@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Folder-ul de actualizare nu a fost găsit</string>
   <string name="delete_updates_success_message">Toate actualizările descărcate au fost șterse</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Actualizare blocată</string>
+  <string name="blocked_update_dialog_message">Această actualizare nu poate fi instalată utilizând aplicația de actualizare. Vă rugăm să citiți <![CDATA[<a href="%1$s">]]>;wiki-ul LineageOS<![CDATA[</a>]]>; pentru mai multe informații.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">• Descărcat</string>
   <string name="type_downloading">• Descărcare</string>
   <string name="type_completing">• Completare</string>
+  <string name="type_blocked">• Blocat</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Descărcați</string>
   <string name="install_button">Instalați</string>
+  <string name="info_button">Info</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Aplicați actualizarea</string>
 </resources>

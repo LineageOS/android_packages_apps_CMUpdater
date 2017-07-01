@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Mapa za posodobitve ni bila najdena</string>
   <string name="delete_updates_success_message">Vse prenesene posodobitve izbrisane</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Posodobitev blokirana</string>
+  <string name="blocked_update_dialog_message">Te posodobitve ni mogoče namestiti z uporabo aplikacije za posodabljanje. Za več informacij preberite  <![CDATA[<a href="%1$s">]]>;LineageOS wiki<![CDATA[</a>]]>;.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">• Preneseno</string>
   <string name="type_downloading">• Prenašanje</string>
   <string name="type_completing">• Zaključevanje</string>
+  <string name="type_blocked">• Blokirano</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Prenesi</string>
   <string name="install_button">Namesti</string>
+  <string name="info_button">Podatki</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Uveljavi posodobitev</string>
 </resources>

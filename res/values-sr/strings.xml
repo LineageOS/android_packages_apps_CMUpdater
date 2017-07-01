@@ -28,6 +28,8 @@
   <string name="delete_updates_noFolder_message">Фасцикла са ажурирањима није пронађена.</string>
   <string name="delete_updates_success_message">Сва преузета ажурирања су избрисана.</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Ажурирање је блокирано</string>
+  <string name="blocked_update_dialog_message">Дошло је до грешке при ажурирању система помоћу апликације за то. За више информација, прочитајте <![CDATA[<a href="%1$s">]]>;вики LineageOS-а<![CDATA[</a>]]>;.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -37,7 +39,11 @@
   <string name="type_downloaded">• преузето</string>
   <string name="type_downloading">• преузимање</string>
   <string name="type_completing">• довршавање</string>
+  <string name="type_blocked">• блокирано</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Преузми</string>
   <string name="install_button">Инсталирај</string>
+  <string name="info_button">Информације</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Примени ажурирање</string>
 </resources>

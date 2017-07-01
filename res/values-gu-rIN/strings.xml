@@ -63,4 +63,6 @@
   <!-- Info about blocked updates -->
   <!-- Header -->
   <!-- Build item -->
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">અપડેટ લાગુ કરો</string>
 </resources>

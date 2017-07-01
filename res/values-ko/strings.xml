@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">업데이트 폴더를 찾을 수 없습니다</string>
   <string name="delete_updates_success_message">다운로드된 업데이트를 모두 삭제하였습니다</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">업데이트 차단됨</string>
+  <string name="blocked_update_dialog_message">이 업데이트는 업데이터 앱을 사용하여 설치할 수 없습니다. 자세한 내용은 <![CDATA[<a href="%1$s">]]>;LineageOS 위키<![CDATA[</a>]]>;를 참고하세요.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">• 다운로드 완료</string>
   <string name="type_downloading">• 다운로드 중</string>
   <string name="type_completing">• 완료 중</string>
+  <string name="type_blocked">• 차단됨</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">다운로드</string>
   <string name="install_button">설치</string>
+  <string name="info_button">정보</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">업데이트 적용</string>
 </resources>

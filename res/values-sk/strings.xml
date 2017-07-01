@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Priečinok s aktualizáciou sa nenašiel</string>
   <string name="delete_updates_success_message">Všetky prevzaté aktualizácie boli vymazané</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Aktualizácia bola zablokovaná</string>
+  <string name="blocked_update_dialog_message">Túto aktualizáciu nemožno nainštalovať pomocou aplikácie updater. Prečítajte si viac informácií:  <![CDATA[<a href="%1$s">]]>;LineageOS wiki<![CDATA[</a>]]></string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">• Stiahnuté</string>
   <string name="type_downloading">• Sťahovanie</string>
   <string name="type_completing">• Dokončovanie</string>
+  <string name="type_blocked">• Blokované</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Stiahnuť</string>
   <string name="install_button">Nainštalovať</string>
+  <string name="info_button">Informácie</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Aplikovať aktualizáciu</string>
 </resources>

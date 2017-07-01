@@ -12,7 +12,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Eguneratzailea</string>
-  <string name="display_name">Eguneratzeak</string>
+  <string name="display_name">Eguneraketak</string>
   <string name="unknown">Ezezaguna</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Berritu</string>
@@ -22,20 +22,20 @@
   <string name="dialog_update">Eguneratu</string>
   <string name="dialog_close">Itxi</string>
   <!-- Settings strings -->
-  <string name="available_updates_title">Eskuragarri dauden eguneratzeak</string>
-  <string name="no_available_updates_intro">Ez da eguneratze berririk aurkitu. Eguneratzeak eskuz egiaztatzeko, erabili freskatze botoia.</string>
-  <string name="update_check_title">Bilatu eguneratzeak</string>
+  <string name="available_updates_title">Eskuragarri dauden eguneraketak</string>
+  <string name="no_available_updates_intro">Ez da eguneraketa berririk aurkitu. Eguneraketak eskuz egiaztatzeko, erabili freskatze botoia.</string>
+  <string name="update_check_title">Bilatu eguneraketak</string>
   <string name="check_manual">Eskuz</string>
   <string name="check_daily">Egunero</string>
   <string name="check_weekly">Astero</string>
   <string name="check_bi_weekly">Bi astetan behin</string>
   <string name="check_monthly">Hilabetero</string>
   <!-- Update checking -->
-  <string name="checking_for_updates">Eguneratzeak bilatzen\u2026</string>
-  <string name="no_updates_found">Ez da eguneratze berririk aurkitu</string>
-  <string name="update_check_failed">Eguneratzeen bilaketak huts egin du. Interneterako konexioa egiaztatu eta berriro saiatu, mesedez.</string>
-  <string name="not_new_updates_found_ticker">Eguneratze berriak eskuragarri daude</string>
-  <string name="not_new_updates_found_title">Eguneratze berriak</string>
+  <string name="checking_for_updates">Eguneraketak bilatzen\u2026</string>
+  <string name="no_updates_found">Ez da eguneraketa berririk aurkitu</string>
+  <string name="update_check_failed">Eguneraketa bilaketak huts egin du. Interneterako konexioa egiaztatu eta berriro saiatu, mesedez.</string>
+  <string name="not_new_updates_found_ticker">Eguneraketa berriak eskuragarri daude</string>
+  <string name="not_new_updates_found_title">Eguneraketa berriak</string>
   <string name="not_action_download">Deskarga</string>
   <string name="data_connection_required">Datu konexio bat beharrezkoa da.</string>
   <!-- Downloads -->
@@ -44,27 +44,29 @@
   <string name="download_cancelled">Deskarga utzi da</string>
   <string name="download_already_running">Deskarga bat jada abian dago jada</string>
   <string name="unable_to_stop_download">Ezin da deskarga gelditu</string>
-  <string name="unable_to_download_file">Ezin izan da eguneratze fitxategia deskargatu</string>
+  <string name="unable_to_download_file">Ezin izan da eguneraketa fitxategia deskargatu</string>
   <string name="download_not_found">Deskarga ez da aurkitu</string>
-  <string name="not_download_success">Eguneratzea ondo deskargatu da</string>
-  <string name="not_download_failure">Eguneratzearen deskargak huts egin du</string>
+  <string name="not_download_success">Eguneraketa ondo deskargatu da</string>
+  <string name="not_download_failure">Eguneraketaren deskargak huts egin du</string>
   <string name="not_action_install_update">Berrabiarazi eta instalatu</string>
-  <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> eguneratzea ondo deskargatu da. \'Berrabiarazi eta instalatu\' sakatuz, gailua eguneratzea instalatzeko berrabiaraziko da.\n\nOharra: Ardura behar ez duen instalazio baterako berreskuratze aplikazio bateragarri bat beharrezkoa da.</string>
+  <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> eguneraketa ondo deskargatu da. \'Berrabiarazi eta instalatu\' sakatzean gailua eguneraketa instalatzeko berrabiaraziko da.\n\nOharra: Instalazio automatiko baterako berreskuratze aplikazio bateragarri bat behar da.</string>
   <string name="verification_failed">Egiaztaketak huts egin du. Matxuratutako edo segurua ez den deskarga</string>
   <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">Aplikatu eguneratzea</string>
-  <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> bertsioa instalatzera zoaz.\n\nEguneratu sakatzean, gailua berreskuratze moduan berrabiaraziko da eguneratzea instalatzeko.\n\nOharra: Berreskuratze aplikazio bateragarri bat behar du ezaugarri honek, bestela eguneratzeak eskuz instalatu beharko dira.</string>
+  <string name="apply_update_dialog_title">Aplikatu eguneraketa</string>
+  <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> bertsioa instalatzera zoaz.\n\nEguneratu sakatzean, gailua  berreskuratze moduan berrabiaraziko da eguneraketa instalatzeko.\n\nOharra: Berreskuratze aplikazio bateragarri bat behar du ezaugarri honek, bestela eguneraketak eskuz instalatu beharko dira.</string>
   <string name="apply_unable_to_reboot_toast">Ezin izan da berreskuratze moduan berrabiarazi</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Ezabatu fitxategia</string>
-  <string name="confirm_delete_dialog_title_tv">Sakatu deskargatutako eguneratze guztiak ezabatzeko barne biltegiratzetik</string>
-  <string name="confirm_delete_dialog_message">Ezabatu hautatutako eguneratze-fitxategia?</string>
-  <string name="confirm_delete_all_dialog_message">Ezabatu deskargatutako eguneratze-fitxategi guztiak?</string>
-  <string name="delete_single_update_success_message"><xliff:g id="filename">%s</xliff:g> eguneratzea ezabatu da</string>
-  <string name="delete_updates_failure_message">Akats bat egon da eguneratzea ezabatzerakoan</string>
-  <string name="delete_updates_noFolder_message">Eguneratzeen karpeta ez da aurkitu</string>
-  <string name="delete_updates_success_message">Deskargatutako eguneratze guztiak ezabatu dira</string>
+  <string name="confirm_delete_dialog_title_tv">Sakatu deskargatutako eguneraketa guztiak ezabatzeko barne biltegiratzetik</string>
+  <string name="confirm_delete_dialog_message">Ezabatu hautatutako eguneraketa fitxategia?</string>
+  <string name="confirm_delete_all_dialog_message">Ezabatu deskargatutako eguneraketa fitxategi guztiak?</string>
+  <string name="delete_single_update_success_message"><xliff:g id="filename">%s</xliff:g> eguneraketa ezabatu da</string>
+  <string name="delete_updates_failure_message">Akats bat egon da eguneraketa ezabatzerakoan</string>
+  <string name="delete_updates_noFolder_message">Eguneraketen karpeta ez da aurkitu</string>
+  <string name="delete_updates_success_message">Deskargatutako eguneraketa guztiak ezabatu dira</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Eguneraketa blokeatuta</string>
+  <string name="blocked_update_dialog_message">Eguneraketa hau ezin da instalatu eguneratze-aplikazioa erabilita. Irakurri <![CDATA[<a href="%1$s">]]>; LineageOS wikia<![CDATA[</a>]]>; informazio gehiagorako.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">• Deskargatuta</string>
   <string name="type_downloading">• Deskargatzen</string>
   <string name="type_completing">• Osatzen</string>
+  <string name="type_blocked">• Blokeatuta</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Deskargatu</string>
   <string name="install_button">Instalatu</string>
+  <string name="info_button">Informazioa</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">Aplikatu eguneraketa</string>
 </resources>

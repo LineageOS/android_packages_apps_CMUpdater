@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">找不到更新資料夾</string>
   <string name="delete_updates_success_message">已刪除所有下載的更新</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">更新已被封鎖</string>
+  <string name="blocked_update_dialog_message">此升級不能使用升級應用程式進行安裝。請參閱 <![CDATA[<a href="%1$s">]]>；LineageOS wiki<![CDATA[</a>]]>；來了解更多資訊。</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">• 已下載</string>
   <string name="type_downloading">• 下載中</string>
   <string name="type_completing">• 完成中</string>
+  <string name="type_blocked">已封鎖</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">下載</string>
   <string name="install_button">安裝</string>
+  <string name="info_button">資訊</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">套用更新</string>
 </resources>

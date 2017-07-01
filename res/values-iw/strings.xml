@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">תיקיית עדכונים לא נמצאה</string>
   <string name="delete_updates_success_message">כל העדכונים שהורדו נמחקו</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">העדכון חסום</string>
+  <string name="blocked_update_dialog_message">אין אפשרות להתקין עדכון זה באמצעות יישום המעדכן. אנא קראו את <![CDATA[<a href="%1$s">]]>; LineageOS wiki<![CDATA[</a>]]>; לקבלת מידע נוסף.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • אנדרואיד %3$s\n%4$s</string>
@@ -74,7 +76,11 @@
   <string name="type_downloaded">• הורדו</string>
   <string name="type_downloading">• מוריד</string>
   <string name="type_completing">• מסיים</string>
+  <string name="type_blocked">• חסום</string>
   <string name="summary">%1$s\nLineageOS %2$s • אנדרואיד %3$s</string>
   <string name="download_button">הורדה</string>
   <string name="install_button">התקן</string>
+  <string name="info_button">מידע</string>
+  <!-- A/B OTA -->
+  <string name="apply_ab_update_dialog_title">החל עדכון</string>
 </resources>
