@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Cancelar</string>
   <string name="dialog_update">Atualizar</string>
   <string name="dialog_close">Fechar</string>
+  <string name="dialog_reboot">Reiniciar</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Atualizações disponíveis</string>
   <string name="no_available_updates_intro">Não foram encontradas novas atualizações. Para verificar novas atualizações manualmente, use o botão atualizar.</string>
@@ -43,17 +44,23 @@
   <string name="confirm_download_cancelation_dialog_message">Deseja cancelar a transferência atual?</string>
   <string name="download_cancelled">Transferência cancelada</string>
   <string name="download_already_running">Já existe uma transferência em curso</string>
+  <string name="ab_update_running">Já existe uma atualização a decorrer</string>
   <string name="unable_to_stop_download">Não é possível parar a transferência</string>
   <string name="unable_to_download_file">Não foi possível transferir o ficheiro de atualização</string>
   <string name="download_not_found">Transferência não disponível</string>
   <string name="not_download_success">O ficheiro de atualização foi transferido com sucesso</string>
   <string name="not_download_failure">Não foi possível transferir o ficheiro de atualização</string>
   <string name="not_action_install_update">Reiniciar e instalar</string>
+  <string name="not_action_install_reboot">Reiniciar</string>
+  <string name="not_action_install">Instalar</string>
   <string name="not_download_install_notice">A atualização <xliff:g id="filename">%s</xliff:g> foi transferida com sucesso. Quando pressionar \'Reiniciar e instalar\', o dispositivo reiniciar-se-á para instalar a atualização.\n\nNota: É necessária uma Recuperação compatível para que a instalação seja automática.</string>
+  <string name="not_download_install_notice_ab">A atualização <xliff:g id="filename">%s</xliff:g> foi transferida com sucesso. Ao selecionar \'Instalar\', o dispositivo irá iniciar a instalação em plano de fundo.\n\nUma vez concluída, ser-lhe-á pedido que reinicie o dispositivo.</string>
   <string name="verification_failed">Falha na verificação. Transferência corrompida ou insegura</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Instalar atualização</string>
   <string name="apply_update_dialog_text">Está prestes a atualizar para <xliff:g id="filename">%s</xliff:g>.\n\nSe carregar em Atualizar, o dispositivo irá reiniciar e atualizar automaticamente.\n\nNota: É necessário uma Recuperação compatível para que a atualização seja feita automaticamente.</string>
+  <string name="apply_update_dialog_text_ab">Está prestes a atualizar para <xliff:g id="filename">%s</xliff:g>.\n\nSe selecionar \'Atualizar\', o dispositivo irá iniciar a instalação em plano de fundo.\n\nUma vez concluída, ser-lhe-á pedido que reinicie o dispositivo.</string>
+  <string name="apply_update_dialog_text_background_ab">A atualização está a ser instalada em plano de fundo. Receberá uma notificação assim que a instalação for concluída.</string>
   <string name="apply_unable_to_reboot_toast">Não foi possível reiniciar no modo de recuperação</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Eliminar ficheiro</string>
@@ -73,6 +80,7 @@
   <string name="sysinfo_last_check">Última verificação</string>
   <!-- Build item -->
   <string name="type_installed">• Instalada</string>
+  <string name="type_installing">• A instalar</string>
   <string name="type_downloaded">• Transferida</string>
   <string name="type_downloading">• A transferir</string>
   <string name="type_completing">• A completar</string>
@@ -81,6 +89,17 @@
   <string name="download_button">Transferir</string>
   <string name="install_button">Instalar</string>
   <string name="info_button">Informações</string>
+  <string name="reboot_button">Reiniciar</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">A preparar o pacote para a instalação</string>
+  <string name="installing_package">A instalar o pacote de atualização</string>
+  <string name="installing_package_finished">Atualização instalada. Por favor, reinicie.</string>
+  <string name="finalizing_package">A finalizar a instalação do pacote</string>
+  <string name="preparing_ota_first_boot">A preparar para a primeira inicialização</string>
   <string name="apply_ab_update_dialog_title">Instalar atualização</string>
+  <string name="ab_update_finished_title">Atualização instalada com sucesso</string>
+  <string name="ab_update_finished_message">A atualização foi instalada com sucesso. Por favor, reinicie o dispositivo assim que possível.</string>
+  <string name="installing_zip_failed">A atualização falhou. Código do erro: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Falha ao atualizar. Código do erro: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Erro</string>
 </resources>

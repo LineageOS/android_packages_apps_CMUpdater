@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Cancelar</string>
   <string name="dialog_update">Actualizar</string>
   <string name="dialog_close">Pechar</string>
+  <string name="dialog_reboot">Reiniciar</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Actualizacións dispoñíbeis</string>
   <string name="no_available_updates_intro">Non se encontraron novas actualizacións. Para comproba manualmente novas actualizacións, usa o botón de refresco.</string>
@@ -43,17 +44,21 @@
   <string name="confirm_download_cancelation_dialog_message">Anular a descarga actual?</string>
   <string name="download_cancelled">Anulouse a descarga</string>
   <string name="download_already_running">Hai una descarga xa en marcha</string>
+  <string name="ab_update_running">Xa hai unha actualización en curso</string>
   <string name="unable_to_stop_download">Non é posíbel deter a descarga</string>
   <string name="unable_to_download_file">Non foi posíbel descargar o ficheiro de actualización</string>
   <string name="download_not_found">Non se atopou a descarga</string>
   <string name="not_download_success">Actualización descargada correctamente</string>
   <string name="not_download_failure">A descarga da actualización non se produciu</string>
   <string name="not_action_install_update">Reiniciar e instalar</string>
+  <string name="not_action_install_reboot">Reiniciar</string>
+  <string name="not_action_install">Instalar</string>
   <string name="not_download_install_notice">A actualización <xliff:g id="filename">%s</xliff:g> descargouse correctamente. Cun toque sobre \'Reiniciar e instalar\', o dispositivo reiniciarase para instalar a actualización.\n\nAviso: Requírese dispoñer dunha recuperación compatíbel para que a instalación funcione automaticamente.</string>
   <string name="verification_failed">Verificación fallida. Descarga corrompida ou insegura</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Aplicar a actualización</string>
   <string name="apply_update_dialog_text">Vai proceder a actualizar á versión <xliff:g id="filename">%s</xliff:g>.\n\nTocando sobre \"Actualizar\", o dispositivo reiniciarase para instalar a actualización.\n\nAviso: Cómpre dispoñer dunha recuperación compatíbel para que a instalación funcione automaticamente.</string>
+  <string name="apply_update_dialog_text_background_ab">A actualización estase aplicando no segundo plano. Se lle notificará en canto esta termine.</string>
   <string name="apply_unable_to_reboot_toast">Non foi posíbel reiniciar no modo de recuperación</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Eliminar o ficheiro</string>
@@ -65,18 +70,33 @@
   <string name="delete_updates_noFolder_message">Non foi posíbel atopar o cartafol de actualización</string>
   <string name="delete_updates_success_message">Elimináronse todas as actualizacións descargadas</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Actualización bloqueada</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Última comprobación</string>
   <!-- Build item -->
   <string name="type_installed">• Installado</string>
+  <string name="type_installing">• Instalando</string>
   <string name="type_downloaded">• Baixado</string>
   <string name="type_downloading">• Descargando</string>
   <string name="type_completing">• Completando</string>
+  <string name="type_blocked">• Bloqueado</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Descargar</string>
   <string name="install_button">Instalado</string>
+  <string name="info_button">Información</string>
+  <string name="reboot_button">Reiniciar</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Preparando o paquete para a instalación</string>
+  <string name="installing_package">Instalando paquete de actualización</string>
+  <string name="installing_package_finished">Actualización instalada. Por favor, reinicia.</string>
+  <string name="finalizing_package">Rematando a instalación do paquete</string>
+  <string name="preparing_ota_first_boot">Preparando o primeiro arranque</string>
   <string name="apply_ab_update_dialog_title">Aplicar a actualización</string>
+  <string name="ab_update_finished_title">Actualización instalada con éxito</string>
+  <string name="ab_update_finished_message">A actualización instalouse con éxito. Por favor, reinicia o dispositivo cando desexes.</string>
+  <string name="installing_zip_failed">A actualización fallou. Código do erro: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Fallo durante a actualización. Código do erro: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Erro</string>
 </resources>

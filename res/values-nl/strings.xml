@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Annuleren</string>
   <string name="dialog_update">Bijwerken</string>
   <string name="dialog_close">Sluiten</string>
+  <string name="dialog_reboot">Herstarten</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Beschikbare updates</string>
   <string name="no_available_updates_intro">Geen nieuwe updates gevonden. Gebruik de knop Vernieuwen om handmatig te controleren op nieuwe updates.</string>
@@ -43,12 +44,15 @@
   <string name="confirm_download_cancelation_dialog_message">Weet u zeker dat u de download wilt annuleren?</string>
   <string name="download_cancelled">Download geannuleeerd</string>
   <string name="download_already_running">Er is al een andere download bezig</string>
+  <string name="ab_update_running">Er wordt al een update uitgevoerd</string>
   <string name="unable_to_stop_download">Kan download niet stoppen</string>
   <string name="unable_to_download_file">Kan updatebestand niet downloaden</string>
   <string name="download_not_found">Download niet gevonden</string>
   <string name="not_download_success">Update succesvol gedownload</string>
   <string name="not_download_failure">Update downloaden mislukt</string>
   <string name="not_action_install_update">Herstarten en installeren</string>
+  <string name="not_action_install_reboot">Herstarten</string>
+  <string name="not_action_install">Installeren</string>
   <string name="not_download_install_notice">Update <xliff:g id="filename">%s</xliff:g> is succesvol gedownload. Wanneer u op \'Herstarten en installeren\' tikt, zal het apparaat herstarten om de update te installeren. Let op: een compatibele recovery is vereist om de installatie automatisch uit te voeren.</string>
   <string name="verification_failed">Verificatie mislukt. Beschadigde of onveilige download</string>
   <!-- Apply update strings -->
@@ -65,18 +69,24 @@
   <string name="delete_updates_noFolder_message">Kan updatemap niet vinden</string>
   <string name="delete_updates_success_message">Alle gedownloade updates zijn verwijderd</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Update geblokkeerd</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Laatst gecontroleerd</string>
   <!-- Build item -->
   <string name="type_installed">• Geïnstalleerd</string>
+  <string name="type_installing">• Installeren</string>
   <string name="type_downloaded">• Gedownload</string>
   <string name="type_downloading">• Downloaden</string>
   <string name="type_completing">• Afronden</string>
+  <string name="type_blocked">• Geblokkeerd</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Downloaden</string>
   <string name="install_button">Installeren</string>
+  <string name="info_button">Info</string>
+  <string name="reboot_button">Herstarten</string>
   <!-- A/B OTA -->
   <string name="apply_ab_update_dialog_title">Update toepassen</string>
+  <string name="error_title">Fout</string>
 </resources>

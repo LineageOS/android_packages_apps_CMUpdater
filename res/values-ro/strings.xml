@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Anulare</string>
   <string name="dialog_update">Actualizați</string>
   <string name="dialog_close">Închideți</string>
+  <string name="dialog_reboot">Repornire</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Actualizări disponibile</string>
   <string name="no_available_updates_intro">Nicio actualizare nouă găsită. Pentru a verifica manual pentru noi actualizări, utilizați butonul Reîmprospătare.</string>
@@ -43,17 +44,23 @@
   <string name="confirm_download_cancelation_dialog_message">Intenționați să revocați descărcarea curentă?</string>
   <string name="download_cancelled">Descărcare revocată</string>
   <string name="download_already_running">O descărcare este deja în execuție</string>
+  <string name="ab_update_running">O actualizare este deja în curs</string>
   <string name="unable_to_stop_download">Nu s-a putut opri descărcarea</string>
   <string name="unable_to_download_file">Imposibil de descărcat fișierul de actualizare</string>
   <string name="download_not_found">Descărcarea nu a fost găsită</string>
   <string name="not_download_success">Descărcarea actualizării a reușit</string>
   <string name="not_download_failure">Descărcarea actualizării a eșuat</string>
   <string name="not_action_install_update">Repornire și instalare</string>
+  <string name="not_action_install_reboot">Repornire</string>
+  <string name="not_action_install">Instalați</string>
   <string name="not_download_install_notice">Actualizarea <xliff:g id="filename">%s</xliff:g> s-a descărcat cu succes. Când atingeți \'Repornire și instalare\', dispozitivul se va reporni pentru a instala actualizarea.\n\nNotă: Aveți nevoie de un Recovery compatibil pentru ca instalarea să se facă în mod automat.</string>
+  <string name="not_download_install_notice_ab">Actualizarea <xliff:g id="filename">%s</xliff:g> a fost descărcată cu succes. Când veți apăsa pe \'Instalați\', dispozitivul va începe instalarea în fundal. \n\nOdată încheiată, veți fi anunțat(ă) că este nevoie să reporniți telefonul.</string>
   <string name="verification_failed">Verificarea nu a reuşit. Descărcarea este coruptă sau nesigură</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Aplicați actualizarea</string>
   <string name="apply_update_dialog_text">Intenționați să faceți upgrade la <xliff:g id="filename">%s</xliff:g>.\n\nDacă apăsați Actualizare, dispozitivul va reporni în modul recovery pentru a instala actualizarea.\n\nNotă: această caracteristică necesită Recovery compatibil sau actualizările trebuie să fie instalate manual.</string>
+  <string name="apply_update_dialog_text_ab">Sunteți pe cale de a face upgrade la <xliff:g id="filename">%s</xliff:g>.\n\nDacă apăsați pe Actualizare, dispozitivul va începe instalarea în fundal.\n\nOdată finalizată, veți fi anunțat(ă) să reporniți telefonul.</string>
+  <string name="apply_update_dialog_text_background_ab">Actualizarea se instalează acum în fundal. Veţi fi notificat(ă) când va fi finalizată.</string>
   <string name="apply_unable_to_reboot_toast">Nu se poate reporni în Recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Ștergeți fișierul</string>
@@ -73,6 +80,7 @@
   <string name="sysinfo_last_check">Ultima verificare</string>
   <!-- Build item -->
   <string name="type_installed">• Instalat</string>
+  <string name="type_installing">• Se instalează</string>
   <string name="type_downloaded">• Descărcat</string>
   <string name="type_downloading">• Descărcare</string>
   <string name="type_completing">• Completare</string>
@@ -81,6 +89,17 @@
   <string name="download_button">Descărcați</string>
   <string name="install_button">Instalați</string>
   <string name="info_button">Info</string>
+  <string name="reboot_button">Repornire</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Se pregătește pachetul pentru instalare</string>
+  <string name="installing_package">Se instalează pachetul de actualizare</string>
+  <string name="installing_package_finished">Actualizarea a fost instalată. Vă rugăm să reporniți telefonul.</string>
+  <string name="finalizing_package">Se finalizează instalarea pachetului</string>
+  <string name="preparing_ota_first_boot">Se pregătește pentru prima pornire</string>
   <string name="apply_ab_update_dialog_title">Aplicați actualizarea</string>
+  <string name="ab_update_finished_title">Actualizarea a fost instalată cu succes</string>
+  <string name="ab_update_finished_message">Actualizarea a fost instalată cu succes. Vă rugăm să reporniți telefonul când va fi convenabil.</string>
+  <string name="installing_zip_failed">Actualizarea a eșuat. Cod de eroare: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Actualizarea a eșuat. Cod de eroare: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Eroare</string>
 </resources>

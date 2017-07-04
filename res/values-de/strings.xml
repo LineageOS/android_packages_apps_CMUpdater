@@ -83,4 +83,9 @@
   <string name="info_button">Information</string>
   <!-- A/B OTA -->
   <string name="apply_ab_update_dialog_title">Update installieren</string>
+  <string name="ab_update_finished_title">Update erfolgreich installiert</string>
+  <string name="ab_update_finished_message">Das Update wurde erfolgreich installiert. Bitte starten Sie Ihr Gerät bei Gelegenheit neu.</string>
+  <string name="installing_zip_failed">Das Update ist fehlgeschlagen. Fehlercode: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Update gescheitert. Fehlercode: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Fehler</string>
 </resources>

@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Anuluj</string>
   <string name="dialog_update">Aktualizuj</string>
   <string name="dialog_close">Zamknij</string>
+  <string name="dialog_reboot">Uruchom ponownie</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Dostępne aktualizacje</string>
   <string name="no_available_updates_intro">Nie znaleziono nowych aktualizacji. Aby ręcznie sprawdzić dostępność nowych aktualizacji, użyj przycisku Odśwież.</string>
@@ -49,6 +50,8 @@
   <string name="not_download_success">Pobieranie aktualizacji zakończone</string>
   <string name="not_download_failure">Pobieranie aktualizacji zakończone niepowodzeniem</string>
   <string name="not_action_install_update">Uruchom ponownie i zainstaluj</string>
+  <string name="not_action_install_reboot">Uruchom ponownie</string>
+  <string name="not_action_install">Instaluj</string>
   <string name="not_download_install_notice">Aktualizacja <xliff:g id="filename">%s</xliff:g> została pobrana pomyślnie. Po wybraniu \'Uruchom ponownie i zainstaluj\', urządzenie zostanie zrestartowane w celu instalacji.\n\nUwaga: Wymagana jest kompatybilna aplikacja Recovery, aby proces mógł przebiec automatycznie.</string>
   <string name="verification_failed">Weryfikacja nie powiodła się. Podczas pobierania doszło do uszkodzenia pliku lub wystąpił błąd bezpieczeństwa</string>
   <!-- Apply update strings -->

@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Cancelar</string>
   <string name="dialog_update">Atualizar</string>
   <string name="dialog_close">Fechar</string>
+  <string name="dialog_reboot">Reiniciar</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Atualizações disponíveis</string>
   <string name="no_available_updates_intro">Não foram encontradas novas atualizações. Use o botão Atualizar para verificar por novas atualizações manualmente.</string>
@@ -49,6 +50,8 @@
   <string name="not_download_success">Atualização baixada com sucesso</string>
   <string name="not_download_failure">Erro ao baixar atualização</string>
   <string name="not_action_install_update">Reiniciar e instalar</string>
+  <string name="not_action_install_reboot">Reiniciar</string>
+  <string name="not_action_install">Instalar</string>
   <string name="not_download_install_notice">A atualização <xliff:g id="filename">%s</xliff:g> foi baixada. Ao tocar \'Reiniciar e instalar\', o dispositivo irá reiniciar sozinho e instalar a atualização.\n\nObservação: Uma Recuperação compatível é necessária para a atualização funcionar automaticamente.</string>
   <string name="verification_failed">Falha na verificação. Download corrompido ou inseguro</string>
   <!-- Apply update strings -->
@@ -73,6 +76,7 @@
   <string name="sysinfo_last_check">Última verificação em</string>
   <!-- Build item -->
   <string name="type_installed">• Instalado</string>
+  <string name="type_installing">• Instalando</string>
   <string name="type_downloaded">• Baixado</string>
   <string name="type_downloading">• Baixando</string>
   <string name="type_completing">• Concluindo</string>
@@ -81,6 +85,10 @@
   <string name="download_button">Baixar</string>
   <string name="install_button">Instalar</string>
   <string name="info_button">Informações</string>
+  <string name="reboot_button">Reiniciar</string>
   <!-- A/B OTA -->
   <string name="apply_ab_update_dialog_title">Aplicar atualização</string>
+  <string name="ab_update_finished_title">Atualização instalada com sucesso</string>
+  <string name="error_update_engine">Falha ao atualizar. Código de erro: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Erro</string>
 </resources>

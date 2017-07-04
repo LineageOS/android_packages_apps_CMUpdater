@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Huỷ</string>
   <string name="dialog_update">Cập nhật</string>
   <string name="dialog_close">Đóng</string>
+  <string name="dialog_reboot">Khởi động lại</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Bản cập nhật có sẵn</string>
   <string name="no_available_updates_intro">Không có bản cập nhật mới được tìm thấy. Để tự động kiểm tra các bản cập nhật mới, sử dụng nút Làm mới.</string>
@@ -43,17 +44,23 @@
   <string name="confirm_download_cancelation_dialog_message">Huỷ tác vụ tải xuống hiện tại?</string>
   <string name="download_cancelled">Đã huỷ tải xuống</string>
   <string name="download_already_running">Một tác vụ tải xuống đang chạy</string>
+  <string name="ab_update_running">Bản cập nhật vẫn đang chạy</string>
   <string name="unable_to_stop_download">Không thể dừng tải xuống</string>
   <string name="unable_to_download_file">Không thể tải xuống tập tin cập nhật</string>
   <string name="download_not_found">Không tìm thấy bản tải xuống</string>
   <string name="not_download_success">Bản cập nhật đã được tải xuống thành công</string>
   <string name="not_download_failure">Tải xuống bản cập nhật không thành công</string>
   <string name="not_action_install_update">Khởi động lại và cài đặt</string>
+  <string name="not_action_install_reboot">Khởi động lại</string>
+  <string name="not_action_install">Cài đặt</string>
   <string name="not_download_install_notice">Bản cập nhật <xliff:g id="filename"> %s </xliff:g> đã tải xuống thành công. Khi chạm vào \'Khởi động lại và cài đặt\', thiết bị sẽ tự khởi động lại để cài đặt bản cập nhật.\n\nLưu ý: Cần có một bản Recovery tương thích cho tiến trình cài đặt làm việc tự động.</string>
+  <string name="not_download_install_notice_ab">Bản cập nhật <xliff:g id="filename">%s</xliff:g> đã được tải xuống thành công. Khi chạm vào \'Cài đặt\', thiết bị sẽ bắt đầu cài đặt ở chế độ nền.\n\nSau khi hoàn tất, bạn sẽ được nhắc khởi động lại.</string>
   <string name="verification_failed">Không thể xác thực. Tải về bị hỏng hoặc không an toàn</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Áp dụng cập nhật</string>
   <string name="apply_update_dialog_text">Bạn chuẩn bị nâng cấp lên <xliff:g id="filename"> %s </xliff:g>. \n\nNếu bạn bấm vào Cập nhật, điện thoại sẽ tự khởi động lại vào chế độ recovery để cài đặt cập nhật.\n\nLưu ý: tính năng này yêu cầu một bản recovery tương thích hoặc bản cập nhật sẽ cần phải được cài đặt theo cách thủ công.</string>
+  <string name="apply_update_dialog_text_ab">Bạn sắp nâng cấp lên <xliff:g id="filename">%s</xliff:g>.\n\nNếu bạn nhấn Cập nhật, thiết bị sẽ bắt đầu cài đặt trong nền.\n\nSau khi hoàn tất, bạn sẽ được nhắc khởi động lại.</string>
+  <string name="apply_update_dialog_text_background_ab">Cập nhật hiện đang cài đặt ở chế độ nền. Bạn sẽ được thông báo khi quá trình cài đặt hoàn tất.</string>
   <string name="apply_unable_to_reboot_toast">Không thể khởi động lại vào recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Xoá tập tin</string>
@@ -73,6 +80,7 @@
   <string name="sysinfo_last_check">Đã kiểm tra lần cuối</string>
   <!-- Build item -->
   <string name="type_installed">• Đã cài đặt</string>
+  <string name="type_installing">• Đang cài đặt</string>
   <string name="type_downloaded">•Đã tải về</string>
   <string name="type_downloading">• Đang tải về</string>
   <string name="type_completing">• Hoàn thành</string>
@@ -81,6 +89,17 @@
   <string name="download_button">Tải về</string>
   <string name="install_button">Cài đặt</string>
   <string name="info_button">Thông tin</string>
+  <string name="reboot_button">Khởi động lại</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Đang chuẩn bị gói để cài đặt</string>
+  <string name="installing_package">Đang cài đặt gói cập nhật</string>
+  <string name="installing_package_finished">Cập nhật đã được cài đặt. Hãy khởi động lại.</string>
+  <string name="finalizing_package">Đang hoàn thành cài đặt gói</string>
+  <string name="preparing_ota_first_boot">Đang chuẩn bị cho lần khởi động đầu tiên</string>
   <string name="apply_ab_update_dialog_title">Áp dụng cập nhật</string>
+  <string name="ab_update_finished_title">Cập nhật đã được cài đặt thành công</string>
+  <string name="ab_update_finished_message">Cập nhật đã được cài đặt thành công. Vui lòng khởi động lại thiết bị của bạn một cách thuận tiện.</string>
+  <string name="installing_zip_failed">Bản cập nhật thất bại. Mã lỗi: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Thất bại việc cập nhật. Mã lỗi: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Lỗi</string>
 </resources>

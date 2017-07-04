@@ -43,17 +43,23 @@
   <string name="confirm_download_cancelation_dialog_message">Du er i ferd med å avbryte pågående nedlasting, er du sikker?</string>
   <string name="download_cancelled">Nedlasting avbrutt</string>
   <string name="download_already_running">En nedlasting pågår allerede</string>
+  <string name="ab_update_running">En oppdatering kjører allerede</string>
   <string name="unable_to_stop_download">Kunne ikke stoppe nedlasting</string>
   <string name="unable_to_download_file">Kunne ikke laste ned oppdateringsfil</string>
   <string name="download_not_found">Nedlasting ikke funnet</string>
   <string name="not_download_success">Nedlasting av oppdatering var vellykket</string>
   <string name="not_download_failure">Nedlasting av oppdatering var ikke vellykket</string>
   <string name="not_action_install_update">Start på nytt og installer</string>
+  <string name="not_action_install_reboot">Omstart</string>
+  <string name="not_action_install">Installer</string>
   <string name="not_download_install_notice">Nedlastingen av <xliff:g id="filename">%s</xliff:g> var vellykket. Når du trykker på \'Start på nytt og installer\', vil enheten starte på nytt, for så å installere oppdateringen.\n\nMerk: En kompatibel recovery-versjon er påkrevd for at installeringen skal kunne utføres.</string>
+  <string name="not_download_install_notice_ab">Oppdateringen <xliff:g id="filename">%s</xliff:g> ble lastet ned. Når du trykker \"Installer\", vil enheten begynne å installere i bakgrunnen.\n\nNår den har fullført vil du bli spurt om å starte på nytt.</string>
   <string name="verification_failed">Verifisering mislyktes. Korrupt eller usikker nedlasting</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Installer oppdatering</string>
   <string name="apply_update_dialog_text">Du er i ferd med å oppgradere til <xliff:g id="filename">%s</xliff:g>.\n\nHvis du fortsetter vil telefonen foreta en omstart til recovery-modus for å gjennomføre installasjonen</string>
+  <string name="apply_update_dialog_text_ab">Du er i ferd med å oppgradere til <xliff:g id="filename">%s</xliff:g>.\n\nHvis du trykker \"Oppdater\", vil enheten begynne å installere i bakgrunnen.\n\nNår den har fullført, vil du bli spurt om å starte på nytt.</string>
+  <string name="apply_update_dialog_text_background_ab">Oppdateringen installeres nå i bakgrunnen. Du vil få beskjed når installasjonen er fullført.</string>
   <string name="apply_unable_to_reboot_toast">Kunne ikke starte opp i recovery-modus</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Slett fil</string>
@@ -73,6 +79,7 @@
   <string name="sysinfo_last_check">Sist sjekket</string>
   <!-- Build item -->
   <string name="type_installed">• Installert</string>
+  <string name="type_installing">• Installerer</string>
   <string name="type_downloaded">• Lastet ned</string>
   <string name="type_downloading">• Lastes ned</string>
   <string name="type_completing">• Fullfører</string>
@@ -81,6 +88,17 @@
   <string name="download_button">Last ned</string>
   <string name="install_button">Installer</string>
   <string name="info_button">Info</string>
+  <string name="reboot_button">Omstart</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Forbereder pakke for installasjon</string>
+  <string name="installing_package">Installerer oppdateringspakke</string>
+  <string name="installing_package_finished">Oppdatering installert. Vennligst start på nytt.</string>
+  <string name="finalizing_package">Fullfører pakkeinstallasjon</string>
+  <string name="preparing_ota_first_boot">Forbereder første oppstart</string>
   <string name="apply_ab_update_dialog_title">Installer oppdatering</string>
+  <string name="ab_update_finished_title">Oppdatering installert</string>
+  <string name="ab_update_finished_message">Oppdateringen har blitt installert. Start på nytt når det passer deg.</string>
+  <string name="installing_zip_failed">Oppdateringen mislyktes. Feilkode: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Feil under oppdatering. Feilkode: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Feil</string>
 </resources>

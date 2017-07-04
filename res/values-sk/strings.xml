@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Zrušiť</string>
   <string name="dialog_update">Aktualizovať</string>
   <string name="dialog_close">Zavrieť</string>
+  <string name="dialog_reboot">Reštartovať</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Dostupné aktualizácie</string>
   <string name="no_available_updates_intro">Neboli nájdené žiadne nové aktualizácie. Ak chcete ručne vyhľadať nové aktualizácie, použite tlačítko Aktualizovať.</string>
@@ -43,17 +44,23 @@
   <string name="confirm_download_cancelation_dialog_message">Zrušiť aktuálne preberanie?</string>
   <string name="download_cancelled">Preberanie bolo zrušené</string>
   <string name="download_already_running">Preberanie je už spustené</string>
+  <string name="ab_update_running">Aktualizácia je už spustená</string>
   <string name="unable_to_stop_download">Nemožno sa zastaviť sťahovanie</string>
   <string name="unable_to_download_file">Nemožno prevziať súbor aktualizácie</string>
   <string name="download_not_found">Prevzatie sa nenašlo</string>
   <string name="not_download_success">Aktualizácia bola úspešne prevzatá</string>
   <string name="not_download_failure">Aktualizácia nebola úspešne prevzatá</string>
   <string name="not_action_install_update">Reštartovať a inštalovať</string>
+  <string name="not_action_install_reboot">Reštartovať</string>
+  <string name="not_action_install">Nainštalovať</string>
   <string name="not_download_install_notice">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola úspešne prevzatá. Kliknutím na \'Reštartovať a inštalovať\' sa zariadenie reštartuje kvôli inštalácii aktualizácie.\n\nPoznámka: Na automatickú inštaláciu sa požaduje kompatibilné Recovery.</string>
+  <string name="not_download_install_notice_ab">Aktualizácia <xliff:g id="filename">%s </xliff:g> bola úspešne stiahnutá. Po kliknutí na \"Nainštalovať\" sa začne s inštaláciou na pozadí.\n\nPo dokončení budete vyzvaní k reštartu.</string>
   <string name="verification_failed">Overenie zlyhalo. Soubor je poškodený alebo nebezpečný</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Aplikovať aktualizáciu</string>
   <string name="apply_update_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budú musieť byť aktualizácie inštalované ručne.</string>
+  <string name="apply_update_dialog_text_ab">Chystáte sa aktualizovať na <xliff:g id="filename">%s </xliff:g>. \n\nAk kliknete na tlačidlo \"Aktualizovať\", spustí sa inštalácia na pozadí.\n\nPo dokončení, budete vyzvaní k reštartu.</string>
+  <string name="apply_update_dialog_text_background_ab">Aktualizácia sa teraz inštaluje na pozadí. Po dokončení inštalácie budete upozornení.</string>
   <string name="apply_unable_to_reboot_toast">Nemožno reštartovať do Recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Vymazať súbor</string>
@@ -73,6 +80,7 @@
   <string name="sysinfo_last_check">Posledná kontrola</string>
   <!-- Build item -->
   <string name="type_installed">• Nainštalované</string>
+  <string name="type_installing">• Inštalácia</string>
   <string name="type_downloaded">• Stiahnuté</string>
   <string name="type_downloading">• Sťahovanie</string>
   <string name="type_completing">• Dokončovanie</string>
@@ -81,6 +89,17 @@
   <string name="download_button">Stiahnuť</string>
   <string name="install_button">Nainštalovať</string>
   <string name="info_button">Informácie</string>
+  <string name="reboot_button">Reštartovať</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Príprava balíka na inštaláciu</string>
+  <string name="installing_package">Inštalácia balíka aktualizácií</string>
+  <string name="installing_package_finished">Aktualizácia je nainštalovaná. Reštartujte prosím.</string>
+  <string name="finalizing_package">Dokončuje sa inštalácia balíka</string>
+  <string name="preparing_ota_first_boot">Príprava na prvé spustenie</string>
   <string name="apply_ab_update_dialog_title">Aplikovať aktualizáciu</string>
+  <string name="ab_update_finished_title">Aktualizácia bola úspešne nainštalovaná</string>
+  <string name="ab_update_finished_message">Aktualizácia bola úspešne nainštalovaná. Reštartujte prosím zariadenie podľa vlastného uváženia.</string>
+  <string name="installing_zip_failed">Aktualizácia zlyhala. Kód chyby: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Zlyhanie aktualizácie. Kód chyby: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Chyba</string>
 </resources>

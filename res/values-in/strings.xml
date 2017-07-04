@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Batal</string>
   <string name="dialog_update">Perbarui</string>
   <string name="dialog_close">Tutup</string>
+  <string name="dialog_reboot">Mulai ulang</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Pembaruan tersedia</string>
   <string name="no_available_updates_intro">Pembaruan tidak ditemukan. Untuk memeriksa pembaruan secara manual, gunakan tombol Segarkan.</string>
@@ -49,6 +50,8 @@
   <string name="not_download_success">Pembaruan berhasil diunduh</string>
   <string name="not_download_failure">Pengunduhan pembaruan tidak berhasil</string>
   <string name="not_action_install_update">Mulai ulang dan instal</string>
+  <string name="not_action_install_reboot">Mulai ulang</string>
+  <string name="not_action_install">Pasang</string>
   <string name="not_download_install_notice">Pembaruan <xliff:g id="filename">%s</xliff:g> sudah berhasil diunduh. Ketika mengetuk \'Mulai ulang dan instal\', perangkat akan dimulai ulang dan menginstal pembaruan.\n\nCatatan: Diperlukan Recovery yang kompatibel agar pemasangan dapat bekerja secara otomatis.</string>
   <string name="verification_failed">Verifikasi gagal. Unduhan rusak atau tidak aman</string>
   <!-- Apply update strings -->
@@ -78,6 +81,8 @@
   <string name="download_button">Unduh</string>
   <string name="install_button">Pasang</string>
   <string name="info_button">Info</string>
+  <string name="reboot_button">Mulai ulang</string>
   <!-- A/B OTA -->
   <string name="apply_ab_update_dialog_title">Terapkan pembaruan</string>
+  <string name="error_title">Kesalahan</string>
 </resources>

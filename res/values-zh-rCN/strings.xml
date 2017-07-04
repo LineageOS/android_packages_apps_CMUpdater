@@ -21,7 +21,7 @@
   <string name="dialog_cancel">取消</string>
   <string name="dialog_update">更新</string>
   <string name="dialog_close">关闭</string>
-  <string name="dialog_reboot">重启</string>
+  <string name="dialog_reboot">重新启动</string>
   <!-- Settings strings -->
   <string name="available_updates_title">可用更新</string>
   <string name="no_available_updates_intro">未找到更新。要手动检查更新，请使用刷新按钮。</string>
@@ -51,7 +51,7 @@
   <string name="not_download_success">更新已成功下载</string>
   <string name="not_download_failure">下载更新失败</string>
   <string name="not_action_install_update">重启并安装</string>
-  <string name="not_action_install_reboot">重启</string>
+  <string name="not_action_install_reboot">重新启动</string>
   <string name="not_action_install">安装</string>
   <string name="not_download_install_notice">更新 <xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序。</string>
   <string name="not_download_install_notice_ab">更新 <xliff:g id="filename">%s</xliff:g> 已经成功下载。 当您点击“安装”后，设备将在后台进行安装。\n\n当安装完毕后，将会提示您重新启动。</string>
@@ -89,11 +89,11 @@
   <string name="download_button">下载</string>
   <string name="install_button">安装</string>
   <string name="info_button">信息</string>
-  <string name="reboot_button">重启</string>
+  <string name="reboot_button">重新启动</string>
   <!-- A/B OTA -->
   <string name="preparing_package">正在为安装准备安装包</string>
   <string name="installing_package">正在安装更新包</string>
-  <string name="installing_package_finished">更新已安装，请重启。</string>
+  <string name="installing_package_finished">更新已安装。请重新启动。</string>
   <string name="finalizing_package">正在完成包安装</string>
   <string name="preparing_ota_first_boot">正在为第一次启动进行准备</string>
   <string name="apply_ab_update_dialog_title">应用更新</string>

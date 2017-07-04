@@ -21,6 +21,7 @@
   <string name="dialog_cancel">취소</string>
   <string name="dialog_update">업데이트</string>
   <string name="dialog_close">닫기</string>
+  <string name="dialog_reboot">다시 시작</string>
   <!-- Settings strings -->
   <string name="available_updates_title">사용 가능한 업데이트</string>
   <string name="no_available_updates_intro">새로운 업데이트가 없습니다. 수동으로 새 업데이트를 확인하려면 새로고침 버튼을 누르세요.</string>
@@ -43,17 +44,23 @@
   <string name="confirm_download_cancelation_dialog_message">현재 다운로드를 취소하시겠습니까?</string>
   <string name="download_cancelled">다운로드 취소됨</string>
   <string name="download_already_running">다운로드가 이미 실행 중입니다</string>
+  <string name="ab_update_running">업데이트가 이미 진행 중입니다.</string>
   <string name="unable_to_stop_download">다운로드를 중지할 수 없습니다</string>
   <string name="unable_to_download_file">업데이트 파일을 다운로드할 수 없습니다</string>
   <string name="download_not_found">다운로드를 찾을 수 없습니다</string>
   <string name="not_download_success">업데이트가 성공적으로 다운로드 되었습니다</string>
   <string name="not_download_failure">업데이트 다운로드에 실패하였습니다</string>
   <string name="not_action_install_update">다시 시작 후 설치</string>
+  <string name="not_action_install_reboot">다시 시작</string>
+  <string name="not_action_install">설치</string>
   <string name="not_download_install_notice">업데이트 <xliff:g id="filename">%s</xliff:g>(이)가 성공적으로 다운로드 되었습니다. \'다시 시작 후 설치\'를 탭하면 업데이트 설치를 위해 장치가 재시작됩니다.\n\n주의: 설치 과정이 자동으로 진행되기 위해서는 호환되는 복구 모드가 필요합니다.</string>
+  <string name="not_download_install_notice_ab"><xliff:g id="filename">%s</xliff:g> 업데이트를 성공적으로 다운로드했습니다. \'설치\'를 누르면 백그라운드에서 이 업데이트를 설치합니다.\n\n설치가 완료되면 기기를 다시 시작할 것인지 묻는 대화 상자가 나타날 것입니다.</string>
   <string name="verification_failed">검증에 실패했습니다. 손상되거나 안전하지 않은 다운로드입니다.</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">업데이트 적용</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g>(으)로 업그레이드합니다. \n\n업데이트를 탭하면 업데이트 설치를 위해 장치가 복구 모드로 재시작됩니다.\n\n주의: 이 기능은 호환되는 복구 모드가 필요하며, 그렇지 않을 경우 업데이트를 수동으로 설치해야합니다.</string>
+  <string name="apply_update_dialog_text_ab"><xliff:g id="filename">%s</xliff:g> 버전으로 업그레이드를 시도하려 합니다.\n\n\'업데이트\'를 누르면 백그라운드에서 이 업데이트를 설치합니다.\n\n설치가 완료되면 기기를 다시 시작할 것인지 묻는 대화 상자가 나타날 것입니다.</string>
+  <string name="apply_update_dialog_text_background_ab">업데이트가 백그라운드에서 설치 중입니다. 설치가 완료되면 알려 드립니다.</string>
   <string name="apply_unable_to_reboot_toast">복구 모드로 재시작할 수 없습니다</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">파일 삭제</string>
@@ -73,6 +80,7 @@
   <string name="sysinfo_last_check">마지막 확인</string>
   <!-- Build item -->
   <string name="type_installed">• 설치됨</string>
+  <string name="type_installing">• 설치 중</string>
   <string name="type_downloaded">• 다운로드 완료</string>
   <string name="type_downloading">• 다운로드 중</string>
   <string name="type_completing">• 완료 중</string>
@@ -81,6 +89,17 @@
   <string name="download_button">다운로드</string>
   <string name="install_button">설치</string>
   <string name="info_button">정보</string>
+  <string name="reboot_button">다시 시작</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">설치할 패키지를 준비하는 중</string>
+  <string name="installing_package">업데이트 패키지를 설치하는 중</string>
+  <string name="installing_package_finished">업데이트를 설치했습니다. 기기를 다시 시작해 주세요.</string>
+  <string name="finalizing_package">패키지 설치를 마무리하는 중</string>
+  <string name="preparing_ota_first_boot">첫 번째 부팅을 준비하는 중</string>
   <string name="apply_ab_update_dialog_title">업데이트 적용</string>
+  <string name="ab_update_finished_title">업데이트를 성공적으로 설치함</string>
+  <string name="ab_update_finished_message">업데이트를 성공적으로 설치했습니다. 필요하면 기기를 다시 시작하세요.</string>
+  <string name="installing_zip_failed">업데이트에 실패했습니다. 에러 코드: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">업데이트에 실패했습니다. 에러 코드: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">오류</string>
 </resources>
