@@ -36,18 +36,18 @@
   <string name="update_check_failed">Провера за ажурирања није успела. Провери своју интернет везу и покушај поново касније.</string>
   <string name="not_new_updates_found_ticker">Нова ажурирања су доступна</string>
   <string name="not_new_updates_found_title">Нова ажурирања</string>
-  <string name="not_action_download">Преузмите</string>
+  <string name="not_action_download">Преузми</string>
   <string name="data_connection_required">Неопходна је веза са интернетом.</string>
   <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Откажи преузимање</string>
+  <string name="confirm_download_cancelation_dialog_title">Отказивање преузимања</string>
   <string name="confirm_download_cancelation_dialog_message">Отказати тренутно преузимање?</string>
-  <string name="download_cancelled">Преузимање је отказано</string>
-  <string name="download_already_running">Преузимање је већ покренуто</string>
+  <string name="download_cancelled">Преузимање је отказано.</string>
+  <string name="download_already_running">Преузимање је већ покренуто.</string>
   <string name="unable_to_stop_download">Не могу да зауставим преузимање.</string>
-  <string name="unable_to_download_file">Не могу да преузмем фајл ажурирања</string>
-  <string name="download_not_found">Ажурирање није пронађено</string>
-  <string name="not_download_success">Ажурирање је успешно преузето</string>
-  <string name="not_download_failure">Ажурирање није успешно преузето</string>
+  <string name="unable_to_download_file">Не могу да преузмем датотеку ажурирања.</string>
+  <string name="download_not_found">Ажурирање није пронађено.</string>
+  <string name="not_download_success">Ажурирање је преузето.</string>
+  <string name="not_download_failure">Не могу да преузмем ажурирање.</string>
   <string name="not_action_install_update">Поново покрени и инсталирај</string>
   <string name="not_download_install_notice">Ажурирање <xliff:g id="filename">%s</xliff:g> је успешно преузето. Када додирнеш \'Рестартуј и инсталирај\', уређај ће се поново покренути да инсталира ажурирање.\n\nНапомена: Компатибилни \'Опоравак\' је потребан за аутоматску инсталацију.</string>
   <string name="verification_failed">Грешка при провери ваљаности. Преузета датотека је оштећена или није безбедна.</string>
@@ -57,14 +57,16 @@
   <string name="apply_unable_to_reboot_toast">Не могу да покренем уређај у режим опоравка</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Избриши фајл</string>
-  <string name="confirm_delete_dialog_title_tv">Додирните да бисте уклонили сва преузета ажурирања са унутрашњег складишта</string>
+  <string name="confirm_delete_dialog_title_tv">Додирните да бисте уклонили сва преузета ажурирања из унутрашњег меморијског простора.</string>
   <string name="confirm_delete_dialog_message">Избрисати изабрани фајл ажурирања?</string>
-  <string name="confirm_delete_all_dialog_message">Избрисати све преузете фајлове ажурирања?</string>
+  <string name="confirm_delete_all_dialog_message">Избрисати све преузете датотеке ажурирања?</string>
   <string name="delete_single_update_success_message">Ажурирање „<xliff:g id="filename">%s</xliff:g>“ је избрисано</string>
   <string name="delete_updates_failure_message">Дошло је до грешке при брисању фајла ажурирања</string>
-  <string name="delete_updates_noFolder_message">Фолдар са ажурирањима није пронађен</string>
-  <string name="delete_updates_success_message">Сва преузета ажурирања су избрисана</string>
+  <string name="delete_updates_noFolder_message">Фасцикла са ажурирањима није пронађена.</string>
+  <string name="delete_updates_success_message">Сва преузета ажурирања су избрисана.</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Ажурирање је блокирано</string>
+  <string name="blocked_update_dialog_message">Дошло је до грешке при ажурирању система помоћу апликације за то. За више информација, прочитајте <![CDATA[<a href="%1$s">]]>;вики LineageOS-а<![CDATA[</a>]]>;.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,9 @@
   <string name="type_downloaded">• преузето</string>
   <string name="type_downloading">• преузимање</string>
   <string name="type_completing">• довршавање</string>
+  <string name="type_blocked">• блокирано</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Преузмите</string>
+  <string name="download_button">Преузми</string>
   <string name="install_button">Инсталирај</string>
+  <string name="info_button">Информације</string>
 </resources>

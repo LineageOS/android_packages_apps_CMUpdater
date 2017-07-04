@@ -10,7 +10,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <plurals name="not_new_updates_found_body">
-    <item quantity="one">Eguneratzea <xliff:g id="count">%d</xliff:g> deskargatzeko eskuragarri</item>
+    <item quantity="one">Eguneraketa <xliff:g id="count">%d</xliff:g> deskargatzeko eskuragarri</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> eguneraketa  deskargatzeko eskuragarri</item>
   </plurals>
   <plurals name="not_additional_count">

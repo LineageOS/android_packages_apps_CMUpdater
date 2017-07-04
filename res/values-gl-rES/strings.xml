@@ -65,6 +65,7 @@
   <string name="delete_updates_noFolder_message">Non foi posíbel atopar o cartafol de actualización</string>
   <string name="delete_updates_success_message">Elimináronse todas as actualizacións descargadas</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Actualización bloqueada</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +75,9 @@
   <string name="type_downloaded">• Baixado</string>
   <string name="type_downloading">• Descargando</string>
   <string name="type_completing">• Completando</string>
+  <string name="type_blocked">• Bloqueado</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Descargar</string>
   <string name="install_button">Instalado</string>
+  <string name="info_button">Información</string>
 </resources>
