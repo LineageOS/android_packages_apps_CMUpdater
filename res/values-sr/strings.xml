@@ -13,13 +13,20 @@
   <!-- General strings -->
   <string name="app_name">Ажурирање система</string>
   <!-- Menu and dialog box strings -->
+  <string name="dialog_reboot">Поново покрени</string>
   <!-- Settings strings -->
   <string name="no_available_updates_intro">Нема доступних ажурирања. Додирните дугме „Потражи“ да бисте проверили ручно.</string>
   <!-- Update checking -->
   <!-- Downloads -->
+  <string name="ab_update_running">Ажурирање је већ покренуто</string>
   <string name="unable_to_stop_download">Не могу да зауставим преузимање.</string>
+  <string name="not_action_install_reboot">Поново покрени</string>
+  <string name="not_action_install">Инсталирај</string>
+  <string name="not_download_install_notice_ab">Ажурирање „<xliff:g id="filename">%s</xliff:g>“ је преузето. Ако додирнете дугме „Инсталирај“, уређај ће почети инсталацију у позадини.\n\nПо завршетку инсталације потребно је да поново покренете уређај.</string>
   <string name="verification_failed">Грешка при провери ваљаности. Преузета датотека је оштећена или није безбедна.</string>
   <!-- Apply update strings -->
+  <string name="apply_update_dialog_text_ab">На путу сте да инсталирате верзију „<xliff:g id="filename">%s</xliff:g>“.\n\nАко додирнете дугме „Ажурирај“, покренућете инсталацију ажурирања у позадини.\n\nПо завршетку инсталације потребно је да поново покренете уређај.</string>
+  <string name="apply_update_dialog_text_background_ab">Ажурирање система је у току. Бићете обавештени по завршетку.</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_message">Избрисати изабрану датотеку ажурирања?</string>
   <string name="confirm_delete_all_dialog_message">Избрисати све преузете датотеке ажурирања?</string>
@@ -36,6 +43,7 @@
   <string name="sysinfo_last_check">Последња провера:</string>
   <!-- Build item -->
   <string name="type_installed">• инсталирано</string>
+  <string name="type_installing">• инсталирање</string>
   <string name="type_downloaded">• преузето</string>
   <string name="type_downloading">• преузимање</string>
   <string name="type_completing">• довршавање</string>
@@ -44,6 +52,17 @@
   <string name="download_button">Преузми</string>
   <string name="install_button">Инсталирај</string>
   <string name="info_button">Информације</string>
+  <string name="reboot_button">Поново покрени</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Припрема пакета за инсталацију</string>
+  <string name="installing_package">Инсталирање ажурирања</string>
+  <string name="installing_package_finished">Ажурирање је инсталирано. Поново покрените уређај.</string>
+  <string name="finalizing_package">Довршавање инсталације</string>
+  <string name="preparing_ota_first_boot">Припрема за прво покретање</string>
   <string name="apply_ab_update_dialog_title">Примени ажурирање</string>
+  <string name="ab_update_finished_title">Ажурирање је инсталирано</string>
+  <string name="ab_update_finished_message">Ажурирање је инсталирано. Поново покрените уређај у жељено време.</string>
+  <string name="installing_zip_failed">Грешка при ажурирању. Кôд грешке: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Грешка при ажурирању. Кôд грешке: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Грешка</string>
 </resources>

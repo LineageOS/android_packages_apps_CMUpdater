@@ -11,7 +11,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="app_name">Aktualizovat</string>
+  <string name="app_name">Aktualizace</string>
   <string name="display_name">Aktualizace CM</string>
   <string name="unknown">Neznámý</string>
   <!-- Menu and dialog box strings -->
@@ -21,9 +21,10 @@
   <string name="dialog_cancel">Zrušit</string>
   <string name="dialog_update">Aktualizovat</string>
   <string name="dialog_close">Zavřít</string>
+  <string name="dialog_reboot">Reboot</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Dostupné aktualizace</string>
-  <string name="no_available_updates_intro">Nebyly nalezeny žádné nové aktualizace. Chcete-li ručně vyhledat nové aktualizace, použijte tlačítko Obnovit.</string>
+  <string name="no_available_updates_intro">Nebyly nalezeny žádné nové aktualizace. Chcete-li ručně vyhledat nové aktualizace, použijte tlačítko „Obnovit“.</string>
   <string name="update_check_title">Vyhledat aktualizace</string>
   <string name="check_manual">Ručně</string>
   <string name="check_daily">Denně</string>
@@ -43,17 +44,23 @@
   <string name="confirm_download_cancelation_dialog_message">Opravdu chcete zrušit aktuální stahování?</string>
   <string name="download_cancelled">Stahování zrušeno</string>
   <string name="download_already_running">Stahování již běží</string>
+  <string name="ab_update_running">Aktualizace je již spuštěna</string>
   <string name="unable_to_stop_download">Stahování nelze zastavit</string>
   <string name="unable_to_download_file">Nelze stáhnout aktualizační soubor</string>
   <string name="download_not_found">Soubor pro stažení nenalezen</string>
   <string name="not_download_success">Aktualizace úspěšně stáhnuta</string>
   <string name="not_download_failure">Aktualizaci nelze stáhnout</string>
   <string name="not_action_install_update">Restartovat a nainstalovat</string>
+  <string name="not_action_install_reboot">Reboot</string>
+  <string name="not_action_install">Instalovat</string>
   <string name="not_download_install_notice">Aktualizace <xliff:g id="filename">%s</xliff:g> byla úspěšně stáhnutá. Stisknutím \u201aRestartovat a nainstalovat\u2018, bude zařízení restartováno a bude provedena automatická instalace aktualizace.\n\nPoznámka: pro automatickou instalaci je vyžadován kompatibilní Recovery manažer.</string>
+  <string name="not_download_install_notice_ab">Aktualizace <xliff:g id="filename">%s</xliff:g> byla úspěšně stažena. Po dotyku na „Instalovat“ se spustí instalace na pozadí.\n\nPo dokončení budete vyzváni k restartu.</string>
   <string name="verification_failed">Ověření se nezdařilo. Soubor je poškozený nebo byl stažen z nezabezpečeného úložiště</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Použít aktualizaci</string>
   <string name="apply_update_dialog_text">Chystáte se aktualizovat na <xliff:g id="filename">%s</xliff:g>.\n\nPokud stisknete Aktualizovat, telefon se restartuje do režimu Recovery, kde budete pokračovat v instalaci aktualizace.\n\nPoznámka: tato funkce vyžaduje nainstalovaný kompatibilní režim Recovery nebo je nutné instalaci provést ručně.</string>
+  <string name="apply_update_dialog_text_ab">Chystáte se aktualizovat na <xliff:g id="filename">%s</xliff:g>.\n\nPokud se dotknete tlačítka „Aktualizovat“, spustí se instalace na pozadí.\n\nPo dokončení budete vyzváni k restartu.</string>
+  <string name="apply_update_dialog_text_background_ab">Aktualizace se instaluje na pozadí. Po dokončení instalace budete upozorněni.</string>
   <string name="apply_unable_to_reboot_toast">Nelze restartovat do režimu Recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Smazat soubor</string>
@@ -65,18 +72,34 @@
   <string name="delete_updates_noFolder_message">Adresář aktualizací nenalezen</string>
   <string name="delete_updates_success_message">Všechny stažené soubory aktualizací smazány</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Aktualizace zablokována</string>
+  <string name="blocked_update_dialog_message">Tuto aktualizaci nelze nainstalovat pomocí aplikace. Pro více informací si přečtěte <![CDATA[<a href="%1$s">]]>;LineageOS wiki<![CDATA[</a>]]>;.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Poslední kontrola</string>
   <!-- Build item -->
   <string name="type_installed">• Nainstalované</string>
+  <string name="type_installing">• Instalace</string>
   <string name="type_downloaded">• Stáhnuté</string>
   <string name="type_downloading">• Stahování</string>
   <string name="type_completing">• Dokončování</string>
+  <string name="type_blocked">• Blokováno</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Stáhnout</string>
   <string name="install_button">Instalovat</string>
+  <string name="info_button">Informace</string>
+  <string name="reboot_button">Reboot</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Příprava balíčku na instalaci</string>
+  <string name="installing_package">Instalace balíčku aktualizace</string>
+  <string name="installing_package_finished">Aktualizace nainstalována. Prosím restartujte.</string>
+  <string name="finalizing_package">Dokončování instalace balíčku</string>
+  <string name="preparing_ota_first_boot">Příprava na první spuštění</string>
   <string name="apply_ab_update_dialog_title">Použít aktualizaci</string>
+  <string name="ab_update_finished_title">Aktualizace byla úspěšně nainstalována</string>
+  <string name="ab_update_finished_message">Aktualizace byla úspěšně nainstalována. Prosím restartujte zařízení podle vlastního uvážení.</string>
+  <string name="installing_zip_failed">Aktualizace se nezdařila. Kód chyby: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Selhání aktualizace. Kód chyby: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Chyba</string>
 </resources>

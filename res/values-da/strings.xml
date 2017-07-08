@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Annuller</string>
   <string name="dialog_update">Opdatér</string>
   <string name="dialog_close">Luk</string>
+  <string name="dialog_reboot">Genstart</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Tilgængelige opdateringer</string>
   <string name="no_available_updates_intro">Ingen nye opdateringer fundet. For at manuelt søge efter nye opdateringer, tryk Opdatér.</string>
@@ -43,17 +44,23 @@
   <string name="confirm_download_cancelation_dialog_message">Du skal til at annullere den nuværende download, OK at fortsætte?</string>
   <string name="download_cancelled">Download annulleret</string>
   <string name="download_already_running">En download kører allerede</string>
+  <string name="ab_update_running">En opdatering kører allerede</string>
   <string name="unable_to_stop_download">Kan ikke stoppe download</string>
   <string name="unable_to_download_file">Kan ikke downloade opdateringsfilen</string>
   <string name="download_not_found">Download ikke fundet</string>
   <string name="not_download_success">Opdatering downloadet korrekt</string>
   <string name="not_download_failure">Kunne ikke downloade opdatering</string>
   <string name="not_action_install_update">Genstart og installér</string>
+  <string name="not_action_install_reboot">Genstart</string>
+  <string name="not_action_install">Installér</string>
   <string name="not_download_install_notice">Opdateringen <xliff:g id="filename">%s</xliff:g> blev downloadet korrekt. Når der trykkes \'Genstart og installér\', vil enheden genstarte sig selv for at installere opdateringen.\n\nNB: En kompatibel recovery er påkrævet, for at installeringen kan foregå automatisk.</string>
+  <string name="not_download_install_notice_ab">Opdateringen <xliff:g id="filename">%s </xliff:g> blev downloadet. Enheden vil påbegynde installationen i baggrunden ved tryk på \'Installer\'.\n\nNår den er færdig, vil du blive bedt om at genstarte.</string>
   <string name="verification_failed">Bekræftelse mislykkedes. Beskadiget eller usikker download</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Anvend opdatering</string>
   <string name="apply_update_dialog_text">Du skal til at opgradere til <xliff:g id="filename">%s</xliff:g>.\n\nHvis du trykker Opdatér, vil telefonen genstarte til tilstanden recovery for at installere opdateringen</string>
+  <string name="apply_update_dialog_text_ab">Du skal til at opgradere til <xliff:g id="filename">%s </xliff:g>. \n\nHvis du trykker Opdatér, vil enheden begynde at installere i baggrunden.\n\nNår den er færdig, vil du blive bedt om at genstarte.</string>
+  <string name="apply_update_dialog_text_background_ab">Opdateringen installeres nu i baggrunden. Du får besked, når installationen er fuldført.</string>
   <string name="apply_unable_to_reboot_toast">Kan ikke genstarte til recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Slet fil</string>
@@ -65,18 +72,34 @@
   <string name="delete_updates_noFolder_message">Opdateringsmappen findes ikke</string>
   <string name="delete_updates_success_message">Alle downloadede opdateringer slettet</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Opdatering blokeret</string>
+  <string name="blocked_update_dialog_message">Denne opdatering kan ikke installeres med denne app.  Læs <![CDATA[<a href="%1$s">]]>; LineageOS wiki<![CDATA[</a>]]>; for mere information.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Sidst kontrolleret</string>
   <!-- Build item -->
   <string name="type_installed">• Installeret</string>
+  <string name="type_installing">• Installerer</string>
   <string name="type_downloaded">• Downloadet</string>
   <string name="type_downloading">• Downloader</string>
   <string name="type_completing">• Afslutter</string>
+  <string name="type_blocked">• Blokeret</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Download</string>
   <string name="install_button">Installér</string>
+  <string name="info_button">Info</string>
+  <string name="reboot_button">Genstart</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Forbereder pakke til installation</string>
+  <string name="installing_package">Installerer opdateringspakke</string>
+  <string name="installing_package_finished">Opdateringen er installeret. Genstart.</string>
+  <string name="finalizing_package">Færdiggør installationen</string>
+  <string name="preparing_ota_first_boot">Gør klar til at starte for første gang</string>
   <string name="apply_ab_update_dialog_title">Anvend opdatering</string>
+  <string name="ab_update_finished_title">Opdateringen blev installeret</string>
+  <string name="ab_update_finished_message">Opdateringen er blevet installeret. Genstart din enhed, når det er belejligt.</string>
+  <string name="installing_zip_failed">Opdatering mislykkedes. Fejlkode: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Fejl i opdatering. Fejlkode: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Fejl</string>
 </resources>

@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Prekliči</string>
   <string name="dialog_update">Posodobi</string>
   <string name="dialog_close">Zapri</string>
+  <string name="dialog_reboot">Ponovni zagon</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Razpoložljive posodobitve</string>
   <string name="no_available_updates_intro">Ni najdenih novih posodobitev. Za ročno preverjanje novih posodobitev, uporabite gumb Osveži.</string>
@@ -43,18 +44,23 @@
   <string name="confirm_download_cancelation_dialog_message">Prekliči trenutni prenos?</string>
   <string name="download_cancelled">Prenos preklican</string>
   <string name="download_already_running">Prenos se že izvaja</string>
+  <string name="ab_update_running">Posodobitev se že izvaja</string>
   <string name="unable_to_stop_download">Prenosa ni mogoče ustaviti</string>
   <string name="unable_to_download_file">Ni bilo mogoče prenesti posodobitvene datoteke</string>
   <string name="download_not_found">Prenos ni najden</string>
   <string name="not_download_success">Posodobitev uspešno prenesena</string>
   <string name="not_download_failure">Prenos posodobitve je bil uspešen</string>
   <string name="not_action_install_update">Ponovno zaženi in namesti</string>
+  <string name="not_action_install_reboot">Ponovni zagon</string>
   <string name="not_action_install">Namesti</string>
   <string name="not_download_install_notice">Posodobitev <xliff:g id="filename">%s</xliff:g> je bila uspešno prenesena. Ko se boste dotaknili \'Ponovno zaženi in namesti\', se bo naprava ponovno zagnala in namestila posodobitev.\n\nOpomba: Za samodejno namestitev je zahtevana združljiva Obnovitev.</string>
+  <string name="not_download_install_notice_ab">Posodobitev <xliff:g id="filename">%s</xliff:g> je bila uspešno prenesena. Ob dotiku na \'Namesti\' bo naprava začela nameščanje v ozadju.\n\nOb zaključku boste pozvani k ponovnemu zagonu.</string>
   <string name="verification_failed">Preverjanje je spodletelo. Poškodovan ali nevaren prenos</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Uveljavi posodobitev</string>
   <string name="apply_update_dialog_text">Ste pred nadgradnjo na <xliff:g id="filename">%s</xliff:g>.\n\nČe pritisnete Posodobi, se bo naprava ponovno zagnala v obnovitvenem načinu, da se namesti posodobitev.\n\nOpomba: Ta značilnost zahteva združljivo Obnovitev ali pa boste morali posodobitve namestiti ročno.</string>
+  <string name="apply_update_dialog_text_ab">Ste pred nadgradnjo na <xliff:g id="filename">%s</xliff:g>.\n\nČe pritisnete na Posodobi, bo naprava začela nameščanje v ozadju.\n\nOb zaključku boste pozvani k ponovnemu zagonu.</string>
+  <string name="apply_update_dialog_text_background_ab">Posodobitev se sedaj namešča v ozadju. Ob zaključku namestitve boste obveščeni.</string>
   <string name="apply_unable_to_reboot_toast">Ponovni zagon v obnovitev ni mogoč</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Izbriši datoteko</string>
@@ -83,7 +89,17 @@
   <string name="download_button">Prenesi</string>
   <string name="install_button">Namesti</string>
   <string name="info_button">Podatki</string>
+  <string name="reboot_button">Ponovno zaženi</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Priprava paketa za nameščanje</string>
+  <string name="installing_package">Nameščanje posodobitvenega paketa</string>
+  <string name="installing_package_finished">Posodobitev nameščena. Ponovno zaženite napravo.</string>
+  <string name="finalizing_package">Zaključevanje namestitve paketa</string>
+  <string name="preparing_ota_first_boot">Priprava na prvi zagon</string>
   <string name="apply_ab_update_dialog_title">Uveljavi posodobitev</string>
+  <string name="ab_update_finished_title">Posodobitev uspešno nameščena</string>
+  <string name="ab_update_finished_message">Posodobitev je bila uspešno nameščena. Ko boste pripravljeni, ponovno zaženite vašo napravo.</string>
+  <string name="installing_zip_failed">Posodobitev je spodletela. Koda napake: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Posodabljanje je spodletelo. Koda napake: <xliff:g id="errorCode">%d</xliff:g></string>
   <string name="error_title">Napaka</string>
 </resources>

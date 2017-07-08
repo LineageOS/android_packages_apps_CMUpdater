@@ -91,10 +91,10 @@
   <string name="info_button">Info</string>
   <string name="reboot_button">Reinicia</string>
   <!-- A/B OTA -->
-  <string name="preparing_package">Preparant paquet per la instal·lació</string>
-  <string name="installing_package">Instal·lant paquet d\'actualització</string>
+  <string name="preparing_package">S\'està preparant el paquet per la instal·lació</string>
+  <string name="installing_package">S\'està instal·lant el paquet d\'actualització</string>
   <string name="installing_package_finished">Actualització instal·lada. Reinicïa.</string>
-  <string name="finalizing_package">Finalitzant la instal·lació del paquet</string>
+  <string name="finalizing_package">S\'està finalitzant la instal·lació del paquet</string>
   <string name="preparing_ota_first_boot">Preparant el primer inici</string>
   <string name="apply_ab_update_dialog_title">Aplica actualització</string>
   <string name="ab_update_finished_title">L\'actualització s\'ha aplicat amb èxit</string>

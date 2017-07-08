@@ -68,6 +68,7 @@
   <string name="delete_updates_noFolder_message">Dossier de mise à jour introuvable</string>
   <string name="delete_updates_success_message">Tous les fichiers de mises à jour téléchargés ont été supprimés</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_message">Cette mise à jour ne peut pas être installée à l\'aide de l\'application de mise à jour. Veuillez lire le <![CDATA[<a href="%1$s">]]>;wiki LineageOS<![CDATA[</a>]]>; pour plus d\'informations.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

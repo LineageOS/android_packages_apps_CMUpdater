@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Abbrechen</string>
   <string name="dialog_update">Update</string>
   <string name="dialog_close">Schließen</string>
+  <string name="dialog_reboot">Neu starten</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Verfügbare Updates</string>
   <string name="no_available_updates_intro">Keine neuen Updates gefunden. Um manuell nach neuen Updates zu suchen, verwenden Sie die Schaltfläche \"Aktualisieren\".</string>
@@ -43,17 +44,21 @@
   <string name="confirm_download_cancelation_dialog_message">Soll der aktuelle Download abgebrochen werden?</string>
   <string name="download_cancelled">Download abgebrochen</string>
   <string name="download_already_running">Es ist bereits ein Download aktiv.</string>
+  <string name="ab_update_running">Es wird bereits ein Update durchgeführt</string>
   <string name="unable_to_stop_download">Download kann nicht gestoppt werden</string>
   <string name="unable_to_download_file">Update konnte nicht heruntergeladen werden</string>
   <string name="download_not_found">Download nicht gefunden</string>
   <string name="not_download_success">Update erfolgreich heruntergeladen</string>
   <string name="not_download_failure">Update-Download fehlgeschlagen</string>
   <string name="not_action_install_update">Neu starten und installieren</string>
+  <string name="not_action_install_reboot">Neustart</string>
+  <string name="not_action_install">Installation</string>
   <string name="not_download_install_notice">Das Update <xliff:g id="filename">%s</xliff:g> wurde erfolgreich heruntergeladen. Beim Berühren von \"Neu starten und installieren\" wird das Gerät neu gestartet, um das Update zu installieren.\n\nHinweis: Für die Installation wird ein kompatibles Recovery-System benötigt.</string>
   <string name="verification_failed">Die Überprüfung ist fehlgeschlagen. Beschädigter oder unsicherer Download</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Update installieren</string>
   <string name="apply_update_dialog_text">Bereit zum Update auf <xliff:g id="filename">%s</xliff:g>.\n\nNach dem Start des Updates wird das Gerät im Recovery-Modus gestartet, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery-System, anderenfalls muss das Update manuell installiert werden.</string>
+  <string name="apply_update_dialog_text_ab">Sie sind dabei auf <xliff:g id="filename">%s</xliff:g> zu upgraden.\n\nWenn Sie auf Update drücken, wird die Installation im Hintergrund ausgeführt.\n\nSobald die Installation abgeschlossen ist, werden Sie dazu aufgefordert Ihr Gerät neu zu starten.</string>
   <string name="apply_unable_to_reboot_toast">Neustart in den Recovery-Modus nicht möglich</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Datei löschen</string>
@@ -73,6 +78,7 @@
   <string name="sysinfo_last_check">Zuletzt geprüft</string>
   <!-- Build item -->
   <string name="type_installed">• Installiert</string>
+  <string name="type_installing">• Wird installiert</string>
   <string name="type_downloaded">• Heruntergeladen</string>
   <string name="type_downloading">• Wird heruntergeladen</string>
   <string name="type_completing">• Wird abgeschlossen</string>
@@ -81,7 +87,11 @@
   <string name="download_button">Herunterladen</string>
   <string name="install_button">Installieren</string>
   <string name="info_button">Information</string>
+  <string name="reboot_button">Neustart</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Paket wird für die Installation vorbereitet</string>
+  <string name="installing_package">Update-Paket wird installiert</string>
+  <string name="preparing_ota_first_boot">Erster Start wird vorbereitet</string>
   <string name="apply_ab_update_dialog_title">Update installieren</string>
   <string name="ab_update_finished_title">Update erfolgreich installiert</string>
   <string name="ab_update_finished_message">Das Update wurde erfolgreich installiert. Bitte starten Sie Ihr Gerät bei Gelegenheit neu.</string>

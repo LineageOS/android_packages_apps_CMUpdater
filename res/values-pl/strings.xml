@@ -44,6 +44,7 @@
   <string name="confirm_download_cancelation_dialog_message">Anulować trwające pobieranie?</string>
   <string name="download_cancelled">Anulowano pobieranie</string>
   <string name="download_already_running">Pobieranie w toku</string>
+  <string name="ab_update_running">Aktualizacja jest już uruchomiona</string>
   <string name="unable_to_stop_download">Nie można zatrzymać pobierania</string>
   <string name="unable_to_download_file">Nie można pobrać pliku aktualizacji</string>
   <string name="download_not_found">Nie odnaleziono pliku</string>
@@ -80,6 +81,7 @@ Uwaga: Ta funkcja wymaga kompatybilnego recovery. W przeciwnym wypadku aktualiza
   <string name="sysinfo_last_check">Ostatnio sprawdzono</string>
   <!-- Build item -->
   <string name="type_installed">• Zainstalowane</string>
+  <string name="type_installing">• Instalowanie</string>
   <string name="type_downloaded">• Pobrane</string>
   <string name="type_downloading">• Pobieranie</string>
   <string name="type_completing">• Kończenie</string>
@@ -88,6 +90,13 @@ Uwaga: Ta funkcja wymaga kompatybilnego recovery. W przeciwnym wypadku aktualiza
   <string name="download_button">Pobierz</string>
   <string name="install_button">Instaluj</string>
   <string name="info_button">Info</string>
+  <string name="reboot_button">Uruchom ponownie</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Przygotowywanie pakietu do instalacji</string>
+  <string name="installing_package">Instalowanie pakietu aktualizacji</string>
+  <string name="finalizing_package">Kończenie instalacji pakietu</string>
+  <string name="preparing_ota_first_boot">Przygotowanie do pierwszego uruchomienia</string>
   <string name="apply_ab_update_dialog_title">Zastosuj aktualizację</string>
+  <string name="error_update_engine">Niepowodzenie aktualizacji. Kod błędu: <xliff:g id="errorCode">%d </xliff:g></string>
+  <string name="error_title">Błąd</string>
 </resources>

@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Скасувати</string>
   <string name="dialog_update">Оновити</string>
   <string name="dialog_close">Закрити</string>
+  <string name="dialog_reboot">Перевантажити</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Доступні оновлення</string>
   <string name="no_available_updates_intro">Оновлень не знайдено. Щоб вручну перевірити наявність оновлень, натисніть кнопку Оновити.</string>
@@ -43,17 +44,23 @@
   <string name="confirm_download_cancelation_dialog_message">Ви можете продовжити завантаження пізніше, запустивши оновлення ще раз</string>
   <string name="download_cancelled">Завантаження скасоване</string>
   <string name="download_already_running">Завантаження вже відбувається</string>
+  <string name="ab_update_running">Оновлення наразі працює</string>
   <string name="unable_to_stop_download">Неможливо зупинити завантаження</string>
   <string name="unable_to_download_file">Не вдалось завантажити файл оновлення</string>
   <string name="download_not_found">Оновлення не знайдено</string>
   <string name="not_download_success">Оновлення завантажено</string>
   <string name="not_download_failure">Оновлення не завантажено</string>
   <string name="not_action_install_update">Перезавантажити і встановити</string>
+  <string name="not_action_install_reboot">Перезавантаження</string>
+  <string name="not_action_install">Встановити</string>
   <string name="not_download_install_notice">Оновлення «<xliff:g id="filename">%s</xliff:g>» успішно завантажено. Натисніть «Перезавантажити і встановити», щоб виконати його встановлення.</string>
+  <string name="not_download_install_notice_ab">Оновлення <xliff:g id="filename">%s</xliff:g> було завантежено вдало. Торкнувшись \"встановити\", почнеться встановлення на тлі.\n\nНаприкінці установки вам буде запропоновано перезавантажити пристрій.</string>
   <string name="verification_failed">Перевірка невдала. Завантаження пошкоджене або незахищене</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Застосувати оновлення</string>
   <string name="apply_update_dialog_text">Ви збираєтесь оновитись на <xliff:g id="filename">%s</xliff:g>.\n\nЯкщо Ви натиснете Оновити, пристрій перезавантажиться у Recovery для встановлення.\n\nЗамітка: ця функція потребує сумісне Recovery, в зворотньому випадку оновлення необхідно встановити вручну.</string>
+  <string name="apply_update_dialog_text_ab">Ви на межі поліпшення до <xliff:g id="filename">%s</xliff:g>.\n\nЯкщо ви натиснети на оновлення, пристрій почне встановлення на тлі.\n\nПо встановленню вам буде запропоновано рестартувати пристрій.</string>
+  <string name="apply_update_dialog_text_background_ab">Оновлення наразі встановлюється на тлі. Вам буде повідомленно, коли встановлення буде закінчене.</string>
   <string name="apply_unable_to_reboot_toast">Неможливо перезавантажитись у Recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Видалити файл</string>
@@ -65,18 +72,34 @@
   <string name="delete_updates_noFolder_message">Папка з оновленнями не знайдена</string>
   <string name="delete_updates_success_message">Всі завантажені оновлення видалено</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Оновлення заблоковане</string>
+  <string name="blocked_update_dialog_message">Це оновлення не може бути встановлене за допомогою застосунку для оновлень. Щоб дізнатися більше, прочитайте <![CDATA[<a href="%1$s">]]>;LineageOS wiki<![CDATA[</a>]]>;.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Остання перевірка</string>
   <!-- Build item -->
   <string name="type_installed">• Встановлено</string>
+  <string name="type_installing">• Установлення</string>
   <string name="type_downloaded">• Завантажено</string>
   <string name="type_downloading">• Завантаження</string>
   <string name="type_completing">Завершення</string>
+  <string name="type_blocked">Заблоковане</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Завантажити</string>
   <string name="install_button">Встановити</string>
+  <string name="info_button">Інформація</string>
+  <string name="reboot_button">Рестартувати</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Підготовка до встановлення</string>
+  <string name="installing_package">Пакунок оновлення встановлюється</string>
+  <string name="installing_package_finished">Оновлення встановлено. Будь ласка, перезавантажте.</string>
+  <string name="finalizing_package">Завершення встановлення</string>
+  <string name="preparing_ota_first_boot">Підготовка до першого старту</string>
   <string name="apply_ab_update_dialog_title">Застосувати оновлення</string>
+  <string name="ab_update_finished_title">Оновлення встановлено вдало</string>
+  <string name="ab_update_finished_message">Оновлення було вдало встановленою. Будь ласка, рестартуйте ваш пристрій для застосування змін.</string>
+  <string name="installing_zip_failed">Оновлення невдале. Код хиби: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Помилка оновлення. Код помилки: <xliff:g id="errorCode">%d </xliff:g></string>
+  <string name="error_title">Помилка</string>
 </resources>
