@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d6ed48f9_4959193d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-07-12T23:49:51Z",
+      "side": 1,
+      "message": "U comes before V in the alphabet, maybe move them up one line?",
+      "revId": "ba0b560ee4cd14762a33d92118e531323d7ce1f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
