@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f83ed7b5_43d9f11e",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-13T20:10:28Z",
+      "side": 1,
+      "message": "Java isn\u0027t my thing, so I\u0027m gonna stick to what I can review\n\n\"major data charges\" sounds a bit unnatural to me, but that\u0027s just my opinion\nPerhaps \"high data charges\" or \"high data usage\" or something like that might sound a little more fluent?",
+      "range": {
+        "startLine": 66,
+        "startChar": 137,
+        "endLine": 66,
+        "endChar": 156
+      },
+      "revId": "37927da1217c6ba55d75b84ccf916a49989906d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
