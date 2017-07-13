@@ -22,6 +22,7 @@ import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.database.Cursor;
+import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -36,9 +37,11 @@ import android.text.method.LinkMovementMethod;
 import android.text.Spanned;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
@@ -280,10 +283,61 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
             return;
         }
 
-        // We have a match, get ready to trigger the download
-        mDownloadingPreference = pref;
+        if (!isOnWifiOrEthernet() && !isMobileDataWarningIgnored()) {
+            LayoutInflater inflater = LayoutInflater.from(mContext);
+            View checkBoxView =
+                    inflater.inflate(R.layout.ignore_mobile_data_warning_checkbox, null);
+            CheckBox checkbox =
+                    (CheckBox) checkBoxView.findViewById(R.id.ignore_mobile_data_warning_checkbox);
 
-        startDownload();
+            new AlertDialog.Builder(mContext)
+                .setTitle(R.string.update_on_mobile_data_title)
+                .setMessage(R.string.update_on_mobile_data_message)
+                .setView(checkBoxView)
+                .setPositiveButton(R.string.dialog_download, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        if (checkbox.isChecked()) {
+                            mPrefs.edit()
+                                    .putBoolean(Constants.IGNORE_MOBILE_DATA_WARNING_PREF, true)
+                                    .apply();
+                        }
+                        // We have a match, get ready to trigger the download
+                        mDownloadingPreference = pref;
+                        startDownload();
+                    }
+                })
+                .setNegativeButton(R.string.dialog_cancel, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        showSnack(mContext.getString(R.string.download_cancelled));
+                    }
+                })
+                .setOnDismissListener(new DialogInterface.OnDismissListener() {
+                    @Override
+                    public void onDismiss(DialogInterface dialog) {
+                        showSnack(mContext.getString(R.string.download_cancelled));
+                    }
+                })
+                .show();
+        } else {
+
+            // We have a match, get ready to trigger the download
+            mDownloadingPreference = pref;
+            startDownload();
+        }
+    }
+
+    private boolean isMobileDataWarningIgnored() {
+        return mPrefs.getBoolean(Constants.IGNORE_MOBILE_DATA_WARNING_PREF, false);
+    }
+
+    private boolean isOnWifiOrEthernet() {
+        ConnectivityManager cm =
+                (ConnectivityManager) mContext.getSystemService(Context.CONNECTIVITY_SERVICE);
+        return (cm.getActiveNetworkInfo() != null
+                && (cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_ETHERNET
+                || cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_WIFI));
     }
 
     private Runnable mUpdateProgress = new Runnable() {
