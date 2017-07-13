@@ -22,6 +22,7 @@ import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.database.Cursor;
+import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -280,10 +281,44 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
             return;
         }
 
-        // We have a match, get ready to trigger the download
-        mDownloadingPreference = pref;
+        if (!isOnWifiOrEthernet()) {
+            new AlertDialog.Builder(getActivity())
+                .setTitle(R.string.update_on_mobile_data_title)
+                .setMessage(R.string.update_on_mobile_data_message)
+                .setPositiveButton(R.string.dialog_download, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        // We have a match, get ready to trigger the download
+                        mDownloadingPreference = pref;
+                        startDownload();
+                    }
+                })
+                .setNegativeButton(R.string.dialog_cancel, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        showSnack(mContext.getString(R.string.download_cancelled));
+                    }
+                })
+                .setOnDismissListener(new DialogInterface.OnDismissListener() {
+                    @Override
+                    public void onDismiss(DialogInterface dialog) {
+                        showSnack(mContext.getString(R.string.download_cancelled));
+                    }
+                })
+                .show();
+        } else {
 
-        startDownload();
+            // We have a match, get ready to trigger the download
+            mDownloadingPreference = pref;
+            startDownload();
+        }
+    }
+
+    private boolean isOnWifiOrEthernet() {
+        ConnectivityManager cm = (ConnectivityManager) mContext.getSystemService(Context.CONNECTIVITY_SERVICE);
+        return (cm.getActiveNetworkInfo() != null
+                && (cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_ETHERNET
+                 || cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_WIFI));
     }
 
     private Runnable mUpdateProgress = new Runnable() {
