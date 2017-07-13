@@ -22,6 +22,7 @@ public class Constants {
     public static final String UPDATE_CHECK_PREF = "pref_update_check_interval";
     public static final String UPDATE_TYPE_PREF = "pref_update_type";
     public static final String LAST_UPDATE_CHECK_PREF = "pref_last_update_check";
+    public static final String IGNORE_MOBILE_DATA_WARNING_PREF = "pref_ignore_mobile_data_warning";
 
     // Update Check items
     public static final String BOOT_CHECK_COMPLETED = "boot_check_completed";
