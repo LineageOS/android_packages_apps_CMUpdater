@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "46e71c43_00c8b701",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-07-14T12:56:50Z",
+      "side": 1,
+      "message": "s/this/which/, or make this two different sentences",
+      "range": {
+        "startLine": 66,
+        "startChar": 112,
+        "endLine": 66,
+        "endChar": 116
+      },
+      "revId": "4caeb9b50bc2bdaebda5a4e90025c996362e354e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "213d10bb_7231accb",
         "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
         "patchSetId": 7
