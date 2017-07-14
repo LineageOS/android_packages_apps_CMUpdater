@@ -42,6 +42,30 @@
     },
     {
       "key": {
+        "uuid": "55c22455_ba8139f8",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-07-14T10:09:49Z",
+      "side": 1,
+      "message": "Check out screen shot, it felt crowded to me. Maybe it\u0027s fine.",
+      "parentUuid": "4ece4c06_d8d911ca",
+      "range": {
+        "startLine": 65,
+        "startChar": 72,
+        "endLine": 65,
+        "endChar": 74
+      },
+      "revId": "37927da1217c6ba55d75b84ccf916a49989906d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f83ed7b5_43d9f11e",
         "filename": "res/values/strings.xml",
         "patchSetId": 2
