@@ -22,6 +22,80 @@
       "revId": "37927da1217c6ba55d75b84ccf916a49989906d8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c27c2dd7_c868473d",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-14T08:00:01Z",
+      "side": 1,
+      "message": "line length",
+      "revId": "37927da1217c6ba55d75b84ccf916a49989906d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c003a8b5_313ed1be",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 291,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-14T08:00:01Z",
+      "side": 1,
+      "message": "line length",
+      "range": {
+        "startLine": 291,
+        "startChar": 100,
+        "endLine": 291,
+        "endChar": 101
+      },
+      "revId": "37927da1217c6ba55d75b84ccf916a49989906d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f8e8389f_56edd160",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 302,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-14T08:00:01Z",
+      "side": 1,
+      "message": "line length",
+      "revId": "37927da1217c6ba55d75b84ccf916a49989906d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3db813d3_da3d77c1",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-14T08:00:01Z",
+      "side": 1,
+      "message": "line length",
+      "revId": "37927da1217c6ba55d75b84ccf916a49989906d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
