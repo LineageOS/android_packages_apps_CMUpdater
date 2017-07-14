@@ -2,6 +2,46 @@
   "comments": [
     {
       "key": {
+        "uuid": "fa096a1d_b6bbf47d",
+        "filename": "res/layout/ignore_mobile_data_warning_checkbox.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-07-14T09:45:12Z",
+      "side": 1,
+      "message": "android:text\u003d\"@string/ignore_mobile_data_warning\"",
+      "revId": "37927da1217c6ba55d75b84ccf916a49989906d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ece4c06_d8d911ca",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-07-14T09:45:12Z",
+      "side": 1,
+      "message": "Why new line?",
+      "range": {
+        "startLine": 65,
+        "startChar": 72,
+        "endLine": 65,
+        "endChar": 74
+      },
+      "revId": "37927da1217c6ba55d75b84ccf916a49989906d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f83ed7b5_43d9f11e",
         "filename": "res/values/strings.xml",
         "patchSetId": 2
@@ -58,6 +98,29 @@
         "startChar": 100,
         "endLine": 291,
         "endChar": 101
+      },
+      "revId": "37927da1217c6ba55d75b84ccf916a49989906d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "66fa1964_6b7fd743",
+        "filename": "src/com/cyanogenmod/updater/UpdatesSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-07-14T09:45:12Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 292,
+        "startChar": 0,
+        "endLine": 292,
+        "endChar": 66
       },
       "revId": "37927da1217c6ba55d75b84ccf916a49989906d8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
