@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e61dcc23_68af9c95",
+        "filename": "res/layout/ignore_mobile_data_warning_checkbox.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2017-07-14T11:08:48Z",
+      "side": 1,
+      "message": "this parent layout is just pointless, this file should just include the \u003cCheckBox [...] /\u003e\n\nremove it and add some padding at the top instead of using \\n in the message string",
+      "range": {
+        "startLine": 19,
+        "startChar": 1,
+        "endLine": 19,
+        "endChar": 13
+      },
+      "revId": "a0bd3c54a742b98bb70ba394191cebded1a09be7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "830da3e4_7b528b91",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2017-07-14T11:08:48Z",
+      "side": 1,
+      "message": "should be \"Warning\"\n\nQuestions should not be used as titles, those must be short and simple",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 83
+      },
+      "revId": "a0bd3c54a742b98bb70ba394191cebded1a09be7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9b12ed22_36309050",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2017-07-14T11:08:48Z",
+      "side": 1,
+      "message": "should be \"You\u0027re going to download an update package using mobile data, this is likely going to cause high data usage. Would you like to proceed?\"",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 192
+      },
+      "revId": "a0bd3c54a742b98bb70ba394191cebded1a09be7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "807e4a9e_91f35ffc",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2017-07-14T11:08:48Z",
+      "side": 1,
+      "message": "should be \"Don\u0027t show again\"",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 88
+      },
+      "revId": "a0bd3c54a742b98bb70ba394191cebded1a09be7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
