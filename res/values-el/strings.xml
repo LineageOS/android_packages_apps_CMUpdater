@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Ακύρωση</string>
   <string name="dialog_update">Ενημέρωση</string>
   <string name="dialog_close">Κλείσιμο</string>
+  <string name="dialog_reboot">Επανεκκίνηση</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Διαθέσιμες ενημερώσεις</string>
   <string name="no_available_updates_intro">Δεν βρέθηκαν νέες ενημερώσεις. Για να ελέγξετε χειροκίνητα για νέες ενημερώσεις, χρησιμοποιήστε το πλήκτρο Ανανέωσης.</string>
@@ -43,17 +44,21 @@
   <string name="confirm_download_cancelation_dialog_message">Ακύρωση της τρέχουσας λήψης;</string>
   <string name="download_cancelled">Η λήψη ακυρώθηκε</string>
   <string name="download_already_running">Μια λήψη εκτελείται ήδη</string>
+  <string name="ab_update_running">Τρέχετε ήδη μια ενημερωμένη έκδοση</string>
   <string name="unable_to_stop_download">Αδυναμία διακοπής της λήψης</string>
   <string name="unable_to_download_file">Δεν είναι δυνατή η λήψη της ενημέρωσης</string>
   <string name="download_not_found">Η λήψη δεν βρέθηκε</string>
   <string name="not_download_success">Η λήψη της ενημέρωσης ολοκληρώθηκε με επιτυχία</string>
   <string name="not_download_failure">Η λήψη της ενημέρωσης ήταν ανεπιτυχής</string>
   <string name="not_action_install_update">Επανεκκίνηση και εγκατάσταση</string>
+  <string name="not_action_install_reboot">Επανεκκίνηση</string>
+  <string name="not_action_install">Εγκατάσταση</string>
   <string name="not_download_install_notice">Η λήψη της ενημέρωσης <xliff:g id="filename">%s</xliff:g> ολοκληρώθηκε με επιτυχία. Αν πατήσετε \'Επανεκκίνηση και εγκατάσταση\', η συσκευή θα κάνει επανεκκίνηση και θα εγκαταστήσει την ενημέρωση.\n\nΣημείωση: Απαιτείται μια συμβατή recovery για την λειτουργία της αυτόματης εγκατάστασης.</string>
   <string name="verification_failed">Η επαλήθευση απέτυχε. Κατεστραμμένη ή μη ασφαλής λήψη</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Εφαρμογή ενημέρωσης</string>
   <string name="apply_update_dialog_text">Πρόκειται να αναβαθμίσετε σε <xliff:g id="filename">%s</xliff:g>.\n\nΑν πατήσετε το πλήκτρο Ενημέρωση, η συσκευή θα κάνει επανεκκίνηση σε λειτουργία recovery για να εγκαταστήσετε την ενημέρωση.\n\nΣημείωση: Αυτή η λειτουργία απαιτεί μια συμβατή recovery αλλιώς η ενημέρωση θα πρέπει να εγκατασταθεί χειροκίνητα.</string>
+  <string name="apply_update_dialog_text_background_ab">Η ενημέρωση κάνει εγκατάσταση τώρα στο παρασκήνιο. Θα ειδοποιηθείτε όταν τελειώσει η εγκατάσταση.</string>
   <string name="apply_unable_to_reboot_toast">Δεν είναι δυνατή η επανεκκίνηση σε λειτουργία recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Διαγραφή αρχείου</string>
@@ -65,17 +70,32 @@
   <string name="delete_updates_noFolder_message">Ο φάκελος ενημερώσεων δεν βρέθηκε</string>
   <string name="delete_updates_success_message">Όλες οι ενημερώσεις διαγράφηκαν</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Η ενημέρωση μπλοκαρίστηκε</string>
+  <string name="blocked_update_dialog_message">Αυτή η ενημέρωση δεν μπορεί να εγκατασταθεί χρησιμοποιώντας την εφαρμογή ενημέρωσης. Παρακαλούμε διαβάστε το <![CDATA[<a href="%1$s">]]>;LineageOS wiki<![CDATA[</a>]]>; για περισσότερες πληροφορίες.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Τελευταίος έλεγχος</string>
   <!-- Build item -->
   <string name="type_installed">• Εγκαταστήθηκε</string>
+  <string name="type_installing">• Γίνεται εγκατάσταση</string>
   <string name="type_downloaded">• Έχει ληφθεί</string>
   <string name="type_downloading">• Γίνεται λήψη</string>
   <string name="type_completing">• Ολοκλήρωση</string>
+  <string name="type_blocked">• Μπλοκαρίστηκε</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="install_button">Εγκατάσταση</string>
+  <string name="info_button">Πληροφορίες</string>
+  <string name="reboot_button">Επανεκκίνηση</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Προετοιμασία πακέτου για την εγκατάσταση</string>
+  <string name="installing_package">Εγκατάσταση πακέτου ενημέρωσης</string>
+  <string name="installing_package_finished">Η ενημέρωση εγκαταστάθηκε. Παρακαλούμε κάντε επανεκκίνηση.</string>
+  <string name="finalizing_package">Ολοκλήρωση της εγκατάστασης του πακέτου</string>
+  <string name="preparing_ota_first_boot">Προετοιμασία για την πρώτη εκκίνηση</string>
   <string name="apply_ab_update_dialog_title">Εφαρμογή ενημέρωσης</string>
+  <string name="ab_update_finished_title">Η ενημέρωση εγκαταστάθηκε με επιτυχία</string>
+  <string name="installing_zip_failed">Η ενημέρωση απέτυχε. Κωδικός σφάλματος: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Ανεπιτυχής ενημέρωση. Κωδικός σφάλματος: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Σφάλμα</string>
 </resources>

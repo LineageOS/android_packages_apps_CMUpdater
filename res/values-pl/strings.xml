@@ -62,6 +62,7 @@
 Po naciśnięciu przycisku Aktualizuj, urządzenie wyłączy się i przejdzie do trybu recovery, aby kontynuować instalację.
         
 Uwaga: Ta funkcja wymaga kompatybilnego recovery. W przeciwnym wypadku aktualizacje będą musiały zostać zainstalowane ręcznie.</string>
+  <string name="apply_update_dialog_text_ab">Masz zamiar zaktualizować do <xliff:g id="filename">%s </xliff:g>. \n\nGdy naciśniesz Aktualizuj, urządzenie zacznie instalować w tle.\n\nPo zakończeniu wyświetli komunikat, aby urządzenie uruchomić ponownie.</string>
   <string name="apply_unable_to_reboot_toast">Nie można przejść do trybu recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Usuń plik</string>
@@ -94,9 +95,12 @@ Uwaga: Ta funkcja wymaga kompatybilnego recovery. W przeciwnym wypadku aktualiza
   <!-- A/B OTA -->
   <string name="preparing_package">Przygotowywanie pakietu do instalacji</string>
   <string name="installing_package">Instalowanie pakietu aktualizacji</string>
+  <string name="installing_package_finished">Aktualizacja została zainstalowana. Uruchom ponownie urządzenie.</string>
   <string name="finalizing_package">Kończenie instalacji pakietu</string>
   <string name="preparing_ota_first_boot">Przygotowanie do pierwszego uruchomienia</string>
   <string name="apply_ab_update_dialog_title">Zastosuj aktualizację</string>
+  <string name="ab_update_finished_title">Aktualizacja została zainstalowana pomyślnie</string>
+  <string name="ab_update_finished_message">Aktualizacja została zainstalowana pomyślnie. Uruchom ponownie urządzenie.</string>
   <string name="error_update_engine">Niepowodzenie aktualizacji. Kod błędu: <xliff:g id="errorCode">%d </xliff:g></string>
   <string name="error_title">Błąd</string>
 </resources>

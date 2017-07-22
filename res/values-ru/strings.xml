@@ -21,6 +21,7 @@
   <string name="dialog_cancel">Отмена</string>
   <string name="dialog_update">Обновить</string>
   <string name="dialog_close">Закрыть</string>
+  <string name="dialog_reboot">Перезапуск</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Доступные обновления</string>
   <string name="no_available_updates_intro">Установлена последняя версия LineageOS. Для поиска доступных обновлений нажмите кнопку «Проверить».</string>
@@ -43,13 +44,17 @@
   <string name="confirm_download_cancelation_dialog_message">Отменить текущую загрузку?</string>
   <string name="download_cancelled">Загрузка отменена</string>
   <string name="download_already_running">Загрузка уже выполняется</string>
+  <string name="ab_update_running">Обновление уже запущено</string>
   <string name="unable_to_stop_download">Не удалось отменить скачивание</string>
   <string name="unable_to_download_file">Не удалось скачать файл обновления</string>
   <string name="download_not_found">Обновление не найдено</string>
   <string name="not_download_success">Обновление системы скачано</string>
   <string name="not_download_failure">Ошибка загрузки обновления</string>
   <string name="not_action_install_update">Перезапустить и установить</string>
+  <string name="not_action_install_reboot">Перезапуск</string>
+  <string name="not_action_install">Установить</string>
   <string name="not_download_install_notice">Обновление «<xliff:g id="filename">%s</xliff:g>» скачано на устройство и проверено. Нажмите «Перезапустить и установить», чтобы выполнить перезапуск устройства и установить новую версию.\n\nПримечание: для автоматической установки необходим совместимый режим восстановления.</string>
+  <string name="not_download_install_notice_ab">Обновление «<xliff:g id="filename">%s</xliff:g>» скачано на устройство и проверено. Нажмите «Установить», чтобы начать установку новой версии в фоновом режиме.\n\nПо завершении установки потребуется перезапустить устройство.</string>
   <string name="verification_failed">Не удалось выполнить проверку подлинности. Скачанный файл повреждён или подменён в процессе загрузки.</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Применение обновления</string>
@@ -86,7 +91,15 @@
   <string name="info_button">Информация</string>
   <string name="reboot_button">Перезапуск</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Подготовка пакета к установке</string>
+  <string name="installing_package">Установка обновления</string>
   <string name="installing_package_finished">Обновление установлено. Пожалуйста, перезапустите устройство.</string>
+  <string name="finalizing_package">Завершение установки</string>
   <string name="preparing_ota_first_boot">Подготовка к первому запуску</string>
   <string name="apply_ab_update_dialog_title">Применение обновления</string>
+  <string name="ab_update_finished_title">Обновление успешно установлено</string>
+  <string name="ab_update_finished_message">Обновление успешно установлено. Перезапустите устройство, когда вам будет удобно.</string>
+  <string name="installing_zip_failed">Ошибка обновления. Код ошибки: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Сбой обновления. Код ошибки: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_title">Ошибка</string>
 </resources>

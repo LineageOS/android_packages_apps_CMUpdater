@@ -21,10 +21,10 @@
   <string name="dialog_cancel">İptal</string>
   <string name="dialog_update">Güncelle</string>
   <string name="dialog_close">Kapat</string>
-  <string name="dialog_reboot">Yeniden Başlat</string>
+  <string name="dialog_reboot">Yeniden başlat</string>
   <!-- Settings strings -->
   <string name="available_updates_title">İndirilebilir güncellemeler</string>
-  <string name="no_available_updates_intro">Yeni güncelleştirme bulunamadı. Yeni güncelleştirmeleri el ile denetlemek için yenile butonunu kullanın.</string>
+  <string name="no_available_updates_intro">Yeni güncelleme bulunamadı. El ile yeni güncellemeleri kontrol etmek için Yenile tuşunu kullanın.</string>
   <string name="update_check_title">Güncellemeleri kontrol et</string>
   <string name="check_manual">Elle</string>
   <string name="check_daily">Günlük</string>
@@ -51,7 +51,7 @@
   <string name="not_download_success">Güncelleme başarıyla indirildi</string>
   <string name="not_download_failure">Güncelleme indirme başarısız oldu</string>
   <string name="not_action_install_update">Yeniden başlat ve yükle</string>
-  <string name="not_action_install_reboot">Yeniden Başlat</string>
+  <string name="not_action_install_reboot">Yeniden başlat</string>
   <string name="not_action_install">Yükle</string>
   <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> güncellemesi başarıyla indirildi. \'Yeniden başlat ve Yükle\' ye dokunduğunuzda, cihaz güncellemeyi yüklemek için kendini yeniden başlatacak.\n\nNot: Yüklemenin otomatik çalışması için uygun bir Kurtarma ortamı gereklidir.</string>
   <string name="not_download_install_notice_ab">Güncelleme <xliff:g id="filename">%s</xliff:g> başarıyla indirildi. \'Yükle\'ye dokunulduğunda, cihaz arka planda yüklemeye başlayacaktır.\n\nİşlem tamamlandığında, cihazı yeniden başlatmanız istenir.</string>
@@ -59,7 +59,7 @@
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Güncellemeyi uygula</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> güncellemesi yapılacak.\n\nGüncelleye bastığınızda, güncellemeyi kurmak için cihaz kurtarma modunda yeniden başlatılacak.\n\nNot: Bu özellik, uyumlu bir Kurtarma bölümü gerektirir, aksi takdirde güncellemelerin elle kurulması gerekir.</string>
-  <string name="apply_update_dialog_text_ab"><xliff:g id="filename">%s</xliff:g> sürümüne geçmek üzeresiniz.\n\n Güncelle tuşuna basarsanız, cihaz arka planda yüklemeye başlayacaktır.\n\nİşlem tamamlandığında, cihazı yeniden başlatmanız istenir.</string>
+  <string name="apply_update_dialog_text_ab"><xliff:g id="filename">%s</xliff:g> sürümüne geçmek üzeresiniz.\n\nGüncelle tuşuna basarsanız, cihaz arka planda yüklemeye başlayacaktır.\n\nİşlem tamamlandığında, cihazı yeniden başlatmanız istenir.</string>
   <string name="apply_update_dialog_text_background_ab">Güncelleme şimdi arka planda yükleniyor. Yükleme tamamlandığında size bilgi verilecektir.</string>
   <string name="apply_unable_to_reboot_toast">Kurtarma modu için sistem yeniden başlatılamadı</string>
   <!-- deleting -->
@@ -89,9 +89,9 @@
   <string name="download_button">İndir</string>
   <string name="install_button">Yükle</string>
   <string name="info_button">Bilgi</string>
-  <string name="reboot_button">Yeniden Başlat</string>
+  <string name="reboot_button">Yeniden başlat</string>
   <!-- A/B OTA -->
-  <string name="preparing_package">Kurulum için paket hazırlanıyor</string>
+  <string name="preparing_package">Paket kurulum için hazırlanıyor</string>
   <string name="installing_package">Güncelleştirme paketi yükleniyor</string>
   <string name="installing_package_finished">Güncelleme yüklendi. Lütfen yeniden başlatın.</string>
   <string name="finalizing_package">Paket kurulumu tamamlandı</string>

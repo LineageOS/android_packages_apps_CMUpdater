@@ -44,6 +44,7 @@
   <string name="confirm_download_cancelation_dialog_message">Annuler le téléchargement en cours\u00A0?</string>
   <string name="download_cancelled">Téléchargement annulé</string>
   <string name="download_already_running">Un téléchargement est déjà en cours</string>
+  <string name="ab_update_running">Une mise à jour est déjà en cours</string>
   <string name="unable_to_stop_download">Impossible d’arrêter le téléchargement</string>
   <string name="unable_to_download_file">Impossible de télécharger le fichier de mise à jour</string>
   <string name="download_not_found">Téléchargement introuvable</string>
@@ -68,6 +69,7 @@
   <string name="delete_updates_noFolder_message">Dossier de mise à jour introuvable</string>
   <string name="delete_updates_success_message">Tous les fichiers de mises à jour téléchargés ont été supprimés</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Mise à jour bloquée</string>
   <string name="blocked_update_dialog_message">Cette mise à jour ne peut pas être installée à l\'aide de l\'application de mise à jour. Veuillez lire le <![CDATA[<a href="%1$s">]]>;wiki LineageOS<![CDATA[</a>]]>; pour plus d\'informations.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
@@ -75,13 +77,24 @@
   <string name="sysinfo_last_check">Dernière vérification le</string>
   <!-- Build item -->
   <string name="type_installed">• Installé</string>
+  <string name="type_installing">• Installation</string>
   <string name="type_downloaded">• Téléchargé</string>
   <string name="type_downloading">• Téléchargement en cours</string>
+  <string name="type_completing">• Finalisation</string>
+  <string name="type_blocked">• Bloquée</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Télécharger</string>
   <string name="install_button">Installer</string>
+  <string name="info_button">Informations</string>
   <string name="reboot_button">Redémarrer</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Préparation du paquet pour l’installation</string>
+  <string name="installing_package">Installation du paquet de mise à jour</string>
+  <string name="installing_package_finished">Mise à jour installée. Veuillez redémarrer.</string>
+  <string name="preparing_ota_first_boot">Préparation pour le premier démarrage</string>
   <string name="apply_ab_update_dialog_title">Appliquer la mise à jour</string>
+  <string name="ab_update_finished_title">Mise à jour installée avec succès</string>
+  <string name="installing_zip_failed">La mise à jour a échoué. Code d’erreur : <xliff:g id="errorCode">%d </xliff:g></string>
+  <string name="error_update_engine">Échec lors de la mise à jour. Code d’erreur : <xliff:g id="errorCode">%d </xliff:g></string>
   <string name="error_title">Erreur</string>
 </resources>

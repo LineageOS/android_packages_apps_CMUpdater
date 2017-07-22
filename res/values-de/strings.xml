@@ -59,6 +59,7 @@
   <string name="apply_update_dialog_title">Update installieren</string>
   <string name="apply_update_dialog_text">Bereit zum Update auf <xliff:g id="filename">%s</xliff:g>.\n\nNach dem Start des Updates wird das Gerät im Recovery-Modus gestartet, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery-System, anderenfalls muss das Update manuell installiert werden.</string>
   <string name="apply_update_dialog_text_ab">Sie sind dabei auf <xliff:g id="filename">%s</xliff:g> zu upgraden.\n\nWenn Sie auf Update drücken, wird die Installation im Hintergrund ausgeführt.\n\nSobald die Installation abgeschlossen ist, werden Sie dazu aufgefordert Ihr Gerät neu zu starten.</string>
+  <string name="apply_update_dialog_text_background_ab">Das Update wird nun im Hintergrund installiert. Sie werden benachrichtigt, sobald die Installation abgeschlossen ist.</string>
   <string name="apply_unable_to_reboot_toast">Neustart in den Recovery-Modus nicht möglich</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Datei löschen</string>
@@ -91,6 +92,8 @@
   <!-- A/B OTA -->
   <string name="preparing_package">Paket wird für die Installation vorbereitet</string>
   <string name="installing_package">Update-Paket wird installiert</string>
+  <string name="installing_package_finished">Update installiert. Bitte das Gerät neu starten.</string>
+  <string name="finalizing_package">Die Paketinstallation wird abgeschlossen</string>
   <string name="preparing_ota_first_boot">Erster Start wird vorbereitet</string>
   <string name="apply_ab_update_dialog_title">Update installieren</string>
   <string name="ab_update_finished_title">Update erfolgreich installiert</string>
