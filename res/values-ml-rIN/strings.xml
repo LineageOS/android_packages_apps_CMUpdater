@@ -18,6 +18,7 @@
   <string name="menu_delete_all">ഡൗൺലോഡുകൾ ഇല്ലാതാക്കുക</string>
   <string name="dialog_ok">ശരി</string>
   <string name="dialog_cancel">റദ്ദാക്കുക</string>
+  <string name="dialog_download">ഡൗൺലോഡുചെയ്യുക</string>
   <string name="dialog_update">അപ്‌ഡേറ്റ്  ചെയ്യുക</string>
   <string name="dialog_close">അടയ്‌ക്കുക</string>
   <!-- Settings strings -->

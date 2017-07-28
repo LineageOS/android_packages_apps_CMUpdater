@@ -18,6 +18,7 @@
   <string name="menu_delete_all">பதிவிறக்கங்களை நீக்கு</string>
   <string name="dialog_ok">சரி</string>
   <string name="dialog_cancel">ரத்துசெய்</string>
+  <string name="dialog_download">இறக்கு</string>
   <string name="dialog_update">புதுப்பி</string>
   <string name="dialog_close">மூடு</string>
   <!-- Settings strings -->

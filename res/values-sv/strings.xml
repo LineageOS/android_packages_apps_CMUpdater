@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Radera nedladdningar</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Avbryt</string>
+  <string name="dialog_download">Ladda ned</string>
   <string name="dialog_update">Uppdatera</string>
   <string name="dialog_close">Stäng</string>
   <!-- Settings strings -->

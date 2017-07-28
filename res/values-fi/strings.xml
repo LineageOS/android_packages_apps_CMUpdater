@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Poista lataukset</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Peruuta</string>
+  <string name="dialog_download">Lataa</string>
   <string name="dialog_update">Päivitä</string>
   <string name="dialog_close">Sulje</string>
   <string name="dialog_reboot">Käynnistä uudelleen</string>

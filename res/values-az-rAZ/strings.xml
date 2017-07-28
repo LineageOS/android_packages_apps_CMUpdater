@@ -18,6 +18,7 @@
   <string name="menu_delete_all">Endirmələri sil</string>
   <string name="dialog_ok">Oldu</string>
   <string name="dialog_cancel">İmtina</string>
+  <string name="dialog_download">Endir</string>
   <string name="dialog_update">Yenilə</string>
   <string name="dialog_close">Bağla</string>
   <!-- Settings strings -->

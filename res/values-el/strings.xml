@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Διαγραφή λήψεων</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Ακύρωση</string>
+  <string name="dialog_download">Λήψη</string>
   <string name="dialog_update">Ενημέρωση</string>
   <string name="dialog_close">Κλείσιμο</string>
   <string name="dialog_reboot">Επανεκκίνηση</string>

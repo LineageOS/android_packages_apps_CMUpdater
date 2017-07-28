@@ -18,6 +18,7 @@
   <string name="menu_delete_all">سڕینەوەی داگیراوەکان</string>
   <string name="dialog_ok">باشە</string>
   <string name="dialog_cancel">پاشگەزبوونەوە</string>
+  <string name="dialog_download">داگرتن</string>
   <string name="dialog_update">نوێچالاکردنی</string>
   <string name="dialog_close">داخستن</string>
   <!-- Settings strings -->

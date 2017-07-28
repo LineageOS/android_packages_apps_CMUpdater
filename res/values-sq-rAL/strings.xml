@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Fshi shkarkimet</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Anullo</string>
+  <string name="dialog_download">Shkarko</string>
   <string name="dialog_update">Përditëso</string>
   <string name="dialog_close">Mbyll</string>
   <!-- Settings strings -->

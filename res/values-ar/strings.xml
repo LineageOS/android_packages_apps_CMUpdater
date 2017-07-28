@@ -18,6 +18,7 @@
   <string name="menu_delete_all">حذف التنزيلات</string>
   <string name="dialog_ok">موافق</string>
   <string name="dialog_cancel">الغاء</string>
+  <string name="dialog_download">تنزيل</string>
   <string name="dialog_update">تحديث</string>
   <string name="dialog_close">إغلاق</string>
   <!-- Settings strings -->

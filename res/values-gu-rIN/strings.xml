@@ -18,6 +18,7 @@
   <string name="menu_delete_all">ડાઉનલોડસ રદ કરો</string>
   <string name="dialog_ok">ઑકે</string>
   <string name="dialog_cancel">રદ કરો</string>
+  <string name="dialog_download">ડાઉનલોડ કરો</string>
   <string name="dialog_update">અપડેટ કરો</string>
   <string name="dialog_close">બંધ કરો</string>
   <!-- Settings strings -->

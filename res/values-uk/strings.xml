@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Видалити завантаження</string>
   <string name="dialog_ok">ОК</string>
   <string name="dialog_cancel">Скасувати</string>
+  <string name="dialog_download">Завантажити</string>
   <string name="dialog_update">Оновити</string>
   <string name="dialog_close">Закрити</string>
   <string name="dialog_reboot">Перевантажити</string>

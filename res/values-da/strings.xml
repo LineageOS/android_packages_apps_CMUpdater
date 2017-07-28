@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Slet downloads</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Annuller</string>
+  <string name="dialog_download">Download</string>
   <string name="dialog_update">Opdatér</string>
   <string name="dialog_close">Luk</string>
   <string name="dialog_reboot">Genstart</string>

@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Odstranit stažené soubory</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Zrušit</string>
+  <string name="dialog_download">Stáhnout</string>
   <string name="dialog_update">Aktualizovat</string>
   <string name="dialog_close">Zavřít</string>
   <string name="dialog_reboot">Reboot</string>

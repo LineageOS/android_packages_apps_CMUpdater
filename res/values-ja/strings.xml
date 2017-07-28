@@ -19,6 +19,7 @@
   <string name="menu_delete_all">ダウンロードを削除</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">キャンセル</string>
+  <string name="dialog_download">ダウンロード</string>
   <string name="dialog_update">アップデート</string>
   <string name="dialog_close">閉じる</string>
   <string name="dialog_reboot">再起動</string>

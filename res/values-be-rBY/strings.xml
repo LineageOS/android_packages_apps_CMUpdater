@@ -18,6 +18,7 @@
   <string name="menu_delete_all">Выдаліць спампаваныя</string>
   <string name="dialog_ok">Добра</string>
   <string name="dialog_cancel">Скасаванне</string>
+  <string name="dialog_download">Спампаваць</string>
   <string name="dialog_update">Абнавіць</string>
   <string name="dialog_close">Зачыніць</string>
   <!-- Settings strings -->

@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Delete downloads</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Cancel</string>
+  <string name="dialog_download">Download</string>
   <string name="dialog_update">Update</string>
   <string name="dialog_close">Close</string>
   <string name="dialog_reboot">Reboot</string>

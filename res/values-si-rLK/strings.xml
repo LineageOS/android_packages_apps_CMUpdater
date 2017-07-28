@@ -18,6 +18,7 @@
   <string name="menu_delete_all">බාගැනීම් මකන්න</string>
   <string name="dialog_ok">හරි</string>
   <string name="dialog_cancel">අවලංගුයි</string>
+  <string name="dialog_download">බාගන්න</string>
   <string name="dialog_update">යාවත්කාල කරන්න</string>
   <string name="dialog_close">වහන්න</string>
   <!-- Settings strings -->

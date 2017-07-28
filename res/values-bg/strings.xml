@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Изтриване на изтеглените файлове</string>
   <string name="dialog_ok">Добре</string>
   <string name="dialog_cancel">Отказ</string>
+  <string name="dialog_download">Изтегляне</string>
   <string name="dialog_update">Актуализирай</string>
   <string name="dialog_close">Затваряне</string>
   <string name="dialog_reboot">Рестартиране</string>

@@ -18,6 +18,7 @@
   <string name="menu_delete_all">ডাউনলোড সমূহ মুছে ফেলুন</string>
   <string name="dialog_ok">ওকে</string>
   <string name="dialog_cancel">বাতিল</string>
+  <string name="dialog_download">ডাউনলোড</string>
   <string name="dialog_update">আধুনিকীকরণ</string>
   <string name="dialog_close">বন্ধ</string>
   <!-- Settings strings -->

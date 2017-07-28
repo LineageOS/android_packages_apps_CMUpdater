@@ -18,6 +18,7 @@
   <string name="menu_delete_all">Downloads läschen</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Ofbriechen</string>
+  <string name="dialog_download">Eroflueden</string>
   <string name="dialog_update">Aktualiséieren</string>
   <string name="dialog_close">Zoumaachen</string>
   <!-- Settings strings -->

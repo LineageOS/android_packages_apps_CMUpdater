@@ -18,6 +18,7 @@
   <string name="menu_delete_all">چۈشۈرگەنلەرنى ئۆچۈر</string>
   <string name="dialog_ok">جەزملە</string>
   <string name="dialog_cancel">ۋاز كەچ</string>
+  <string name="dialog_download">چۈشۈر</string>
   <string name="dialog_update">يېڭىلا</string>
   <string name="dialog_close">ياپ</string>
   <!-- Settings strings -->

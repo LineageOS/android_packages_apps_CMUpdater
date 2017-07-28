@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Hapus unduhan</string>
   <string name="dialog_ok">Oke</string>
   <string name="dialog_cancel">Batal</string>
+  <string name="dialog_download">Unduh</string>
   <string name="dialog_close">Tutup</string>
   <string name="dialog_reboot">Mulai ulang</string>
   <!-- Settings strings -->

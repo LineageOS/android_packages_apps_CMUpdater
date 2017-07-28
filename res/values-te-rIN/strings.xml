@@ -18,6 +18,7 @@
   <string name="menu_delete_all">డౌన్లోడ్ చేయబడినవాటిని తొలిగించుము</string>
   <string name="dialog_ok">సరే</string>
   <string name="dialog_cancel">రద్దు చేయి</string>
+  <string name="dialog_download">డౌన్‌లోడ్ చేయి</string>
   <string name="dialog_update">నవీకరించండి</string>
   <string name="dialog_close">మూసివేయి</string>
   <!-- Settings strings -->

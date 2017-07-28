@@ -19,6 +19,7 @@
   <string name="menu_delete_all">מחק הורדות</string>
   <string name="dialog_ok">אישור</string>
   <string name="dialog_cancel">ביטול</string>
+  <string name="dialog_download">הורדה</string>
   <string name="dialog_update">עדכן</string>
   <string name="dialog_close">סגור</string>
   <string name="dialog_reboot">הפעלה מחדש</string>

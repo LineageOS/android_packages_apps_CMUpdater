@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Letöltések törlése</string>
   <string name="dialog_ok">Rendben</string>
   <string name="dialog_cancel">Mégse</string>
+  <string name="dialog_download">Letöltés</string>
   <string name="dialog_update">Frissítés</string>
   <string name="dialog_close">Bezárás</string>
   <!-- Settings strings -->

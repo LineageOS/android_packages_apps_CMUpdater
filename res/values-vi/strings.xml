@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Xoá mục tải xuống</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Huỷ</string>
+  <string name="dialog_download">Tải về</string>
   <string name="dialog_update">Cập nhật</string>
   <string name="dialog_close">Đóng</string>
   <string name="dialog_reboot">Khởi động lại</string>

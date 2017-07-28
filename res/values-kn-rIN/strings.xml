@@ -18,6 +18,7 @@
   <string name="menu_delete_all">ಡೌನ್‍ಲೋಡ್‍ಗಳನ್ನು ಅಳಿಸು</string>
   <string name="dialog_ok">ಆಯ್ತು</string>
   <string name="dialog_cancel">ರದ್ದು</string>
+  <string name="dialog_download">ಡೌನ್‍ಲೋಡ್</string>
   <string name="dialog_update">ನವೀಕರಿಸು</string>
   <string name="dialog_close">ಮುಚ್ಚು</string>
   <!-- Settings strings -->

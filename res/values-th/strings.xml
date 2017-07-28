@@ -18,6 +18,7 @@
   <string name="menu_delete_all">ลบสิ่งที่ดาวน์โหลดไว้</string>
   <string name="dialog_ok">ตกลง</string>
   <string name="dialog_cancel">ยกเลิก</string>
+  <string name="dialog_download">ดาวน์โหลด</string>
   <string name="dialog_update">การอัปเดต</string>
   <string name="dialog_close">ปิด</string>
   <!-- Settings strings -->

@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Verwyder alles</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Kanselleer</string>
+  <string name="dialog_download">Laai af</string>
   <string name="dialog_update">Opgradeer</string>
   <string name="dialog_close">Sluit</string>
   <!-- Settings strings -->

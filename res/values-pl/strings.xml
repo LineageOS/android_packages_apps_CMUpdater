@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Usuń pobrane</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Anuluj</string>
+  <string name="dialog_download">Pobierz</string>
   <string name="dialog_update">Aktualizuj</string>
   <string name="dialog_close">Zamknij</string>
   <string name="dialog_reboot">Uruchom ponownie</string>

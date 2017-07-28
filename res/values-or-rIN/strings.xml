@@ -18,6 +18,7 @@
   <string name="menu_delete_all">ଡାଉନ୍‍ଲୋଡ୍‍ଗୁଡିକ ବିଲୋପ କରନ୍ତୁ</string>
   <string name="dialog_ok">ଓକେ</string>
   <string name="dialog_cancel">ବାତିଲ</string>
+  <string name="dialog_download">ଡାଉନ‌ଲୋଡ୍</string>
   <string name="dialog_update">ଅପଡେଟ୍</string>
   <string name="dialog_close">ବନ୍ଦ</string>
   <!-- Settings strings -->

@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Ștergeți descărcările</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Anulare</string>
+  <string name="dialog_download">Descarcă</string>
   <string name="dialog_update">Actualizați</string>
   <string name="dialog_close">Închideți</string>
   <string name="dialog_reboot">Repornire</string>

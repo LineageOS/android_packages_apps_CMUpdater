@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Esborra baixades</string>
   <string name="dialog_ok">D\'acord</string>
   <string name="dialog_cancel">Cancel·la</string>
+  <string name="dialog_download">Baixa</string>
   <string name="dialog_update">Actualitza</string>
   <string name="dialog_close">Tanca</string>
   <string name="dialog_reboot">Reinicia</string>

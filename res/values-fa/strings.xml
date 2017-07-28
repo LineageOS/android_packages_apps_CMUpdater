@@ -18,6 +18,7 @@
   <string name="menu_delete_all">حذف دانلودها</string>
   <string name="dialog_ok">بسیارخب</string>
   <string name="dialog_cancel">لغو</string>
+  <string name="dialog_download">دانلود</string>
   <string name="dialog_update">بروزرسانی</string>
   <string name="dialog_close">بستن</string>
   <!-- Settings strings -->

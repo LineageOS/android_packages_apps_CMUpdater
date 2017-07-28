@@ -18,6 +18,7 @@
   <string name="menu_delete_all">Allalaetud failide kustutamine</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Tühista</string>
+  <string name="dialog_download">Lae alla</string>
   <string name="dialog_update">Uuenda</string>
   <string name="dialog_close">Sulge</string>
   <!-- Settings strings -->

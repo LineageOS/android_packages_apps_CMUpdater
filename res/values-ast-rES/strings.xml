@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Desaniciar descargues</string>
   <string name="dialog_ok">Aceutar</string>
   <string name="dialog_cancel">Encaboxar</string>
+  <string name="dialog_download">Baxar</string>
   <string name="dialog_update">Anovar</string>
   <string name="dialog_close">Zarrar</string>
   <!-- Settings strings -->

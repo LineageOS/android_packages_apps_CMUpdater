@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Fjern nedlastinger</string>
   <string name="dialog_ok">Ok</string>
   <string name="dialog_cancel">Avbryt</string>
+  <string name="dialog_download">Last ned</string>
   <string name="dialog_update">Oppdater</string>
   <string name="dialog_close">Lukk</string>
   <string name="dialog_reboot">Start på nytt</string>

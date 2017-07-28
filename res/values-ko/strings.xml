@@ -19,6 +19,7 @@
   <string name="menu_delete_all">다운로드 삭제</string>
   <string name="dialog_ok">확인</string>
   <string name="dialog_cancel">취소</string>
+  <string name="dialog_download">다운로드</string>
   <string name="dialog_update">업데이트</string>
   <string name="dialog_close">닫기</string>
   <string name="dialog_reboot">다시 시작</string>

@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Удалить скачанные</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Отмена</string>
+  <string name="dialog_download">Загрузить</string>
   <string name="dialog_update">Обновить</string>
   <string name="dialog_close">Закрыть</string>
   <string name="dialog_reboot">Перезапуск</string>

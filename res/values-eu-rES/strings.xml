@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Ezabatu deskargak</string>
   <string name="dialog_ok">Ados</string>
   <string name="dialog_cancel">Ezeztu</string>
+  <string name="dialog_download">Deskarga</string>
   <string name="dialog_update">Eguneratu</string>
   <string name="dialog_close">Itxi</string>
   <string name="dialog_reboot">Berrabiarazi</string>

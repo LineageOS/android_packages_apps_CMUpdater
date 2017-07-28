@@ -18,6 +18,7 @@
   <string name="menu_delete_all">Dzēst lejuplādes</string>
   <string name="dialog_ok">Labi</string>
   <string name="dialog_cancel">Atcelt</string>
+  <string name="dialog_download">Lejuplādēt</string>
   <string name="dialog_update">Atjaunot</string>
   <string name="dialog_close">Aizvērt</string>
   <!-- Settings strings -->

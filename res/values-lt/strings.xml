@@ -18,6 +18,7 @@
   <string name="menu_delete_all">Ištrinti atsisiuntimus</string>
   <string name="dialog_ok">Gerai</string>
   <string name="dialog_cancel">Atšaukti</string>
+  <string name="dialog_download">Atsisiųsti</string>
   <string name="dialog_update">Atnaujinti</string>
   <string name="dialog_close">Uždaryti</string>
   <!-- Settings strings -->

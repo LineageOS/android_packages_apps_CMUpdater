@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Vymazať prevzatia</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Zrušiť</string>
+  <string name="dialog_download">Download</string>
   <string name="dialog_update">Aktualizovať</string>
   <string name="dialog_close">Zavrieť</string>
   <string name="dialog_reboot">Reštartovať</string>

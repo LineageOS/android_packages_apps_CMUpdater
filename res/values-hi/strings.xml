@@ -18,6 +18,7 @@
   <string name="menu_delete_all">डाउनलोडों को हटाएँ</string>
   <string name="dialog_ok">ठीक है</string>
   <string name="dialog_cancel">रद्द करें</string>
+  <string name="dialog_download">डाउनलोड करें</string>
   <string name="dialog_update">अद्यतन करें</string>
   <string name="dialog_close">बंद करें</string>
   <!-- Settings strings -->

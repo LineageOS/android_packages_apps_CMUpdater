@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Eliminar transferências</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Cancelar</string>
+  <string name="dialog_download">Transferir</string>
   <string name="dialog_update">Atualizar</string>
   <string name="dialog_close">Fechar</string>
   <string name="dialog_reboot">Reiniciar</string>

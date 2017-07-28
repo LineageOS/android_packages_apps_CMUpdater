@@ -19,6 +19,7 @@
   <string name="menu_delete_all">İndirilenleri sil</string>
   <string name="dialog_ok">Tamam</string>
   <string name="dialog_cancel">İptal</string>
+  <string name="dialog_download">İndir</string>
   <string name="dialog_update">Güncelle</string>
   <string name="dialog_close">Kapat</string>
   <string name="dialog_reboot">Yeniden başlat</string>

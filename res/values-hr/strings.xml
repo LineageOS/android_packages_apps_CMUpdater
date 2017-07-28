@@ -19,6 +19,7 @@
   <string name="menu_delete_all">Izbriši preuzimanja</string>
   <string name="dialog_ok">U redu</string>
   <string name="dialog_cancel">Odustani</string>
+  <string name="dialog_download">Preuzmi</string>
   <string name="dialog_update">Ažuriraj</string>
   <string name="dialog_close">Zatvori</string>
   <!-- Settings strings -->
