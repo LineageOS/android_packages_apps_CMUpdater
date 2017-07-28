@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Папка з оновленнями не знайдена</string>
   <string name="delete_updates_success_message">Всі завантажені оновлення видалено</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Оновлення заблоковане</string>
+  <string name="blocked_update_dialog_message">Це оновлення не може бути встановлене за допомогою застосунку для оновлень. Щоб дізнатися більше, прочитайте <![CDATA[<a href="%1$s">]]>;LineageOS wiki<![CDATA[</a>]]>;.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,9 @@
   <string name="type_downloaded">• Завантажено</string>
   <string name="type_downloading">• Завантаження</string>
   <string name="type_completing">Завершення</string>
+  <string name="type_blocked">Заблоковане</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Завантажити</string>
   <string name="install_button">Встановити</string>
+  <string name="info_button">Інформація</string>
 </resources>

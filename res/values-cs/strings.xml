@@ -11,7 +11,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="app_name">Aktualizovat</string>
+  <string name="app_name">Aktualizace</string>
   <string name="display_name">Aktualizace CM</string>
   <string name="unknown">Neznámý</string>
   <!-- Menu and dialog box strings -->
@@ -23,7 +23,7 @@
   <string name="dialog_close">Zavřít</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Dostupné aktualizace</string>
-  <string name="no_available_updates_intro">Nebyly nalezeny žádné nové aktualizace. Chcete-li ručně vyhledat nové aktualizace, použijte tlačítko Obnovit.</string>
+  <string name="no_available_updates_intro">Nebyly nalezeny žádné nové aktualizace. Chcete-li ručně vyhledat nové aktualizace, použijte tlačítko „Obnovit“.</string>
   <string name="update_check_title">Vyhledat aktualizace</string>
   <string name="check_manual">Ručně</string>
   <string name="check_daily">Denně</string>
@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Adresář aktualizací nenalezen</string>
   <string name="delete_updates_success_message">Všechny stažené soubory aktualizací smazány</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Aktualizace zablokována</string>
+  <string name="blocked_update_dialog_message">Tuto aktualizaci nelze nainstalovat pomocí aplikace. Pro více informací si přečtěte <![CDATA[<a href="%1$s">]]>;LineageOS wiki<![CDATA[</a>]]>;.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,9 @@
   <string name="type_downloaded">• Stáhnuté</string>
   <string name="type_downloading">• Stahování</string>
   <string name="type_completing">• Dokončování</string>
+  <string name="type_blocked">• Blokováno</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Stáhnout</string>
   <string name="install_button">Instalovat</string>
+  <string name="info_button">Informace</string>
 </resources>

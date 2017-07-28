@@ -49,7 +49,7 @@
   <string name="not_download_success">Ажурирање је преузето.</string>
   <string name="not_download_failure">Не могу да преузмем ажурирање.</string>
   <string name="not_action_install_update">Поново покрени и инсталирај</string>
-  <string name="not_download_install_notice">Ажурирање <xliff:g id="filename">%s</xliff:g> је успешно преузето. Када додирнеш \'Рестартуј и инсталирај\', уређај ће се поново покренути да инсталира ажурирање.\n\nНапомена: Компатибилни \'Опоравак\' је потребан за аутоматску инсталацију.</string>
+  <string name="not_download_install_notice">Ажурирање „<xliff:g id="filename">%s</xliff:g>“ је преузето. Када додирнете дугме „Поново покрени и инсталирај“, уређај ће се поново покренути и инсталирати нову верзију.\n\nНапомена: за аутоматску инсталацију је потребан компатибилан режим опоравка.</string>
   <string name="verification_failed">Грешка при провери ваљаности. Преузета датотека је оштећена или није безбедна.</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Примени ажурирање</string>

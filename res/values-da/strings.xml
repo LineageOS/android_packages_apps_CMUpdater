@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Opdateringsmappen findes ikke</string>
   <string name="delete_updates_success_message">Alle downloadede opdateringer slettet</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Opdatering blokeret</string>
+  <string name="blocked_update_dialog_message">Denne opdatering kan ikke installeres med denne app.  Læs <![CDATA[<a href="%1$s">]]>; LineageOS wiki<![CDATA[</a>]]>; for mere information.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,7 +76,9 @@
   <string name="type_downloaded">• Downloadet</string>
   <string name="type_downloading">• Downloader</string>
   <string name="type_completing">• Afslutter</string>
+  <string name="type_blocked">• Blokeret</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Download</string>
   <string name="install_button">Installér</string>
+  <string name="info_button">Info</string>
 </resources>

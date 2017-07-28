@@ -23,7 +23,7 @@
   <string name="dialog_close">Kapat</string>
   <!-- Settings strings -->
   <string name="available_updates_title">İndirilebilir güncellemeler</string>
-  <string name="no_available_updates_intro">Yeni güncelleştirme bulunamadı. Yeni güncelleştirmeleri el ile denetlemek için yenile butonunu kullanın.</string>
+  <string name="no_available_updates_intro">Yeni güncelleme bulunamadı. El ile yeni güncellemeleri kontrol etmek için Yenile tuşunu kullanın.</string>
   <string name="update_check_title">Güncellemeleri kontrol et</string>
   <string name="check_manual">Elle</string>
   <string name="check_daily">Günlük</string>

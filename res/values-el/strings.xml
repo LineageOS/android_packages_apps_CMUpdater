@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Ο φάκελος ενημερώσεων δεν βρέθηκε</string>
   <string name="delete_updates_success_message">Όλες οι ενημερώσεις διαγράφηκαν</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Η ενημέρωση μπλοκαρίστηκε</string>
+  <string name="blocked_update_dialog_message">Αυτή η ενημέρωση δεν μπορεί να εγκατασταθεί χρησιμοποιώντας την εφαρμογή ενημέρωσης. Παρακαλούμε διαβάστε το <![CDATA[<a href="%1$s">]]>;LineageOS wiki<![CDATA[</a>]]>; για περισσότερες πληροφορίες.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,6 +76,8 @@
   <string name="type_downloaded">• Έχει ληφθεί</string>
   <string name="type_downloading">• Γίνεται λήψη</string>
   <string name="type_completing">• Ολοκλήρωση</string>
+  <string name="type_blocked">• Μπλοκαρίστηκε</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="install_button">Εγκατάσταση</string>
+  <string name="info_button">Πληροφορίες</string>
 </resources>
