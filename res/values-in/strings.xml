@@ -53,6 +53,8 @@
   <string name="not_download_install_notice">Pembaruan <xliff:g id="filename">%s</xliff:g> sudah berhasil diunduh. Ketika mengetuk \'Mulai ulang dan instal\', perangkat akan dimulai ulang dan menginstal pembaruan.\n\nCatatan: Diperlukan Recovery yang kompatibel agar pemasangan dapat bekerja secara otomatis.</string>
   <string name="not_download_install_notice_ab">Pembaruan<xliff:g id="filename">%s </xliff:g> berhasil diunduh. Ketika menyentuh \'pasang\', perangkat akan mulai memasang di latar belakang.\n\nBegitu selesai, Anda akan diminta untuk mulai ulang.</string>
   <string name="verification_failed">Verifikasi gagal. Unduhan rusak atau tidak aman</string>
+  <string name="update_on_mobile_data_title">Peringatan</string>
+  <string name="ignore_mobile_data_warning">Jangan tampilkan lagi</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Terapkan pembaruan</string>
   <string name="apply_update_dialog_text">Anda akan meningkatkan ke <xliff:g id="filename">%s</xliff:g>.\n\nJika Anda menekan Perbarui, perangkat akan dimulai ulang dalam mode recovery untuk memasang pembaruan.\n\nPerhatian: Fitur ini memerlukan Recovery yang kompatibel, jika tidak pembaruan harus diinstal secara manual.</string>

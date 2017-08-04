@@ -57,6 +57,9 @@
   <string name="not_download_install_notice">La actualización <xliff:g id="filename">%s</xliff:g> se descargó correctamente. Al pulsar \"Reiniciar e instalar\", el dispositivo se reiniciará para instalar la actualización.\n\nNota: se requiere una recuperación compatible para que la instalación funcione automáticamente.</string>
   <string name="not_download_install_notice_ab">Actualización <xliff:g id="filename">%s</xliff:g> descargada correctamente. Al pulsar en «Instalar», el dispositivo procederá a instalarla en segundo plano.\n\nUna vez terminado el proceso, se le pedirá que reinicie.</string>
   <string name="verification_failed">Error de verificación. Archivo corrupto o inseguro</string>
+  <string name="update_on_mobile_data_title">Advertencia</string>
+  <string name="update_on_mobile_data_message">Será descargado un paquete de actualización usando los datos móviles, que probablemente ocasione un alto consumo de datos. ¿Quieres continuar?</string>
+  <string name="ignore_mobile_data_warning">No mostrar de nuevo</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Aplicar la actualización</string>
   <string name="apply_update_dialog_text">Actualizarás a <xliff:g id="filename">%s</xliff:g>.\n\nAl pulsar en Actualizar, se reiniciará el dispositivo en modo recuperación para instalar la actualización.\n\nNota: esta función requiere una recuperación compatible o las actualizaciones deberán instalarse manualmente.</string>

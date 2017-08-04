@@ -51,10 +51,16 @@
   <string name="not_download_failure">L\'anovamientu nun se baxó con ésitu</string>
   <string name="not_action_install_update">Reaniciar ya instalar</string>
   <string name="not_download_install_notice">Baxóse con ésitu l\'anovamientu <xliff:g id="filename">%s</xliff:g>. El preséu reaniciaráse al tocar «Reaniciar ya instalar» pa instalar l\'anovamientu.\n\nNota: Ríquese un recovery compatible pa que la instalación seya desatendida.</string>
+  <string name="not_download_install_notice_ab">L\'anovamientu <xliff:g id="filename">%s</xliff:g> baxóse con ésitu. Al tocar «Instalar», el preséu entamará la instalación de fondu.\n\nNamái acabar, suxerirásete reaniciar.</string>
   <string name="verification_failed">Falló la verificación. Descarga toyida o insegura</string>
+  <string name="update_on_mobile_data_title">Alvertencia</string>
+  <string name="update_on_mobile_data_message">Tas a piques de baxar un paquete d\'anovamientu usando los datos móviles que pue causar un usu altu de datos. ¿Prestaríate siguir?</string>
+  <string name="ignore_mobile_data_warning">Nun amosar más</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Aplicar anovamientu</string>
   <string name="apply_update_dialog_text">Tas a piques d\'anovar a <xliff:g id="filename">%s</xliff:g>.\n\nSi primes ANOVAR, el preséu reaniciaráse solu al recovery pa instalar l\'anovamientu.\n\nNota: Esta carauterística rique un recovery compatible o los anovamientos precisarán instalase a mano.</string>
+  <string name="apply_update_dialog_text_ab">Tas a piques d\'anovar a <xliff:g id="filename">%s</xliff:g>.\n\nSi primes Anovar, el preséu entamará la instalación de fondu.\n\nNamái acabar, suxerirásete reaniciar.</string>
+  <string name="apply_update_dialog_text_background_ab">Agora l\'anovamientu ta instalándose de fondu. Avisarásete cuando se complete la instalación.</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Desaniciar ficheru</string>
   <string name="confirm_delete_dialog_title_tv">Primi pa desaniciar tolos anovamientos baxaos nel almacenamientu internu</string>
@@ -65,18 +71,32 @@
   <string name="delete_updates_noFolder_message">Nun s\'alcontró la carpeta d\'anovamientos</string>
   <string name="delete_updates_success_message">Desaniciáronse tolos anovamientos baxaos</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Bloquióse l\'anovamientu</string>
+  <string name="blocked_update_dialog_message">Esti anovamientu nun pue instalase usando l\'anovador. Llei la <![CDATA[<a href="%1$s">]]>;wiki de LineageOS<![CDATA[</a>]]>; pa más información.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Comprobación cabera\'l</string>
   <!-- Build item -->
   <string name="type_installed">• Instaláu</string>
+  <string name="type_installing">• Instalando</string>
   <string name="type_downloaded">• Baxáu</string>
   <string name="type_downloading">• Baxando</string>
   <string name="type_completing">• Completando</string>
+  <string name="type_blocked">• Bloquióse</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
   <string name="download_button">Baxar</string>
   <string name="install_button">Instalar</string>
+  <string name="info_button">Información</string>
+  <string name="reboot_button">Reaniciar</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Tresnando\'l paquete pa la instalación</string>
+  <string name="installing_package">Instalando\'l paquete d\'anovamientu</string>
+  <string name="installing_package_finished">Instalóse l\'anovamientu. Reanicia, por favor.</string>
+  <string name="finalizing_package">Finando la instalación del paquete</string>
+  <string name="preparing_ota_first_boot">Tresnando\'l primer arranque</string>
   <string name="apply_ab_update_dialog_title">Aplicar anovamientu</string>
+  <string name="ab_update_finished_title">L\'anovamientu instalóse con ésitu</string>
+  <string name="ab_update_finished_message">L\'anovamientu baxóse con ésitu. Reanicia\'l to preséu cuando te pete, por favor.</string>
+  <string name="installing_zip_failed">Falló l\'anovamientu. Códigu de fallu: <xliff:g id="errorCode">%d</xliff:g></string>
 </resources>

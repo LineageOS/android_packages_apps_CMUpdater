@@ -55,10 +55,15 @@
   <string name="not_action_install_reboot">Reiniciar</string>
   <string name="not_action_install">Instalar</string>
   <string name="not_download_install_notice">A actualización <xliff:g id="filename">%s</xliff:g> descargouse correctamente. Cun toque sobre \'Reiniciar e instalar\', o dispositivo reiniciarase para instalar a actualización.\n\nAviso: Requírese dispoñer dunha recuperación compatíbel para que a instalación funcione automaticamente.</string>
+  <string name="not_download_install_notice_ab">A actualización <xliff:g id="filename">%s</xliff:g> descargouse con éxito. Ao premer \'Instalar\', o dispositivo instalárala en segundo plano.\n\nUnha vez rematado o proceso, pediráseche reiniciar.</string>
   <string name="verification_failed">Verificación fallida. Descarga corrompida ou insegura</string>
+  <string name="update_on_mobile_data_title">Aviso</string>
+  <string name="update_on_mobile_data_message">Estás a punto de descargar un paquete de actualización a través da conexión de datos móbeis o que xerará un maior consumo de datos. Tes a certeza de querer continuar?</string>
+  <string name="ignore_mobile_data_warning">Non amosar máis</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Aplicar a actualización</string>
   <string name="apply_update_dialog_text">Vai proceder a actualizar á versión <xliff:g id="filename">%s</xliff:g>.\n\nTocando sobre \"Actualizar\", o dispositivo reiniciarase para instalar a actualización.\n\nAviso: Cómpre dispoñer dunha recuperación compatíbel para que a instalación funcione automaticamente.</string>
+  <string name="apply_update_dialog_text_ab">Actualizaráse a <xliff:g id="filename">%s </xliff:g>. \n\nPulsase actualizar, o dispositivo comezará a instalar en segundo plano.\n\nUnha vez terminado o proceso, pediráselle que reinicie.</string>
   <string name="apply_update_dialog_text_background_ab">A actualización estase aplicando no segundo plano. Se lle notificará en canto esta termine.</string>
   <string name="apply_unable_to_reboot_toast">Non foi posíbel reiniciar no modo de recuperación</string>
   <!-- deleting -->
@@ -72,6 +77,7 @@
   <string name="delete_updates_success_message">Elimináronse todas as actualizacións descargadas</string>
   <!-- Info about blocked updates -->
   <string name="blocked_update_dialog_title">Actualización bloqueada</string>
+  <string name="blocked_update_dialog_message">Non e posíbel instalar esta actualización a través do actualizador. Por favor, le a <![CDATA[<a href="%1$s">]]>; wiki do LineageOS<![CDATA[</a>]]>; para máis información.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

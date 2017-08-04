@@ -57,6 +57,9 @@
   <string name="not_download_install_notice">L\'actualització <xliff:g id="filename">%s</xliff:g> s\'ha baixat amb èxit. Quan apretis \'Reinicia i instal·la\', el dispositiu es reiniciarà ell mateix per tal d\'instal·lar l\'actualització.\n\nNota: Cal disposar d\'un Recovery compatible per a una instal·lació automàtica.</string>
   <string name="not_download_install_notice_ab">L\'actualització <xliff:g id="filename">%s </xliff:g> s\'ha baixat amb èxit. En prémer «Instal·la», el dispositiu procedirà a instal·lar-la en segon pla.\n\nUn cop acabat el procés, se li demanarà reiniciar.</string>
   <string name="verification_failed">No s\'ha pogut verificar. Baixada corrupta o no segura</string>
+  <string name="update_on_mobile_data_title">Advertència</string>
+  <string name="update_on_mobile_data_message">Estàs a punt de baixar un paquet d\'actualització amb dades mòbils que probablement generarà un alt ús de dades. Vols continuar?</string>
+  <string name="ignore_mobile_data_warning">No ho tornis a mostrar</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Aplica actualització</string>
   <string name="apply_update_dialog_text">Estàs a punt d\'actualitzar a <xliff:g id="filename">%s</xliff:g>.\n\nSi apretes Actualitza, el dispositiu es reiniciarà ell mateix cap al mode de recuperació per tal d\'instal·lar l\'actualització.\n\nNota: Aquesta característica necessita un sistema de recuperació (Recovery) compatible o l\'actualització haurà de ser instal·lada manualment.</string>

@@ -57,6 +57,9 @@
   <string name="not_download_install_notice">Päivityksen <xliff:g id="filename">%s</xliff:g> lataaminen onnistui. Kun painat \'Käynnistä uudelleen ja asenna\', laite käynnistyy uudelleen ja asentaa päivityksen.\n\nHuomautus: Tämä ominaisuus tarvitsee yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>
   <string name="not_download_install_notice_ab">Päivitys <xliff:g id="filename">%s</xliff:g> ladattiin onnistuneesti. Kun valitset \"Asenna\", laite aloittaa asennuksen taustalla.\n\nKun asennus on valmis, sinua pyydetään käynnistämään laite uudelleen.</string>
   <string name="verification_failed">Vahvistus epäonnistui. Vioittunut tai suojaamaton lataus</string>
+  <string name="update_on_mobile_data_title">Varoitus</string>
+  <string name="update_on_mobile_data_message">Olet lataamassa päivityspakettia käyttämällä mobiilidataa, joka voi aiheuttaa tiedonsiirtokuluja. Haluatko jatkaa?</string>
+  <string name="ignore_mobile_data_warning">Älä näytä uudelleen</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Asenna päivitys</string>
   <string name="apply_update_dialog_text">Olet päivittämässä versioon <xliff:g id="filename">%s</xliff:g>.\n\nJos painat Päivitä, laite käynnistyy uudelleen Recovery-tilaan asentaakseen päivityksen.\n\nHuomautus: Tämä ominaisuus vaatii yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>

@@ -57,6 +57,9 @@
   <string name="not_download_install_notice">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola úspešne prevzatá. Kliknutím na \'Reštartovať a inštalovať\' sa zariadenie reštartuje kvôli inštalácii aktualizácie.\n\nPoznámka: Na automatickú inštaláciu sa požaduje kompatibilné Recovery.</string>
   <string name="not_download_install_notice_ab">Aktualizácia <xliff:g id="filename">%s </xliff:g> bola úspešne stiahnutá. Po kliknutí na \"Nainštalovať\" sa začne s inštaláciou na pozadí.\n\nPo dokončení budete vyzvaní k reštartu.</string>
   <string name="verification_failed">Overenie zlyhalo. Soubor je poškodený alebo nebezpečný</string>
+  <string name="update_on_mobile_data_title">Upozornenie</string>
+  <string name="update_on_mobile_data_message">Chystáte sa stiahnuť aktualizáciu pomocou mobilných dát, čo pravdepodobne zapríčiní veľký prenos mobilných dát. Prajete si pokračovať?</string>
+  <string name="ignore_mobile_data_warning">Nabudúce nezobrazovať</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Aplikovať aktualizáciu</string>
   <string name="apply_update_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budú musieť byť aktualizácie inštalované ručne.</string>

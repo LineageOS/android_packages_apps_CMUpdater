@@ -55,6 +55,7 @@
   <string name="not_action_install_reboot">Uruchom ponownie</string>
   <string name="not_action_install">Instaluj</string>
   <string name="not_download_install_notice">Aktualizacja <xliff:g id="filename">%s</xliff:g> została pobrana pomyślnie. Po wybraniu \'Uruchom ponownie i zainstaluj\', urządzenie zostanie zrestartowane w celu instalacji.\n\nUwaga: Wymagana jest kompatybilna aplikacja Recovery, aby proces mógł przebiec automatycznie.</string>
+  <string name="not_download_install_notice_ab">Aktualizacja <xliff:g id="filename">%s</xliff:g> została pomyślnie pobrana. Naciśnięcie \'Instaluj\', rozpocznie instalację w tle.\n\nPo zakończeniu zostaniesz poproszony o ponowne uruchomienie urządzenia.</string>
   <string name="verification_failed">Weryfikacja nie powiodła się. Podczas pobierania doszło do uszkodzenia pliku lub wystąpił błąd bezpieczeństwa</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Zastosuj aktualizację</string>
@@ -64,6 +65,7 @@ Po naciśnięciu przycisku Aktualizuj, urządzenie wyłączy się i przejdzie do
         
 Uwaga: Ta funkcja wymaga kompatybilnego recovery. W przeciwnym wypadku aktualizacje będą musiały zostać zainstalowane ręcznie.</string>
   <string name="apply_update_dialog_text_ab">Masz zamiar zaktualizować do <xliff:g id="filename">%s </xliff:g>. \n\nGdy naciśniesz Aktualizuj, urządzenie zacznie instalować w tle.\n\nPo zakończeniu wyświetli komunikat, aby urządzenie uruchomić ponownie.</string>
+  <string name="apply_update_dialog_text_background_ab">Trwa aktualizowanie w tle. Zostaniesz powiadomiony, gdy proces zostanie ukończony.</string>
   <string name="apply_unable_to_reboot_toast">Nie można przejść do trybu recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Usuń plik</string>
@@ -102,6 +104,7 @@ Uwaga: Ta funkcja wymaga kompatybilnego recovery. W przeciwnym wypadku aktualiza
   <string name="apply_ab_update_dialog_title">Zastosuj aktualizację</string>
   <string name="ab_update_finished_title">Aktualizacja została zainstalowana pomyślnie</string>
   <string name="ab_update_finished_message">Aktualizacja została zainstalowana pomyślnie. Uruchom ponownie urządzenie.</string>
+  <string name="installing_zip_failed">Aktualizacja nie została zainstalowana. Kod błędu: <xliff:g id="errorCode">%d</xliff:g></string>
   <string name="error_update_engine">Niepowodzenie aktualizacji. Kod błędu: <xliff:g id="errorCode">%d </xliff:g></string>
   <string name="error_title">Błąd</string>
 </resources>

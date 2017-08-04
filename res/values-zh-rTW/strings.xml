@@ -57,6 +57,9 @@
   <string name="not_download_install_notice">成功下載更新檔案「<xliff:g id="filename">%s</xliff:g>」。輕觸 [重新啟動並安裝] 之後，裝置將重新啟動並安裝更新。\n\n注意：自動完成安裝需要相容的 Recovery。</string>
   <string name="not_download_install_notice_ab">更新 <xliff:g id="filename">%s</xliff:g> 已成功下載。 當輕觸「安裝」後，裝置將在背景進行安裝。\n\n如安裝完成，將會提示重新啟動。</string>
   <string name="verification_failed">驗證失敗。已損壞或不安全下載</string>
+  <string name="update_on_mobile_data_title">警告</string>
+  <string name="update_on_mobile_data_message">下載的更新檔有可能會使用較高的行動數據，您要繼續嗎？</string>
+  <string name="ignore_mobile_data_warning">不再顯示</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">套用更新</string>
   <string name="apply_update_dialog_text">您將更新至 <xliff:g id="filename">%s</xliff:g>。\n\n如果您按下更新，裝置將重新啟動進入 Recovery 模式並安裝更新。\n\n注意：這項功能需要相容的 Recovery，否則將需要手動安裝更新。</string>

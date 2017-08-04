@@ -57,6 +57,9 @@
   <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> eguneraketa ondo deskargatu da. \'Berrabiarazi eta instalatu\' sakatzean gailua eguneraketa instalatzeko berrabiaraziko da.\n\nOharra: Instalazio automatiko baterako berreskuratze aplikazio bateragarri bat behar da.</string>
   <string name="not_download_install_notice_ab"><xliff:g id="filename">%s</xliff:g> eguneraketa deskargatu da. \'Instalatu\' ukitzean, gailua instalazioarekin hasiko da bigarren planoan.\n\nBehin bukatuta, berrabiaraztea eskatuko zaizu.</string>
   <string name="verification_failed">Egiaztaketak huts egin du. Matxuratutako edo segurua ez den deskarga</string>
+  <string name="update_on_mobile_data_title">Abisua</string>
+  <string name="update_on_mobile_data_message">Eguneratze pakete bat deskargatuko duzu datu mugikorrak erabiliz, honek datuen erabilera handia egingo du. Ziur aurrera jarraitu nahi duzula?</string>
+  <string name="ignore_mobile_data_warning">Ez erakutsi berriro</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Aplikatu eguneraketa</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> bertsioa instalatzera zoaz.\n\nEguneratu sakatzean, gailua  berreskuratze moduan berrabiaraziko da eguneraketa instalatzeko.\n\nOharra: Berreskuratze aplikazio bateragarri bat behar du ezaugarri honek, bestela eguneraketak eskuz instalatu beharko dira.</string>

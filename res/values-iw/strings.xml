@@ -57,6 +57,9 @@
   <string name="not_download_install_notice">העדכון <xliff:g id="filename">%s</xliff:g> הורד בהצלחה. כאשר תלחץ על \'אתחל והתקן\', המכשיר יאתחל את עצמו ויתקין את העדכון.\n\nשים לב: דרוש שחזור מתאים כדי שההתקנה תעבוד באופן אוטומטי.</string>
   <string name="not_download_install_notice_ab">העדכון <xliff:g id="filename">%s</xliff:g> הורד בהצלחה. כאשר תלחץ על \"התקן\", המכשיר יתחיל בהתקנה ברקע.\n\nלאחר השלמתה, תתבקש לבצע אתחול.</string>
   <string name="verification_failed">האימות נכשל. ההורדה פגומה או לא מאובטחת</string>
+  <string name="update_on_mobile_data_title">אזהרה</string>
+  <string name="update_on_mobile_data_message">אתה עומד להוריד חבילת עדכונים באמצעות האינטרנט הסלולרי אשר סביר להניח יגרום לבזבוז הרבה מחבילת הגלישה שלך. להמשיך?</string>
+  <string name="ignore_mobile_data_warning">אל תציג שוב</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">החל עדכון</string>
   <string name="apply_update_dialog_text">אתה עומד לשדרג ל-<xliff:g id="filename">%s</xliff:g>.\n\nאם תלחץ על \"עדכן\", המכשיר יאתחל את עצמו למצב \"שחזור\" על מנת להתקין את העדכון.\n\nהערה: אפשרות זו דורשת שחזור תואם, או שפעולת התקנת העדכונים תיאלץ להיעשות באופן ידני.</string>

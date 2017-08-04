@@ -57,6 +57,9 @@
   <string name="not_download_install_notice">更新 <xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序。</string>
   <string name="not_download_install_notice_ab">更新 <xliff:g id="filename">%s</xliff:g> 已经成功下载。 当您点击“安装”后，设备将在后台进行安装。\n\n当安装完毕后，将会提示您重新启动。</string>
   <string name="verification_failed">验证失败。下载的文件损坏或不安全。</string>
+  <string name="update_on_mobile_data_title">警告</string>
+  <string name="update_on_mobile_data_message">您将要通过移动数据网络下载更新包，这可能会导致较大的数据用量。您确定要继续吗？</string>
+  <string name="ignore_mobile_data_warning">不再显示</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">应用更新</string>
   <string name="apply_update_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您选择更新，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序，否则您将需要手动安装更新。</string>

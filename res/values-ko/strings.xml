@@ -57,6 +57,9 @@
   <string name="not_download_install_notice">업데이트 <xliff:g id="filename">%s</xliff:g>(이)가 성공적으로 다운로드 되었습니다. \'다시 시작 후 설치\'를 탭하면 업데이트 설치를 위해 장치가 재시작됩니다.\n\n주의: 설치 과정이 자동으로 진행되기 위해서는 호환되는 복구 모드가 필요합니다.</string>
   <string name="not_download_install_notice_ab"><xliff:g id="filename">%s</xliff:g> 업데이트를 성공적으로 다운로드했습니다. \'설치\'를 누르면 백그라운드에서 이 업데이트를 설치합니다.\n\n설치가 완료되면 기기를 다시 시작할 것인지 묻는 대화 상자가 나타날 것입니다.</string>
   <string name="verification_failed">검증에 실패했습니다. 손상되거나 안전하지 않은 다운로드입니다.</string>
+  <string name="update_on_mobile_data_title">경고</string>
+  <string name="update_on_mobile_data_message">모바일 데이터를 사용하여 업데이트 패키지를 다운로드하려 합니다. 데이터를 매우 많이 사용하게 될 수 있습니다. 정말 계속하시겠습니까?</string>
+  <string name="ignore_mobile_data_warning">다시 보지 않기</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">업데이트 적용</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g>(으)로 업그레이드합니다. \n\n업데이트를 탭하면 업데이트 설치를 위해 장치가 복구 모드로 재시작됩니다.\n\n주의: 이 기능은 호환되는 복구 모드가 필요하며, 그렇지 않을 경우 업데이트를 수동으로 설치해야합니다.</string>

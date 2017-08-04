@@ -57,6 +57,9 @@
   <string name="not_download_install_notice">Nedlastingen av <xliff:g id="filename">%s</xliff:g> var vellykket. Når du trykker på \'Start på nytt og installer\', vil enheten starte på nytt, for så å installere oppdateringen.\n\nMerk: En kompatibel recovery-versjon er påkrevd for at installeringen skal kunne utføres.</string>
   <string name="not_download_install_notice_ab">Oppdateringen <xliff:g id="filename">%s</xliff:g> ble lastet ned. Når du trykker \"Installer\", vil enheten begynne å installere i bakgrunnen.\n\nNår den har fullført vil du bli spurt om å starte på nytt.</string>
   <string name="verification_failed">Verifisering mislyktes. Korrupt eller usikker nedlasting</string>
+  <string name="update_on_mobile_data_title">Advarsel</string>
+  <string name="update_on_mobile_data_message">Du er i ferd med å laste ned en oppgraderingspakke ved bruk av mobildata, noe som antagelig vil forårsake høy databruk. Ønsker du å fortsette?</string>
+  <string name="ignore_mobile_data_warning">Ikke vis dette igjen</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Installer oppdatering</string>
   <string name="apply_update_dialog_text">Du er i ferd med å oppgradere til <xliff:g id="filename">%s</xliff:g>.\n\nHvis du fortsetter vil telefonen foreta en omstart til recovery-modus for å gjennomføre installasjonen</string>

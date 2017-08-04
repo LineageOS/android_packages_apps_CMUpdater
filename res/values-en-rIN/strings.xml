@@ -57,6 +57,9 @@
   <string name="not_download_install_notice">The update <xliff:g id="filename">%s</xliff:g> was successfully downloaded. When touching \'Reboot and install\', the device will restart itself to install the update.\n\nNote: A compatible Recovery is required for the installation to work automatically.</string>
   <string name="not_download_install_notice_ab">The update <xliff:g id="filename">%s</xliff:g> was successfully downloaded. When touching \'Install\', the device will begin installing in the background.\n\nOnce completed, you will be prompted to reboot.</string>
   <string name="verification_failed">Verification failed. Corrupted or unsecure download</string>
+  <string name="update_on_mobile_data_title">Warning</string>
+  <string name="update_on_mobile_data_message">You\'re about to download an update package using mobile data which is likely going to cause high data usage. Would you like to proceed?</string>
+  <string name="ignore_mobile_data_warning">Do not show again</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Apply update</string>
   <string name="apply_update_dialog_text">You are about to upgrade to <xliff:g id="filename">%s</xliff:g>.\n\nIf you press Update, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
