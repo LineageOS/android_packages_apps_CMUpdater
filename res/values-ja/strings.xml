@@ -57,6 +57,9 @@
   <string name="not_download_install_notice">アップデート<xliff:g id="filename">%s</xliff:g>のダウンロードが完了しました。｢再起動してインストール｣をタップすると、アップデートをインストールするために端末は再起動します。\n\n注意: インストールを自動で行うには、互換性のあるリカバリーが必要です。</string>
   <string name="not_download_install_notice_ab"><xliff:g id="filename">%s</xliff:g> のダウンロードが完了しました。「インストール」をタップするとバックグラウンドでインストールを開始します。\n\nインストールが完了すると、再起動が要求されます。</string>
   <string name="verification_failed">検証に失敗しました。破損しているか安全でないダウンロードです</string>
+  <string name="update_on_mobile_data_title">注意</string>
+  <string name="update_on_mobile_data_message">モバイルデータ通信で更新プログラムをダウンロードすると、データ使用量が増加する可能性があります。続行しますか？</string>
+  <string name="ignore_mobile_data_warning">次回から表示しない</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">アップデートを適用</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g>にアップグレードしようとしています。\n\nアップデートを押すと、アップデートをインストールするために端末はリカバリーモードで再起動します。\n\n注意: この機能は互換性のあるリカバリーが必要ですので、互換性がなければ手動でインストールする必要があります。</string>

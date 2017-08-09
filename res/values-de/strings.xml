@@ -56,6 +56,7 @@
   <string name="not_action_install">Installation</string>
   <string name="not_download_install_notice">Das Update <xliff:g id="filename">%s</xliff:g> wurde erfolgreich heruntergeladen. Beim Berühren von \"Neu starten und installieren\" wird das Gerät neu gestartet, um das Update zu installieren.\n\nHinweis: Für die Installation wird ein kompatibles Recovery-System benötigt.</string>
   <string name="verification_failed">Die Überprüfung ist fehlgeschlagen. Beschädigter oder unsicherer Download</string>
+  <string name="update_on_mobile_data_message">Sie sind dabei ein Software-Update über das Mobilfunknetz herunterzuladen, was zu einem hohen Datenverbrauch führen kann. Möchten Sie fortfahren?</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Update installieren</string>
   <string name="apply_update_dialog_text">Bereit zum Update auf <xliff:g id="filename">%s</xliff:g>.\n\nNach dem Start des Updates wird das Gerät im Recovery-Modus gestartet, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery-System, anderenfalls muss das Update manuell installiert werden.</string>

@@ -57,6 +57,8 @@
   <string name="not_download_install_notice">Aktualizacja <xliff:g id="filename">%s</xliff:g> została pobrana pomyślnie. Po wybraniu \'Uruchom ponownie i zainstaluj\', urządzenie zostanie zrestartowane w celu instalacji.\n\nUwaga: Wymagana jest kompatybilna aplikacja Recovery, aby proces mógł przebiec automatycznie.</string>
   <string name="not_download_install_notice_ab">Aktualizacja <xliff:g id="filename">%s</xliff:g> została pomyślnie pobrana. Naciśnięcie \'Instaluj\', rozpocznie instalację w tle.\n\nPo zakończeniu zostaniesz poproszony o ponowne uruchomienie urządzenia.</string>
   <string name="verification_failed">Weryfikacja nie powiodła się. Podczas pobierania doszło do uszkodzenia pliku lub wystąpił błąd bezpieczeństwa</string>
+  <string name="update_on_mobile_data_title">Ostrzeżenie</string>
+  <string name="ignore_mobile_data_warning">Nie pokazuj ponownie</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Zastosuj aktualizację</string>
   <string name="apply_update_dialog_text">Jesteś o krok od aktualizacji do <xliff:g id="filename">%s</xliff:g>.

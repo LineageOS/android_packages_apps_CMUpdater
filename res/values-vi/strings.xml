@@ -57,6 +57,9 @@
   <string name="not_download_install_notice">Bản cập nhật <xliff:g id="filename"> %s </xliff:g> đã tải xuống thành công. Khi chạm vào \'Khởi động lại và cài đặt\', thiết bị sẽ tự khởi động lại để cài đặt bản cập nhật.\n\nLưu ý: Cần có một bản Recovery tương thích cho tiến trình cài đặt làm việc tự động.</string>
   <string name="not_download_install_notice_ab">Bản cập nhật <xliff:g id="filename">%s</xliff:g> đã được tải xuống thành công. Khi chạm vào \'Cài đặt\', thiết bị sẽ bắt đầu cài đặt ở chế độ nền.\n\nSau khi hoàn tất, bạn sẽ được nhắc khởi động lại.</string>
   <string name="verification_failed">Không thể xác thực. Tải về bị hỏng hoặc không an toàn</string>
+  <string name="update_on_mobile_data_title">Cảnh báo</string>
+  <string name="update_on_mobile_data_message">Bạn sắp tải xuống một gói cập nhật sử dụng dữ liệu di động có khả năng gây ra việc sử dụng dữ liệu cao. Bạn có muốn tiến hành không?</string>
+  <string name="ignore_mobile_data_warning">Không hiện lại</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Áp dụng cập nhật</string>
   <string name="apply_update_dialog_text">Bạn chuẩn bị nâng cấp lên <xliff:g id="filename"> %s </xliff:g>. \n\nNếu bạn bấm vào Cập nhật, điện thoại sẽ tự khởi động lại vào chế độ recovery để cài đặt cập nhật.\n\nLưu ý: tính năng này yêu cầu một bản recovery tương thích hoặc bản cập nhật sẽ cần phải được cài đặt theo cách thủ công.</string>

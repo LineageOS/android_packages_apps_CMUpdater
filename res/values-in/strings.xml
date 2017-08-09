@@ -71,6 +71,7 @@
   <string name="delete_updates_success_message">Semua pembaruan yang diunduh dihapus</string>
   <!-- Info about blocked updates -->
   <string name="blocked_update_dialog_title">Pembaruan diblokir</string>
+  <string name="blocked_update_dialog_message">Pembaruan ini tidak dapat dipasang menggunakan aplikasi pembaruan.  Silakan baca <![CDATA[<a href="%1$s">]]>; LineageOS wiki <![CDATA[</a>]]>; untuk informasi lebih lanjut.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

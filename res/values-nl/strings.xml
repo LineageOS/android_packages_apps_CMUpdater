@@ -55,10 +55,16 @@
   <string name="not_action_install_reboot">Herstarten</string>
   <string name="not_action_install">Installeren</string>
   <string name="not_download_install_notice">Update <xliff:g id="filename">%s</xliff:g> is succesvol gedownload. Wanneer u op \'Herstarten en installeren\' tikt, zal het apparaat herstarten om de update te installeren. Let op: een compatibele recovery is vereist om de installatie automatisch uit te voeren.</string>
+  <string name="not_download_install_notice_ab">Update <xliff:g id="filename">%s</xliff:g> is gedownload. Wanneer je op \'Installeren\' tikt zal het apparaat de update op de achtergrond installeren.\n\nWanneer de installatie voltooid is zal gevraagd worden het toestel te herstarten.</string>
   <string name="verification_failed">Verificatie mislukt. Beschadigde of onveilige download</string>
+  <string name="update_on_mobile_data_title">Waarschuwing</string>
+  <string name="update_on_mobile_data_message">Je gaat nu een update pakket downloaden via mobiele gegevens wat voor een hoog gegevensgebruik kan zorgen. Wil je verder gaan?</string>
+  <string name="ignore_mobile_data_warning">Niet opnieuw tonen</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Update toepassen</string>
   <string name="apply_update_dialog_text">Uw systeem wordt bijgewerkt naar <xliff:g id="filename">%s</xliff:g>.\n\nWanneer u op \'Bijwerken\' tikt, zal het apparaat herstarten om de update te installeren.\n\nLet op: een compatibele recovery is vereist, anders moet de update handmatig worden geïnstalleerd.</string>
+  <string name="apply_update_dialog_text_ab">Je staat op het punt om te upgraden naar <xliff:g id="filename">%s</xliff:g>.\n\nWanneer je op \'Installeren\' tikt zal het apparaat de update op de achtergrond installeren.\n\nWanneer de installatie voltooid is zal gevraagd worden het toestel te herstarten.</string>
+  <string name="apply_update_dialog_text_background_ab">Installatie van de update wordt op de achtergrond uitgevoerd. Je wordt op de hoogte gebracht wanneer de installatie voltooid is.</string>
   <string name="apply_unable_to_reboot_toast">Kan niet herstarten naar recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Bestand verwijderen</string>
