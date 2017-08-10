@@ -75,7 +75,7 @@ public class Utils {
     }
 
     public static String getInstalledVersion() {
-        return SystemProperties.get("ro.cm.version").toLowerCase();
+        return SystemProperties.get("ro.cm.version").toLowerCase(Locale.ROOT);
     }
 
     public static String getInstalledVersionName() {
@@ -92,7 +92,7 @@ public class Utils {
 
     public static String getInstalledBuildType() {
         return SystemProperties.get(Constants.PROPERTY_CM_RELEASETYPE,
-                Constants.CM_RELEASE_TYPE_DEFAULT).toLowerCase();
+                Constants.CM_RELEASE_TYPE_DEFAULT).toLowerCase(Locale.ROOT);
     }
 
     public static UpdateInfo getInstalledUpdateInfo() {
