@@ -92,7 +92,7 @@ public class Utils {
 
     public static String getInstalledBuildType() {
         return SystemProperties.get(Constants.PROPERTY_CM_RELEASETYPE,
-                Constants.CM_RELEASE_TYPE_DEFAULT).toLowerCase();
+                Constants.CM_RELEASE_TYPE_DEFAULT).toLowerCase(Locale.ROOT);
     }
 
     public static UpdateInfo getInstalledUpdateInfo() {
