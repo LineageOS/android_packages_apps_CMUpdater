@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e69ea880_64834a72",
+        "filename": "src/com/cyanogenmod/updater/utils/Utils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-08-10T21:59:31Z",
+      "side": 1,
+      "message": "It\u0027s probably better to do the same here.",
+      "range": {
+        "startLine": 78,
+        "startChar": 8,
+        "endLine": 78,
+        "endChar": 66
+      },
+      "revId": "0da55fdbad0dc104b169b10cdc73b7c37c6f15cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
