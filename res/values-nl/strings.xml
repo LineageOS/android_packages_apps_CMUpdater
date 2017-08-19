@@ -55,16 +55,16 @@
   <string name="not_action_install_reboot">Herstarten</string>
   <string name="not_action_install">Installeren</string>
   <string name="not_download_install_notice">Update <xliff:g id="filename">%s</xliff:g> is succesvol gedownload. Wanneer u op \'Herstarten en installeren\' tikt, zal het apparaat herstarten om de update te installeren. Let op: een compatibele recovery is vereist om de installatie automatisch uit te voeren.</string>
-  <string name="not_download_install_notice_ab">Update <xliff:g id="filename">%s</xliff:g> is gedownload. Wanneer je op \'Installeren\' tikt zal het apparaat de update op de achtergrond installeren.\n\nWanneer de installatie voltooid is zal gevraagd worden het toestel te herstarten.</string>
+  <string name="not_download_install_notice_ab">Update <xliff:g id="filename">%s</xliff:g> is gedownload. Wanneer u op \'Installeren\' tikt zal het apparaat de update op de achtergrond uitvoeren.\n\nWanneer de installatie voltooid is zal gevraagd worden het toestel te herstarten.</string>
   <string name="verification_failed">Verificatie mislukt. Beschadigde of onveilige download</string>
-  <string name="update_on_mobile_data_title">Waarschuwing</string>
-  <string name="update_on_mobile_data_message">Je gaat nu een update pakket downloaden via mobiele gegevens wat voor een hoog gegevensgebruik kan zorgen. Wil je verder gaan?</string>
+  <string name="update_on_mobile_data_title">Let op</string>
+  <string name="update_on_mobile_data_message">U staat op het punt om een update-pakket te downloaden via mobiele gegevens, wat een hoog gegevensgebruik tot gevolg kan hebben. Wilt u verder gaan?</string>
   <string name="ignore_mobile_data_warning">Niet opnieuw tonen</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Update toepassen</string>
   <string name="apply_update_dialog_text">Uw systeem wordt bijgewerkt naar <xliff:g id="filename">%s</xliff:g>.\n\nWanneer u op \'Bijwerken\' tikt, zal het apparaat herstarten om de update te installeren.\n\nLet op: een compatibele recovery is vereist, anders moet de update handmatig worden geïnstalleerd.</string>
-  <string name="apply_update_dialog_text_ab">Je staat op het punt om te upgraden naar <xliff:g id="filename">%s</xliff:g>.\n\nWanneer je op \'Installeren\' tikt zal het apparaat de update op de achtergrond installeren.\n\nWanneer de installatie voltooid is zal gevraagd worden het toestel te herstarten.</string>
-  <string name="apply_update_dialog_text_background_ab">Installatie van de update wordt op de achtergrond uitgevoerd. Je wordt op de hoogte gebracht wanneer de installatie voltooid is.</string>
+  <string name="apply_update_dialog_text_ab">U staat op het punt om te upgraden naar <xliff:g id="filename">%s</xliff:g>.\n\nAls u op \'Installeren\' tikt zal het apparaat de update op de achtergrond uitvoeren.\n\nWanneer de installatie voltooid is zal gevraagd worden het toestel te herstarten.</string>
+  <string name="apply_update_dialog_text_background_ab">Installatie van de update wordt op de achtergrond uitgevoerd. U wordt op de hoogte gebracht wanneer de installatie voltooid is.</string>
   <string name="apply_unable_to_reboot_toast">Kan niet herstarten naar recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Bestand verwijderen</string>
@@ -77,6 +77,7 @@
   <string name="delete_updates_success_message">Alle gedownloade updates zijn verwijderd</string>
   <!-- Info about blocked updates -->
   <string name="blocked_update_dialog_title">Update geblokkeerd</string>
+  <string name="blocked_update_dialog_message">Deze update kan niet worden geïnstalleerd met behulp van de updater-app.  Lees de <![CDATA[<a href="%1$s">]]>; LineageOS wiki<![CDATA[</a>]]>; voor meer informatie.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -94,6 +95,15 @@
   <string name="info_button">Info</string>
   <string name="reboot_button">Herstarten</string>
   <!-- A/B OTA -->
+  <string name="preparing_package">Update voorbereiden voor installatie</string>
+  <string name="installing_package">Update installeren</string>
+  <string name="installing_package_finished">Update geïnstalleerd. Herstart uw apparaat.</string>
+  <string name="finalizing_package">Installatie van het pakket afronden</string>
+  <string name="preparing_ota_first_boot">Eerste start voorbereiden</string>
   <string name="apply_ab_update_dialog_title">Update toepassen</string>
+  <string name="ab_update_finished_title">Update succesvol geïnstalleerd</string>
+  <string name="ab_update_finished_message">Update geïnstalleerd. Herstart uw apparaat op een voor u gepast moment.</string>
+  <string name="installing_zip_failed">Update mislukt. Foutcode: <xliff:g id="errorCode">%d</xliff:g></string>
+  <string name="error_update_engine">Fout bij het updaten. Foutcode: <xliff:g id="errorCode">%d</xliff:g></string>
   <string name="error_title">Fout</string>
 </resources>

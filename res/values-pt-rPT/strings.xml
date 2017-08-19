@@ -57,6 +57,8 @@
   <string name="not_download_install_notice">A atualização <xliff:g id="filename">%s</xliff:g> foi transferida com sucesso. Quando pressionar \'Reiniciar e instalar\', o dispositivo reiniciar-se-á para instalar a atualização.\n\nNota: É necessária uma Recuperação compatível para que a instalação seja automática.</string>
   <string name="not_download_install_notice_ab">A atualização <xliff:g id="filename">%s</xliff:g> foi transferida com sucesso. Ao selecionar \'Instalar\', o dispositivo irá iniciar a instalação em plano de fundo.\n\nUma vez concluída, ser-lhe-á pedido que reinicie o dispositivo.</string>
   <string name="verification_failed">Falha na verificação. Transferência corrompida ou insegura</string>
+  <string name="update_on_mobile_data_title">Aviso</string>
+  <string name="ignore_mobile_data_warning">Não voltar a mostrar</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Instalar atualização</string>
   <string name="apply_update_dialog_text">Está prestes a atualizar para <xliff:g id="filename">%s</xliff:g>.\n\nSe carregar em Atualizar, o dispositivo irá reiniciar e atualizar automaticamente.\n\nNota: É necessário uma Recuperação compatível para que a atualização seja feita automaticamente.</string>
