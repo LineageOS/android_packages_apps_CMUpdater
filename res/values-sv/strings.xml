@@ -48,6 +48,7 @@
   <string name="not_download_failure">Nedladdningen misslyckades</string>
   <string name="not_action_install_update">Starta om och installera</string>
   <string name="not_download_install_notice">Uppdateringen <xliff:g id="filename">%s</xliff:g> laddades ned med framgång. När du trycker på \'Starta om och installera\' kommer enheten att starta om för att installera uppdateringen.\n\nObs: En kompatibel Recovery krävs för att installationen ska fungera automatiskt.</string>
+  <string name="verification_failed">Verifieringen misslyckades. korrupta eller osäkra nedladdningar</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Tillämpa uppdatering</string>
   <string name="apply_update_dialog_text">Du är på väg att uppdatera till <xliff:g id="filename">%s</xliff:g>.\n\nOm du trycker på Uppdatera kommer enheten att starta om till Recoveryläge för att installera uppdateringen.\n\nObs: Denna funktion kräver ett kompatibelt Recoveryläge. I annat fall måste uppdateringarna installeras manuellt.</string>
@@ -62,11 +63,18 @@
   <string name="delete_updates_noFolder_message">Uppdateringsmappen kan inte hittas</string>
   <string name="delete_updates_success_message">Alla nedladdade uppdateringar borttagna</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Uppdatering blockerad</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <!-- Build item -->
   <string name="type_installed">• Installerad</string>
+  <string name="type_downloaded">• Nerladdade</string>
+  <string name="type_downloading">• Nerladdning</string>
+  <string name="type_completing">• Slutför</string>
+  <string name="type_blocked">• Blockerad</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+  <string name="download_button">Ladda ner</string>
   <string name="install_button">Installera</string>
+  <string name="info_button">Info</string>
 </resources>

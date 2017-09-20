@@ -66,7 +66,7 @@
   <string name="delete_updates_success_message">İndirilen tüm güncellemeler silindi</string>
   <!-- Info about blocked updates -->
   <string name="blocked_update_dialog_title">Güncelleme engellendi</string>
-  <string name="blocked_update_dialog_message">Bu güncelleme, güncelleme uygulaması kullanılarak kurulamaz. Daha fazla bilgi için lütfen <![CDATA[<a href="%1$s">]]>; LineageOS wiki\'yi<![CDATA[</a>]]>; okuyun.</string>
+  <string name="blocked_update_dialog_message">Bu güncelleme, güncelleyici uygulaması kullanılarak kurulamaz. Daha fazla bilgi için lütfen <![CDATA[<a href="%1$s">]]>; LineageOS wiki\'yi<![CDATA[</a>]]>; okuyun.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>

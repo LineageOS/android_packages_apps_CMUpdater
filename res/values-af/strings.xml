@@ -65,6 +65,8 @@
   <string name="delete_updates_noFolder_message">Opgradering vouer nie gevind nie</string>
   <string name="delete_updates_success_message">Alle afgelaaide opgraderings geskrap</string>
   <!-- Info about blocked updates -->
+  <string name="blocked_update_dialog_title">Opdatering geblokkeer</string>
+  <string name="blocked_update_dialog_message">Hierdie bywerking kan nie geïnstalleer word met behulp van die opdatering toep nie.  Lees asseblief die  <![CDATA[<a href="%1$s">]]>; LineageOS wiki <![CDATA[</a>]]>; vir meer inligting.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
@@ -74,6 +76,9 @@
   <string name="type_downloaded">• Afgelaai</string>
   <string name="type_downloading">Laai tans af</string>
   <string name="type_completing">• Maak tans klaar</string>
+  <string name="type_blocked">• Geblokkeer</string>
   <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+  <string name="download_button">Laai af</string>
   <string name="install_button">Installeer</string>
+  <string name="info_button">Inligting</string>
 </resources>
