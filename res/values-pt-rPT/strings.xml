@@ -10,75 +10,65 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="app_name">Atualizador</string>
-  <string name="display_name">Atualizações</string>
-  <string name="unknown">Desconhecido</string>
-  <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">Atualizar</string>
-  <string name="menu_delete_all">Eliminar transferências</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Cancelar</string>
-  <string name="dialog_update">Atualizar</string>
-  <string name="dialog_close">Fechar</string>
-  <!-- Settings strings -->
-  <string name="available_updates_title">Atualizações disponíveis</string>
-  <string name="no_available_updates_intro">Não foram encontradas novas atualizações. Para verificar novas atualizações manualmente, use o botão atualizar.</string>
-  <string name="update_check_title">Procurar atualizações</string>
-  <string name="check_manual">Manual</string>
-  <string name="check_daily">Diariamente</string>
-  <string name="check_weekly">Semanalmente</string>
-  <string name="check_bi_weekly">Quinzenalmente</string>
-  <string name="check_monthly">Mensalmente</string>
-  <!-- Update checking -->
-  <string name="checking_for_updates">A procurar atualizações\u2026</string>
-  <string name="no_updates_found">Não foram encontradas novas atualizações</string>
-  <string name="update_check_failed">A procura por atualizações falhou. Por favor verifique o estado da sua ligação à internet e tente de novo.</string>
-  <string name="not_new_updates_found_ticker">Estão disponíveis novas atualizações</string>
-  <string name="not_new_updates_found_title">Novas atualizações</string>
-  <string name="not_action_download">Transferir</string>
-  <string name="data_connection_required">É necessária uma ligação de dados.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Cancelar transferências</string>
-  <string name="confirm_download_cancelation_dialog_message">Deseja cancelar a transferência atual?</string>
-  <string name="download_cancelled">Transferência cancelada</string>
-  <string name="download_already_running">Já existe uma transferência em curso</string>
-  <string name="unable_to_stop_download">Não é possível parar a transferência</string>
-  <string name="unable_to_download_file">Não foi possível transferir o ficheiro de atualização</string>
-  <string name="download_not_found">Transferência não disponível</string>
-  <string name="not_download_success">O ficheiro de atualização foi transferido com sucesso</string>
-  <string name="not_download_failure">Não foi possível transferir o ficheiro de atualização</string>
-  <string name="not_action_install_update">Reiniciar e instalar</string>
-  <string name="not_download_install_notice">A atualização <xliff:g id="filename">%s</xliff:g> foi transferida com sucesso. Quando pressionar \'Reiniciar e instalar\', o dispositivo reiniciar-se-á para instalar a atualização.\n\nNota: É necessária uma Recuperação compatível para que a instalação seja automática.</string>
-  <string name="verification_failed">Falha na verificação. Transferência corrompida ou insegura</string>
-  <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">Instalar atualização</string>
-  <string name="apply_update_dialog_text">Está prestes a atualizar para <xliff:g id="filename">%s</xliff:g>.\n\nSe carregar em Atualizar, o dispositivo irá reiniciar e atualizar automaticamente.\n\nNota: É necessário uma Recuperação compatível para que a atualização seja feita automaticamente.</string>
-  <string name="apply_unable_to_reboot_toast">Não foi possível reiniciar no modo de recuperação</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Eliminar ficheiro</string>
-  <string name="confirm_delete_dialog_title_tv">Clique para apagar do armazenamento interno todas as atualizações transferidas</string>
-  <string name="confirm_delete_dialog_message">Deseja eliminar o ficheiro de atualizações selecionado?</string>
-  <string name="confirm_delete_all_dialog_message">Eliminar todos os ficheiros de atualização transferidos?</string>
-  <string name="delete_single_update_success_message">A atualização <xliff:g id="filename">%s</xliff:g> foi eliminada</string>
-  <string name="delete_updates_failure_message">Ocorreu um problema ao eliminar o ficheiro</string>
-  <string name="delete_updates_noFolder_message">Localização das atualizações não encontrada</string>
-  <string name="delete_updates_success_message">Todos os ficheiros foram eliminados</string>
-  <!-- Info about blocked updates -->
-  <string name="blocked_update_dialog_title">Atualização bloqueada</string>
-  <string name="blocked_update_dialog_message">Esta atualização não pode ser instalada através do atualizador. Por favor, leia a <![CDATA[<a href="%1$s">]]>; wiki da LineageOS<![CDATA[</a>]]>; para obter mais informações.</string>
-  <!-- Header -->
-  <string name="header_os">LineageOS\n%1$s</string>
-  <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
-  <string name="sysinfo_last_check">Última verificação</string>
-  <!-- Build item -->
-  <string name="type_installed">• Instalada</string>
-  <string name="type_downloaded">• Transferida</string>
-  <string name="type_downloading">• A transferir</string>
-  <string name="type_completing">• A completar</string>
-  <string name="type_blocked">• Bloqueada</string>
-  <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Transferir</string>
-  <string name="install_button">Instalar</string>
-  <string name="info_button">Informações</string>
+    <string name="app_name">Atualizador</string>
+    <string name="display_name">Atualizações</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="menu_refresh">Atualizar</string>
+    <string name="menu_delete_all">Eliminar transferências</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_update">Atualizar</string>
+    <string name="dialog_close">Fechar</string>
+    <string name="available_updates_title">Atualizações disponíveis</string>
+    <string name="no_available_updates_intro">Não foram encontradas novas atualizações. Para verificar novas atualizações manualmente, use o botão atualizar.</string>
+    <string name="update_check_title">Procurar atualizações</string>
+    <string name="check_manual">Manual</string>
+    <string name="check_daily">Diariamente</string>
+    <string name="check_weekly">Semanalmente</string>
+    <string name="check_bi_weekly">Quinzenalmente</string>
+    <string name="check_monthly">Mensalmente</string>
+    <string name="checking_for_updates">A procurar atualizações\u2026</string>
+    <string name="no_updates_found">Não foram encontradas novas atualizações</string>
+    <string name="update_check_failed">A procura por atualizações falhou. Por favor verifique o estado da sua ligação à internet e tente de novo.</string>
+    <string name="not_new_updates_found_ticker">Estão disponíveis novas atualizações</string>
+    <string name="not_new_updates_found_title">Novas atualizações</string>
+    <string name="not_action_download">Transferir</string>
+    <string name="data_connection_required">É necessária uma ligação de dados.</string>
+    <string name="confirm_download_cancelation_dialog_title">Cancelar transferências</string>
+    <string name="confirm_download_cancelation_dialog_message">Deseja cancelar a transferência atual?</string>
+    <string name="download_cancelled">Transferência cancelada</string>
+    <string name="download_already_running">Já existe uma transferência em curso</string>
+    <string name="unable_to_stop_download">Não é possível parar a transferência</string>
+    <string name="unable_to_download_file">Não foi possível transferir o ficheiro de atualização</string>
+    <string name="download_not_found">Transferência não disponível</string>
+    <string name="not_download_success">O ficheiro de atualização foi transferido com sucesso</string>
+    <string name="not_download_failure">Não foi possível transferir o ficheiro de atualização</string>
+    <string name="not_action_install_update">Reiniciar e instalar</string>
+    <string name="not_download_install_notice">A atualização <xliff:g id="filename">%s</xliff:g> foi transferida com sucesso. Quando pressionar \'Reiniciar e instalar\', o dispositivo reiniciar-se-á para instalar a atualização.\n\nNota: É necessária uma Recuperação compatível para que a instalação seja automática.</string>
+    <string name="verification_failed">Falha na verificação. Transferência corrompida ou insegura</string>
+    <string name="apply_update_dialog_title">Instalar atualização</string>
+    <string name="apply_update_dialog_text">Está prestes a atualizar para <xliff:g id="filename">%s</xliff:g>.\n\nSe carregar em Atualizar, o dispositivo irá reiniciar e atualizar automaticamente.\n\nNota: É necessário uma Recuperação compatível para que a atualização seja feita automaticamente.</string>
+    <string name="apply_unable_to_reboot_toast">Não foi possível reiniciar no modo de recuperação</string>
+    <string name="confirm_delete_dialog_title">Eliminar ficheiro</string>
+    <string name="confirm_delete_dialog_title_tv">Clique para apagar do armazenamento interno todas as atualizações transferidas</string>
+    <string name="confirm_delete_dialog_message">Deseja eliminar o ficheiro de atualizações selecionado?</string>
+    <string name="confirm_delete_all_dialog_message">Eliminar todos os ficheiros de atualização transferidos?</string>
+    <string name="delete_single_update_success_message">A atualização <xliff:g id="filename">%s</xliff:g> foi eliminada</string>
+    <string name="delete_updates_failure_message">Ocorreu um problema ao eliminar o ficheiro</string>
+    <string name="delete_updates_noFolder_message">Localização das atualizações não encontrada</string>
+    <string name="delete_updates_success_message">Todos os ficheiros foram eliminados</string>
+    <string name="blocked_update_dialog_title">Atualização bloqueada</string>
+    <string name="blocked_update_dialog_message">Esta atualização não pode ser instalada através do atualizador. Por favor, leia a &lt;a href="%1$s"&gt;; wiki da LineageOS&lt;/a&gt;; para obter mais informações.</string>
+    <string name="header_os">LineageOS\n%1$s</string>
+    <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+    <string name="sysinfo_last_check">Última verificação</string>
+    <string name="type_installed">• Instalada</string>
+    <string name="type_downloaded">• Transferida</string>
+    <string name="type_downloading">• A transferir</string>
+    <string name="type_completing">• A completar</string>
+    <string name="type_blocked">• Bloqueada</string>
+    <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+    <string name="download_button">Transferir</string>
+    <string name="install_button">Instalar</string>
+    <string name="info_button">Informações</string>
 </resources>

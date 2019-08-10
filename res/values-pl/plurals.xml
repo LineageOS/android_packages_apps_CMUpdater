@@ -9,14 +9,16 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> aktualizacja dostępna do pobrania</item>
-    <item quantity="few"><xliff:g id="count">%d</xliff:g> aktualizacje dostępne do pobrania</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> aktualizacji dostępnych do pobrania</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="one">+ <xliff:g id="count">%d</xliff:g> więcej</item>
-    <item quantity="few">+ <xliff:g id="count">%d</xliff:g> więcej</item>
-    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> więcej</item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> aktualizacja dostępna do pobrania</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> aktualizacje dostępne do pobrania</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> aktualizacji dostępnych do pobrania</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> aktualizacji dostępnych do pobrania</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="one">+ <xliff:g id="count">%d</xliff:g> więcej</item>
+        <item quantity="few">+ <xliff:g id="count">%d</xliff:g> więcej</item>
+        <item quantity="many">+ <xliff:g id="count">%d</xliff:g> więcej</item>
+        <item quantity="other">+ <xliff:g id="count">%d</xliff:g> więcej</item>
+    </plurals>
 </resources>

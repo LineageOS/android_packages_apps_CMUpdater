@@ -10,75 +10,65 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="app_name">Posodobilnik</string>
-  <string name="display_name">Posodobitve</string>
-  <string name="unknown">Neznano</string>
-  <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">Osveži</string>
-  <string name="menu_delete_all">Izbriši prenose</string>
-  <string name="dialog_ok">V redu</string>
-  <string name="dialog_cancel">Prekliči</string>
-  <string name="dialog_update">Posodobi</string>
-  <string name="dialog_close">Zapri</string>
-  <!-- Settings strings -->
-  <string name="available_updates_title">Razpoložljive posodobitve</string>
-  <string name="no_available_updates_intro">Ni najdenih novih posodobitev. Za ročno preverjanje novih posodobitev, uporabite gumb Osveži.</string>
-  <string name="update_check_title">Preveri za posodobitve</string>
-  <string name="check_manual">Ročno</string>
-  <string name="check_daily">Dnevno</string>
-  <string name="check_weekly">Tedensko</string>
-  <string name="check_bi_weekly">Dvakrat tedensko</string>
-  <string name="check_monthly">Mesečno</string>
-  <!-- Update checking -->
-  <string name="checking_for_updates">Preverjanje za posodobitve</string>
-  <string name="no_updates_found">Ni najdenih novih posodobitev</string>
-  <string name="update_check_failed">Preverjanje za posodobitve je spodletelo. Preverite svojo internetno povezavo in poskusite znova kasneje.</string>
-  <string name="not_new_updates_found_ticker">Na voljo so nove posodobitve</string>
-  <string name="not_new_updates_found_title">Nove posodobitve</string>
-  <string name="not_action_download">Prenesi</string>
-  <string name="data_connection_required">Zahtevana je podatkovna povezava.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Prekliči prenos</string>
-  <string name="confirm_download_cancelation_dialog_message">Prekliči trenutni prenos?</string>
-  <string name="download_cancelled">Prenos preklican</string>
-  <string name="download_already_running">Prenos se že izvaja</string>
-  <string name="unable_to_stop_download">Prenosa ni mogoče ustaviti</string>
-  <string name="unable_to_download_file">Ni bilo mogoče prenesti posodobitvene datoteke</string>
-  <string name="download_not_found">Prenos ni najden</string>
-  <string name="not_download_success">Posodobitev uspešno prenesena</string>
-  <string name="not_download_failure">Prenos posodobitve je bil uspešen</string>
-  <string name="not_action_install_update">Ponovno zaženi in namesti</string>
-  <string name="not_download_install_notice">Posodobitev <xliff:g id="filename">%s</xliff:g> je bila uspešno prenesena. Ko se boste dotaknili \'Ponovno zaženi in namesti\', se bo naprava ponovno zagnala in namestila posodobitev.\n\nOpomba: Za samodejno namestitev je zahtevana združljiva Obnovitev.</string>
-  <string name="verification_failed">Preverjanje je spodletelo. Poškodovan ali nevaren prenos</string>
-  <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">Uveljavi posodobitev</string>
-  <string name="apply_update_dialog_text">Ste pred nadgradnjo na <xliff:g id="filename">%s</xliff:g>.\n\nČe pritisnete Posodobi, se bo naprava ponovno zagnala v obnovitvenem načinu, da se namesti posodobitev.\n\nOpomba: Ta značilnost zahteva združljivo Obnovitev ali pa boste morali posodobitve namestiti ročno.</string>
-  <string name="apply_unable_to_reboot_toast">Ponovni zagon v obnovitev ni mogoč</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Izbriši datoteko</string>
-  <string name="confirm_delete_dialog_title_tv">Kliknite, da odstranite vse prenesene posodobitve iz notranje pomnilniške naprave</string>
-  <string name="confirm_delete_dialog_message">Izbriši izbrano posodobitveno datoteko?</string>
-  <string name="confirm_delete_all_dialog_message">Izbriši vse prenesene posodobitvene datoteke?</string>
-  <string name="delete_single_update_success_message">Posodobitev <xliff:g id="filename">%s </xliff:g> izbrisana</string>
-  <string name="delete_updates_failure_message">Napaka pri brisanju posodobitvene datoteke</string>
-  <string name="delete_updates_noFolder_message">Mapa za posodobitve ni bila najdena</string>
-  <string name="delete_updates_success_message">Vse prenesene posodobitve izbrisane</string>
-  <!-- Info about blocked updates -->
-  <string name="blocked_update_dialog_title">Posodobitev blokirana</string>
-  <string name="blocked_update_dialog_message">Te posodobitve ni mogoče namestiti z uporabo aplikacije za posodabljanje. Za več informacij preberite <![CDATA[<a href="%1$s">]]>;LineageOS wiki<![CDATA[</a>]]>;.</string>
-  <!-- Header -->
-  <string name="header_os">LineageOS\n%1$s</string>
-  <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
-  <string name="sysinfo_last_check">Zadnje preverjanje</string>
-  <!-- Build item -->
-  <string name="type_installed">• Nameščeno</string>
-  <string name="type_downloaded">• Preneseno</string>
-  <string name="type_downloading">• Prenašanje</string>
-  <string name="type_completing">• Zaključevanje</string>
-  <string name="type_blocked">• Blokirano</string>
-  <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Prenesi</string>
-  <string name="install_button">Namesti</string>
-  <string name="info_button">Podatki</string>
+    <string name="app_name">Posodobilnik</string>
+    <string name="display_name">Posodobitve</string>
+    <string name="unknown">Neznano</string>
+    <string name="menu_refresh">Osveži</string>
+    <string name="menu_delete_all">Izbriši prenose</string>
+    <string name="dialog_ok">V redu</string>
+    <string name="dialog_cancel">Prekliči</string>
+    <string name="dialog_update">Posodobi</string>
+    <string name="dialog_close">Zapri</string>
+    <string name="available_updates_title">Razpoložljive posodobitve</string>
+    <string name="no_available_updates_intro">Ni najdenih novih posodobitev. Za ročno preverjanje novih posodobitev, uporabite gumb Osveži.</string>
+    <string name="update_check_title">Preveri za posodobitve</string>
+    <string name="check_manual">Ročno</string>
+    <string name="check_daily">Dnevno</string>
+    <string name="check_weekly">Tedensko</string>
+    <string name="check_bi_weekly">Dvakrat tedensko</string>
+    <string name="check_monthly">Mesečno</string>
+    <string name="checking_for_updates">Preverjanje za posodobitve</string>
+    <string name="no_updates_found">Ni najdenih novih posodobitev</string>
+    <string name="update_check_failed">Preverjanje za posodobitve je spodletelo. Preverite svojo internetno povezavo in poskusite znova kasneje.</string>
+    <string name="not_new_updates_found_ticker">Na voljo so nove posodobitve</string>
+    <string name="not_new_updates_found_title">Nove posodobitve</string>
+    <string name="not_action_download">Prenesi</string>
+    <string name="data_connection_required">Zahtevana je podatkovna povezava.</string>
+    <string name="confirm_download_cancelation_dialog_title">Prekliči prenos</string>
+    <string name="confirm_download_cancelation_dialog_message">Prekliči trenutni prenos?</string>
+    <string name="download_cancelled">Prenos preklican</string>
+    <string name="download_already_running">Prenos se že izvaja</string>
+    <string name="unable_to_stop_download">Prenosa ni mogoče ustaviti</string>
+    <string name="unable_to_download_file">Ni bilo mogoče prenesti posodobitvene datoteke</string>
+    <string name="download_not_found">Prenos ni najden</string>
+    <string name="not_download_success">Posodobitev uspešno prenesena</string>
+    <string name="not_download_failure">Prenos posodobitve je bil uspešen</string>
+    <string name="not_action_install_update">Vnovično zaženi in namesti</string>
+    <string name="not_download_install_notice">Posodobitev <xliff:g id="filename">%s</xliff:g> je bila uspešno prenesena. Ko se boste dotaknili »Vnovično zaženi in namesti«, se bo naprava vnovično zagnala in namestila posodobitev.\n\nOpomba: Za samodejno namestitev je zahtevana združljiva Obnovitev.</string>
+    <string name="verification_failed">Preverjanje je spodletelo. Poškodovan ali nevaren prenos</string>
+    <string name="apply_update_dialog_title">Uveljavi posodobitev</string>
+    <string name="apply_update_dialog_text">Ste pred nadgradnjo na <xliff:g id="filename">%s</xliff:g>.\n\nČe pritisnete Posodobi, se bo naprava vnovično zagnala v obnovitvenem načinu, da se namesti posodobitev.\n\nOpomba: Ta značilnost zahteva združljivo Obnovitev ali pa boste morali posodobitve namestiti ročno.</string>
+    <string name="apply_unable_to_reboot_toast">Vnovičen zagon v obnovitev ni mogoč</string>
+    <string name="confirm_delete_dialog_title">Izbriši datoteko</string>
+    <string name="confirm_delete_dialog_title_tv">Kliknite, da odstranite vse prenesene posodobitve iz notranje pomnilniške naprave</string>
+    <string name="confirm_delete_dialog_message">Izbriši izbrano posodobitveno datoteko?</string>
+    <string name="confirm_delete_all_dialog_message">Izbriši vse prenesene posodobitvene datoteke?</string>
+    <string name="delete_single_update_success_message">Posodobitev <xliff:g id="filename">%s </xliff:g> izbrisana</string>
+    <string name="delete_updates_failure_message">Napaka pri brisanju posodobitvene datoteke</string>
+    <string name="delete_updates_noFolder_message">Mapa za posodobitve ni bila najdena</string>
+    <string name="delete_updates_success_message">Vse prenesene posodobitve izbrisane</string>
+    <string name="blocked_update_dialog_title">Posodobitev blokirana</string>
+    <string name="blocked_update_dialog_message">Te posodobitve ni mogoče namestiti z uporabo aplikacije za posodabljanje. Za več informacij preberite &lt;a href="%1$s"&gt;;LineageOS wiki&lt;/a&gt;;.</string>
+    <string name="header_os">LineageOS\n%1$s</string>
+    <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+    <string name="sysinfo_last_check">Zadnje preverjanje</string>
+    <string name="type_installed">• Nameščeno</string>
+    <string name="type_downloaded">• Preneseno</string>
+    <string name="type_downloading">• Prenašanje</string>
+    <string name="type_completing">• Zaključevanje</string>
+    <string name="type_blocked">• Blokirano</string>
+    <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+    <string name="download_button">Prenesi</string>
+    <string name="install_button">Namesti</string>
+    <string name="info_button">Podatki</string>
 </resources>

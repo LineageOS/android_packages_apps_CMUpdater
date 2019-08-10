@@ -10,58 +10,48 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="display_name">Atjaunojumi</string>
-  <string name="unknown">Nezināms</string>
-  <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">Atjaunot</string>
-  <string name="menu_delete_all">Dzēst lejuplādes</string>
-  <string name="dialog_ok">Labi</string>
-  <string name="dialog_cancel">Atcelt</string>
-  <string name="dialog_update">Atjaunot</string>
-  <string name="dialog_close">Aizvērt</string>
-  <!-- Settings strings -->
-  <string name="available_updates_title">Pieejamie atjaunojumi</string>
-  <string name="update_check_title">Pārbaudīt atjaunojumus</string>
-  <string name="check_manual">Manuāli</string>
-  <string name="check_daily">Reizi dienā</string>
-  <string name="check_weekly">Reizi nedēļā</string>
-  <string name="check_bi_weekly">Reizi divās nedēļās</string>
-  <string name="check_monthly">Reizi mēnesī</string>
-  <!-- Update checking -->
-  <string name="checking_for_updates">Pārbauda atjaunojumus</string>
-  <string name="no_updates_found">Jauni atjaunojumi nav atrasti</string>
-  <string name="update_check_failed">Atjaunojuma pārbaude neizdevās. Lūdzu, pārbaudiet interneta savienojumu un mēģiniet vēlreiz vēlāk.</string>
-  <string name="not_new_updates_found_ticker">Pieejami jauni atjaunojumi</string>
-  <string name="not_new_updates_found_title">Jauni atjaunojumi</string>
-  <string name="not_action_download">Lejuplādēt</string>
-  <string name="data_connection_required">Nepieciešams datu savienojums.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Atcelt lejuplādi</string>
-  <string name="confirm_download_cancelation_dialog_message">Atcelt lejuplādi?</string>
-  <string name="download_cancelled">Lejuplāde atcelta</string>
-  <string name="download_already_running">Jau lejuplādē</string>
-  <string name="unable_to_download_file">Nav iespējams lejuplādēt atjaunojuma failu</string>
-  <string name="download_not_found">Lejuplāde nav atrasta</string>
-  <string name="not_download_success">Atjaunojums sekmīgi lejuplādēts</string>
-  <string name="not_download_failure">Atjaunojuma lejuplāde neizdevās</string>
-  <string name="not_action_install_update">Pārsāknēt un uzstādīt</string>
-  <string name="not_download_install_notice">Atjaunojums <xliff:g id="filename">%s</xliff:g> ir veiksmīgi lejuplādēts. Pieskaroties \'Pārsāknēt un uzstādīt\', iekārta pārsāknēsies, lai uzstādītu atjaunojumu.\n\nPiezīme: lai uzstādīšana notiktu automātiski, nepieciešama saderīga atjaunošana.</string>
-  <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">Uzstādīt atjaunojumu</string>
-  <string name="apply_update_dialog_text">Tiks veikts atjaunojums uz <xliff:g id="filename">%s</xliff:g>.\n\nNospiežot Atjaunot, iekārta pārsāknēsies atjaunošanas režīmā, lai uzstādītu atjaunojumu.\n
+    <string name="display_name">Atjaunojumi</string>
+    <string name="unknown">Nezināms</string>
+    <string name="menu_refresh">Atjaunot</string>
+    <string name="menu_delete_all">Dzēst lejuplādes</string>
+    <string name="dialog_ok">Labi</string>
+    <string name="dialog_cancel">Atcelt</string>
+    <string name="dialog_update">Atjaunot</string>
+    <string name="dialog_close">Aizvērt</string>
+    <string name="available_updates_title">Pieejamie atjaunojumi</string>
+    <string name="update_check_title">Pārbaudīt atjaunojumus</string>
+    <string name="check_manual">Manuāli</string>
+    <string name="check_daily">Reizi dienā</string>
+    <string name="check_weekly">Reizi nedēļā</string>
+    <string name="check_bi_weekly">Reizi divās nedēļās</string>
+    <string name="check_monthly">Reizi mēnesī</string>
+    <string name="checking_for_updates">Pārbauda atjaunojumus</string>
+    <string name="no_updates_found">Jauni atjaunojumi nav atrasti</string>
+    <string name="update_check_failed">Atjaunojuma pārbaude neizdevās. Lūdzu, pārbaudiet interneta savienojumu un mēģiniet vēlreiz vēlāk.</string>
+    <string name="not_new_updates_found_ticker">Pieejami jauni atjaunojumi</string>
+    <string name="not_new_updates_found_title">Jauni atjaunojumi</string>
+    <string name="not_action_download">Lejuplādēt</string>
+    <string name="data_connection_required">Nepieciešams datu savienojums.</string>
+    <string name="confirm_download_cancelation_dialog_title">Atcelt lejuplādi</string>
+    <string name="confirm_download_cancelation_dialog_message">Atcelt lejuplādi?</string>
+    <string name="download_cancelled">Lejuplāde atcelta</string>
+    <string name="download_already_running">Jau lejuplādē</string>
+    <string name="unable_to_download_file">Nav iespējams lejuplādēt atjaunojuma failu</string>
+    <string name="download_not_found">Lejuplāde nav atrasta</string>
+    <string name="not_download_success">Atjaunojums sekmīgi lejuplādēts</string>
+    <string name="not_download_failure">Atjaunojuma lejuplāde neizdevās</string>
+    <string name="not_action_install_update">Pārsāknēt un uzstādīt</string>
+    <string name="not_download_install_notice">Atjaunojums <xliff:g id="filename">%s</xliff:g> ir veiksmīgi lejuplādēts. Pieskaroties \'Pārsāknēt un uzstādīt\', iekārta pārsāknēsies, lai uzstādītu atjaunojumu.\n\nPiezīme: lai uzstādīšana notiktu automātiski, nepieciešama saderīga atjaunošana.</string>
+    <string name="apply_update_dialog_title">Uzstādīt atjaunojumu</string>
+    <string name="apply_update_dialog_text">Tiks veikts atjaunojums uz <xliff:g id="filename">%s</xliff:g>.\n\nNospiežot Atjaunot, iekārta pārsāknēsies atjaunošanas režīmā, lai uzstādītu atjaunojumu.\n
         \nPiezīme: Automātiskai atjaunošanai nepieciešama saderīga atjaunošana, pretējā gadījumā atjaunojumus jāuzstāda manuāli.</string>
-  <string name="apply_unable_to_reboot_toast">Neizdevās pārsāknēties atjaunošanas režīmā</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Dzēst failu</string>
-  <string name="confirm_delete_dialog_title_tv">Spiediet, lai dzēstu visus lejuplādētos atjaunojumus no iekšējās atmiņas</string>
-  <string name="confirm_delete_dialog_message">Dzēst izvēlēto atjaunojuma failu?</string>
-  <string name="confirm_delete_all_dialog_message">Dzēst visus lejuplādētos atjaunojumu failus?</string>
-  <string name="delete_single_update_success_message">Atjaunojums <xliff:g id="filename">%s</xliff:g> izdzēsts</string>
-  <string name="delete_updates_failure_message">Dzēšot atjaunojuma failu, notika kļūme</string>
-  <string name="delete_updates_noFolder_message">Atjaunojumu mape netika atrasta</string>
-  <string name="delete_updates_success_message">Visi lejuplādētie atjaunojumi izdzēsti</string>
-  <!-- Info about blocked updates -->
-  <!-- Header -->
-  <!-- Build item -->
+    <string name="apply_unable_to_reboot_toast">Neizdevās pārsāknēties atjaunošanas režīmā</string>
+    <string name="confirm_delete_dialog_title">Dzēst failu</string>
+    <string name="confirm_delete_dialog_title_tv">Spiediet, lai dzēstu visus lejuplādētos atjaunojumus no iekšējās atmiņas</string>
+    <string name="confirm_delete_dialog_message">Dzēst izvēlēto atjaunojuma failu?</string>
+    <string name="confirm_delete_all_dialog_message">Dzēst visus lejuplādētos atjaunojumu failus?</string>
+    <string name="delete_single_update_success_message">Atjaunojums <xliff:g id="filename">%s</xliff:g> izdzēsts</string>
+    <string name="delete_updates_failure_message">Dzēšot atjaunojuma failu, notika kļūme</string>
+    <string name="delete_updates_noFolder_message">Atjaunojumu mape netika atrasta</string>
+    <string name="delete_updates_success_message">Visi lejuplādētie atjaunojumi izdzēsti</string>
 </resources>

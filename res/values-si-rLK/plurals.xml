@@ -9,12 +9,12 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="one">භාගතකිරීමට <xliff:g id="count">%d</xliff:g> යාවත්කාලීනයක් ඇත</item>
-    <item quantity="other">භාගතකිරීමට යාවත්කාලීනයන් <xliff:g id="count">%d</xliff:g> ඇත</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="one">+ තව <xliff:g id="count">%d</xliff:g></item>
-    <item quantity="other">+ තව <xliff:g id="count">%d</xliff:g></item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="one">භාගතකිරීමට <xliff:g id="count">%d</xliff:g> යාවත්කාලීනයක් ඇත</item>
+        <item quantity="other">භාගතකිරීමට යාවත්කාලීනයන් <xliff:g id="count">%d</xliff:g> ඇත</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="one">+ තව <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">+ තව <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
 </resources>

@@ -9,12 +9,12 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> আপডেট ডাউনলোডের জন্য প্রস্তুত</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> আপডেট গুলি ডাউনলোডের জন্য প্রস্তুত</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="one">+ <xliff:g id="count">%d</xliff:g>টি আরো</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g>টি আরো</item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> আপডেট ডাউনলোডের জন্য প্রস্তুত</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> আপডেট গুলি ডাউনলোডের জন্য প্রস্তুত</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="one">+ <xliff:g id="count">%d</xliff:g>টি আরো</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>টি আরো</item>
+    </plurals>
 </resources>

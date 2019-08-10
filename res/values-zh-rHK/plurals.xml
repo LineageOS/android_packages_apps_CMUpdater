@@ -9,10 +9,10 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> 個更新可供下載</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> 更多</item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> 個更新可供下載</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="other">+ <xliff:g id="count">%d</xliff:g> 更多</item>
+    </plurals>
 </resources>

@@ -9,14 +9,14 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="zero"><xliff:g id="count">%d</xliff:g> atjaunojums pieejams lejuplādei</item>
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> atjaunojums pieejams lejuplādei</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> atjaunojumi pieejami lejuplādei</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="zero">+ <xliff:g id="count">%d</xliff:g> vairāk</item>
-    <item quantity="one">+ <xliff:g id="count">%d</xliff:g> vairāk</item>
-    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> vairāk</item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="zero"><xliff:g id="count">%d</xliff:g> atjaunojums pieejams lejuplādei</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> atjaunojums pieejams lejuplādei</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> atjaunojumi pieejami lejuplādei</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="zero">+ <xliff:g id="count">%d</xliff:g> vairāk</item>
+        <item quantity="one">+ <xliff:g id="count">%d</xliff:g> vairāk</item>
+        <item quantity="other">+ <xliff:g id="count">%d</xliff:g> vairāk</item>
+    </plurals>
 </resources>

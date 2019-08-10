@@ -10,17 +10,7 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="unknown">Nekonata</string>
-  <!-- Menu and dialog box strings -->
-  <string name="dialog_cancel">Nuligi</string>
-  <!-- Settings strings -->
-  <!-- Update checking -->
-  <!-- Downloads -->
-  <!-- Apply update strings -->
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Forigi dosieron</string>
-  <!-- Info about blocked updates -->
-  <!-- Header -->
-  <!-- Build item -->
+    <string name="unknown">Nekonata</string>
+    <string name="dialog_cancel">Nuligi</string>
+    <string name="confirm_delete_dialog_title">Forigi dosieron</string>
 </resources>

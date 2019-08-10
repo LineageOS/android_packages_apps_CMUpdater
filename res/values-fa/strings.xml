@@ -10,57 +10,47 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="display_name">بروزرسانی‌ها</string>
-  <string name="unknown">ناشناخته</string>
-  <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">تازه کردن</string>
-  <string name="menu_delete_all">حذف دانلودها</string>
-  <string name="dialog_ok">بسیارخب</string>
-  <string name="dialog_cancel">لغو</string>
-  <string name="dialog_update">بروزرسانی</string>
-  <string name="dialog_close">بستن</string>
-  <!-- Settings strings -->
-  <string name="available_updates_title">بروزرسانی‌های موجود</string>
-  <string name="update_check_title">بررسی برای بروزرسانی</string>
-  <string name="check_manual">دستی</string>
-  <string name="check_daily">روزانه</string>
-  <string name="check_weekly">هفتگی</string>
-  <string name="check_bi_weekly">دوهفته یک بار</string>
-  <string name="check_monthly">ماهیانه</string>
-  <!-- Update checking -->
-  <string name="checking_for_updates">بررسی برای بروزرسانی</string>
-  <string name="no_updates_found">بروزرسانی جدیدی یافت نشد</string>
-  <string name="update_check_failed">بررسی بروزرسانی انجام نشد. اتصال اینترنت خود را بررسی و دوباره سعی کنید.</string>
-  <string name="not_new_updates_found_ticker">بروزرسانی جدید موجود است</string>
-  <string name="not_new_updates_found_title">بروزرسانی‌های جدید</string>
-  <string name="not_action_download">دانلود</string>
-  <string name="data_connection_required">اتصال داده مورد نیاز است.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">لغو دانلود</string>
-  <string name="confirm_download_cancelation_dialog_message">دانلود فعلی را لغو می کنید؟</string>
-  <string name="download_cancelled">دانلود لغو شد</string>
-  <string name="download_already_running">دانلودی از قبل در حال اجراست</string>
-  <string name="unable_to_download_file">قادر به دانلود فایل بروزرسانی نیست</string>
-  <string name="download_not_found">دانلود پیدا نشد</string>
-  <string name="not_download_success">بروزرسانی با موفقیت دانلود شد</string>
-  <string name="not_download_failure">دانلود بروزرسانی ناموفق بود</string>
-  <string name="not_action_install_update">راه‌اندازی مجدد و نصب</string>
-  <string name="not_download_install_notice">بروزرسانی <xliff:g id="filename">%s</xliff:g> با موفقیت دانلود شد. هنگام لمس \'راه‌اندازی مجدد و نصب\'، دستگاه، خود را برای نصب بروزرسانی مجددا راه‌اندازی خواهد کرد.\n\n توجه: ریکاوری سازگاری برای نصب اتوماتیک مورد نیاز است.</string>
-  <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">انجام بروزرسانی</string>
-  <string name="apply_update_dialog_text">درصدد بروزرسانی به <xliff:g id="filename">%s</xliff:g> هستید.\n\n اگر بروزرسانی را بزنید، دستگاه، خود را برای نصب بروزرسانی در حالت ریکاوری مجددا راه‌اندازی خوهد کرد.\n\n توجه: این قابلیت به یک ریکاوری سازگار نیاز دارد در غیر این صورت بروزرسانی‌ها باید به صورت دستی نصب شوند.</string>
-  <string name="apply_unable_to_reboot_toast">ناتوان در راه‌اندازی مجدد  به ریکاوری</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">حذف فایل</string>
-  <string name="confirm_delete_dialog_title_tv">برای حذف همه‌ی  بروزرسانی‌های دانلود شده از حافظه داخلی کلیک کنید</string>
-  <string name="confirm_delete_dialog_message">فایل بروزرسانی انتخاب شده را حذف می‌کنید؟</string>
-  <string name="confirm_delete_all_dialog_message">همه‌ی فایل‌های بروزرسانی دانلود شده را حذف می‌کنید؟</string>
-  <string name="delete_single_update_success_message">بروزرسانی <xliff:g id="filename">%s</xliff:g> حذف شد</string>
-  <string name="delete_updates_failure_message">خطا در حذف فایل بروزرسانی</string>
-  <string name="delete_updates_noFolder_message">پوشه بروزرسانی پیدا نشد</string>
-  <string name="delete_updates_success_message">تمام بروزرسانی‌های دانلودشده حذف شد</string>
-  <!-- Info about blocked updates -->
-  <!-- Header -->
-  <!-- Build item -->
+    <string name="display_name">بروزرسانی‌ها</string>
+    <string name="unknown">ناشناخته</string>
+    <string name="menu_refresh">تازه کردن</string>
+    <string name="menu_delete_all">حذف دانلودها</string>
+    <string name="dialog_ok">بسیارخب</string>
+    <string name="dialog_cancel">لغو</string>
+    <string name="dialog_update">بروزرسانی</string>
+    <string name="dialog_close">بستن</string>
+    <string name="available_updates_title">بروزرسانی‌های موجود</string>
+    <string name="update_check_title">بررسی برای بروزرسانی</string>
+    <string name="check_manual">دستی</string>
+    <string name="check_daily">روزانه</string>
+    <string name="check_weekly">هفتگی</string>
+    <string name="check_bi_weekly">دوهفته یک بار</string>
+    <string name="check_monthly">ماهیانه</string>
+    <string name="checking_for_updates">بررسی برای بروزرسانی</string>
+    <string name="no_updates_found">بروزرسانی جدیدی یافت نشد</string>
+    <string name="update_check_failed">بررسی بروزرسانی انجام نشد. اتصال اینترنت خود را بررسی و دوباره سعی کنید.</string>
+    <string name="not_new_updates_found_ticker">بروزرسانی جدید موجود است</string>
+    <string name="not_new_updates_found_title">بروزرسانی‌های جدید</string>
+    <string name="not_action_download">دانلود</string>
+    <string name="data_connection_required">اتصال داده مورد نیاز است.</string>
+    <string name="confirm_download_cancelation_dialog_title">لغو دانلود</string>
+    <string name="confirm_download_cancelation_dialog_message">دانلود فعلی را لغو می کنید؟</string>
+    <string name="download_cancelled">دانلود لغو شد</string>
+    <string name="download_already_running">دانلودی از قبل در حال اجراست</string>
+    <string name="unable_to_download_file">قادر به دانلود فایل بروزرسانی نیست</string>
+    <string name="download_not_found">دانلود پیدا نشد</string>
+    <string name="not_download_success">بروزرسانی با موفقیت دانلود شد</string>
+    <string name="not_download_failure">دانلود بروزرسانی ناموفق بود</string>
+    <string name="not_action_install_update">راه‌اندازی مجدد و نصب</string>
+    <string name="not_download_install_notice">بروزرسانی <xliff:g id="filename">%s</xliff:g> با موفقیت دانلود شد. هنگام لمس \'راه‌اندازی مجدد و نصب\'، دستگاه، خود را برای نصب بروزرسانی مجددا راه‌اندازی خواهد کرد.\n\n توجه: ریکاوری سازگاری برای نصب اتوماتیک مورد نیاز است.</string>
+    <string name="apply_update_dialog_title">انجام بروزرسانی</string>
+    <string name="apply_update_dialog_text">درصدد بروزرسانی به <xliff:g id="filename">%s</xliff:g> هستید.\n\n اگر بروزرسانی را بزنید، دستگاه، خود را برای نصب بروزرسانی در حالت ریکاوری مجددا راه‌اندازی خوهد کرد.\n\n توجه: این قابلیت به یک ریکاوری سازگار نیاز دارد در غیر این صورت بروزرسانی‌ها باید به صورت دستی نصب شوند.</string>
+    <string name="apply_unable_to_reboot_toast">ناتوان در راه‌اندازی مجدد  به ریکاوری</string>
+    <string name="confirm_delete_dialog_title">حذف فایل</string>
+    <string name="confirm_delete_dialog_title_tv">برای حذف همه‌ی  بروزرسانی‌های دانلود شده از حافظه داخلی کلیک کنید</string>
+    <string name="confirm_delete_dialog_message">فایل بروزرسانی انتخاب شده را حذف می‌کنید؟</string>
+    <string name="confirm_delete_all_dialog_message">همه‌ی فایل‌های بروزرسانی دانلود شده را حذف می‌کنید؟</string>
+    <string name="delete_single_update_success_message">بروزرسانی <xliff:g id="filename">%s</xliff:g> حذف شد</string>
+    <string name="delete_updates_failure_message">خطا در حذف فایل بروزرسانی</string>
+    <string name="delete_updates_noFolder_message">پوشه بروزرسانی پیدا نشد</string>
+    <string name="delete_updates_success_message">تمام بروزرسانی‌های دانلودشده حذف شد</string>
 </resources>

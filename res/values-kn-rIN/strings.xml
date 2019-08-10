@@ -10,57 +10,47 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="display_name">ನವೀಕರಣೆಗಳು</string>
-  <string name="unknown">ಅಜ್ಞಾತ</string>
-  <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">ರಿಫ್ರೆಶ್</string>
-  <string name="menu_delete_all">ಡೌನ್‍ಲೋಡ್‍ಗಳನ್ನು ಅಳಿಸು</string>
-  <string name="dialog_ok">ಆಯ್ತು</string>
-  <string name="dialog_cancel">ರದ್ದು</string>
-  <string name="dialog_update">ನವೀಕರಿಸು</string>
-  <string name="dialog_close">ಮುಚ್ಚು</string>
-  <!-- Settings strings -->
-  <string name="available_updates_title">ಲಭ್ಯವಿರುವ ನವೀಕರಣೆಗಳು</string>
-  <string name="update_check_title">ನವೀಕರಣೆಗಳಿಗಾಗಿ ಪರೀಕ್ಷಿಸಿ</string>
-  <string name="check_manual">ಸ್ವತಃ</string>
-  <string name="check_daily">ಪ್ರತಿದಿನ</string>
-  <string name="check_weekly">ವಾರಕ್ಕೊಮ್ಮೆ</string>
-  <string name="check_bi_weekly">ಪಾಕ್ಷಿಕ</string>
-  <string name="check_monthly">ತಿಂಗಳಿಗೊಮ್ಮೆ</string>
-  <!-- Update checking -->
-  <string name="checking_for_updates">ನವೀಕರಣೆಗಳಿಗಾಗಿ ಪರೀಕ್ಷಿಸುತ್ತಿದೆ</string>
-  <string name="no_updates_found">ಯಾವುದೇ ಹೊಸ ನವೀಕರಣೆಗಳು ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
-  <string name="update_check_failed">ನವೀಕರಣೆ ಪರಿಶೀಲನೆ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಅಂತರ್ಜಾಲ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ನಂತರ ಪ್ರಯತ್ನಿಸಿ.</string>
-  <string name="not_new_updates_found_ticker">ಹೊಸ ನವೀಕರಣೆಗಳು ಲಭ್ಯವಿದೆ</string>
-  <string name="not_new_updates_found_title">ಹೊಸ ನವೀಕರಣೆಗಳು</string>
-  <string name="not_action_download">ಡೌನ್‍ಲೋಡ್</string>
-  <string name="data_connection_required">ಡೇಟಾ ಸಂಪರ್ಕದ ಅಗತ್ಯವಿದೆ.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">ಡೌನ್‍ಲೋಡ್ ರದ್ದುಗೊಳಿಸಿ</string>
-  <string name="confirm_download_cancelation_dialog_message">ಪ್ರಸ್ತುತ ಡೌನ್‍ಲೋಡ್ ರದ್ದುಗೊಳಿಸುವುದೇ?</string>
-  <string name="download_cancelled">ಡೌನ್‍ಲೋಡ್ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ</string>
-  <string name="download_already_running">ಒಂದು ಡೌನ್‍ಲೋಡ್ ಈಗಾಗಲೇ ಚಾಲನೆಯಲ್ಲಿದೆ</string>
-  <string name="unable_to_download_file">ನವೀಕರಣೆ ಕಡತವನ್ನು ಡೌನ್‍ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
-  <string name="download_not_found">ಡೌನ್‍ಲೋಡ್ ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
-  <string name="not_download_success">ನವೀಕರಣೆ ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‍ಲೋಡ್ ಮಾಡಲಾಗಿದೆ</string>
-  <string name="not_download_failure">ನವೀಕರಣೆ ಡೌನ್‍ಲೋಡ್ ಅಸಫಲವಾಗಿದೆ</string>
-  <string name="not_action_install_update">ರಿಬೂಟ್ ಮಾಡಿ ಸ್ಥಾಪಿಸು</string>
-  <string name="not_download_install_notice">ನವೀಕರಣೆ <xliff:g id="filename">%s</xliff:g> ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‍ಲೋಡ್ ಆಗಿದೆ. \'ರಿಬೂಟ್ ಮಾಡಿ ಸ್ಥಾಪಿಸು\' ಸ್ಪರ್ಶಿಸಿದಾಗ, ಸಾಧನವು ನವೀಕರಣೆಯನ್ನು ಸ್ಥಾಪಿಸಲು  ಸ್ವಯಂ ರೀಸ್ಟಾರ್ಟ್‍ಗೊಳ್ಳುತ್ತದೆ.\n\nಗಮನಿಸಿ: ಸ್ಥಾಪನೆಯು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಕೆಲಸ ಮಾಡಲು ಹೊಂದಿಕೊಳ್ಳುವ ರಿಕವರಿಯ ಅಗತ್ಯವಿದೆ.</string>
-  <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">ನವೀಕರಣೆ ಅನ್ವಯಿಸು</string>
-  <string name="apply_update_dialog_text">ನೀವು ಈಗ <xliff:g id="filename">%s</xliff:g>ಗೆ ಅಪ್‍ಗ್ರೇಡ್ ಮಾಡಲು ಹೋಗುತ್ತಿದ್ದೀರಿ.\n\nನೀವು ನವೀಕರಿಸು ಒತ್ತಿದರೆ, ಸಾಧನವು ನವೀಕರಣೆಯನ್ನು ಸ್ಥಾಪಿಸಲು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಿಕವರಿ ಮೂಡ್‍ಗೆ ರೀಸ್ಟಾರ್ಟ್ ಆಗುತ್ತದೆ.\n\nಗಮನಿಸಿ: ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ ಹೊಂದಿಕೊಳ್ಳುವ ರಿಕವರಿಯ ಅಗತ್ಯವಿದೆ ಇಲ್ಲವಾದರೆ ನವೀಕರಣೆಯನ್ನು ನೀವೇ ಸ್ವತಃ ಸ್ಥಾಪಿಸಬೇಕಾಗುತ್ತದೆ.</string>
-  <string name="apply_unable_to_reboot_toast">ರಿಕವರಿಗೆ ರಿಬೂಟ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">ಕಡತವನ್ನು ಅಳಿಸು</string>
-  <string name="confirm_delete_dialog_title_tv">ಡೌನ್‍ಲೋಡ್ ಮಾಡಲಾದ ಎಲ್ಲಾ ನವೀಕರಣೆಗಳನ್ನು ಆಂತರಿಕ ಸಂಗ್ರಹಣೆಯಿಂದ ಅಳಿಸಲು ಸ್ಪರ್ಶಿಸಿ</string>
-  <string name="confirm_delete_dialog_message">ಆಯ್ಕೆಮಾಡಿದ ನವೀಕರಣೆ ಕಡತ ಅಳಿಸುವುದೇ?</string>
-  <string name="confirm_delete_all_dialog_message">ಡೌನ್‍ಲೋಡ್ ಮಾಡಿದ ಎಲ್ಲಾ ನವೀಕರಣೆ ಕಡತಗಳನ್ನು ಅಳಿಸುವುದೇ?</string>
-  <string name="delete_single_update_success_message">ನವೀಕರಣೆ <xliff:g id="filename">%s</xliff:g> ಅಳಿಸಲಾಗಿದೆ</string>
-  <string name="delete_updates_failure_message">ನವೀಕರಣೆ ಕಡತವನ್ನು ಅಳಿಸಲು ಒಂದು ದೋಷವಿದೆ</string>
-  <string name="delete_updates_noFolder_message">ನವೀಕರಣೆ ಫೋಲ್ಡರ್ ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
-  <string name="delete_updates_success_message">ಎಲ್ಲಾ ಡೌನ್‍ಲೋಡ್ ಮಾಡಿದ ನವೀಕರಣೆಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</string>
-  <!-- Info about blocked updates -->
-  <!-- Header -->
-  <!-- Build item -->
+    <string name="display_name">ನವೀಕರಣೆಗಳು</string>
+    <string name="unknown">ಅಜ್ಞಾತ</string>
+    <string name="menu_refresh">ರಿಫ್ರೆಶ್</string>
+    <string name="menu_delete_all">ಡೌನ್‍ಲೋಡ್‍ಗಳನ್ನು ಅಳಿಸು</string>
+    <string name="dialog_ok">ಆಯ್ತು</string>
+    <string name="dialog_cancel">ರದ್ದು</string>
+    <string name="dialog_update">ನವೀಕರಿಸು</string>
+    <string name="dialog_close">ಮುಚ್ಚು</string>
+    <string name="available_updates_title">ಲಭ್ಯವಿರುವ ನವೀಕರಣೆಗಳು</string>
+    <string name="update_check_title">ನವೀಕರಣೆಗಳಿಗಾಗಿ ಪರೀಕ್ಷಿಸಿ</string>
+    <string name="check_manual">ಸ್ವತಃ</string>
+    <string name="check_daily">ಪ್ರತಿದಿನ</string>
+    <string name="check_weekly">ವಾರಕ್ಕೊಮ್ಮೆ</string>
+    <string name="check_bi_weekly">ಪಾಕ್ಷಿಕ</string>
+    <string name="check_monthly">ತಿಂಗಳಿಗೊಮ್ಮೆ</string>
+    <string name="checking_for_updates">ನವೀಕರಣೆಗಳಿಗಾಗಿ ಪರೀಕ್ಷಿಸುತ್ತಿದೆ</string>
+    <string name="no_updates_found">ಯಾವುದೇ ಹೊಸ ನವೀಕರಣೆಗಳು ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
+    <string name="update_check_failed">ನವೀಕರಣೆ ಪರಿಶೀಲನೆ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಅಂತರ್ಜಾಲ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ನಂತರ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="not_new_updates_found_ticker">ಹೊಸ ನವೀಕರಣೆಗಳು ಲಭ್ಯವಿದೆ</string>
+    <string name="not_new_updates_found_title">ಹೊಸ ನವೀಕರಣೆಗಳು</string>
+    <string name="not_action_download">ಡೌನ್‍ಲೋಡ್</string>
+    <string name="data_connection_required">ಡೇಟಾ ಸಂಪರ್ಕದ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="confirm_download_cancelation_dialog_title">ಡೌನ್‍ಲೋಡ್ ರದ್ದುಗೊಳಿಸಿ</string>
+    <string name="confirm_download_cancelation_dialog_message">ಪ್ರಸ್ತುತ ಡೌನ್‍ಲೋಡ್ ರದ್ದುಗೊಳಿಸುವುದೇ?</string>
+    <string name="download_cancelled">ಡೌನ್‍ಲೋಡ್ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="download_already_running">ಒಂದು ಡೌನ್‍ಲೋಡ್ ಈಗಾಗಲೇ ಚಾಲನೆಯಲ್ಲಿದೆ</string>
+    <string name="unable_to_download_file">ನವೀಕರಣೆ ಕಡತವನ್ನು ಡೌನ್‍ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="download_not_found">ಡೌನ್‍ಲೋಡ್ ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
+    <string name="not_download_success">ನವೀಕರಣೆ ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‍ಲೋಡ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="not_download_failure">ನವೀಕರಣೆ ಡೌನ್‍ಲೋಡ್ ಅಸಫಲವಾಗಿದೆ</string>
+    <string name="not_action_install_update">ರಿಬೂಟ್ ಮಾಡಿ ಸ್ಥಾಪಿಸು</string>
+    <string name="not_download_install_notice">ನವೀಕರಣೆ <xliff:g id="filename">%s</xliff:g> ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‍ಲೋಡ್ ಆಗಿದೆ. \'ರಿಬೂಟ್ ಮಾಡಿ ಸ್ಥಾಪಿಸು\' ಸ್ಪರ್ಶಿಸಿದಾಗ, ಸಾಧನವು ನವೀಕರಣೆಯನ್ನು ಸ್ಥಾಪಿಸಲು  ಸ್ವಯಂ ರೀಸ್ಟಾರ್ಟ್‍ಗೊಳ್ಳುತ್ತದೆ.\n\nಗಮನಿಸಿ: ಸ್ಥಾಪನೆಯು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಕೆಲಸ ಮಾಡಲು ಹೊಂದಿಕೊಳ್ಳುವ ರಿಕವರಿಯ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="apply_update_dialog_title">ನವೀಕರಣೆ ಅನ್ವಯಿಸು</string>
+    <string name="apply_update_dialog_text">ನೀವು ಈಗ <xliff:g id="filename">%s</xliff:g>ಗೆ ಅಪ್‍ಗ್ರೇಡ್ ಮಾಡಲು ಹೋಗುತ್ತಿದ್ದೀರಿ.\n\nನೀವು ನವೀಕರಿಸು ಒತ್ತಿದರೆ, ಸಾಧನವು ನವೀಕರಣೆಯನ್ನು ಸ್ಥಾಪಿಸಲು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಿಕವರಿ ಮೂಡ್‍ಗೆ ರೀಸ್ಟಾರ್ಟ್ ಆಗುತ್ತದೆ.\n\nಗಮನಿಸಿ: ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ ಹೊಂದಿಕೊಳ್ಳುವ ರಿಕವರಿಯ ಅಗತ್ಯವಿದೆ ಇಲ್ಲವಾದರೆ ನವೀಕರಣೆಯನ್ನು ನೀವೇ ಸ್ವತಃ ಸ್ಥಾಪಿಸಬೇಕಾಗುತ್ತದೆ.</string>
+    <string name="apply_unable_to_reboot_toast">ರಿಕವರಿಗೆ ರಿಬೂಟ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="confirm_delete_dialog_title">ಕಡತವನ್ನು ಅಳಿಸು</string>
+    <string name="confirm_delete_dialog_title_tv">ಡೌನ್‍ಲೋಡ್ ಮಾಡಲಾದ ಎಲ್ಲಾ ನವೀಕರಣೆಗಳನ್ನು ಆಂತರಿಕ ಸಂಗ್ರಹಣೆಯಿಂದ ಅಳಿಸಲು ಸ್ಪರ್ಶಿಸಿ</string>
+    <string name="confirm_delete_dialog_message">ಆಯ್ಕೆಮಾಡಿದ ನವೀಕರಣೆ ಕಡತ ಅಳಿಸುವುದೇ?</string>
+    <string name="confirm_delete_all_dialog_message">ಡೌನ್‍ಲೋಡ್ ಮಾಡಿದ ಎಲ್ಲಾ ನವೀಕರಣೆ ಕಡತಗಳನ್ನು ಅಳಿಸುವುದೇ?</string>
+    <string name="delete_single_update_success_message">ನವೀಕರಣೆ <xliff:g id="filename">%s</xliff:g> ಅಳಿಸಲಾಗಿದೆ</string>
+    <string name="delete_updates_failure_message">ನವೀಕರಣೆ ಕಡತವನ್ನು ಅಳಿಸಲು ಒಂದು ದೋಷವಿದೆ</string>
+    <string name="delete_updates_noFolder_message">ನವೀಕರಣೆ ಫೋಲ್ಡರ್ ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
+    <string name="delete_updates_success_message">ಎಲ್ಲಾ ಡೌನ್‍ಲೋಡ್ ಮಾಡಿದ ನವೀಕರಣೆಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</string>
 </resources>

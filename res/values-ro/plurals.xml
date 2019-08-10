@@ -9,14 +9,14 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> actualizare disponibilă pentru descărcare</item>
-    <item quantity="few"><xliff:g id="count">%d</xliff:g> actualizări disponibile pentru descărcare</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> de actualizări disponibile pentru descărcare</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="one">+ încă <xliff:g id="count">%d</xliff:g></item>
-    <item quantity="few">+ încă <xliff:g id="count">%d</xliff:g></item>
-    <item quantity="other">+ încă <xliff:g id="count">%d</xliff:g></item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> actualizare disponibilă pentru descărcare</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> actualizări disponibile pentru descărcare</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> de actualizări disponibile pentru descărcare</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="one">+ încă <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="few">+ încă <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">+ încă <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
 </resources>

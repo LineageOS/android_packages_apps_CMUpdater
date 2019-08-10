@@ -10,75 +10,65 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="app_name">Pembaruan</string>
-  <string name="display_name">Pembaruan</string>
-  <string name="unknown">Tidak diketahui</string>
-  <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">Segarkan</string>
-  <string name="menu_delete_all">Hapus unduhan</string>
-  <string name="dialog_ok">Oke</string>
-  <string name="dialog_cancel">Batal</string>
-  <string name="dialog_update">Perbarui</string>
-  <string name="dialog_close">Tutup</string>
-  <!-- Settings strings -->
-  <string name="available_updates_title">Pembaruan tersedia</string>
-  <string name="no_available_updates_intro">Pembaruan tidak ditemukan. Untuk memeriksa pembaruan secara manual, gunakan tombol Segarkan.</string>
-  <string name="update_check_title">Periksa pembaruan</string>
-  <string name="check_manual">Manual</string>
-  <string name="check_daily">Harian</string>
-  <string name="check_weekly">Mingguan</string>
-  <string name="check_bi_weekly">Dua-minggu</string>
-  <string name="check_monthly">Bulanan</string>
-  <!-- Update checking -->
-  <string name="checking_for_updates">Memeriksa pembaruan</string>
-  <string name="no_updates_found">Tidak ada pembaruan baru ditemukan</string>
-  <string name="update_check_failed">Pemeriksaan pembaruan gagal. Silakan periksa koneksi Internet Anda dan coba lagi nanti.</string>
-  <string name="not_new_updates_found_ticker">Pembaruan baru tersedia</string>
-  <string name="not_new_updates_found_title">Pembaruan baru</string>
-  <string name="not_action_download">Unduh</string>
-  <string name="data_connection_required">Sambungan data diperlukan.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Batalkan unduhan</string>
-  <string name="confirm_download_cancelation_dialog_message">Batalkan unduhan saat ini?</string>
-  <string name="download_cancelled">Unduhan dibatalkan</string>
-  <string name="download_already_running">Unduhan sedang berjalan</string>
-  <string name="unable_to_stop_download">Tidak dapat menghentikan unduhan</string>
-  <string name="unable_to_download_file">Tidak dapat mengunduh berkas pembaruan</string>
-  <string name="download_not_found">Unduhan tidak ditemukan</string>
-  <string name="not_download_success">Pembaruan berhasil diunduh</string>
-  <string name="not_download_failure">Pengunduhan pembaruan tidak berhasil</string>
-  <string name="not_action_install_update">Mulai ulang dan instal</string>
-  <string name="not_download_install_notice">Pembaruan <xliff:g id="filename">%s</xliff:g> sudah berhasil diunduh. Ketika mengetuk \'Mulai ulang dan instal\', perangkat akan dimulai ulang dan menginstal pembaruan.\n\nCatatan: Diperlukan Recovery yang kompatibel agar pemasangan dapat bekerja secara otomatis.</string>
-  <string name="verification_failed">Verifikasi gagal. Unduhan rusak atau tidak aman</string>
-  <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">Terapkan pembaruan</string>
-  <string name="apply_update_dialog_text">Anda akan meningkatkan ke <xliff:g id="filename">%s</xliff:g>.\n\nJika Anda menekan Perbarui, perangkat akan dimulai ulang dalam mode recovery untuk memasang pembaruan.\n\nPerhatian: Fitur ini memerlukan Recovery yang kompatibel, jika tidak pembaruan harus diinstal secara manual.</string>
-  <string name="apply_unable_to_reboot_toast">Tidak dapat memulai ulang ke recovery</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Hapus berkas</string>
-  <string name="confirm_delete_dialog_title_tv">Klik untuk menghapus semua unduhan pembaruan dari penyimpanan internal</string>
-  <string name="confirm_delete_dialog_message">Hapus berkas pembaruan yang terpilih?</string>
-  <string name="confirm_delete_all_dialog_message">Hapus semua berkas pembaruan yang sudah diunduh?</string>
-  <string name="delete_single_update_success_message">Pembaruan <xliff:g id="filename">%s</xliff:g> dihapus</string>
-  <string name="delete_updates_failure_message">Ada kesalahan pada penghapusan berkas pembaruan</string>
-  <string name="delete_updates_noFolder_message">Folder pembaruan tidak ditemukan</string>
-  <string name="delete_updates_success_message">Semua pembaruan yang diunduh dihapus</string>
-  <!-- Info about blocked updates -->
-  <string name="blocked_update_dialog_title">Pembaruan diblokir</string>
-  <string name="blocked_update_dialog_message">Pembaruan ini tidak dapat dipasang menggunakan aplikasi pembaruan.  Silakan baca <![CDATA[<a href="%1$s">]]>; LineageOS wiki <![CDATA[</a>]]>; untuk informasi lebih lanjut.</string>
-  <!-- Header -->
-  <string name="header_os">LineageOS\n%1$s</string>
-  <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
-  <string name="sysinfo_last_check">Terakhir diperiksa</string>
-  <!-- Build item -->
-  <string name="type_installed">• Terpasang</string>
-  <string name="type_downloaded">• Terunduh</string>
-  <string name="type_downloading">• Mengunduh</string>
-  <string name="type_completing">• Menyelesaikan</string>
-  <string name="type_blocked">• Diblokir</string>
-  <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Unduh</string>
-  <string name="install_button">Pasang</string>
-  <string name="info_button">Kabar berita</string>
+    <string name="app_name">Pembaruan</string>
+    <string name="display_name">Pembaruan</string>
+    <string name="unknown">Tidak diketahui</string>
+    <string name="menu_refresh">Segarkan</string>
+    <string name="menu_delete_all">Hapus unduhan</string>
+    <string name="dialog_ok">Oke</string>
+    <string name="dialog_cancel">Batal</string>
+    <string name="dialog_update">Perbarui</string>
+    <string name="dialog_close">Tutup</string>
+    <string name="available_updates_title">Pembaruan tersedia</string>
+    <string name="no_available_updates_intro">Pembaruan tidak ditemukan. Untuk memeriksa pembaruan secara manual, gunakan tombol Segarkan.</string>
+    <string name="update_check_title">Periksa pembaruan</string>
+    <string name="check_manual">Manual</string>
+    <string name="check_daily">Harian</string>
+    <string name="check_weekly">Mingguan</string>
+    <string name="check_bi_weekly">Dua-minggu</string>
+    <string name="check_monthly">Bulanan</string>
+    <string name="checking_for_updates">Memeriksa pembaruan</string>
+    <string name="no_updates_found">Tidak ada pembaruan baru ditemukan</string>
+    <string name="update_check_failed">Pemeriksaan pembaruan gagal. Silakan periksa koneksi Internet Anda dan coba lagi nanti.</string>
+    <string name="not_new_updates_found_ticker">Pembaruan baru tersedia</string>
+    <string name="not_new_updates_found_title">Pembaruan baru</string>
+    <string name="not_action_download">Unduh</string>
+    <string name="data_connection_required">Sambungan data diperlukan.</string>
+    <string name="confirm_download_cancelation_dialog_title">Batalkan unduhan</string>
+    <string name="confirm_download_cancelation_dialog_message">Batalkan unduhan saat ini?</string>
+    <string name="download_cancelled">Unduhan dibatalkan</string>
+    <string name="download_already_running">Unduhan sedang berjalan</string>
+    <string name="unable_to_stop_download">Tidak dapat menghentikan unduhan</string>
+    <string name="unable_to_download_file">Tidak dapat mengunduh berkas pembaruan</string>
+    <string name="download_not_found">Unduhan tidak ditemukan</string>
+    <string name="not_download_success">Pembaruan berhasil diunduh</string>
+    <string name="not_download_failure">Pengunduhan pembaruan tidak berhasil</string>
+    <string name="not_action_install_update">Mulai ulang dan instal</string>
+    <string name="not_download_install_notice">Pembaruan <xliff:g id="filename">%s</xliff:g> sudah berhasil diunduh. Ketika mengetuk \'Mulai ulang dan instal\', perangkat akan dimulai ulang dan menginstal pembaruan.\n\nCatatan: Diperlukan Recovery yang kompatibel agar pemasangan dapat bekerja secara otomatis.</string>
+    <string name="verification_failed">Verifikasi gagal. Unduhan rusak atau tidak aman</string>
+    <string name="apply_update_dialog_title">Terapkan pembaruan</string>
+    <string name="apply_update_dialog_text">Anda akan meningkatkan ke <xliff:g id="filename">%s</xliff:g>.\n\nJika Anda menekan Perbarui, perangkat akan dimulai ulang dalam mode recovery untuk memasang pembaruan.\n\nPerhatian: Fitur ini memerlukan Recovery yang kompatibel, jika tidak pembaruan harus diinstal secara manual.</string>
+    <string name="apply_unable_to_reboot_toast">Tidak dapat memulai ulang ke recovery</string>
+    <string name="confirm_delete_dialog_title">Hapus berkas</string>
+    <string name="confirm_delete_dialog_title_tv">Klik untuk menghapus semua unduhan pembaruan dari penyimpanan internal</string>
+    <string name="confirm_delete_dialog_message">Hapus berkas pembaruan yang terpilih?</string>
+    <string name="confirm_delete_all_dialog_message">Hapus semua berkas pembaruan yang sudah diunduh?</string>
+    <string name="delete_single_update_success_message">Pembaruan <xliff:g id="filename">%s</xliff:g> dihapus</string>
+    <string name="delete_updates_failure_message">Ada kesalahan pada penghapusan berkas pembaruan</string>
+    <string name="delete_updates_noFolder_message">Folder pembaruan tidak ditemukan</string>
+    <string name="delete_updates_success_message">Semua pembaruan yang diunduh dihapus</string>
+    <string name="blocked_update_dialog_title">Pembaruan diblokir</string>
+    <string name="blocked_update_dialog_message">Pembaruan ini tidak dapat dipasang menggunakan aplikasi pembaruan.  Silakan baca &lt;a href="%1$s"&gt;; LineageOS wiki &lt;/a&gt;; untuk informasi lebih lanjut.</string>
+    <string name="header_os">LineageOS\n%1$s</string>
+    <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+    <string name="sysinfo_last_check">Terakhir diperiksa</string>
+    <string name="type_installed">• Terpasang</string>
+    <string name="type_downloaded">• Terunduh</string>
+    <string name="type_downloading">• Mengunduh</string>
+    <string name="type_completing">• Menyelesaikan</string>
+    <string name="type_blocked">• Diblokir</string>
+    <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+    <string name="download_button">Unduh</string>
+    <string name="install_button">Pasang</string>
+    <string name="info_button">Kabar berita</string>
 </resources>

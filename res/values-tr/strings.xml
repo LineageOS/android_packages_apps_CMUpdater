@@ -10,75 +10,65 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="app_name">Güncelleyici</string>
-  <string name="display_name">Güncellemeler</string>
-  <string name="unknown">Bilinmeyen</string>
-  <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">Yenile</string>
-  <string name="menu_delete_all">İndirilenleri sil</string>
-  <string name="dialog_ok">Tamam</string>
-  <string name="dialog_cancel">İptal</string>
-  <string name="dialog_update">Güncelle</string>
-  <string name="dialog_close">Kapat</string>
-  <!-- Settings strings -->
-  <string name="available_updates_title">İndirilebilir güncellemeler</string>
-  <string name="no_available_updates_intro">Yeni güncelleme bulunamadı. El ile yeni güncellemeleri kontrol etmek için Yenile tuşunu kullanın.</string>
-  <string name="update_check_title">Güncellemeleri kontrol et</string>
-  <string name="check_manual">Elle</string>
-  <string name="check_daily">Günlük</string>
-  <string name="check_weekly">Haftalık</string>
-  <string name="check_bi_weekly">İki haftada bir</string>
-  <string name="check_monthly">Aylık</string>
-  <!-- Update checking -->
-  <string name="checking_for_updates">Güncellemeler kontrol ediliyor</string>
-  <string name="no_updates_found">Yeni güncelleme yok</string>
-  <string name="update_check_failed">Güncelleme kontrolü başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
-  <string name="not_new_updates_found_ticker">Yeni güncellemeler var</string>
-  <string name="not_new_updates_found_title">Yeni güncellemeler</string>
-  <string name="not_action_download">İndir</string>
-  <string name="data_connection_required">Veri bağlantısı gerekli</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">İndirmeyi iptal et</string>
-  <string name="confirm_download_cancelation_dialog_message">Devam eden indirme iptal edilsin mi?</string>
-  <string name="download_cancelled">İndirme iptal edildi</string>
-  <string name="download_already_running">Bir indirme zaten devam ediyor</string>
-  <string name="unable_to_stop_download">İndirme durdurulamadı</string>
-  <string name="unable_to_download_file">Güncelleme dosyası indirilemiyor</string>
-  <string name="download_not_found">İndirme bulunamadı</string>
-  <string name="not_download_success">Güncelleme başarıyla indirildi</string>
-  <string name="not_download_failure">Güncelleme indirme başarısız oldu</string>
-  <string name="not_action_install_update">Yeniden başlat ve yükle</string>
-  <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> güncellemesi başarıyla indirildi. \'Yeniden başlat ve Yükle\' ye dokunduğunuzda, cihaz güncellemeyi yüklemek için kendini yeniden başlatacak.\n\nNot: Yüklemenin otomatik çalışması için uygun bir Kurtarma ortamı gereklidir.</string>
-  <string name="verification_failed">Doğrulama başarısız oldu. Bozuk ya da güvensiz indirme</string>
-  <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">Güncellemeyi uygula</string>
-  <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> güncellemesi yapılacak.\n\nGüncelleye bastığınızda, güncellemeyi kurmak için cihaz kurtarma modunda yeniden başlatılacak.\n\nNot: Bu özellik, uyumlu bir Kurtarma bölümü gerektirir, aksi takdirde güncellemelerin elle kurulması gerekir.</string>
-  <string name="apply_unable_to_reboot_toast">Kurtarma modu için sistem yeniden başlatılamadı</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Dosya sil</string>
-  <string name="confirm_delete_dialog_title_tv">İndirilen tüm güncellemeleri dahili bellekten kaldırmak için tıklayın</string>
-  <string name="confirm_delete_dialog_message">Seçilen güncelleme dosyası silinsin mi?</string>
-  <string name="confirm_delete_all_dialog_message">İndirilen tüm güncelleme dosyalarını silmek istiyor musunuz?</string>
-  <string name="delete_single_update_success_message"><xliff:g id="filename">%s</xliff:g> güncellemesi silindi</string>
-  <string name="delete_updates_failure_message">Güncelleme dosyasını silerken hata oluştu</string>
-  <string name="delete_updates_noFolder_message">Güncelleme klasörü bulunamadı</string>
-  <string name="delete_updates_success_message">İndirilen tüm güncellemeler silindi</string>
-  <!-- Info about blocked updates -->
-  <string name="blocked_update_dialog_title">Güncelleme engellendi</string>
-  <string name="blocked_update_dialog_message">Bu güncelleme, güncelleyici uygulaması kullanılarak kurulamaz. Daha fazla bilgi için lütfen <![CDATA[<a href="%1$s">]]>; LineageOS wiki\'yi<![CDATA[</a>]]>; okuyun.</string>
-  <!-- Header -->
-  <string name="header_os">LineageOS\n%1$s</string>
-  <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
-  <string name="sysinfo_last_check">Son Kontrol</string>
-  <!-- Build item -->
-  <string name="type_installed">• Yüklendi</string>
-  <string name="type_downloaded">• İndirildi</string>
-  <string name="type_downloading">• İndiriliyor</string>
-  <string name="type_completing">• Tamamlanıyor</string>
-  <string name="type_blocked">• Engellendi</string>
-  <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">İndir</string>
-  <string name="install_button">Yükle</string>
-  <string name="info_button">Bilgi</string>
+    <string name="app_name">Güncelleyici</string>
+    <string name="display_name">Güncellemeler</string>
+    <string name="unknown">Bilinmeyen</string>
+    <string name="menu_refresh">Yenile</string>
+    <string name="menu_delete_all">İndirilenleri sil</string>
+    <string name="dialog_ok">Tamam</string>
+    <string name="dialog_cancel">İptal</string>
+    <string name="dialog_update">Güncelle</string>
+    <string name="dialog_close">Kapat</string>
+    <string name="available_updates_title">İndirilebilir güncellemeler</string>
+    <string name="no_available_updates_intro">Yeni güncelleme bulunamadı. El ile yeni güncellemeleri kontrol etmek için Yenile tuşunu kullanın.</string>
+    <string name="update_check_title">Güncellemeleri kontrol et</string>
+    <string name="check_manual">Elle</string>
+    <string name="check_daily">Günlük</string>
+    <string name="check_weekly">Haftalık</string>
+    <string name="check_bi_weekly">İki haftada bir</string>
+    <string name="check_monthly">Aylık</string>
+    <string name="checking_for_updates">Güncellemeler kontrol ediliyor</string>
+    <string name="no_updates_found">Yeni güncelleme yok</string>
+    <string name="update_check_failed">Güncelleme kontrolü başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
+    <string name="not_new_updates_found_ticker">Yeni güncellemeler var</string>
+    <string name="not_new_updates_found_title">Yeni güncellemeler</string>
+    <string name="not_action_download">İndir</string>
+    <string name="data_connection_required">Veri bağlantısı gerekli</string>
+    <string name="confirm_download_cancelation_dialog_title">İndirmeyi iptal et</string>
+    <string name="confirm_download_cancelation_dialog_message">Devam eden indirme iptal edilsin mi?</string>
+    <string name="download_cancelled">İndirme iptal edildi</string>
+    <string name="download_already_running">Bir indirme zaten devam ediyor</string>
+    <string name="unable_to_stop_download">İndirme durdurulamadı</string>
+    <string name="unable_to_download_file">Güncelleme dosyası indirilemiyor</string>
+    <string name="download_not_found">İndirme bulunamadı</string>
+    <string name="not_download_success">Güncelleme başarıyla indirildi</string>
+    <string name="not_download_failure">Güncelleme indirme başarısız oldu</string>
+    <string name="not_action_install_update">Yeniden başlat ve yükle</string>
+    <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> güncellemesi başarıyla indirildi. \'Yeniden başlat ve Yükle\' ye dokunduğunuzda, cihaz güncellemeyi yüklemek için kendini yeniden başlatacak.\n\nNot: Yüklemenin otomatik çalışması için uygun bir Kurtarma ortamı gereklidir.</string>
+    <string name="verification_failed">Doğrulama başarısız oldu. Bozuk ya da güvensiz indirme</string>
+    <string name="apply_update_dialog_title">Güncellemeyi uygula</string>
+    <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> güncellemesi yapılacak.\n\nGüncelleye bastığınızda, güncellemeyi kurmak için cihaz kurtarma modunda yeniden başlatılacak.\n\nNot: Bu özellik, uyumlu bir Kurtarma bölümü gerektirir, aksi takdirde güncellemelerin elle kurulması gerekir.</string>
+    <string name="apply_unable_to_reboot_toast">Kurtarma modu için sistem yeniden başlatılamadı</string>
+    <string name="confirm_delete_dialog_title">Dosya sil</string>
+    <string name="confirm_delete_dialog_title_tv">İndirilen tüm güncellemeleri dahili bellekten kaldırmak için tıklayın</string>
+    <string name="confirm_delete_dialog_message">Seçilen güncelleme dosyası silinsin mi?</string>
+    <string name="confirm_delete_all_dialog_message">İndirilen tüm güncelleme dosyalarını silmek istiyor musunuz?</string>
+    <string name="delete_single_update_success_message"><xliff:g id="filename">%s</xliff:g> güncellemesi silindi</string>
+    <string name="delete_updates_failure_message">Güncelleme dosyasını silerken hata oluştu</string>
+    <string name="delete_updates_noFolder_message">Güncelleme klasörü bulunamadı</string>
+    <string name="delete_updates_success_message">İndirilen tüm güncellemeler silindi</string>
+    <string name="blocked_update_dialog_title">Güncelleme engellendi</string>
+    <string name="blocked_update_dialog_message">Bu güncelleme, güncelleyici uygulaması kullanılarak kurulamaz. Daha fazla bilgi için lütfen &lt;a href="%1$s"&gt;; LineageOS wiki\'yi&lt;/a&gt;; okuyun.</string>
+    <string name="header_os">LineageOS\n%1$s</string>
+    <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+    <string name="sysinfo_last_check">Son Kontrol</string>
+    <string name="type_installed">• Yüklendi</string>
+    <string name="type_downloaded">• İndirildi</string>
+    <string name="type_downloading">• İndiriliyor</string>
+    <string name="type_completing">• Tamamlanıyor</string>
+    <string name="type_blocked">• Engellendi</string>
+    <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+    <string name="download_button">İndir</string>
+    <string name="install_button">Yükle</string>
+    <string name="info_button">Bilgi</string>
 </resources>

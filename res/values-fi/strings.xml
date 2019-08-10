@@ -10,75 +10,65 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="app_name">Päivitys</string>
-  <string name="display_name">Päivitykset</string>
-  <string name="unknown">Tuntematon</string>
-  <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">Päivitä</string>
-  <string name="menu_delete_all">Poista lataukset</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Peruuta</string>
-  <string name="dialog_update">Päivitä</string>
-  <string name="dialog_close">Sulje</string>
-  <!-- Settings strings -->
-  <string name="available_updates_title">Saatavilla olevat päivitykset</string>
-  <string name="no_available_updates_intro">Uusia päivityksiä ei löytynyt. Tarkistaaksesi päivitykset manuaalisesti, paina Päivitä-painiketta.</string>
-  <string name="update_check_title">Päivitysten tarkastus</string>
-  <string name="check_manual">Päivitettäessä</string>
-  <string name="check_daily">Päivittäin</string>
-  <string name="check_weekly">Viikoittain</string>
-  <string name="check_bi_weekly">Joka toinen viikko</string>
-  <string name="check_monthly">Kuukausittain</string>
-  <!-- Update checking -->
-  <string name="checking_for_updates">Tarkistetaan päivityksiä</string>
-  <string name="no_updates_found">Päivityksiä ei löytynyt</string>
-  <string name="update_check_failed">Päivitysten tarkistaminen epäonnistui. Tarkista internet-yhteytesi ja yritä uudelleen.</string>
-  <string name="not_new_updates_found_ticker">Päivityksiä saatavilla</string>
-  <string name="not_new_updates_found_title">Uudet päivitykset</string>
-  <string name="not_action_download">Lataa</string>
-  <string name="data_connection_required">Verkkoyhteys tarvitaan.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Peruuta lataus</string>
-  <string name="confirm_download_cancelation_dialog_message">Peruuta nykyinen lataus?</string>
-  <string name="download_cancelled">Lataus peruttu</string>
-  <string name="download_already_running">Lataus on jo käynnissä</string>
-  <string name="unable_to_stop_download">Ei voida keskeyttää latausta</string>
-  <string name="unable_to_download_file">Päivityslistan lataaminen ei onnistu</string>
-  <string name="download_not_found">Latausta ei löydy</string>
-  <string name="not_download_success">Päivitys ladattu onnistuneesti</string>
-  <string name="not_download_failure">Päivityksen lataaminen epäonnistui</string>
-  <string name="not_action_install_update">Käynnistä uudelleen ja asenna</string>
-  <string name="not_download_install_notice">Päivityksen <xliff:g id="filename">%s</xliff:g> lataaminen onnistui. Kun painat \'Käynnistä uudelleen ja asenna\', laite käynnistyy uudelleen ja asentaa päivityksen.\n\nHuomautus: Tämä ominaisuus tarvitsee yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>
-  <string name="verification_failed">Vahvistus epäonnistui. Vioittunut tai suojaamaton lataus</string>
-  <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">Asenna päivitys</string>
-  <string name="apply_update_dialog_text">Olet päivittämässä versioon <xliff:g id="filename">%s</xliff:g>.\n\nJos painat Päivitä, laite käynnistyy uudelleen Recovery-tilaan asentaakseen päivityksen.\n\nHuomautus: Tämä ominaisuus vaatii yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>
-  <string name="apply_unable_to_reboot_toast">Recovery-tilaan käynnistäminen epäonnistui</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Poista tiedosto</string>
-  <string name="confirm_delete_dialog_title_tv">Paina poistaaksesi kaikki ladatut päivitykset sisäisestä tallennustilasta</string>
-  <string name="confirm_delete_dialog_message">Poista valittu päivitystiedosto?</string>
-  <string name="confirm_delete_all_dialog_message">Poista kaikki ladatut päivitystiedostot?</string>
-  <string name="delete_single_update_success_message">Päivitys <xliff:g id="filename">%s</xliff:g> poistettu</string>
-  <string name="delete_updates_failure_message">Virhe poistettaessa päivitystiedostoa</string>
-  <string name="delete_updates_noFolder_message">Päivityskansiota ei löydy</string>
-  <string name="delete_updates_success_message">Kaikki päivitykset poistettu</string>
-  <!-- Info about blocked updates -->
-  <string name="blocked_update_dialog_title">Päivitys estetty</string>
-  <string name="blocked_update_dialog_message">Tätä päivitystä ei voi asentaa päivityssovelluksella. Lue lisätietoja <![CDATA[<a href="%1$s">]]>;LineageOSin wikistä<![CDATA[</a>]]>.</string>
-  <!-- Header -->
-  <string name="header_os">LineageOS\n%1$s</string>
-  <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
-  <string name="sysinfo_last_check">Viimeksi tarkistettu</string>
-  <!-- Build item -->
-  <string name="type_installed">• Asennettu</string>
-  <string name="type_downloaded">• Ladattu</string>
-  <string name="type_downloading">• Ladataan</string>
-  <string name="type_completing">• Valmistellaan</string>
-  <string name="type_blocked">• Estetty</string>
-  <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Lataa</string>
-  <string name="install_button">Asenna</string>
-  <string name="info_button">Tiedot</string>
+    <string name="app_name">Päivitys</string>
+    <string name="display_name">Päivitykset</string>
+    <string name="unknown">Tuntematon</string>
+    <string name="menu_refresh">Päivitä</string>
+    <string name="menu_delete_all">Poista lataukset</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Peruuta</string>
+    <string name="dialog_update">Päivitä</string>
+    <string name="dialog_close">Sulje</string>
+    <string name="available_updates_title">Saatavilla olevat päivitykset</string>
+    <string name="no_available_updates_intro">Uusia päivityksiä ei löytynyt. Tarkistaaksesi päivitykset manuaalisesti, paina Päivitä-painiketta.</string>
+    <string name="update_check_title">Päivitysten tarkastus</string>
+    <string name="check_manual">Päivitettäessä</string>
+    <string name="check_daily">Päivittäin</string>
+    <string name="check_weekly">Viikoittain</string>
+    <string name="check_bi_weekly">Joka toinen viikko</string>
+    <string name="check_monthly">Kuukausittain</string>
+    <string name="checking_for_updates">Tarkistetaan päivityksiä</string>
+    <string name="no_updates_found">Päivityksiä ei löytynyt</string>
+    <string name="update_check_failed">Päivitysten tarkistaminen epäonnistui. Tarkista internet-yhteytesi ja yritä uudelleen.</string>
+    <string name="not_new_updates_found_ticker">Päivityksiä saatavilla</string>
+    <string name="not_new_updates_found_title">Uudet päivitykset</string>
+    <string name="not_action_download">Lataa</string>
+    <string name="data_connection_required">Verkkoyhteys tarvitaan.</string>
+    <string name="confirm_download_cancelation_dialog_title">Peruuta lataus</string>
+    <string name="confirm_download_cancelation_dialog_message">Peruuta nykyinen lataus?</string>
+    <string name="download_cancelled">Lataus peruttu</string>
+    <string name="download_already_running">Lataus on jo käynnissä</string>
+    <string name="unable_to_stop_download">Ei voida keskeyttää latausta</string>
+    <string name="unable_to_download_file">Päivityslistan lataaminen ei onnistu</string>
+    <string name="download_not_found">Latausta ei löydy</string>
+    <string name="not_download_success">Päivitys ladattu onnistuneesti</string>
+    <string name="not_download_failure">Päivityksen lataaminen epäonnistui</string>
+    <string name="not_action_install_update">Käynnistä uudelleen ja asenna</string>
+    <string name="not_download_install_notice">Päivityksen <xliff:g id="filename">%s</xliff:g> lataaminen onnistui. Kun painat \'Käynnistä uudelleen ja asenna\', laite käynnistyy uudelleen ja asentaa päivityksen.\n\nHuomautus: Tämä ominaisuus tarvitsee yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>
+    <string name="verification_failed">Vahvistus epäonnistui. Vioittunut tai suojaamaton lataus</string>
+    <string name="apply_update_dialog_title">Asenna päivitys</string>
+    <string name="apply_update_dialog_text">Olet päivittämässä versioon <xliff:g id="filename">%s</xliff:g>.\n\nJos painat Päivitä, laite käynnistyy uudelleen Recovery-tilaan asentaakseen päivityksen.\n\nHuomautus: Tämä ominaisuus vaatii yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>
+    <string name="apply_unable_to_reboot_toast">Recovery-tilaan käynnistäminen epäonnistui</string>
+    <string name="confirm_delete_dialog_title">Poista tiedosto</string>
+    <string name="confirm_delete_dialog_title_tv">Paina poistaaksesi kaikki ladatut päivitykset sisäisestä tallennustilasta</string>
+    <string name="confirm_delete_dialog_message">Poista valittu päivitystiedosto?</string>
+    <string name="confirm_delete_all_dialog_message">Poista kaikki ladatut päivitystiedostot?</string>
+    <string name="delete_single_update_success_message">Päivitys <xliff:g id="filename">%s</xliff:g> poistettu</string>
+    <string name="delete_updates_failure_message">Virhe poistettaessa päivitystiedostoa</string>
+    <string name="delete_updates_noFolder_message">Päivityskansiota ei löydy</string>
+    <string name="delete_updates_success_message">Kaikki päivitykset poistettu</string>
+    <string name="blocked_update_dialog_title">Päivitys estetty</string>
+    <string name="blocked_update_dialog_message">Tätä päivitystä ei voi asentaa päivityssovelluksella. Lue lisätietoja &lt;a href="%1$s"&gt;;LineageOSin wikistä&lt;/a&gt;.</string>
+    <string name="header_os">LineageOS\n%1$s</string>
+    <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+    <string name="sysinfo_last_check">Viimeksi tarkistettu</string>
+    <string name="type_installed">• Asennettu</string>
+    <string name="type_downloaded">• Ladattu</string>
+    <string name="type_downloading">• Ladataan</string>
+    <string name="type_completing">• Valmistellaan</string>
+    <string name="type_blocked">• Estetty</string>
+    <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+    <string name="download_button">Lataa</string>
+    <string name="install_button">Asenna</string>
+    <string name="info_button">Tiedot</string>
 </resources>

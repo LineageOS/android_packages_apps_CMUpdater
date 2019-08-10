@@ -10,16 +10,65 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <!-- Menu and dialog box strings -->
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Annulearje</string>
-  <!-- Settings strings -->
-  <!-- Update checking -->
-  <!-- Downloads -->
-  <!-- Apply update strings -->
-  <!-- deleting -->
-  <!-- Info about blocked updates -->
-  <!-- Header -->
-  <!-- Build item -->
+    <string name="app_name">Fernijer</string>
+    <string name="display_name">Fernijingen</string>
+    <string name="unknown">Unbekend</string>
+    <string name="menu_refresh">Fernije</string>
+    <string name="menu_delete_all">Downloads fuortsmite</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Annulearje</string>
+    <string name="dialog_update">Fernije</string>
+    <string name="dialog_close">Slute</string>
+    <string name="available_updates_title">Beskikbere fernijingen</string>
+    <string name="no_available_updates_intro">Gjin nije fernijingen fûn. Brûk de knop Fernije om hânmjittich te kontrolearjen op nije fernijingen.</string>
+    <string name="update_check_title">Kontrolearje op fernijingen</string>
+    <string name="check_manual">Hânmjittich</string>
+    <string name="check_daily">Deistich</string>
+    <string name="check_weekly">Wykliks</string>
+    <string name="check_bi_weekly">Twawykliks</string>
+    <string name="check_monthly">Moanliks</string>
+    <string name="checking_for_updates">Kontrolearret op fernijingen</string>
+    <string name="no_updates_found">Gjin nije fernijingen fûn</string>
+    <string name="update_check_failed">Kin net kontrolearje op fernijingen. Kontrolearje jo ynternetferbining en probearje it letter opnij.</string>
+    <string name="not_new_updates_found_ticker">Der binne nije fernijingen beschikber</string>
+    <string name="not_new_updates_found_title">Nije fernijingen</string>
+    <string name="not_action_download">Downloade</string>
+    <string name="data_connection_required">Gegevensferbining fereaske.</string>
+    <string name="confirm_download_cancelation_dialog_title">Download annulearje</string>
+    <string name="confirm_download_cancelation_dialog_message">Binne jo wis dat jo de download annulearje wolle?</string>
+    <string name="download_cancelled">Download annulearre</string>
+    <string name="download_already_running">Der is al in oare download dwaande</string>
+    <string name="unable_to_stop_download">Kin download net stopje</string>
+    <string name="unable_to_download_file">Kin fernijingsbestân net downloade</string>
+    <string name="download_not_found">Download net fûn</string>
+    <string name="not_download_success">Fernijing mei sukses download</string>
+    <string name="not_download_failure">Fernijing downloade mislearre</string>
+    <string name="not_action_install_update">Opnij starte en ynstallearje</string>
+    <string name="not_download_install_notice">De fernijing <xliff:g id="filename">%s</xliff:g> is mei sukses download. Wannear\'t jo op \'Opnij starte en ynstallearje\' tikke, sil it apparaat opnij starte om de fernijing te ynstallearjen.\n\nLet op: in kompatibele recovery is fereaske om de ynstallaasje automatysk út te fieren.</string>
+    <string name="verification_failed">Ferifikaasje mislearre. Skansearre of ûnfeilige download</string>
+    <string name="apply_update_dialog_title">Fernijing tapasse</string>
+    <string name="apply_update_dialog_text">Jo systeem wurdt bywurk nei <xliff:g id="filename">%s</xliff:g>.\n\nWannear\'t jo op \'Bywurkje\' tikke, sil it apparaat opnij starte nei recovery om de fernijing te ynstallearjen.\n\nLet op: in ckmpatibele recovery is fereaske, oars moat de fernijing hânmjittich ynstallearre wurde.</string>
+    <string name="apply_unable_to_reboot_toast">Kin net opnij starte nei recovery</string>
+    <string name="confirm_delete_dialog_title">Bestân fuortsmite</string>
+    <string name="confirm_delete_dialog_title_tv">Klik om alle downloade fernijingen fuort te smiten fan it ynterne ûnthâld</string>
+    <string name="confirm_delete_dialog_message">Selektearre fernijingsbestân fuortsmite?</string>
+    <string name="confirm_delete_all_dialog_message">Binne jo wis dat jo alle downloade fernijingsbestannen fuortsmite wolle?</string>
+    <string name="delete_single_update_success_message">Fernijing <xliff:g id="filename">%s</xliff:g> fuortsmiten</string>
+    <string name="delete_updates_failure_message">Kin fernijingsbestân net fuortsmite</string>
+    <string name="delete_updates_noFolder_message">Kin fernijingsmap net fine</string>
+    <string name="delete_updates_success_message">Alle downloade fernijingen binne fuortsmiten</string>
+    <string name="blocked_update_dialog_title">Fernijing blokkearre</string>
+    <string name="blocked_update_dialog_message">Dizze fernijing kin net ynstallearre wurde mei help fan de fernijings-app.  Lês de &lt;a href="%1$s"&gt;; LineageOS wiki&lt;/a&gt;; foar mear ynformaasje.</string>
+    <string name="header_os">LineageOS\n%1$s</string>
+    <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+    <string name="sysinfo_last_check">Lêst kontrolearre</string>
+    <string name="type_installed">• Ynstallearre</string>
+    <string name="type_downloaded">• Download</string>
+    <string name="type_downloading">• Downloade</string>
+    <string name="type_completing">• Foltôgje</string>
+    <string name="type_blocked">• Blokkearre</string>
+    <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+    <string name="download_button">Downloade</string>
+    <string name="install_button">Ynstallearje</string>
+    <string name="info_button">Ynfo</string>
 </resources>

@@ -10,14 +10,36 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <!-- Menu and dialog box strings -->
-  <!-- Settings strings -->
-  <!-- Update checking -->
-  <!-- Downloads -->
-  <!-- Apply update strings -->
-  <!-- deleting -->
-  <!-- Info about blocked updates -->
-  <!-- Header -->
-  <!-- Build item -->
+    <string name="app_name">Agiornadore</string>
+    <string name="display_name">Agiornamentos</string>
+    <string name="unknown">Disconnotu</string>
+    <string name="dialog_ok">AB</string>
+    <string name="dialog_cancel">Annulla</string>
+    <string name="dialog_update">Agiorna</string>
+    <string name="dialog_close">Serra</string>
+    <string name="available_updates_title">Agiornamentos disponìbiles</string>
+    <string name="update_check_title">Chirca agiornamentos</string>
+    <string name="check_manual">Manualmente</string>
+    <string name="check_daily">Cada die</string>
+    <string name="check_weekly">Cada chida</string>
+    <string name="check_bi_weekly">Cada duas chidas</string>
+    <string name="check_monthly">Cada mese</string>
+    <string name="checking_for_updates">Chirchende agiornamentos</string>
+    <string name="no_updates_found">Perunu agiornamentu agatadu</string>
+    <string name="not_new_updates_found_ticker">Agiornamentos noos disponìbiles</string>
+    <string name="not_new_updates_found_title">Agiornamentos noos</string>
+    <string name="not_action_download">Iscàrriga</string>
+    <string name="confirm_download_cancelation_dialog_title">Annulla s\'iscarrigamentu</string>
+    <string name="confirm_download_cancelation_dialog_message">Annullare s\'iscarrigamentu atuale?</string>
+    <string name="download_cancelled">Iscarrigamentu annulladu</string>
+    <string name="unable_to_stop_download">Impossìbile firmare s\'iscarrigamentu</string>
+    <string name="blocked_update_dialog_message">Custu agiornamentu non podet èssere installadu impreende s\'aplicatzione de sos agiornamentos. Pro praghere leghe·ti sa &lt;a href="%1$s"&gt;wiki de LineageOS&lt;/a&gt; pro àteras informatziones.</string>
+    <string name="type_installed">• Installadu</string>
+    <string name="type_downloaded">• Iscarrigadu</string>
+    <string name="type_downloading">• Iscarrighende</string>
+    <string name="type_completing">• Acabbende</string>
+    <string name="type_blocked">• Blocadu</string>
+    <string name="download_button">Iscàrriga</string>
+    <string name="install_button">Installa</string>
+    <string name="info_button">Informatziones</string>
 </resources>

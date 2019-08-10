@@ -8,4 +8,21 @@
      The text of the license can be found in the LICENSE file
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="not_new_updates_found_body">
+        <item quantity="zero"><xliff:g id="count">%d</xliff:g> diweddariadau ar gael i\'w lawrlwytho</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> diweddariad ar gael i\'w lawrlwytho</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> ddiweddariad ar gael i\'w lawrlwytho</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> diweddariad ar gael i\'w lawrlwytho</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> diweddariad ar gael i\'w lawrlwytho</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> diweddariad ar gael i\'w lawrlwytho</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="zero">+ <xliff:g id="count">%d</xliff:g> eraill</item>
+        <item quantity="one">+ <xliff:g id="count">%d</xliff:g> arall</item>
+        <item quantity="two">+ <xliff:g id="count">%d</xliff:g> arall</item>
+        <item quantity="few">+ <xliff:g id="count">%d</xliff:g> arall</item>
+        <item quantity="many">+ <xliff:g id="count">%d</xliff:g> arall</item>
+        <item quantity="other">+ <xliff:g id="count">%d</xliff:g> arall</item>
+    </plurals>
+</resources>

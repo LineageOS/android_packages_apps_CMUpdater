@@ -9,14 +9,16 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="one">Ke stažení je dostupná jedna aktualizace</item>
-    <item quantity="few">Aktualizací ke stažení: <xliff:g id="count">%d</xliff:g></item>
-    <item quantity="other">Aktualizací ke stažení: <xliff:g id="count">%d</xliff:g></item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="one">+ <xliff:g id="count">%d</xliff:g> další</item>
-    <item quantity="few">+ <xliff:g id="count">%d</xliff:g> další</item>
-    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> dalších</item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="one">Ke stažení je dostupná jedna aktualizace</item>
+        <item quantity="few">Ke stažení jsou dostupné <xliff:g id="count">%d</xliff:g> aktualizace</item>
+        <item quantity="many">Ke stažení je dostupných <xliff:g id="count">%d</xliff:g> aktualizací</item>
+        <item quantity="other">Ke stažení je dostupných <xliff:g id="count">%d</xliff:g> aktualizací</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="one">+ <xliff:g id="count">%d</xliff:g> další</item>
+        <item quantity="few">+ <xliff:g id="count">%d</xliff:g> další</item>
+        <item quantity="many">+ <xliff:g id="count">%d</xliff:g> dalších</item>
+        <item quantity="other">+ <xliff:g id="count">%d</xliff:g> dalších</item>
+    </plurals>
 </resources>

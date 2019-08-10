@@ -10,75 +10,65 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="app_name">Opdateringsservice</string>
-  <string name="display_name">Opdateringer</string>
-  <string name="unknown">Ukendt</string>
-  <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">Genopfrisk</string>
-  <string name="menu_delete_all">Slet downloads</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Annuller</string>
-  <string name="dialog_update">Opdatér</string>
-  <string name="dialog_close">Luk</string>
-  <!-- Settings strings -->
-  <string name="available_updates_title">Tilgængelige opdateringer</string>
-  <string name="no_available_updates_intro">Ingen nye opdateringer fundet. For at manuelt søge efter nye opdateringer, tryk Opdatér.</string>
-  <string name="update_check_title">Søg efter opdateringer</string>
-  <string name="check_manual">Manuelt</string>
-  <string name="check_daily">Dagligt</string>
-  <string name="check_weekly">Ugentligt</string>
-  <string name="check_bi_weekly">To gange ugentligt</string>
-  <string name="check_monthly">Månedligt</string>
-  <!-- Update checking -->
-  <string name="checking_for_updates">Søg efter opdateringer</string>
-  <string name="no_updates_found">Ingen nye opdateringer fundet</string>
-  <string name="update_check_failed">Kunne ikke søge efter opdateringer. Kontrollér venligst din internetforbindelse, og prøv igen senere.</string>
-  <string name="not_new_updates_found_ticker">Nye opdateringer er tilgængelige</string>
-  <string name="not_new_updates_found_title">Nye opdateringer</string>
-  <string name="not_action_download">Download</string>
-  <string name="data_connection_required">Der kræves en dataforbindelse.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Annuller download</string>
-  <string name="confirm_download_cancelation_dialog_message">Du skal til at annullere den nuværende download, OK at fortsætte?</string>
-  <string name="download_cancelled">Download annulleret</string>
-  <string name="download_already_running">En download kører allerede</string>
-  <string name="unable_to_stop_download">Kan ikke stoppe download</string>
-  <string name="unable_to_download_file">Kan ikke downloade opdateringsfilen</string>
-  <string name="download_not_found">Download ikke fundet</string>
-  <string name="not_download_success">Opdatering downloadet korrekt</string>
-  <string name="not_download_failure">Kunne ikke downloade opdatering</string>
-  <string name="not_action_install_update">Genstart og installér</string>
-  <string name="not_download_install_notice">Opdateringen <xliff:g id="filename">%s</xliff:g> blev downloadet korrekt. Når der trykkes \'Genstart og installér\', vil enheden genstarte sig selv for at installere opdateringen.\n\nNB: En kompatibel recovery er påkrævet, for at installeringen kan foregå automatisk.</string>
-  <string name="verification_failed">Bekræftelse mislykkedes. Beskadiget eller usikker download</string>
-  <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">Anvend opdatering</string>
-  <string name="apply_update_dialog_text">Du skal til at opgradere til <xliff:g id="filename">%s</xliff:g>.\n\nHvis du trykker Opdatér, vil telefonen genstarte til tilstanden recovery for at installere opdateringen</string>
-  <string name="apply_unable_to_reboot_toast">Kan ikke genstarte til recovery</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Slet fil</string>
-  <string name="confirm_delete_dialog_title_tv">Klik for at fjerne alle hentede opdateringer fra det interne lager</string>
-  <string name="confirm_delete_dialog_message">Du skal til at slette den downloadede opdateringsfil, OK at fortsætte?</string>
-  <string name="confirm_delete_all_dialog_message">Du skal til at slette alle downloadede opdateringsfiler, OK at fortsætte?</string>
-  <string name="delete_single_update_success_message">Opdatering <xliff:g id="filename">%s</xliff:g> slettet</string>
-  <string name="delete_updates_failure_message">Der opstod en fejl ved sletning af opdateringsfilen</string>
-  <string name="delete_updates_noFolder_message">Opdateringsmappen findes ikke</string>
-  <string name="delete_updates_success_message">Alle downloadede opdateringer slettet</string>
-  <!-- Info about blocked updates -->
-  <string name="blocked_update_dialog_title">Opdatering blokeret</string>
-  <string name="blocked_update_dialog_message">Denne opdatering kan ikke installeres med denne app.  Læs <![CDATA[<a href="%1$s">]]>; LineageOS wiki<![CDATA[</a>]]>; for mere information.</string>
-  <!-- Header -->
-  <string name="header_os">LineageOS\n%1$s</string>
-  <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
-  <string name="sysinfo_last_check">Sidst kontrolleret</string>
-  <!-- Build item -->
-  <string name="type_installed">• Installeret</string>
-  <string name="type_downloaded">• Downloadet</string>
-  <string name="type_downloading">• Downloader</string>
-  <string name="type_completing">• Afslutter</string>
-  <string name="type_blocked">• Blokeret</string>
-  <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Download</string>
-  <string name="install_button">Installér</string>
-  <string name="info_button">Info</string>
+    <string name="app_name">Opdatering</string>
+    <string name="display_name">Opdateringer</string>
+    <string name="unknown">Ukendt</string>
+    <string name="menu_refresh">Genopfrisk</string>
+    <string name="menu_delete_all">Slet overførsler</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Afbryd</string>
+    <string name="dialog_update">Opdatér</string>
+    <string name="dialog_close">Luk</string>
+    <string name="available_updates_title">Tilgængelige opdateringer</string>
+    <string name="no_available_updates_intro">Ingen nye opdateringer fundet. Benyt Genopfrisk-knappen, for manuelt at kontrollere for nye opdateringer.</string>
+    <string name="update_check_title">Kontrollér for opdateringer</string>
+    <string name="check_manual">Manuelt</string>
+    <string name="check_daily">Dagligt</string>
+    <string name="check_weekly">Ugentligt</string>
+    <string name="check_bi_weekly">Hver anden uge</string>
+    <string name="check_monthly">Månedligt</string>
+    <string name="checking_for_updates">Kontrollerer for opdateringer</string>
+    <string name="no_updates_found">Ingen nye opdateringer fundet</string>
+    <string name="update_check_failed">Opdateringskontrollen fejlede. Kontrollér venligst din internetforbindelse, og prøv igen senere.</string>
+    <string name="not_new_updates_found_ticker">Nye opdateringer er tilgængelige</string>
+    <string name="not_new_updates_found_title">Nye opdateringer</string>
+    <string name="not_action_download">Hent</string>
+    <string name="data_connection_required">En dataforbindelse er påkrævet.</string>
+    <string name="confirm_download_cancelation_dialog_title">Afbryd overførsel</string>
+    <string name="confirm_download_cancelation_dialog_message">Afbryd den aktuelle overførsel?</string>
+    <string name="download_cancelled">Overførsel afbrudt</string>
+    <string name="download_already_running">En overførsel kører allerede</string>
+    <string name="unable_to_stop_download">Ude af stand til at stoppe overførsel</string>
+    <string name="unable_to_download_file">Ude af stand til at hente opdateringsfilen</string>
+    <string name="download_not_found">Overførsel ikke fundet</string>
+    <string name="not_download_success">Det lykkedes at hente opdatering</string>
+    <string name="not_download_failure">Det lykkedes ikke at hente opdatering</string>
+    <string name="not_action_install_update">Genstart og installér</string>
+    <string name="not_download_install_notice">Det lykkedes at hente opdateringen <xliff:g id="filename">%s</xliff:g>. Ved berøring af \'Genstart og installér\', vil enheden genstarte sig selv, for at installere opdateringen.\n\nBemærk: En kompatibel Gendannelse kræves, for at installeringen kan virke automatisk.</string>
+    <string name="verification_failed">Bekræftelse fejlede. Beskadiget eller usikker overførsel</string>
+    <string name="apply_update_dialog_title">Anvend opdatering</string>
+    <string name="apply_update_dialog_text">Du er ved at opgradere til <xliff:g id="filename">%s</xliff:g>.\n\nHvis du trykker på Opdatér, vil enheden genstarte sig selv i gendannelsestilstand, for at installere opdateringen.\n\nBemærk: Denne funktion kræver en kompatibel Gendannelse, eller opdateringer vil skulle installeres manuelt.</string>
+    <string name="apply_unable_to_reboot_toast">Ude af stand til at genstarte, til gendannelse</string>
+    <string name="confirm_delete_dialog_title">Slet fil</string>
+    <string name="confirm_delete_dialog_title_tv">Klik for at fjerne alle hentede opdateringer fra intern lagerplads</string>
+    <string name="confirm_delete_dialog_message">Slet den valgte opdateringsfil?</string>
+    <string name="confirm_delete_all_dialog_message">Slet alle overførte opdateringsfiler?</string>
+    <string name="delete_single_update_success_message">Opdatering <xliff:g id="filename">%s</xliff:g> slettet</string>
+    <string name="delete_updates_failure_message">Der skete en fejl ved sletning af opdateringsfilen</string>
+    <string name="delete_updates_noFolder_message">Opdateringsmappe ikke fundet</string>
+    <string name="delete_updates_success_message">Alle overførte opdateringer slettet</string>
+    <string name="blocked_update_dialog_title">Opdatering blokeret</string>
+    <string name="blocked_update_dialog_message">Denne opdatering kan ikke installeres vha. opdateringsapp\'en.  Læs venligst &lt;a href="%1$s"&gt;LineageOS wiki&lt;/a&gt;, for mere information.</string>
+    <string name="header_os">LineageOS\n%1$s</string>
+    <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+    <string name="sysinfo_last_check">Sidst kontrolleret</string>
+    <string name="type_installed">• Installeret</string>
+    <string name="type_downloaded">• Hentet</string>
+    <string name="type_downloading">• Henter</string>
+    <string name="type_completing">• Færdiggør</string>
+    <string name="type_blocked">• Blokeret</string>
+    <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+    <string name="download_button">Hent</string>
+    <string name="install_button">Installér</string>
+    <string name="info_button">Info</string>
 </resources>

@@ -10,75 +10,65 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="app_name">Bywerker</string>
-  <string name="display_name">Opgraderings</string>
-  <string name="unknown">Onbekend</string>
-  <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">Herlaai</string>
-  <string name="menu_delete_all">Verwyder alles</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Kanselleer</string>
-  <string name="dialog_update">Opgradeer</string>
-  <string name="dialog_close">Sluit</string>
-  <!-- Settings strings -->
-  <string name="available_updates_title">Beskikbare opgraderings</string>
-  <string name="no_available_updates_intro">Geen nuwe bywerkings gevind. Kontroleer handmatig vir nuwe bywerkings, gebruik die Verfris-knoppie.</string>
-  <string name="update_check_title">Soek vir opgraderings</string>
-  <string name="check_manual">Handmatig</string>
-  <string name="check_daily">Daagliks</string>
-  <string name="check_weekly">Weekliks</string>
-  <string name="check_bi_weekly">Twee-weekliks</string>
-  <string name="check_monthly">Maandeliks</string>
-  <!-- Update checking -->
-  <string name="checking_for_updates">Soek vir opgraderings.</string>
-  <string name="no_updates_found">Geen nuwe upgraderings gevind nie</string>
-  <string name="update_check_failed">Die opgradering soektog het misluk. Gaan asseblief die internet konneksie na en probeer weer later.</string>
-  <string name="not_new_updates_found_ticker">Nuwe opgraderings is beskikbaar</string>
-  <string name="not_new_updates_found_title">Nuwe opgraderings</string>
-  <string name="not_action_download">Laai af</string>
-  <string name="data_connection_required">\'n Data verbinding word benodig.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Kanselleer aflaai</string>
-  <string name="confirm_download_cancelation_dialog_message">Die huidige aflaai gaan gekanselleer work, Ok om voort te gaan?</string>
-  <string name="download_cancelled">Aflaai is gekanselleer</string>
-  <string name="download_already_running">\'n Aflaai is reeds aan die gang</string>
-  <string name="unable_to_stop_download">Kan nie aflaai stop nie</string>
-  <string name="unable_to_download_file">Kon nie die lêer aflaai nie</string>
-  <string name="download_not_found">Die afgelaaide lêer kon nie gevind word nie</string>
-  <string name="not_download_success">Opdatering suksesvol afgelaai</string>
-  <string name="not_download_failure">Opdatering aflaai was onsuksesvol </string>
-  <string name="not_action_install_update">Herlaai en installeer</string>
-  <string name="not_download_install_notice">Die lêer <xliff:g id="filename">%s</xliff:g> is suksesvol afgelaai. Wanneer jy \'Herlaai en installeer\' raak, sal die toestel self herlaai en die opgradering installeer.\n\nNota:\'n Versoenbare \'Recovery\' is nodig vir die installasie om outomaties te werk.</string>
-  <string name="verification_failed">Verifikasie het misluk. Korrupte of onveilige aflaai</string>
-  <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">Pas opgradering toe</string>
-  <string name="apply_update_dialog_text">Die toestel gaan opgegradeer word na <xliff:g id="filename">%s</xliff:g>\n\nAs u die Opgradeer knoppie druk sal die toestel self herlaai om die opgradering te installeer.\n\nLet wel: Hierdie funksie vereis \'n versoenbaare \'recovery\' andersins sal die opgradering handmatig geïnstalleer moet word</string>
-  <string name="apply_unable_to_reboot_toast">Kon nie herlaai in \'recovery\' nie</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Skrap lêer</string>
-  <string name="confirm_delete_dialog_title_tv">Raak om alle afgelaaide opdaterings van interne spasie te verwyder</string>
-  <string name="confirm_delete_dialog_message">Die afgelaaide lêer gaan verwyder word, Ok om voort te gaan?</string>
-  <string name="confirm_delete_all_dialog_message">Al die afgelaaide lêers gaan verwyder word, Ok om voort te gaan?</string>
-  <string name="delete_single_update_success_message">Opgradering <xliff:g id="filename">%s</xliff:g> geskrap</string>
-  <string name="delete_updates_failure_message">Daar was \'n fout tydens die verwydering van die lêer</string>
-  <string name="delete_updates_noFolder_message">Opgradering vouer nie gevind nie</string>
-  <string name="delete_updates_success_message">Alle afgelaaide opgraderings geskrap</string>
-  <!-- Info about blocked updates -->
-  <string name="blocked_update_dialog_title">Opdatering geblokkeer</string>
-  <string name="blocked_update_dialog_message">Hierdie bywerking kan nie geïnstalleer word met behulp van die opdatering toep nie.  Lees asseblief die  <![CDATA[<a href="%1$s">]]>; LineageOS wiki <![CDATA[</a>]]>; vir meer inligting.</string>
-  <!-- Header -->
-  <string name="header_os">LineageOS\n%1$s</string>
-  <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
-  <string name="sysinfo_last_check">Laas gekontroleer</string>
-  <!-- Build item -->
-  <string name="type_installed">• Geïnstalleer</string>
-  <string name="type_downloaded">• Afgelaai</string>
-  <string name="type_downloading">Laai tans af</string>
-  <string name="type_completing">• Maak tans klaar</string>
-  <string name="type_blocked">• Geblokkeer</string>
-  <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Laai af</string>
-  <string name="install_button">Installeer</string>
-  <string name="info_button">Inligting</string>
+    <string name="app_name">Bywerker</string>
+    <string name="display_name">Opgraderings</string>
+    <string name="unknown">Onbekend</string>
+    <string name="menu_refresh">Herlaai</string>
+    <string name="menu_delete_all">Verwyder alles</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Kanselleer</string>
+    <string name="dialog_update">Opgradeer</string>
+    <string name="dialog_close">Sluit</string>
+    <string name="available_updates_title">Beskikbare opgraderings</string>
+    <string name="no_available_updates_intro">Geen nuwe bywerkings gevind. Kontroleer handmatig vir nuwe bywerkings, gebruik die Verfris-knoppie.</string>
+    <string name="update_check_title">Soek vir opgraderings</string>
+    <string name="check_manual">Handmatig</string>
+    <string name="check_daily">Daagliks</string>
+    <string name="check_weekly">Weekliks</string>
+    <string name="check_bi_weekly">Twee-weekliks</string>
+    <string name="check_monthly">Maandeliks</string>
+    <string name="checking_for_updates">Soek vir opgraderings.</string>
+    <string name="no_updates_found">Geen nuwe upgraderings gevind nie</string>
+    <string name="update_check_failed">Die opgradering soektog het misluk. Gaan asseblief die internet konneksie na en probeer weer later.</string>
+    <string name="not_new_updates_found_ticker">Nuwe opgraderings is beskikbaar</string>
+    <string name="not_new_updates_found_title">Nuwe opgraderings</string>
+    <string name="not_action_download">Laai af</string>
+    <string name="data_connection_required">\'n Data verbinding word benodig.</string>
+    <string name="confirm_download_cancelation_dialog_title">Kanselleer aflaai</string>
+    <string name="confirm_download_cancelation_dialog_message">Die huidige aflaai gaan gekanselleer work, Ok om voort te gaan?</string>
+    <string name="download_cancelled">Aflaai is gekanselleer</string>
+    <string name="download_already_running">\'n Aflaai is reeds aan die gang</string>
+    <string name="unable_to_stop_download">Kan nie aflaai stop nie</string>
+    <string name="unable_to_download_file">Kon nie die lêer aflaai nie</string>
+    <string name="download_not_found">Die afgelaaide lêer kon nie gevind word nie</string>
+    <string name="not_download_success">Opdatering suksesvol afgelaai</string>
+    <string name="not_download_failure">Opdatering aflaai was onsuksesvol </string>
+    <string name="not_action_install_update">Herlaai en installeer</string>
+    <string name="not_download_install_notice">Die lêer <xliff:g id="filename">%s</xliff:g> is suksesvol afgelaai. Wanneer jy \'Herlaai en installeer\' raak, sal die toestel self herlaai en die opgradering installeer.\n\nNota:\'n Versoenbare \'Recovery\' is nodig vir die installasie om outomaties te werk.</string>
+    <string name="verification_failed">Verifikasie het misluk. Korrupte of onveilige aflaai</string>
+    <string name="apply_update_dialog_title">Pas opgradering toe</string>
+    <string name="apply_update_dialog_text">Die toestel gaan opgegradeer word na <xliff:g id="filename">%s</xliff:g>\n\nAs u die Opgradeer knoppie druk sal die toestel self herlaai om die opgradering te installeer.\n\nLet wel: Hierdie funksie vereis \'n versoenbaare \'recovery\' andersins sal die opgradering handmatig geïnstalleer moet word</string>
+    <string name="apply_unable_to_reboot_toast">Kon nie herlaai in \'recovery\' nie</string>
+    <string name="confirm_delete_dialog_title">Skrap lêer</string>
+    <string name="confirm_delete_dialog_title_tv">Raak om alle afgelaaide opdaterings van interne spasie te verwyder</string>
+    <string name="confirm_delete_dialog_message">Die afgelaaide lêer gaan verwyder word, Ok om voort te gaan?</string>
+    <string name="confirm_delete_all_dialog_message">Al die afgelaaide lêers gaan verwyder word, Ok om voort te gaan?</string>
+    <string name="delete_single_update_success_message">Opgradering <xliff:g id="filename">%s</xliff:g> geskrap</string>
+    <string name="delete_updates_failure_message">Daar was \'n fout tydens die verwydering van die lêer</string>
+    <string name="delete_updates_noFolder_message">Opgradering vouer nie gevind nie</string>
+    <string name="delete_updates_success_message">Alle afgelaaide opgraderings geskrap</string>
+    <string name="blocked_update_dialog_title">Opdatering geblokkeer</string>
+    <string name="blocked_update_dialog_message">Hierdie bywerking kan nie geïnstalleer word met behulp van die opdatering toep nie.  Lees asseblief die  &lt;a href="%1$s"&gt;; LineageOS wiki &lt;/a&gt;; vir meer inligting.</string>
+    <string name="header_os">LineageOS\n%1$s</string>
+    <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+    <string name="sysinfo_last_check">Laas gekontroleer</string>
+    <string name="type_installed">• Geïnstalleer</string>
+    <string name="type_downloaded">• Afgelaai</string>
+    <string name="type_downloading">Laai tans af</string>
+    <string name="type_completing">• Maak tans klaar</string>
+    <string name="type_blocked">• Geblokkeer</string>
+    <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+    <string name="download_button">Laai af</string>
+    <string name="install_button">Installeer</string>
+    <string name="info_button">Inligting</string>
 </resources>

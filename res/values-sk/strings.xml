@@ -10,75 +10,65 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="app_name">Aktualizátor</string>
-  <string name="display_name">Aktualizácie</string>
-  <string name="unknown">Neznáme</string>
-  <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">Obnoviť</string>
-  <string name="menu_delete_all">Vymazať prevzatia</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Zrušiť</string>
-  <string name="dialog_update">Aktualizovať</string>
-  <string name="dialog_close">Zavrieť</string>
-  <!-- Settings strings -->
-  <string name="available_updates_title">Dostupné aktualizácie</string>
-  <string name="no_available_updates_intro">Neboli nájdené žiadne nové aktualizácie. Ak chcete ručne vyhľadať nové aktualizácie, použite tlačítko Aktualizovať.</string>
-  <string name="update_check_title">Kontrolovať aktualizácie</string>
-  <string name="check_manual">Ručne</string>
-  <string name="check_daily">Denne</string>
-  <string name="check_weekly">Týždenne</string>
-  <string name="check_bi_weekly">Raz za dva týždne</string>
-  <string name="check_monthly">Mesačne</string>
-  <!-- Update checking -->
-  <string name="checking_for_updates">Kontrolovanie aktualizácií</string>
-  <string name="no_updates_found">Nenašli sa žiadne nové aktualizácie</string>
-  <string name="update_check_failed">Kontrola aktualizácií zlyhala. Skontrolujte prosím vaše internetové pripojenie a skúste to znova neskôr.</string>
-  <string name="not_new_updates_found_ticker">K dispozícii sú nové aktualizácie</string>
-  <string name="not_new_updates_found_title">Nové aktualizácie</string>
-  <string name="not_action_download">Download</string>
-  <string name="data_connection_required">Vyžaduje sa dátové pripojenie.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Zrušenie preberania</string>
-  <string name="confirm_download_cancelation_dialog_message">Zrušiť aktuálne preberanie?</string>
-  <string name="download_cancelled">Preberanie bolo zrušené</string>
-  <string name="download_already_running">Preberanie je už spustené</string>
-  <string name="unable_to_stop_download">Nemožno sa zastaviť sťahovanie</string>
-  <string name="unable_to_download_file">Nemožno prevziať súbor aktualizácie</string>
-  <string name="download_not_found">Prevzatie sa nenašlo</string>
-  <string name="not_download_success">Aktualizácia bola úspešne prevzatá</string>
-  <string name="not_download_failure">Aktualizácia nebola úspešne prevzatá</string>
-  <string name="not_action_install_update">Reštartovať a inštalovať</string>
-  <string name="not_download_install_notice">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola úspešne prevzatá. Kliknutím na \'Reštartovať a inštalovať\' sa zariadenie reštartuje kvôli inštalácii aktualizácie.\n\nPoznámka: Na automatickú inštaláciu sa požaduje kompatibilné Recovery.</string>
-  <string name="verification_failed">Overenie zlyhalo. Soubor je poškodený alebo nebezpečný</string>
-  <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">Aplikovať aktualizáciu</string>
-  <string name="apply_update_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budú musieť byť aktualizácie inštalované ručne.</string>
-  <string name="apply_unable_to_reboot_toast">Nemožno reštartovať do Recovery</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Vymazať súbor</string>
-  <string name="confirm_delete_dialog_title_tv">Kliknutím odstránite všetky prevzaté aktualizácie z interného ukladacieho priestoru</string>
-  <string name="confirm_delete_dialog_message">Vymazať vybraný súbor aktualizácie?</string>
-  <string name="confirm_delete_all_dialog_message">Vymazať všetky prevzaté súbory aktualizácií?</string>
-  <string name="delete_single_update_success_message">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola odstránená</string>
-  <string name="delete_updates_failure_message">Vyskytla sa chyba pri mazaní súboru aktualizácie</string>
-  <string name="delete_updates_noFolder_message">Priečinok s aktualizáciou sa nenašiel</string>
-  <string name="delete_updates_success_message">Všetky prevzaté aktualizácie boli vymazané</string>
-  <!-- Info about blocked updates -->
-  <string name="blocked_update_dialog_title">Aktualizácia bola zablokovaná</string>
-  <string name="blocked_update_dialog_message">Túto aktualizáciu nemožno nainštalovať pomocou aplikácie updater. Prečítajte si viac informácií:  <![CDATA[<a href="%1$s">]]>;LineageOS wiki<![CDATA[</a>]]></string>
-  <!-- Header -->
-  <string name="header_os">LineageOS\n%1$s</string>
-  <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
-  <string name="sysinfo_last_check">Posledná kontrola</string>
-  <!-- Build item -->
-  <string name="type_installed">• Nainštalované</string>
-  <string name="type_downloaded">• Stiahnuté</string>
-  <string name="type_downloading">• Sťahovanie</string>
-  <string name="type_completing">• Dokončovanie</string>
-  <string name="type_blocked">• Blokované</string>
-  <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Stiahnuť</string>
-  <string name="install_button">Nainštalovať</string>
-  <string name="info_button">Informácie</string>
+    <string name="app_name">Aktualizátor</string>
+    <string name="display_name">Aktualizácie</string>
+    <string name="unknown">Neznáme</string>
+    <string name="menu_refresh">Obnoviť</string>
+    <string name="menu_delete_all">Vymazať prevzatia</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Zrušiť</string>
+    <string name="dialog_update">Aktualizovať</string>
+    <string name="dialog_close">Zavrieť</string>
+    <string name="available_updates_title">Dostupné aktualizácie</string>
+    <string name="no_available_updates_intro">Neboli nájdené žiadne nové aktualizácie. Ak chcete ručne vyhľadať nové aktualizácie, použite tlačítko Aktualizovať.</string>
+    <string name="update_check_title">Kontrolovať aktualizácie</string>
+    <string name="check_manual">Ručne</string>
+    <string name="check_daily">Denne</string>
+    <string name="check_weekly">Týždenne</string>
+    <string name="check_bi_weekly">Raz za dva týždne</string>
+    <string name="check_monthly">Mesačne</string>
+    <string name="checking_for_updates">Kontrolovanie aktualizácií</string>
+    <string name="no_updates_found">Nenašli sa žiadne nové aktualizácie</string>
+    <string name="update_check_failed">Kontrola aktualizácií zlyhala. Skontrolujte prosím vaše internetové pripojenie a skúste to znova neskôr.</string>
+    <string name="not_new_updates_found_ticker">K dispozícii sú nové aktualizácie</string>
+    <string name="not_new_updates_found_title">Nové aktualizácie</string>
+    <string name="not_action_download">Download</string>
+    <string name="data_connection_required">Vyžaduje sa dátové pripojenie.</string>
+    <string name="confirm_download_cancelation_dialog_title">Zrušenie preberania</string>
+    <string name="confirm_download_cancelation_dialog_message">Zrušiť aktuálne preberanie?</string>
+    <string name="download_cancelled">Preberanie bolo zrušené</string>
+    <string name="download_already_running">Preberanie je už spustené</string>
+    <string name="unable_to_stop_download">Nemožno sa zastaviť sťahovanie</string>
+    <string name="unable_to_download_file">Nemožno prevziať súbor aktualizácie</string>
+    <string name="download_not_found">Prevzatie sa nenašlo</string>
+    <string name="not_download_success">Aktualizácia bola úspešne prevzatá</string>
+    <string name="not_download_failure">Aktualizácia nebola úspešne prevzatá</string>
+    <string name="not_action_install_update">Reštartovať a inštalovať</string>
+    <string name="not_download_install_notice">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola úspešne prevzatá. Kliknutím na \'Reštartovať a inštalovať\' sa zariadenie reštartuje kvôli inštalácii aktualizácie.\n\nPoznámka: Na automatickú inštaláciu sa požaduje kompatibilné Recovery.</string>
+    <string name="verification_failed">Overenie zlyhalo. Soubor je poškodený alebo nebezpečný</string>
+    <string name="apply_update_dialog_title">Aplikovať aktualizáciu</string>
+    <string name="apply_update_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budú musieť byť aktualizácie inštalované ručne.</string>
+    <string name="apply_unable_to_reboot_toast">Nemožno reštartovať do Recovery</string>
+    <string name="confirm_delete_dialog_title">Vymazať súbor</string>
+    <string name="confirm_delete_dialog_title_tv">Kliknutím odstránite všetky prevzaté aktualizácie z interného ukladacieho priestoru</string>
+    <string name="confirm_delete_dialog_message">Vymazať vybraný súbor aktualizácie?</string>
+    <string name="confirm_delete_all_dialog_message">Vymazať všetky prevzaté súbory aktualizácií?</string>
+    <string name="delete_single_update_success_message">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola odstránená</string>
+    <string name="delete_updates_failure_message">Vyskytla sa chyba pri mazaní súboru aktualizácie</string>
+    <string name="delete_updates_noFolder_message">Priečinok s aktualizáciou sa nenašiel</string>
+    <string name="delete_updates_success_message">Všetky prevzaté aktualizácie boli vymazané</string>
+    <string name="blocked_update_dialog_title">Aktualizácia bola zablokovaná</string>
+    <string name="blocked_update_dialog_message">Túto aktualizáciu nemožno nainštalovať pomocou aplikácie updater. Prečítajte si viac informácií:  &lt;a href="%1$s"&gt;;LineageOS wiki&lt;/a&gt;</string>
+    <string name="header_os">LineageOS\n%1$s</string>
+    <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+    <string name="sysinfo_last_check">Posledná kontrola</string>
+    <string name="type_installed">• Nainštalované</string>
+    <string name="type_downloaded">• Stiahnuté</string>
+    <string name="type_downloading">• Sťahovanie</string>
+    <string name="type_completing">• Dokončovanie</string>
+    <string name="type_blocked">• Blokované</string>
+    <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+    <string name="download_button">Stiahnuť</string>
+    <string name="install_button">Nainštalovať</string>
+    <string name="info_button">Informácie</string>
 </resources>

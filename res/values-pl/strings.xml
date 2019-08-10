@@ -10,79 +10,69 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="app_name">Aktualizator</string>
-  <string name="display_name">Aktualizacje</string>
-  <string name="unknown">Nieznane</string>
-  <!-- Menu and dialog box strings -->
-  <string name="menu_refresh">Odśwież</string>
-  <string name="menu_delete_all">Usuń pobrane</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Anuluj</string>
-  <string name="dialog_update">Aktualizuj</string>
-  <string name="dialog_close">Zamknij</string>
-  <!-- Settings strings -->
-  <string name="available_updates_title">Dostępne aktualizacje</string>
-  <string name="no_available_updates_intro">Nie znaleziono nowych aktualizacji. Aby ręcznie sprawdzić dostępność nowych aktualizacji, użyj przycisku Odśwież.</string>
-  <string name="update_check_title">Sprawdź czy są dostępne nowe aktualizacje</string>
-  <string name="check_manual">Ręcznie</string>
-  <string name="check_daily">Raz dziennie</string>
-  <string name="check_weekly">Co tydzień</string>
-  <string name="check_bi_weekly">Dwa razy w tygodniu</string>
-  <string name="check_monthly">Raz w miesiącu</string>
-  <!-- Update checking -->
-  <string name="checking_for_updates">Szukam aktualizacji</string>
-  <string name="no_updates_found">Nie znaleziono nowych aktualizacji</string>
-  <string name="update_check_failed">Szukanie aktualizacji zakończone niepowodzeniem. Sprawdź połączenie z Internetem i spróbuj później.</string>
-  <string name="not_new_updates_found_ticker">Nowe aktualizacje są dostępne</string>
-  <string name="not_new_updates_found_title">Nowe aktualizacje</string>
-  <string name="not_action_download">Pobierz</string>
-  <string name="data_connection_required">Wymagane połączenie z Internetem.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Anuluj pobieranie</string>
-  <string name="confirm_download_cancelation_dialog_message">Anulować trwające pobieranie?</string>
-  <string name="download_cancelled">Anulowano pobieranie</string>
-  <string name="download_already_running">Pobieranie w toku</string>
-  <string name="unable_to_stop_download">Nie można zatrzymać pobierania</string>
-  <string name="unable_to_download_file">Nie można pobrać pliku aktualizacji</string>
-  <string name="download_not_found">Nie odnaleziono pliku</string>
-  <string name="not_download_success">Pobieranie aktualizacji zakończone</string>
-  <string name="not_download_failure">Pobieranie aktualizacji zakończone niepowodzeniem</string>
-  <string name="not_action_install_update">Uruchom ponownie i zainstaluj</string>
-  <string name="not_download_install_notice">Aktualizacja <xliff:g id="filename">%s</xliff:g> została pobrana pomyślnie. Po wybraniu \'Uruchom ponownie i zainstaluj\', urządzenie zostanie zrestartowane w celu instalacji.\n\nUwaga: Wymagana jest kompatybilna aplikacja Recovery, aby proces mógł przebiec automatycznie.</string>
-  <string name="verification_failed">Weryfikacja nie powiodła się. Podczas pobierania doszło do uszkodzenia pliku lub wystąpił błąd bezpieczeństwa</string>
-  <!-- Apply update strings -->
-  <string name="apply_update_dialog_title">Zastosuj aktualizację</string>
-  <string name="apply_update_dialog_text">Jesteś o krok od aktualizacji do <xliff:g id="filename">%s</xliff:g>.
+    <string name="app_name">Aktualizator</string>
+    <string name="display_name">Aktualizacje</string>
+    <string name="unknown">Nieznane</string>
+    <string name="menu_refresh">Odśwież</string>
+    <string name="menu_delete_all">Usuń pobrane</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Anuluj</string>
+    <string name="dialog_update">Aktualizuj</string>
+    <string name="dialog_close">Zamknij</string>
+    <string name="available_updates_title">Dostępne aktualizacje</string>
+    <string name="no_available_updates_intro">Nie znaleziono nowych aktualizacji. Aby ręcznie sprawdzić dostępność nowych aktualizacji, użyj przycisku Odśwież.</string>
+    <string name="update_check_title">Sprawdź czy są dostępne nowe aktualizacje</string>
+    <string name="check_manual">Ręcznie</string>
+    <string name="check_daily">Raz dziennie</string>
+    <string name="check_weekly">Co tydzień</string>
+    <string name="check_bi_weekly">Dwa razy w tygodniu</string>
+    <string name="check_monthly">Raz w miesiącu</string>
+    <string name="checking_for_updates">Szukam aktualizacji</string>
+    <string name="no_updates_found">Nie znaleziono nowych aktualizacji</string>
+    <string name="update_check_failed">Szukanie aktualizacji zakończone niepowodzeniem. Sprawdź połączenie z Internetem i spróbuj później.</string>
+    <string name="not_new_updates_found_ticker">Nowe aktualizacje są dostępne</string>
+    <string name="not_new_updates_found_title">Nowe aktualizacje</string>
+    <string name="not_action_download">Pobierz</string>
+    <string name="data_connection_required">Wymagane połączenie z Internetem.</string>
+    <string name="confirm_download_cancelation_dialog_title">Anuluj pobieranie</string>
+    <string name="confirm_download_cancelation_dialog_message">Anulować trwające pobieranie?</string>
+    <string name="download_cancelled">Anulowano pobieranie</string>
+    <string name="download_already_running">Pobieranie w toku</string>
+    <string name="unable_to_stop_download">Nie można zatrzymać pobierania</string>
+    <string name="unable_to_download_file">Nie można pobrać pliku aktualizacji</string>
+    <string name="download_not_found">Nie odnaleziono pliku</string>
+    <string name="not_download_success">Pobieranie aktualizacji zakończone</string>
+    <string name="not_download_failure">Pobieranie aktualizacji zakończone niepowodzeniem</string>
+    <string name="not_action_install_update">Uruchom ponownie i zainstaluj</string>
+    <string name="not_download_install_notice">Aktualizacja <xliff:g id="filename">%s</xliff:g> została pobrana pomyślnie. Po wybraniu \'Uruchom ponownie i zainstaluj\', urządzenie zostanie zrestartowane w celu instalacji.\n\nUwaga: Wymagana jest kompatybilna aplikacja Recovery, aby proces mógł przebiec automatycznie.</string>
+    <string name="verification_failed">Weryfikacja nie powiodła się. Podczas pobierania doszło do uszkodzenia pliku lub wystąpił błąd bezpieczeństwa</string>
+    <string name="apply_update_dialog_title">Zastosuj aktualizację</string>
+    <string name="apply_update_dialog_text">Jesteś o krok od aktualizacji do <xliff:g id="filename">%s</xliff:g>.
 
 Po naciśnięciu przycisku Aktualizuj, urządzenie wyłączy się i przejdzie do trybu recovery, aby kontynuować instalację.
         
 Uwaga: Ta funkcja wymaga kompatybilnego recovery. W przeciwnym wypadku aktualizacje będą musiały zostać zainstalowane ręcznie.</string>
-  <string name="apply_unable_to_reboot_toast">Nie można przejść do trybu recovery</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Usuń plik</string>
-  <string name="confirm_delete_dialog_title_tv">Kliknij, aby usunąć wszystkie pobrane aktualizacje z pamięci wewnętrznej</string>
-  <string name="confirm_delete_dialog_message">Usunąć wybrany plik aktualizacji?</string>
-  <string name="confirm_delete_all_dialog_message">Usunąć wszystkie pliki aktualizacji?</string>
-  <string name="delete_single_update_success_message">Aktualizacja <xliff:g id="filename">%s</xliff:g> została usunięta</string>
-  <string name="delete_updates_failure_message">Wystąpił błąd podczas usuwania plików aktualizacji</string>
-  <string name="delete_updates_noFolder_message">Folder aktualizacji nie został odnaleziony</string>
-  <string name="delete_updates_success_message">Usunięto wszystkie pobrane aktualizacje</string>
-  <!-- Info about blocked updates -->
-  <string name="blocked_update_dialog_title">Aktualizacja zablokowana</string>
-  <string name="blocked_update_dialog_message">Tej aktualizacji nie można zainstalować używając tej aplikacji. Proszę poczytaj <![CDATA[<a href="%1$s">]]>;LineageOS wiki<![CDATA[</a>]]>; aby dowiedzieć się więcej.</string>
-  <!-- Header -->
-  <string name="header_os">LineageOS\n%1$s</string>
-  <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
-  <string name="sysinfo_last_check">Ostatnio sprawdzono</string>
-  <!-- Build item -->
-  <string name="type_installed">• Zainstalowane</string>
-  <string name="type_downloaded">• Pobrane</string>
-  <string name="type_downloading">• Pobieranie</string>
-  <string name="type_completing">• Kończenie</string>
-  <string name="type_blocked">• Zablokowana</string>
-  <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
-  <string name="download_button">Pobierz</string>
-  <string name="install_button">Instaluj</string>
-  <string name="info_button">Info</string>
+    <string name="apply_unable_to_reboot_toast">Nie można przejść do trybu recovery</string>
+    <string name="confirm_delete_dialog_title">Usuń plik</string>
+    <string name="confirm_delete_dialog_title_tv">Kliknij, aby usunąć wszystkie pobrane aktualizacje z pamięci wewnętrznej</string>
+    <string name="confirm_delete_dialog_message">Usunąć wybrany plik aktualizacji?</string>
+    <string name="confirm_delete_all_dialog_message">Usunąć wszystkie pliki aktualizacji?</string>
+    <string name="delete_single_update_success_message">Aktualizacja <xliff:g id="filename">%s</xliff:g> została usunięta</string>
+    <string name="delete_updates_failure_message">Wystąpił błąd podczas usuwania plików aktualizacji</string>
+    <string name="delete_updates_noFolder_message">Folder aktualizacji nie został odnaleziony</string>
+    <string name="delete_updates_success_message">Usunięto wszystkie pobrane aktualizacje</string>
+    <string name="blocked_update_dialog_title">Aktualizacja zablokowana</string>
+    <string name="blocked_update_dialog_message">Tej aktualizacji nie można zainstalować używając tej aplikacji. Proszę poczytaj &lt;a href="%1$s"&gt;;LineageOS wiki&lt;/a&gt;; aby dowiedzieć się więcej.</string>
+    <string name="header_os">LineageOS\n%1$s</string>
+    <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+    <string name="sysinfo_last_check">Ostatnio sprawdzono</string>
+    <string name="type_installed">• Zainstalowane</string>
+    <string name="type_downloaded">• Pobrane</string>
+    <string name="type_downloading">• Pobieranie</string>
+    <string name="type_completing">• Kończenie</string>
+    <string name="type_blocked">• Zablokowana</string>
+    <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+    <string name="download_button">Pobierz</string>
+    <string name="install_button">Instaluj</string>
+    <string name="info_button">Info</string>
 </resources>
