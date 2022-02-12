@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2015 The CyanogenMod Project
+     Copyright (C) 2017 The LineageOS Project
+
+     Licensed under the GNU GPLv2 license
+
+     The text of the license can be found in the LICENSE file
+     or at https://www.gnu.org/licenses/gpl-2.0.txt
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Yeniləyici</string>
+    <string name="display_name">Yeniləmələr</string>
+    <string name="unknown">Bilinməyən</string>
+    <string name="menu_refresh">Yenilə</string>
+    <string name="menu_delete_all">Endirmələri sil</string>
+    <string name="dialog_ok">Oldu</string>
+    <string name="dialog_cancel">İmtina</string>
+    <string name="dialog_update">Yenilə</string>
+    <string name="dialog_close">Bağla</string>
+    <string name="available_updates_title">Mövcud yeniləmələr</string>
+    <string name="no_available_updates_intro">Son yəniləmələr yoxdur. Yeniləmələri əllə yoxlamaq üçün Təzələ düyməsindən istifadə edin.</string>
+    <string name="update_check_title">Yeniləmələri yoxla</string>
+    <string name="check_manual">Əllə</string>
+    <string name="check_daily">Günlük</string>
+    <string name="check_weekly">Həftəlik</string>
+    <string name="check_bi_weekly">İki həftədən bir</string>
+    <string name="check_monthly">Aylıq</string>
+    <string name="checking_for_updates">Yeniləmələr yoxlanılır</string>
+    <string name="no_updates_found">Yeni yeniləmələr yoxdur</string>
+    <string name="update_check_failed">Yeniləmələr yoxlana bilmədi. Zəhmət olmasa internet bağlantınızı yoxlayıb yenidən sınayın.</string>
+    <string name="not_new_updates_found_ticker">Yeniləmələr var</string>
+    <string name="not_new_updates_found_title">Yeni yeniləmələr</string>
+    <string name="not_action_download">Endir</string>
+    <string name="data_connection_required">Verilənlər bağlantısı lazımdır.</string>
+    <string name="confirm_download_cancelation_dialog_title">Endirməni ləğv et</string>
+    <string name="confirm_download_cancelation_dialog_message">Davam edən endirmə ləğv edilsin?</string>
+    <string name="download_cancelled">Endirmə ləğv edildi</string>
+    <string name="download_already_running">Artıq endirmə davam edir</string>
+    <string name="unable_to_stop_download">Endirmə dayandırıla bilmədi</string>
+    <string name="unable_to_download_file">Yeniləmə faylı endirilə bilmir</string>
+    <string name="download_not_found">Endirmə tapılmadı</string>
+    <string name="not_download_success">Yeniləmə uğurla endirildi</string>
+    <string name="not_download_failure">Yeniləməni endirmək uğursuz oldu</string>
+    <string name="not_action_install_update">Yenidən başlat və quraşdır</string>
+    <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> yeniləməsi uğurla endirildi. \'Yenidən başlat və Quraşdır\'a toxunanda, cihaz yeniləməni quraşdırmaq üçün özünü yenidən başladacaq.\n\nQeyd: Quraşdırmanın avtomatik işləməsi üçün uyğun Bərpa mühiti lazımdır.</string>
+    <string name="verification_failed">Təsdiqləmə uğursuz oldu. Zədəli və ya güvənli olmayan endirmə</string>
+    <string name="apply_update_dialog_title">Yeniləməni tətbiq et</string>
+    <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> yeniləməsi ediləcək.\n\nYenilə-yə basarkən cihaz yeniləməni quraşdırmaq üçün bərpa rejimində yenidən başlayacaq.\n\nQeyd: Bu özəlliyin uyğun bir Bərpa mühitinə ehtiyacı var, əks halda yeniləmələr əllə quraşdırılmalıdır.</string>
+    <string name="apply_unable_to_reboot_toast">Bərpa rejimi üçün yenidən başladıla bilmədi</string>
+    <string name="confirm_delete_dialog_title">Faylı sil</string>
+    <string name="confirm_delete_dialog_title_tv">Endirilmiş bütün yeniləmələri daxili anbardan silmək üçün klikləyin</string>
+    <string name="confirm_delete_dialog_message">Seçilmiş yeniləmə faylı silinsin?</string>
+    <string name="confirm_delete_all_dialog_message">Bütün endirilmiş yeniləmələr silinsin?</string>
+    <string name="delete_single_update_success_message"><xliff:g id="filename">%s</xliff:g> yeniləmə faylı silindi</string>
+    <string name="delete_updates_failure_message">Yeniləmə faylını silərkən xəta baş verdi</string>
+    <string name="delete_updates_noFolder_message">Yeniləmə qovluğu tapılmadı</string>
+    <string name="delete_updates_success_message">Endirilən bütün yeniləmələr silindi</string>
+    <string name="blocked_update_dialog_title">Yeniləmə əngəlləndi</string>
+    <string name="blocked_update_dialog_message">Bu yeniləmə, tətbiq yeniləyicisi vasitəsilə quraşdırıla bilmir. Zəhmət olmasa əlavə məlumat üçün <![CDATA[<a href="%1$s">]]>;LineageOS wiki-ni<![CDATA[</a>]]>; oxuyun.</string>
+    <string name="header_os">LineageOS\n%1$s</string>
+    <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+    <string name="sysinfo_last_check">Son yoxlama</string>
+    <string name="type_installed">• Quraşdırıldı</string>
+    <string name="type_downloaded">• Endirildi</string>
+    <string name="type_downloading">• Endirilir</string>
+    <string name="type_completing">• Tamamlanır</string>
+    <string name="type_blocked">• Əngəlləndi</string>
+    <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+    <string name="download_button">Endir</string>
+    <string name="install_button">Quraşdır</string>
+    <string name="info_button">Məlumat</string>
+</resources>

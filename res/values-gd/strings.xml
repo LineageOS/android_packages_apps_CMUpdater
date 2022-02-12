@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2015 The CyanogenMod Project
+     Copyright (C) 2017 The LineageOS Project
+
+     Licensed under the GNU GPLv2 license
+
+     The text of the license can be found in the LICENSE file
+     or at https://www.gnu.org/licenses/gpl-2.0.txt
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">An t-ùraichear</string>
+    <string name="display_name">Ùrachaidhean</string>
+    <string name="unknown">Neo-aithnichte</string>
+    <string name="menu_refresh">Ath-nuadhaich</string>
+    <string name="menu_delete_all">Sguab na chaidh a luchdadh a-nuas às</string>
+    <string name="dialog_ok">Ceart ma-thà</string>
+    <string name="dialog_cancel">Sguir dheth</string>
+    <string name="dialog_update">Ùraich</string>
+    <string name="dialog_close">Dùin</string>
+    <string name="available_updates_title">Ùrachaidhean a tha ri fhaighinn</string>
+    <string name="no_available_updates_intro">Cha deach ùrachadh a lorg. Airson sùil a thoirt airson ùrachaidhean a làimh, cleachd am putan “Ath-nuadhaich”.</string>
+    <string name="update_check_title">Thoir sùil airson ùrachaidhean</string>
+    <string name="check_manual">A làimh</string>
+    <string name="check_daily">Gach latha</string>
+    <string name="check_weekly">Gach seachdain</string>
+    <string name="check_bi_weekly">Gach dàrna seachdain</string>
+    <string name="check_monthly">Gach mìos</string>
+    <string name="checking_for_updates">A’ toirt sùil airson ùrachaidhean</string>
+    <string name="no_updates_found">Cha deach ùrachadh a lorg</string>
+    <string name="update_check_failed">Cha b’ urrainn dhuinn sùil a thoirt airson ùrachaidhean. Thoir sùil air a’ cheangal agad ris an eadar-lìon is feuch ris a-rithist an ceann greis.</string>
+    <string name="not_new_updates_found_ticker">Tha ùrachadh ri fhaighinn</string>
+    <string name="not_new_updates_found_title">Ùrachaidhean</string>
+    <string name="not_action_download">Luchdaich a-nuas</string>
+    <string name="data_connection_required">Tha feum air ceangal dàta.</string>
+    <string name="confirm_download_cancelation_dialog_title">Sguir dhen luchdadh a-nuas</string>
+    <string name="confirm_download_cancelation_dialog_message">A bheil thu airson sgur dhen luchdadh a-nuas làithreach?</string>
+    <string name="download_cancelled">Sguir thu dhen luchdadh a-nuas</string>
+    <string name="download_already_running">Tha rud ’ga luchdadh a-nuas mu thràth</string>
+    <string name="unable_to_stop_download">Chan urrainn dhuinn stad a chur air an luchdadh a-nuas</string>
+    <string name="unable_to_download_file">Chan urrainn dhuinn faidhle an ùrachaidh a luchdadh a-nuas</string>
+    <string name="download_not_found">Cha deach an luchdadh a-nuas a lorg</string>
+    <string name="not_download_success">Chaidh an t-ùrachadh a luchdadh a-nuas</string>
+    <string name="not_download_failure">Dh’fhàillig luchdadh a-nuas an ùrachaidh</string>
+    <string name="not_action_install_update">Ath-thòisich is stàlaich</string>
+    <string name="not_download_install_notice">Chaidh an t-ùrachadh <xliff:g id="filename">%s</xliff:g> a luchdadh a-nuas. Ma bhrùthas tu “Ath-thòisich is stàlaich”, nì an t-uidheam ath-thòiseachadh agus stàlaichidh e an t-ùrachadh.\n\nAn aire: Tha feum air gleus aisig co-chòrdail mus urrainnear stàladh fèin-obrachail a dhèanamh.</string>
+    <string name="verification_failed">Dh’fhàillig an dearbhadh. Tha an luchdadh a-nuas coirbte no neo-thèarainte</string>
+    <string name="apply_update_dialog_title">Cuir an t-ùrachadh an sàs</string>
+    <string name="apply_update_dialog_text">Tha thu an impis àrdachadh gu <xliff:g id="filename">%s</xliff:g>.\n\nMa bhrùthas tu “Ùraich”, nì an t-uidheam ath-thòiseachadh sa mhodh aisig airson an t-ùrachadh a stàladh.\n\nAn aire: Tha feum air gleus aisig co-chòrdail no feumaidh tu an t-ùrachadh a stàladh a làimh.</string>
+    <string name="apply_unable_to_reboot_toast">Chan urrainn dhuinn ath-thòiseachadh sa mhodh aisig</string>
+    <string name="confirm_delete_dialog_title">Sguab às am faidhle</string>
+    <string name="confirm_delete_dialog_title_tv">Dèan briogadh airson gach ùrachadh a chaidh a luchdadh a-nuas a thoirt air falbh on stòras inntearnail</string>
+    <string name="confirm_delete_dialog_message">A bheil thu airson faidhle an ùrachaidh a thagh thu a sguabadh às?</string>
+    <string name="confirm_delete_all_dialog_message">A bheil thu airson gach faidhle ùrachaidh a luchdaich thu a-nuas a sguabadh às?</string>
+    <string name="delete_single_update_success_message">Chaidh an t-ùrachadh <xliff:g id="filename">%s</xliff:g> a sguabadh às</string>
+    <string name="delete_updates_failure_message">Thachair mearachd nuair a bha sinn airson faidhle an ùrachaidh a sguabadh às</string>
+    <string name="delete_updates_noFolder_message">Cha deach pasgan an ùrachaidh a lorg</string>
+    <string name="delete_updates_success_message">Chaidh gach ùrachadh a luchdaich thu a-nuas a sguabadh às</string>
+    <string name="blocked_update_dialog_title">Chaidh an t-ùrachadh a bhacadh</string>
+    <string name="blocked_update_dialog_message">Cha ghabh an t-ùrachadh seo stàladh le aplacaid an ùraicheir. Leugh <![CDATA[<a href=”%1$s”>]]>uicidh LineageOS<![CDATA[</a>]]> airson barrachd fiosrachaidh.</string>
+    <string name="header_os">LineageOS\n%1$s</string>
+    <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+    <string name="sysinfo_last_check">An sgrùdadh mu dheireadh</string>
+    <string name="type_installed">• Air a stàladh</string>
+    <string name="type_downloaded">• Air a luchdadh a-nuas</string>
+    <string name="type_downloading">• ’Ga luchdadh a-nuas</string>
+    <string name="type_completing">• ’Ga choileanadh</string>
+    <string name="type_blocked">• Air a bhacadh</string>
+    <string name="summary">%1$s\nLineageOS %2$s • Android %3$s</string>
+    <string name="download_button">Luchdaich a-nuas</string>
+    <string name="install_button">Stàlaich</string>
+    <string name="info_button">Fiosrachadh</string>
+</resources>

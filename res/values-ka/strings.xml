@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2015 The CyanogenMod Project
+     Copyright (C) 2017 The LineageOS Project
+
+     Licensed under the GNU GPLv2 license
+
+     The text of the license can be found in the LICENSE file
+     or at https://www.gnu.org/licenses/gpl-2.0.txt
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="not_download_install_notice">განახლება <xliff:g id="filename">%s</xliff:g> წარმატებით ჩამოიტვირთა. როცა შეეხებით „გადატვირთვასა და დაყენებას“, მოწყობილობა ხელახლა ჩაირთვება განახლების დასაყენებლად.\n\nშენიშვნა: საჭიროებს თავსებად აღმდგენ გარსს, სამუშაოს ავტომატურად დასასრულებლად.</string>
+    <string name="apply_update_dialog_text">თქვენ აპირებთ განაახლოთ <xliff:g id="filename">%s</xliff:g> ვერსიაზე.\n\nთუ დააჭერთ განახლებას, მოწყობილობა ხელახლა ჩაირთვება აღმდგენ რეჟიმში განახლების დასაყენებლად.\n\nშენიშვნა: საჭიროებს თავსებად აღმდგენ გარსს, თუ არადა განახლებები ხელით იქნება დასაყენებელი.</string>
+    <string name="apply_unable_to_reboot_toast">გადატვირთვისას აღმდგენ გარსში გადასვლა ვერ ხერხდება</string>
+</resources>

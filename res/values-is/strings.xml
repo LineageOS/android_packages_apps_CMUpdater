@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2015 The CyanogenMod Project
+     Copyright (C) 2017 The LineageOS Project
+
+     Licensed under the GNU GPLv2 license
+
+     The text of the license can be found in the LICENSE file
+     or at https://www.gnu.org/licenses/gpl-2.0.txt
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="not_download_install_notice">Það tókst að sækja uppfærsluna <xliff:g id="filename">%s</xliff:g>. Við það að ýta á \'Endurræsa og setja upp\' mun tækið endurræsa sig til að setja inn uppfærsluna.\n\nAthugaðu: Samhæft endurheimtingarafrit er nauðsynlegt til að uppsetningin gangi sjálfvirkt fyrir sig.</string>
+    <string name="verification_failed">Sannvottun mistókst. Skemmt eða óöruggt niðurhal</string>
+    <string name="apply_unable_to_reboot_toast">Gat ekki endurræst inn í endurheimtuham</string>
+    <string name="confirm_delete_dialog_title_tv">Smelltu til að fjarlægja allar sóttar uppfærslur úr innbyggðri gagnageymslu</string>
+    <string name="delete_single_update_success_message">Uppfærslu <xliff:g id="filename">%s</xliff:g> var eytt</string>
+    <string name="delete_updates_failure_message">Villa kom upp við að eyða uppfærsluskránni</string>
+    <string name="delete_updates_noFolder_message">Uppfærslumappa fannst ekki</string>
+    <string name="delete_updates_success_message">Öllum sóttum uppfærslum eytt</string>
+    <string name="type_completing">• Klára</string>
+</resources>
